@@ -1231,7 +1231,7 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 
 ### 4.1.2. Context Mapping
 
-![ContextMapping](/assets/ContextMapping.jpg)
+![ContextMapping](./assets/ContextMapping.jpg)
 
 ### 4.1.3. Software Architecture
 
