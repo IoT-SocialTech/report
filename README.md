@@ -541,21 +541,21 @@ URL del repositorio: https://github.com/IoT-SocialTech/iot-report
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y <br>apellidos:</b> Miriam Guevara<br>
+      <b>Edad: </b> 54 <br>
+      <b>Distrito:</b> Trujillo <br>
       <b>Timing:</b> 0:00 - 0:00 minutos
       <b>Duración:</b>  minutos
     </td>
     <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+      <img src="./assets/entrevista-miriam.png" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a></a>
       <br>
-      <b>Resumen:</b> resumen
+      <b>Resumen:</b> Miriam es una enfermera que ha puesto su casa de reposo para adultos mayores llamdo Divino Amor, utiliza celular y laptop. Considera que la tecnologia es importante pero siempre debe ser facil de usar en caso sea para el uso de los adultos mayores. Considera que lo mas dificil es tratar a todos los adultos mayores al mismo tiempo, sobre todo cuando despiertan. 
     </td>
   </tr>
 </table>
