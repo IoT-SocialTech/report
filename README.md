@@ -441,10 +441,16 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   <tr>
     <th colspan="3" valign="top"></th>
     <td colspan="4" valign="top">
-        Colocar oportunidades
-        </td>
+      <li> Creciente población de adultos mayores a nivel mundial.
+      <li> Aumento en la demanda de soluciones tecnológicas para el cuidado de la salud.
+      <li> Expansión global hacia mercados con alta demanda de productos de salud y monitoreo.
+      <li> Mejoras en la expectativa de vida y respuesta de salud preventiva.
+    </td>
     <td colspan="4" valign="top">
-        Colocar amenazas
+      <li> Competencia fuerte de empresas establecidas en el mercado.
+      <li> Rápido cambio tecnológico, lo que puede requerir actualizaciones constantes.
+      <li> Baja barrera de entrada para nuevos competidores en el sector de monitoreo.
+      <li> Cambios en las tendencias de salud y políticas que afecten la demanda del servicio.
     </td>
   </tr>
 
@@ -455,13 +461,18 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   </tr>
   <tr>
     <td colspan="3" valign="top">
-    Colocar fortalezas
+      <li> Tecnología IoT avanzada para el monitoreo preciso de adultos mayores.
+      <li> Aplicación web y móvil intuitiva con gran personalización.
+      <li> Capacidad de monitoreo en tiempo real de signos vitales y movimiento.
+      <li> Generación de reportes detallados para cuidadores y familiares.
     </td>
     <td colspan="4" valign="top">
-    Colocar estrategias FO
+      <li> F1 + O1/O2: Aprovechar la avanzada tecnología IoT para expandirse en el mercado global de cuidado de adultos mayores, resaltando las capacidades de monitoreo proactivo en campañas dirigidas a mercados en crecimiento.
+      <li> F3 + O3: Utilizar el monitoreo en tiempo real y los reportes personalizados para formar alianzas estratégicas con hospitales y centros de salud, ingresando a nuevos mercados internacionales donde la demanda de tecnología de salud está en aumento.
     </td>
     <td colspan="4" valign="top">
-    Colocar estrategias FA
+      <li> F2 + A1: Usar la ventaja de la interfaz intuitiva para diferenciarse de competidores más tradicionales, enfocando las campañas de marketing en la facilidad de uso y el soporte continuo que MIAM ofrece a las familias.
+      <li> F4 + A3: Generar innovaciones en los reportes y análisis de datos para mantenerse a la vanguardia frente a nuevos competidores que puedan entrar al mercado. Añadir funcionalidades basadas en inteligencia artificial para mejorar la calidad del servicio.
     </td>
   </tr>
 
@@ -472,13 +483,18 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   </tr>
   <tr>
     <td colspan="3" valign="top">
-    Colocar debilidades
+      <li> Alta inversión en I+D para mantenerse competitivos.
+      <li> Falta de reconocimiento frente a competidores ya establecidos.
+      <li> Necesidad de una estrategia sólida de penetración de mercado.
+      <li> Dependencia de la tecnología y conectividad para un monitoreo eficiente.
     </td>
     <td colspan="4" valign="top">
-    Colocar estrategias DO
+      <li> D1 + O2: Invertir en investigación y desarrollo de manera escalonada, comenzando con mejoras en los productos más demandados, para capitalizar el aumento en la demanda de soluciones tecnológicas para adultos mayores.
+      <li> D3 + O3: Desarrollar una estrategia de marketing digital sólida para aumentar la penetración en el mercado, aprovechando la tendencia creciente de la atención a adultos mayores para ganar visibilidad frente a competidores más grandes.
     </td>
     <td colspan="4" valign="top">
-    Colocar estrategias DA
+      <li> D2 + A1/A2: Trabajar en la mejora del reconocimiento de marca a través de colaboraciones con influencers y campañas publicitarias que resalten las características distintivas de MIAM, mitigando la fuerte competencia y la posible obsolescencia tecnológica.
+      <li> D4 + A4: Implementar sistemas de monitoreo basados en la nube que puedan adaptarse fácilmente a cambios tecnológicos y políticas, reduciendo la dependencia de la infraestructura tecnológica y asegurando una respuesta ágil a cualquier cambio en las tendencias de salud.
     </td>
 
   </tr>
