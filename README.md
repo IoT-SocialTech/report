@@ -894,12 +894,70 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 ### 4.1.1. Event Storming
 
+EventStorming es una técnica colaborativa e iterativa de modelado que permite explorar en profundidad una problemática compleja y de gran escala, facilitando la identificación de la mayor cantidad de detalles y desafíos posibles.
+
 ![EventStorming](/assets/EventStorming.png)
 
 Enlace del Miroo para verlo completo:
 https://miro.com/app/board/uXjVKldWbQI=/?share_link_id=811519345320
 
 #### 4.1.1.1. Candidate Context Discovery
+
+**Step 1: Unstructured Exploration**
+
+En el primer paso del EventStorming, se inicia con una sesión de lluvia de ideas enfocada en identificar los eventos del dominio relacionados con el negocio en estudio. Es fundamental formular estos eventos en tiempo pasado, describiendo lo que ha ocurrido en el sistema o proceso.
+
+![ES-Step1](/assets/EV-Step1.png)
+
+**Step 2: Timelines**
+
+En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
+
+![ES-Step2](/assets/EV-Step2.png)
+
+**Step 3: Paint Points**
+
+Después de organizar los eventos en una línea de tiempo, aprovechamos esta vista general para identificar puntos de interés a lo largo del proceso. Estos puntos de interés pueden incluir cuellos de botella, pasos manuales que podrían ser automatizados, falta de documentación o carencias de conocimiento del dominio.
+
+![ES-Step3](/assets/EV-Step3.png)
+
+**Step 4: Pivotal Points**
+
+Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain points, buscamos eventos comerciales clave que marquen un cambio en el contexto o en la fase del proceso. Estos se denominan eventos principales y los señalamos con una barra vertical que separa los eventos anteriores de los posteriores a dicho evento.
+
+![ES-Step4](/assets/EV-Step4.png)
+
+**Step 5: Commands**
+
+En este paso también introducimos los comandos, los cuales describen la causa de un evento o el flujo de eventos. A diferencia de los eventos de dominio, los comandos son expresados en modo imperativo, describiendo las operaciones que deben ejecutarse en el sistema.
+
+![ES-Step5](/assets/EV-Step5.png)
+
+**Step 6: Policies**
+
+En este punto, buscamos automation policies (políticas de automatización) que puedan ejecutar estos comandos. Esto significa que un evento específico del dominio desencadena automáticamente la ejecución de un comando. En otras palabras, cuando ocurre un evento determinado, el comando correspondiente se ejecuta de manera automática.
+
+![ES-Step6](/assets/EV-Step6.png)
+
+**Step 7: Read Models**
+En este paso, introducimos el modelo de lectura, que es la representación de datos del dominio que un agente utiliza para decidir si debe ejecutar o no un comando. Por esta razón, definimos una vista de datos para cada comando, como monitores del sistema, informes, notificaciones, entre otros.
+
+![ES-Step7](/assets/EV-Step7.png)
+
+**Step 8: External Systems**
+A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
+
+![ES-Step8](/assets/EV-Step8.png)
+
+**Step 9: Aggregates**
+Luego de presentar todos los eventos y comandos, comenzamos a agrupar los conceptos relacionados en agregados, que son las unidades que reciben comandos y generan eventos.
+
+![ES-Step9](/assets/EV-Step9.png)
+
+**Step 10: Bounded Contexts**
+Finalmente, identificamos los agregados que están relacionados entre sí y que son relevantes por representar funciones estrechamente vinculadas o porque están conectados según ciertas políticas. Estos grupos de agregados sirven como candidatos naturales para definir los Bounded Contexts (contextos delimitados) dentro del sistema.
+
+![ES-Step10](/assets/EV-Step10.png)
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
