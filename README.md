@@ -671,7 +671,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
-![User Persona](./assets/user-persona-.png)
+![User Persona](./assets/user-persona-gabriel-lopez.png)
 
 
 ### 2.3.2. User Task Matrix
@@ -717,7 +717,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 <table>
   <tr>
     <th>User Task</th>
-    <th colspan="2">Nombre</th>
+    <th colspan="2">Gabriel Lopez</th>
   </tr>
   <tr>
     <th></th>
@@ -725,8 +725,28 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
     <th>Importance</th>
   </tr>
   <tr>
-    <td>Task 1</td>
-    <td>USUALMENTE</td>
+    <td>Administrar y coordinar al personal de la casa de reposo</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Revisar y priorizar actividades diarias según su importancia</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Implementar y evaluar protocolos de atención</td>
+    <td>A VECES</td>
+    <td>MEDIA</td>
+  </tr>
+  <tr>
+    <td>Comunicar información a los familiares</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Monitorear el estado de los pacientes mediante cámaras de seguridad</td>
+    <td>SIEMPRE</td>
     <td>ALTA</td>
   </tr>
 </table>
@@ -739,7 +759,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
-![User Journey Mapping](./assets/user-journey-mapping-.png)
+![User Journey Mapping](./assets/user-journey-mapping-owner.png)
 
 ### 2.3.4. Empathy Mapping
 
@@ -749,7 +769,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
-![Empathy Mapping](./assets/empathy-mapping-.png)
+![Empathy Mapping](./assets/empathy-mapping-gabriel-lopez.png)
 
 ### 2.3.5. As-is Scenario Mapping
 
@@ -771,7 +791,19 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
-![As-Is Scenario Mapping](./assets/asis-scenario-mapping.png)
+![As-Is Scenario Mapping](./assets/asis-scenario-mapping-gabriel-lopez.jpg)
+
+**Áreas Positivas**
+- Apertura a la implementación de tecnología
+- Compromiso con el bienestar de los pacientes
+- Evaluación de oportunidades de mejora
+
+**Áreas Negativas**
+- El monitoreo constante del adulto mayor es desafiante
+- Las herramientas actuales no son muy eficientes
+
+**Blank Areas**
+- Con qué frecuencia presenta problemas con los dispositivos que usa actualmente
 
 ## 2.4. Ubiquitous Language
 
