@@ -273,6 +273,7 @@ Asumimos que los clientes estarán dispuestos a pagar una suscripción mensual p
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
 #### Features Hypothesis
+
 **Statement 1:**
 Creemos que la incorporación de un botón de alerta en la banda de monitoreo que los residentes puedan activar manualmente reducirá el tiempo de reacción en situaciones de emergencia.
 Sabremos que hemos tenido éxito cuando el 90% de las alertas manuales se respondan en menos de 2 minutos durante los primeros 6 meses de uso.
