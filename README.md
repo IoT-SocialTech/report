@@ -42,6 +42,16 @@ Trujillo Lopez, Luis Alberto <br>
 
 URL del repositorio: https://github.com/IoT-SocialTech/iot-report
 
+**TB1**
+
+El equipo colaboró activamente en el repositorio de GitHub para la elaboración del informe, realizando un total de 38 commits para el primer entregable.
+
+![Insights TB1](./assets/insights-tb1.PNG)
+
+El uso de ramas paralelas permitió a los miembros del equipo trabajar simultáneamente en diferentes secciones del informe, integrando cambios de manera eficiente y reduciendo conflictos. Este enfoque colaborativo garantizó que todos los miembros contribuyeran al desarrollo del informe de manera equilibrada.
+
+![Network TB1](./assets/network-tb1.PNG)
+
 ---
 
 
@@ -1718,3 +1728,9 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 --- 
 
 # Anexos
+
+## Videos de Exposición
+
+| Enlace                                             | Fecha        | Entregable                       |
+|----------------------------------------------------|--------------|----------------------------------|
+| [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
