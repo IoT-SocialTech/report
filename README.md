@@ -904,6 +904,19 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 ## 2.4. Ubiquitous Language
 
+| **Término**      | **Definición**                                           |
+|----------------------------|---------------------------------------------------------------------|
+| **Elderly**                | Personas mayores que son el objetivo principal del sistema.         |
+| **Vital Signs**            | Indicadores de salud como la frecuencia cardíaca y la temperatura. |
+| **Caregiver**              | Persona encargada de cuidar y asistir al adulto mayor.               |
+| **Health Data**            | Información sobre el estado de salud del adulto mayor. |
+| **Emergency Response**     | Acciones tomadas en caso de una situación urgente, como una caída o un cambio en los signos vitales. |
+| **Activity Tracking**      | Seguimiento de las actividades del adulto mayor para detectar patrones inusuales. |
+| **Safety Protocol**        | Conjunto de reglas y procedimientos para asegurar la seguridad del adulto mayor. |
+| **Wellness**               | Estado general de salud y bienestar del adulto mayor.                |
+| **Medication Reminders**   | Notificaciones para recordar al adulto mayor que tome sus medicamentos. |
+
+
 ---
 
 # Capítulo III: Requirements Specification
