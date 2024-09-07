@@ -649,24 +649,26 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Miriam Guevara<br>
-      <b>Edad: </b> 54 <br>
-      <b>Distrito:</b> Trujillo <br>
+      <b>Nombres y <br>apellidos:</b> William Ramos<br>
+      <b>Edad: </b> 22 años <br>
+      <b>Distrito:</b> Jesus Maria <br>
       <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
+      <b>Duración:</b> 8:21 minutos
     </td>
     <td align=center>
-      <img src="./assets/entrevista-miriam.png" alt="img"  width="80%"/>
+      <img src="./assets/entrevista-WilliamRamos.png" alt="png"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a></a>
       <br>
-      <b>Resumen:</b> Miriam es una enfermera que ha puesto su casa de reposo para adultos mayores llamdo Divino Amor, utiliza celular y laptop. Considera que la tecnologia es importante pero siempre debe ser facil de usar en caso sea para el uso de los adultos mayores. Considera que lo mas dificil es tratar a todos los adultos mayores al mismo tiempo, sobre todo cuando despiertan. 
+      <b>Resumen:</b> William Ramos es una persona que terminó su carrera profesional y se dedica a trabajar de forma parcial en el cuidado de su vecina que es una adulta mayor. Menciona que es una persona que se relaciona mucho con la tecnología a diferencia del adulto mayor al que se encarga de cuidar. Comenta que es una tarea un tanto complicada el hecho de cuidar al adulto mayor por la constante supervisión que se debe hacer y la preocupación de que pueda pasar algo. Menciona que en ocasiones el adulto mayor que cuida le gusta ser independiente y hacer varias acciones por su cuenta, le parece llamativo una solución que le permita monitorear si la persona que cuida se encuentra en perfecto estado y en qué ubicación está, ya que de esa manera podría darle autonomía sin descuidar el correcto cuidado que debe realizar. Comenta que le interesa una aplicación que permita saber el estado del adulto mayor y que permita al adulto mayor dar mensajes ante cualquier emergencia.
     </td>
   </tr>
 </table>
+
+
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
@@ -695,46 +697,27 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y <br>apellidos:</b> Miriam Guevara<br>
+      <b>Edad: </b> 54 <br>
+      <b>Distrito:</b> Trujillo <br>
       <b>Timing:</b> 0:00 - 0:00 minutos
       <b>Duración:</b>  minutos
     </td>
     <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+      <img src="./assets/entrevista-miriam.png" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a></a>
       <br>
-      <b>Resumen:</b> resumen
+      <b>Resumen:</b> Miriam es una enfermera que ha puesto su casa de reposo para adultos mayores llamdo Divino Amor, utiliza celular y laptop. Considera que la tecnologia es importante pero siempre debe ser facil de usar en caso sea para el uso de los adultos mayores. Considera que lo mas dificil es tratar a todos los adultos mayores al mismo tiempo, sobre todo cuando despiertan. 
     </td>
   </tr>
 </table>
 
-<table border=1>
-  <tr>
-    <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
-    </td>
-    <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <b>Enlace:</b> <a></a>
-      <br>
-      <b>Resumen:</b> resumen
-    </td>
-  </tr>
-</table>
+
+
 
 ### 2.2.3. Análisis de entrevistas
 
