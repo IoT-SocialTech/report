@@ -928,7 +928,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
-![To-Be Scenario Mapping](./assets/tobe-scenario-mapping.png)
+![To-Be Scenario Mapping](./assets/tobe-scenario-mapping-gabriel-lopez.jpg)
 
 ## 3.2. User Stories
 
