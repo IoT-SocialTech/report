@@ -482,6 +482,45 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 ### 2.2.1. Diseño de entrevistas
 
+**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene y cuál es su estado civil?
+- ¿En qué distrito vive?
+- ¿Cuál es su profesión?
+- ¿Qué dispositivos tecnológicos utiliza regularmente? 
+- ¿Hay alguna marca de dispositivos que prefiera o utilice más? ¿Por qué?
+- ¿Usa alguno para el monitoreo de los adultos mayores? (Ej. pulseras inteligentes, cámaras de vigilancia, etc.)
+- ¿Qué medios o redes sociales utiliza para informarse sobre temas relacionados a su trabajo o comunicarse? (Ej. WhatsApp, Facebook, foros especializados, etc.)
+- ¿Se considera una persona que se adapta fácilmente a las nuevas tecnologías?
+- ¿En su labor, prefiere seguir procedimientos establecidos o es más de buscar soluciones tecnológicas?
+- ¿Cuáles son los principales desafíos que enfrenta al monitorear y cuidar a un adulto mayor?
+- ¿Qué aspectos de su trabajo le generan más satisfacción o facilitan su labor?
+- ¿Podría describir cómo es un día típico cuidando a un adulto mayor, en particular en relación con la prevención de caídas?
+- ¿Qué pasos sigue o qué herramientas utiliza para asegurarse de que el adulto mayor esté seguro en todo momento?
+- Si pudiera diseñar una herramienta para ayudarle en el monitoreo de adultos mayores, ¿qué características considera que serían imprescindibles?
+- ¿Qué funciones adicionales le gustaría que tuviera esta herramienta?
+
+**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+
+- ¿Cuál es su nombre?
+- ¿Cuántos años tiene y cuál es su estado civil?
+- ¿En qué distrito vive?
+- ¿Cuál es su profesión y su rol dentro de la casa de reposo?
+- ¿Qué dispositivos tecnológicos utiliza regularmente?
+- ¿Hay alguna marca de dispositivos que prefiera o utilice más? ¿Por qué?
+- ¿Utiliza actualmente alguna herramienta para el monitoreo de los adultos mayores residentes? (Ej. sistemas de alarma, sensores, cámaras, etc.)
+- ¿Qué medios o redes sociales utiliza para estar al tanto de información y comunicarse? (Ej. LinkedIn, WhatsApp , etc.)
+- ¿Cómo se describe en cuanto a la adopción de nuevas tecnologías en su establecimiento? 
+- ¿Estaría interesado en invertir en tecnología de punta para el monitoreo de los residentes? ¿Por qué?
+- ¿Cuáles son los principales desafíos que enfrenta al gestionar la seguridad y bienestar de los residentes?
+- ¿Qué mejoras o innovaciones le han resultado más útiles en la gestión de la casa de reposo?
+- ¿Podría describir el proceso que sigue en un día típico de trabajo?
+- ¿Qué protocolos o herramientas son esenciales en su día a día para garantizar la seguridad y prevenir caídas de los residentes?
+- Si pudiera integrar un nuevo sistema de monitoreo en su casa de reposo, ¿qué características serían imprescindibles para usted?
+- ¿Qué otras funciones le gustaría que tuviera este sistema para mejorar la seguridad y de los residentes?
+
+
 ### 2.2.2. Registro de entrevistas
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
@@ -489,21 +528,21 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y <br>apellidos:</b> Katty Salgado <br>
+      <b>Edad: </b> 29 años <br>
+      <b>Distrito:</b> Los Olivos <br>
       <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
+      <b>Duración:</b> 10:06 minutos
     </td>
     <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+      <img src="./assets/entrevista-katty.PNG" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a></a>
       <br>
-      <b>Resumen:</b> resumen
+      <b>Resumen:</b> Katty es una enfermera que se dedica al cuidado de los adultos mayores. En la entrevista comenta que sus dispositivos más usados son su celular (Xiaomi), su tablet y laptop (Apple), los cuales utiliza para comunicarse y gestionar sus horarios de trabajo. No utiliza dispositivos tecnológicos para el cuidado de los adultos mayores, pero ha identificado que en algunos hogares las familias utilizan cámaras para monitorearlos. Las redes sociales que más usa son Whatsapp, Facebook e Instagram y considera que se adapta a las nuevas tecnologías fácilmente. Dentro de su rutina de trabajo realiza funciones como la toma de signos vitales, aseo del adulto mayor, tendido de cama y apoyo con la alimentación. Katty considera que uno de los desafíos en su trabajo es evitar las caídas de los adultos mayores, por lo cual tiene que ayudarlos constantemente a movilizarse. Por otra parte, lo que le causa más satisfacción es el agradecimiento del paciente y su familia. Considera que un sistema de monitoreo debería ayudarle a monitorear los signos vitales (pulso, temperatura, saturación de oxígeno, etc.) y prevenir las caídas. También considera útil el envío de notificaciones cuando alguno de los signos vitales esté alterado y recordatorios del tratamiento (medicación) del paciente.
     </td>
   </tr>
 </table>
@@ -511,21 +550,21 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 <table border=1>
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
+      <b>Nombres y <br>apellidos:</b> Sara Villanueva <br>
+      <b>Edad: </b> 39 años <br>
+      <b>Distrito:</b> Callao <br>
       <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
+      <b>Duración:</b> 3:36 minutos
     </td>
     <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+      <img src="./assets/entrevista-sara.PNG" alt="img"  width="80%"/>
     </td>
   </tr>
   <tr>
     <td colspan=2>
       <b>Enlace:</b> <a></a>
       <br>
-      <b>Resumen:</b> resumen
+      <b>Resumen:</b> Sara es una enfermera que trabaja cuidando adultos mayores. El dispositivo que más utiliza en su día a día es su celular (Motorola), el cual utiliza para crear alarmas y así dar a tiempo el tratamiento a sus pacientes. Sara considera que se adapta a la tecnología y le gusta incorporar soluciones tecnológicas en su labor. Su medio de comunicación más frecuente es a través de Whatsapp y también utiliza Instagram y TikTok. Uno de los principales desafíos que enfrenta al cuidar a los adultos mayores son las caídas, en especial en aquellos que no son independientes, y algo que le causa satisfacción es el agradecimiento y cariño que le dan sus pacientes. Con el fin de evitar caídas realiza procedimientos como colocar almohadas y ubicarlos en una posición adecuada, además de estar siempre pendiente todo el tiempo de ellos. Ella considera que un sistema de monitoreo del adulto mayor debe incluir cámaras para supervisarlos y el envío de alertas al cuidador.
     </td>
   </tr>
 </table>
