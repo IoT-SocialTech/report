@@ -1027,6 +1027,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 
 #### 4.1.3..4. Software Architecture Deployment Diagrams
 
+![Deployment Diagram](./assets/deployment.png)
+
 ## 4.2. Tactical-Level Domain-Driven Design
 
 #### 4.2.1. Bounded Context: <Bounded Context Name>
