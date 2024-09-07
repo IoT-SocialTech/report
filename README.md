@@ -894,6 +894,11 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 ### 4.1.1. Event Storming
 
+![EventStorming](/assets/EventStorming.png)
+
+Enlace del Miroo para verlo completo:
+https://miro.com/app/board/uXjVKldWbQI=/?share_link_id=811519345320
+
 #### 4.1.1.1. Candidate Context Discovery
 
 #### 4.1.1.2 Domain Message Flows Modeling
