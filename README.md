@@ -261,9 +261,9 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 | Nombre del Competidor | Descripción |
 | :-------------------: | :---------- |
-| Competidor 1 | Descripcion |
-| Competidor 2 | Descripcion |
-| Competidor 3 | Descripcion |
+| Life Alert | Life Alert es una de las marcas más reconocidas en sistemas de alerta médica, famosa por su eslogan “¡He caído y no puedo levantarme!”. Ofrece sistemas de emergencia diseñados para ayudar a personas mayores a solicitar asistencia rápidamente. Su principal dispositivo es un botón de emergencia que puede usarse en el hogar o fuera de él, enviando alertas a un centro de monitoreo disponible las 24 horas del día. |
+| MobileHelp | MobileHelp es un proveedor líder de sistemas de alerta médica que ofrece dispositivos portátiles y basados en el hogar para personas mayores. Sus dispositivos están diseñados para alertar a los servicios de emergencia en caso de una caída u otro incidente. Además de las soluciones de emergencia en el hogar, MobileHelp destaca por su cobertura fuera de casa gracias a su integración con redes móviles, lo que ofrece a los usuarios mayor independencia y movilidad. |
+| CarePredict | CarePredict es una empresa tecnológica que se enfoca en el monitoreo preventivo para adultos mayores. Utiliza dispositivos portátiles equipados con sensores para rastrear patrones de comportamiento y signos vitales. A través de la inteligencia artificial, CarePredict predice posibles problemas de salud antes de que ocurran, como caídas o infecciones, y permite la intervención proactiva de cuidadores y familiares. |
 
 ### 2.1.1. Análisis competitivo
 
@@ -280,21 +280,21 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   <tr>
     <td colspan="3">Competidores</td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        Nuestro producto
+        MIAM
         <div style="text-align: center; margin-top: 10px;">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        Competidor1
+        Life Alert
         <div style="text-align: center; margin-top: 10px;">
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
-        Competidor2
+        Carepredict
         <div style="text-align: center; margin-top: 10px;">
         </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
-        Competidor3
+        MobileHelp
         <div style="text-align: center; margin-top: 10px;">
         </div>
     </td>
@@ -302,13 +302,13 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil</p></td>
     <td colspan="2">Overview</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top"> MIAM ofrece un avanzado sistema de monitoreo inteligente para la prevención de accidentes en adultos mayores, a través del seguimiento de su movimiento y signos vitales de manera rápida y precisa, genera  reportes de los datos del adulto mayor y proporciona un fácil monitoreo por su interfaz.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Life Alert es un sistema de alerta médica diseñado para proteger a las personas mayores en caso de emergencia sanitaria en el hogar, les permite ser independientes y enviar ayuda rápidamente en caso de una emergencia médica.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">CarePredict es una empresa de tecnología que ofrece soluciones de monitoreo para el cuidado de adultos mayores, usando inteligencia artificial y sensores. Su sistema predice cambios en el comportamiento para prevenir problemas de salud como caídas o infecciones.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">MobileHelp ofrece dispositivos médicos que permiten a los adultos mayores vivir de forma independiente mientras brindan tranquilidad a sus familiares, incluyen sistemas de alerta de emergencia médica que funcionan en el hogar y en exteriores.
     </td>
   </tr>
   <tr>
