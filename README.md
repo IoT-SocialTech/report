@@ -1217,60 +1217,6 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-#### 4.2.1. Bounded Context: <Bounded Context Name>
-
-##### 4.2.1.1. Domain Layer
-
-##### 4.2.1.2. Interface Layer
-
-##### 4.2.1.3. Application Layer
-
-##### 4.2.1.4. Infrastructure Layer
-
-##### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams
-
-##### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams
-
-###### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams
-
-###### 4.2.1.7.2. Bounded Context Database Design Diagram
-
-#### 4.2.2. Bounded Context: <Bounded Context Name>
-
-##### 4.2.2.1. Domain Layer
-
-##### 4.2.2.2. Interface Layer
-
-##### 4.2.2.3. Application Layer
-
-##### 4.2.2.4. Infrastructure Layer
-
-##### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams
-
-##### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams
-
-###### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams
-
-###### 4.2.2.7.2. Bounded Context Database Design Diagram
-
-#### 4.2.3. Bounded Context: <Bounded Context Name>
-
-##### 4.2.3.1. Domain Layer
-
-##### 4.2.3.2. Interface Layer
-
-##### 4.2.3.3. Application Layer
-
-##### 4.2.3.4. Infrastructure Layer
-
-##### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams
-
-##### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams
-
-###### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams
-
-###### 4.2.3.7.2. Bounded Context Database Design Diagram
-
 ### 4.2.1. Bounded Context Account: 
 
 El contexto Account se encarga de gestionar el acceso de los usuarios al sistema de monitoreo, incluyendo el registro, inicio de sesión, verificación de cuentas y la actualización de suscripciones. Además, permite la gestión de acceso para cuidadores y familiares con diferentes roles y permisos.
