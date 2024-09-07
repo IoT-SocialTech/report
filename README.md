@@ -659,7 +659,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
       <b>Nombres y <br>apellidos:</b> Katty Salgado <br>
       <b>Edad: </b> 29 años <br>
       <b>Distrito:</b> Los Olivos <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
+      <b>Timing:</b> 0:00 - 10:06 minutos
       <b>Duración:</b> 10:06 minutos
     </td>
     <td align=center>
@@ -668,7 +668,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EWWyf1Bu04dOsC3RR-_KVokBMygONZKUg7Lctfhx9M4qYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dGXh8b">Enlace a la entrevista</a>
       <br>
       <b>Resumen:</b> Katty es una enfermera que se dedica al cuidado de los adultos mayores. En la entrevista comenta que sus dispositivos más usados son su celular (Xiaomi), su tablet y laptop (Apple), los cuales utiliza para comunicarse y gestionar sus horarios de trabajo. No utiliza dispositivos tecnológicos para el cuidado de los adultos mayores, pero ha identificado que en algunos hogares las familias utilizan cámaras para monitorearlos. Las redes sociales que más usa son Whatsapp, Facebook e Instagram y considera que se adapta a las nuevas tecnologías fácilmente. Dentro de su rutina de trabajo realiza funciones como la toma de signos vitales, aseo del adulto mayor, tendido de cama y apoyo con la alimentación. Katty considera que uno de los desafíos en su trabajo es evitar las caídas de los adultos mayores, por lo cual tiene que ayudarlos constantemente a movilizarse. Por otra parte, lo que le causa más satisfacción es el agradecimiento del paciente y su familia. Considera que un sistema de monitoreo debería ayudarle a monitorear los signos vitales (pulso, temperatura, saturación de oxígeno, etc.) y prevenir las caídas. También considera útil el envío de notificaciones cuando alguno de los signos vitales esté alterado y recordatorios del tratamiento (medicación) del paciente.
     </td>
@@ -681,7 +681,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
       <b>Nombres y <br>apellidos:</b> Sara Villanueva <br>
       <b>Edad: </b> 39 años <br>
       <b>Distrito:</b> Callao <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
+      <b>Timing:</b> 10:06 - 13:42 minutos
       <b>Duración:</b> 3:36 minutos
     </td>
     <td align=center>
@@ -690,7 +690,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EWWyf1Bu04dOsC3RR-_KVokBMygONZKUg7Lctfhx9M4qYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dGXh8b">Enlace a la entrevista</a>
       <br>
       <b>Resumen:</b> Sara es una enfermera que trabaja cuidando adultos mayores. El dispositivo que más utiliza en su día a día es su celular (Motorola), el cual utiliza para crear alarmas y así dar a tiempo el tratamiento a sus pacientes. Sara considera que se adapta a la tecnología y le gusta incorporar soluciones tecnológicas en su labor. Su medio de comunicación más frecuente es a través de Whatsapp y también utiliza Instagram y TikTok. Uno de los principales desafíos que enfrenta al cuidar a los adultos mayores son las caídas, en especial en aquellos que no son independientes, y algo que le causa satisfacción es el agradecimiento y cariño que le dan sus pacientes. Con el fin de evitar caídas realiza procedimientos como colocar almohadas y ubicarlos en una posición adecuada, además de estar siempre pendiente todo el tiempo de ellos. Ella considera que un sistema de monitoreo del adulto mayor debe incluir cámaras para supervisarlos y el envío de alertas al cuidador.
     </td>
@@ -703,7 +703,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
       <b>Nombres y <br>apellidos:</b> William Ramos<br>
       <b>Edad: </b> 22 años <br>
       <b>Distrito:</b> Jesus Maria <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
+      <b>Timing:</b> 13:42 - 22:03 minutos
       <b>Duración:</b> 8:21 minutos
     </td>
     <td align=center>
@@ -712,7 +712,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EWWyf1Bu04dOsC3RR-_KVokBMygONZKUg7Lctfhx9M4qYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dGXh8b">Enlace a la entrevista</a>
       <br>
       <b>Resumen:</b> William Ramos es una persona que terminó su carrera profesional y se dedica a trabajar de forma parcial en el cuidado de su vecina que es una adulta mayor. Menciona que es una persona que se relaciona mucho con la tecnología a diferencia del adulto mayor al que se encarga de cuidar. Comenta que es una tarea un tanto complicada el hecho de cuidar al adulto mayor por la constante supervisión que se debe hacer y la preocupación de que pueda pasar algo. Menciona que en ocasiones el adulto mayor que cuida le gusta ser independiente y hacer varias acciones por su cuenta, le parece llamativo una solución que le permita monitorear si la persona que cuida se encuentra en perfecto estado y en qué ubicación está, ya que de esa manera podría darle autonomía sin descuidar el correcto cuidado que debe realizar. Comenta que le interesa una aplicación que permita saber el estado del adulto mayor y que permita al adulto mayor dar mensajes ante cualquier emergencia.
     </td>
@@ -729,8 +729,8 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
       <b>Nombres y <br>apellidos:</b> Gabriel Hachamizo<br>
       <b>Edad:</b> 27 años <br>
       <b>Distrito:</b> Los Aquijes - Ica <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos<br>
-      <b>Duración:</b> minutos
+      <b>Timing:</b> 22:03 - 28:14 minutos<br>
+      <b>Duración:</b> 06:11 minutos
     </td>
     <td align="center">
       <img src="./assets/entrevista-gabriel.png" alt="img" width="80%"/>
@@ -738,7 +738,7 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
   </tr>
   <tr>
     <td colspan="2">
-      <b>Enlace:</b> <a href="#"></a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EWWyf1Bu04dOsC3RR-_KVokBMygONZKUg7Lctfhx9M4qYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dGXh8b">Enlace a la entrevista</a>
       <br>
       <b>Resumen:</b> Gabriel es un licenciado en enfermería que trabaja en una casa de reposo para adultos mayores, desempeñando un rol administrativo. En la entrevista, comentó que los dispositivos más utilizados son celulares y laptops. Para el monitoreo de los pacientes, se utilizan cámaras de seguridad, mientras que la comunicación con los familiares se realiza principalmente a través de WhatsApp. Facebook se emplea para promocionar los servicios de la casa de reposo. Gabriel considera que la adopción de nuevas tecnologías es positiva y puede mejorar el cuidado de los pacientes. Sin embargo, enfrenta desafíos como el manejo de una gran cantidad de pacientes y la insuficiencia del protocolo de atención para garantizar una atención adecuada. También describe su rol en la empresa, incluyendo la priorización de actividades según su importancia. Además, Gabriel sugiere el desarrollo de un software para optimizar la administración y el registro de pacientes, así como para recopilar datos que contribuyan a una mejor atención.
     </td>
@@ -751,8 +751,8 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
       <b>Nombres y <br>apellidos:</b> Miriam Guevara<br>
       <b>Edad: </b> 54 <br>
       <b>Distrito:</b> Trujillo <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
+      <b>Timing:</b> 28:14 - 36:29 minutos
+      <b>Duración:</b> 7:54 minutos
     </td>
     <td align=center>
       <img src="./assets/entrevista-miriam.png" alt="img"  width="80%"/>
@@ -760,15 +760,12 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
   </tr>
   <tr>
     <td colspan=2>
-      <b>Enlace:</b> <a></a>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EWWyf1Bu04dOsC3RR-_KVokBMygONZKUg7Lctfhx9M4qYg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dGXh8b">Enlace a la entrevista</a>
       <br>
       <b>Resumen:</b> Miriam es una enfermera que actualmente tiene una casa de reposo. En la entrevista menciona que tienen celular y tablet marca Apple y una laptop Lenovo. La única red social que utiliza es whatsapp, considera que se adapta bien a las nuevas tecnologías. Dentro de su rutina de trabajo está preparar el desayuno de los adultos mayores y preparar diversas actividades para todos ellos. Miriam considera que lo más desafiante es tratar a todos los adultos mayores por la mañana. Le causa satisfacción apoyar a los adultos mayores y que se sientan seguros en la casa de reposo. Considera que un sistema como el que ofrecemos tiene que tener una opción para ver si los adultos mayores salen a la calle. También debería tener notificación para los cuidadores. 
     </td>
   </tr>
 </table>
-
-
-
 
 ### 2.2.3. Análisis de entrevistas
 
