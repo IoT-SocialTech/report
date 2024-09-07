@@ -302,7 +302,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil</p></td>
     <td colspan="2">Overview</td>
-    <td colspan="1" valign="top"> MIAM ofrece un avanzado sistema de monitoreo inteligente para la prevención de accidentes en adultos mayores, a través del seguimiento de su movimiento y signos vitales de manera rápida y precisa, genera  reportes de los datos del adulto mayor y proporciona un fácil monitoreo por su interfaz.
+    <td colspan="1" valign="top">MIAM ofrece un avanzado sistema de monitoreo inteligente para la prevención de accidentes en adultos mayores, a través del seguimiento de su movimiento y signos vitales de manera rápida y precisa, genera  reportes de los datos del adulto mayor y proporciona un fácil monitoreo por su interfaz.
     </td>
     <td colspan="1" valign="top">Life Alert es un sistema de alerta médica diseñado para proteger a las personas mayores en caso de emergencia sanitaria en el hogar, les permite ser independientes y enviar ayuda rápidamente en caso de una emergencia médica.
     </td>
@@ -313,70 +313,70 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   </tr>
   <tr>
     <td colspan="2">Ventaja competitiva</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Ofrece un enfoque detallado e íntegro para el monitoreo completo del adulto mayor evitando posibles accidentes.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Envía la ayuda que necesita rápidamente, las 24 horas del día, los 7 días de la semana.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Tecnología avanzada de sensores portátiles y el uso de inteligencia artificial que predice problemas de salud antes de que ocurran.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Combinación de dispositivos médicos avanzados con opciones de movilidad, es decir, sus sistemas no están limitados al hogar y ofrecen cobertura en cualquier lugar donde haya señal celular.
     </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
     <td colspan="2">Mercado objetivo</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top"> MIAM ofrece una solución completa para ayudar en el cuidado del adulto mayor, dirigidas a aquellos familiares que poseen familia con una edad avanzada y deseen un cuidado especializado para sus seres queridos.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Ofrece una solución especializada en la respuesta rápida ante los distintos accidentes que pueda sufrir un adulto mayor que se encuentre solo.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">CarePredict se posiciona como una solución innovadora en el sector de salud para personas mayores, enfocándose en la prevención de problemas de salud a través de tecnología avanzada.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">MobileHelp se posiciona como una solución accesible y fiable en el mercado de dispositivos de seguridad para personas mayores, suelen centrarse en la seguridad y tranquilidad que brindan a los usuarios.
     </td>
   </tr>
   <tr>
     <td colspan="2">Estrategias de marketing</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Usará el marketing digital, realizará posts, campañas publicitarias y colaboración con influences en internet para atraer a familiares que quieran un aparato que ayude en el cuidado de su adulto mayor.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Campañas publicitarias en televisión y videos con testimonios de los adultos mayores a los que le ayudó el producto ante una emergencia.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Utilizan contenido educativo y testimonios de clientes para atraer a los usuarios. Además, aprovechan redes sociales y asociaciones con organizaciones de atención médica para ampliar su alcance.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Utilizan una estrategia multicanal, que incluye anuncios en televisión, redes sociales y asociaciones con proveedores de atención médica..
     </td>
   </tr>
   <tr>
     <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Ofrecemos un plan de suscripción mensual de bajo costo para el plan básico o un plan de suscripción personalizado para el plan empresarial
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Ofrece 3 productos para la respuesta rápida ante una emergencia, "help button", "micro voice pendant system" y "on-the-go + GPS".
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Ofrecen sensores portátiles que monitorean las actividades diarias y detectan cambios en los patrones de comportamiento.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">MobileHelp ofrece sistemas de alerta médica, monitores de salud, y accesorios como sensores de caídas y relojes inteligentes con capacidades de monitoreo.
     </td>
   </tr>
   <tr>
     <td colspan="2">Precios y Costos</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Ofrecemos un plan de suscripción mensual de bajo costo para el plan básico o un plan de suscripción personalizado para el plan empresarial.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Entregan el producto después de realizar una llamada al número proporcionado en su página web.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">El modelo de precios se basa en suscripciones mensuales por el uso de los dispositivos y el acceso a la plataforma de monitoreo.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Sus precios varían según el tipo de dispositivo y plan de servicio, generalmente en formato de suscripción mensual.
     </td>
   </tr>
   <tr>
     <td colspan="2">Canales de distribución</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Ventas directas a partir de los canales de la aplicación web y móvil.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Ventas directas y personalizadas para cada llamada al número proporcionado por la página web.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Acceso a través de una plataforma web y aplicaciones móviles que permiten a los cuidadores y familiares monitorear la salud de los adultos mayores en tiempo real.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">MobileHelp distribuye sus productos principalmente a través de su sitio web y socios minoristas.
     </td>
   </tr>
   <tr>
@@ -385,46 +385,46 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
   </tr>
   <tr>
     <td colspan="2">Fortalezas</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Tecnología IoT avanzada para un monitoreo preciso del adulto mayor, acompañado de aplicativo móvil y web intuitivo con una gran personalización y proporciona información recolectada.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Enfoque centrado en la respuesta rápida ante los accidentes del adulto mayor, solución sencilla y simple pero eficiente.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Tecnología avanzada, predicción proactiva de problemas de salud.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Amplia cobertura fuera del hogar, sistemas fáciles de usar y monitoreo 24/7.
     </td>
   </tr>
   <tr>
     <td colspan="2">Debilidades</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Posible alta inversión en el área de investigación y desarrollo, necesidad de establecerse en un mercado altamente competitivo.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Limitación en solo enviar alertas cuando el botón sea presionado, posible dependencia de su reputación.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Dependencia de la tecnología, lo que puede limitar la adopción por parte de usuarios menos tecnológicos.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Dependencia de las redes celulares para algunas funciones, lo que puede limitar la cobertura en áreas rurales.
     </td>
   </tr>
   <tr>
     <td colspan="2">Oportunidades</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Creciente población de adultos mayores en el mundo, promedio de vida en alsa, mejoras en la respuesta de salud, demanda de soluciones tecnológicas en el área y expansión a mercados globales.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Expansión del área de salud y cuidado de adultos mayores, promedio de vida de las personas más alta, expansión en mercados globales
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Creciente demanda de soluciones de cuidado para personas mayores.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Creciente demanda de soluciones de salud para la población envejecida.
     </td>
   </tr>
   <tr>
     <td colspan="2">Amenazas</td>
-    <td colspan="1" valign="top"> Nuestro producto
+    <td colspan="1" valign="top">Competencia fuerte de empresas ya establecidas y consolidadas en el campo, cambios en las tendencias tecnológicas que puedan cambiar o afectar a la demanda del servicio.
     </td>
-    <td colspan="1" valign="top">Competidor1
+    <td colspan="1" valign="top">Competencia de otras soluciones más completas en el mercado, creciente avance de la tecnología puede dejar anticuado el simple sistema.
     </td>
-    <td colspan="1" valign="top">Competidor2
+    <td colspan="1" valign="top">Competencia de otros dispositivos de monitoreo y avances en tecnología​.
     </td>
-    <td colspan="1" valign="top">Competidor3
+    <td colspan="1" valign="top">Competencia creciente de dispositivos de alerta médica portátiles y cambios en las regulaciones del sector.
     </td>
   </tr>
 </table>
