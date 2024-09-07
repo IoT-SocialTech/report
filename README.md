@@ -661,6 +661,42 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 ### 2.2.3. Análisis de entrevistas
 
+**Segmento Objetivo -> Cuidadores:**
+
+- Características Objetivas: 
+
+![Caracteristicas Objeticas1](./assets/S1_CO_01.png)
+
+![Caracteristicas Objeticas2](./assets/S1_CO_02.png)
+
+![Caracteristicas Objeticas3](./assets/S1_CO_03.png)
+
+![Caracteristicas Objeticas4](./assets/S1_CO_04.png)
+
+- Características Subjetivas: 
+
+![Caracteristicas Subjetivas1](./assets/S1_CS_01.png)
+
+![Caracteristicas Subjetivas2](./assets/S1_CS_02.png)
+
+**Segmento Objetivo -> Dueños de casas de reposo:**
+
+- Características Objetivas: 
+
+![Caracteristicas Objeticas1](./assets/S2_CO_01.png)
+
+![Caracteristicas Objeticas2](./assets/S2_CO_02.png)
+
+![Caracteristicas Objeticas3](./assets/S2_CO_03.png)
+
+- Características Subjetivas: 
+
+![Caracteristicas Subjetivas1](./assets/S2_CS_01.png)
+
+![Caracteristicas Subjetivas2](./assets/S2_CS_02.png)
+
+![Caracteristicas Subjetivas2](./assets/S2_CS_03.png)
+
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
