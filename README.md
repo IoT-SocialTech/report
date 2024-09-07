@@ -990,7 +990,19 @@ https://miro.com/app/board/uXjVKhkf7G8=/?share_link_id=819060613108
 
 #### 4.1.1.3 Bounded Context Canvases
 
+![BC-Device](/assets/BC-Device.png)
 
+![BC-Edge](/assets/BC-Edge.png)
+
+![BC-Notifications](/assets/BC-Notifications.png)
+
+![BC-Metrics](/assets/BC-Metrics.png)
+
+![BC-Payment](/assets/BC-Payment.png)
+
+![BC-Account](/assets/BC-Account.png)
+
+![BC-Configuration](/assets/BC-Configuration.png)
 
 Enlace del Miroo para verlo completo:
 https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652  
