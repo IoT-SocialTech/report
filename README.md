@@ -584,27 +584,6 @@ URL del repositorio: https://github.com/IoT-SocialTech/iot-report
   </tr>
 </table>
 
-  <tr>
-    <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
-    </td>
-    <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan=2>
-      <b>Enlace:</b> <a></a>
-      <br>
-      <b>Resumen:</b> resumen
-    </td>
-  </tr>
-</table>
-
 <table border=1>
   <tr>
     <td>
