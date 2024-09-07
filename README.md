@@ -1270,24 +1270,491 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 
 ###### 4.2.3.7.2. Bounded Context Database Design Diagram
 
-#### 4.2.4. Bounded Context: <Bounded Context Name>
+### 4.2.1. Bounded Context Account: 
 
-##### 4.2.4.1. Domain Layer
+El contexto Account se encarga de gestionar el acceso de los usuarios al sistema de monitoreo, incluyendo el registro, inicio de sesión, verificación de cuentas y la actualización de suscripciones. Además, permite la gestión de acceso para cuidadores y familiares con diferentes roles y permisos.
 
-##### 4.2.4.2. Interface Layer
+#### 4.2.1.1. Domain Layer. 
 
-##### 4.2.4.3. Application Layer
+- **Entities:**
+  - **User:** Representa a un usuario registrado en el sistema.
+  - **Account:** Contiene la información de la cuenta, como el correo electrónico, nombre, y detalles de suscripción.
+  - **Role:** Define los roles asociados a cada cuenta (cuidador, familiar, administrador).
+- **Value Objects:**
+  - **Email:** Dirección de correo del usuario.
+  - **Password:** Contraseña cifrada del usuario.
+  - **Subscription:** Detalles del plan de suscripción del usuario.
+- **Aggregates:**
+  - **AccountAggregate:** Encapsula las entidades User y Account, gestionando la lógica de acceso y actualización de cuentas.
+- **Repositories:**
+  - **UserRepository:** Almacena y recupera información de los usuarios.
+  - **AccountRepository:** Almacena y recupera la información relacionada con las cuentas y sus suscripciones.
+- **Domain Services:**
+  - **AccountManagementService:** Gestiona la lógica de registro, autenticación y actualización de cuentas de usuario.
+  - **RoleAssignmentService:** Gestiona la asignación de roles y permisos a los usuarios.
 
-##### 4.2.4.4. Infrastructure Layer
+#### 4.2.1.2. Interface Layer. 
 
-##### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams
+- **API Endpoints:**
+  - **POST /accounts/register:** Registra un nuevo usuario.
+  - **POST /accounts/login:** Autentica un usuario en el sistema.
+  - **GET /accounts/{id}:** Obtiene la información de una cuenta específica.
+- **DTOs:**
+  - **UserDTO:** Contiene información del usuario (ID, nombre, correo electrónico).
+  - **AccountDTO:** Incluye detalles sobre la cuenta, como suscripción y roles asignados.
+- **Controllers:**
+  - **AccountController:** Gestiona las solicitudes relacionadas con el acceso y actualización de cuentas.
+  - **RoleController:** Gestiona las solicitudes relacionadas con la asignación de roles.
 
-##### 4.2.4.7. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.1.3. Application Layer. 
 
-###### 4.2.4.7.1. Bounded Context Domain Layer Class Diagrams
+- **Application Services:**
+  - **AccountApplicationService:** Gestiona la lógica de negocio para el manejo de cuentas de usuario.
+  - **RoleApplicationService:** Gestiona la lógica de roles y permisos.
+- **Commands/Queries:**
+  - **RegisterUserCommand:** Comando para registrar un nuevo usuario.
+  - **LoginUserCommand:** Comando para autenticar un usuario.
+  - **AssignRoleCommand:** Comando para asignar un rol a un usuario.
+- **Command Handlers:**
+  - **RegisterUserHandler:** Maneja el comando de registro de usuarios.
+  - **LoginUserHandler:** Maneja el comando de autenticación.
+  - **AssignRoleHandler:** Maneja el comando de asignación de roles.
 
-###### 4.2.4.7.2. Bounded Context Database Design Diagram
+#### 4.2.1.4. Infrastructure Layer. 
 
+- **Repository Implementation:**
+  - **UserSQLRepository:** Implementación de UserRepository usando SQL.
+  - **AccountSQLRepository:** Implementación de AccountRepository en SQL.
+- **External Services:**
+  - Integración con servicios de autenticación y autorización externos.
+- **Factories:**
+  - **AccountFactory:** Crea instancias de la entidad Account y sus agregados.
+- **ORM / Database Access:**
+  - Utiliza un ORM como Hibernate para mapear las entidades a la base de datos.
+
+#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+- **Componentes:**
+  - User
+  - Account
+  - Role
+  - Subscription
+
+#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.1.6.2. Bounded Context Database Design Diagram
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.001.png)
+
+### 4.2.2. Bounded Context Payment: 
+
+Este bounded context gestiona las suscripciones y los pagos de los usuarios para el servicio de monitoreo.
+
+#### 4.2.2.1. Domain Layer. 
+
+- **Entities**:
+  - **Subscription**: Representa un plan de suscripción que un usuario ha adquirido.
+  - **Payment**: Contiene la información de los pagos realizados por los usuarios.
+- **Value Objects**:
+  - **PaymentDetails**: Contiene los detalles del pago, como el monto, la fecha y el método.
+  - **SubscriptionPlan**: Describe las características del plan de suscripción, como la duración y el costo.
+- **Aggregates**:
+  - **SubscriptionAggregate**: Encapsula la lógica relacionada con la suscripción y su renovación.
+  - **PaymentAggregate**: Maneja la lógica relacionada con los pagos.
+- **Repositories**:
+  - **SubscriptionRepository**: Gestiona el acceso y almacenamiento de las suscripciones.
+  - **PaymentRepository**: Gestiona los pagos realizados por los usuarios.
+- **Domain Services**:
+  - **PaymentService**: Servicio que coordina los pagos y actualiza las suscripciones según el estado del pago.
+
+#### 4.2.2.2. Interface Layer. 
+
+- **API Endpoints**:
+  - POST /payment/process: Procesa un nuevo pago.
+  - GET /subscription/{userId}: Consulta el estado de la suscripción del usuario.
+- **DTOs**:
+  - **SubscriptionDTO**: Estructura que contiene los detalles de la suscripción.
+  - **PaymentDTO**: Estructura que contiene los detalles del pago.
+- **Controllers**:
+  - **PaymentController**: Controlador para gestionar las solicitudes de pago.
+
+**SubscriptionController**: Controlador para manejar la información de suscripción.
+
+#### 4.2.2.3. Application Layer. 
+
+- **Application Services**:
+  - **PaymentApplicationService**: Gestiona la lógica de negocio relacionada con los pagos.
+  - **SubscriptionApplicationService**: Gestiona las operaciones relacionadas con las suscripciones.
+- **Commands/Queries**:
+  - **ProcessPaymentCommand**: Comando que procesa un nuevo pago.
+  - **QuerySubscriptionStatus**: Consulta el estado de una suscripción específica.
+- **Command Handlers**:
+  - **ProcessPaymentHandler**: Maneja el comando de procesamiento de pagos.
+  - **QuerySubscriptionHandler**: Maneja la consulta sobre el estado de suscripción.
+
+#### 4.2.2.4. Infrastructure Layer. 
+
+- **Repository Implementation**:
+  - **SubscriptionSQLRepository**: Implementación concreta de SubscriptionRepository utilizando SQL.
+  - **PaymentSQLRepository**: Implementación concreta de PaymentRepository utilizando SQL.
+- **External Services**:
+
+Integración con servicios de pago como Stripe o PayPal.
+
+#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+Componentes clave:
+
+- **Subscription**: Representa la suscripción del usuario al servicio.
+- **Payment**: Representa los pagos realizados por los usuarios.
+
+#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.2.6.2. Bounded Context Database Design Diagram. 
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.002.png)
+
+### 4.2.3. Bounded Context Device: 
+
+Este bounded context es responsable de recopilar y procesar los datos obtenidos desde los sensores del dispositivo portátil que utiliza el adulto mayor. El dispositivo monitorea signos vitales (como frecuencia cardíaca y temperatura), movimiento, y también incluye un botón de pánico.
+
+#### 4.2.3.1. Domain Layer. 
+
+- **Entities**:
+  - **Device**: Representa la pulsera inteligente que recopila los datos del adulto mayor.
+  - **SensorData**: Almacena los datos de los diferentes sensores del dispositivo, como frecuencia cardíaca, temperatura, y movimiento.
+  - **PanicAlert**: Representa la activación del botón de pánico en el dispositivo.
+- **Value Objects**:
+  - **HeartRate**: Valor que indica la frecuencia cardíaca medida por el dispositivo.
+  - **Temperature**: Valor de la temperatura corporal medida.
+  - **Movement**: Representa la cantidad o tipo de movimiento detectado.
+- **Aggregates**:
+  - **DeviceAggregate**: Encapsula las entidades Device y SensorData, y mantiene la lógica de negocio relacionada con el manejo de los datos del dispositivo.
+- **Repositories**:
+  - **DeviceRepository**: Acceso a los datos del dispositivo, incluido el estado de sus sensores.
+  - **SensorDataRepository**: Almacena y accede a los datos de los sensores recopilados por el dispositivo.
+  - **PanicAlertRepository**: Almacena las alertas generadas por la activación del botón de pánico.
+- **Domain Services**:
+  - **DeviceMonitoringService**: Gestiona la lógica de negocio relacionada con el monitoreo y la actualización de los datos del dispositivo.
+  - **AlertService**: Gestiona la lógica para la creación de alertas cuando los valores del dispositivo están fuera de los rangos normales.
+
+#### 4.2.3.2. Interface Layer. 
+
+- **API Endpoints**:
+  - POST /devices/{id}/sensor-data: Recibe los datos de los sensores y los almacena.
+  - GET /devices/{id}/status: Obtiene el estado actual del dispositivo.
+  - POST /devices/{id}/panic-alert: Activa una alerta de pánico en el sistema.
+- **DTOs**:
+  - **DeviceDTO**: Contiene información sobre el dispositivo (ID, tipo de dispositivo, usuario asignado, etc.).
+  - **SensorDataDTO**: Contiene los datos de los sensores (frecuencia cardíaca, temperatura, movimiento, etc.).
+  - **PanicAlertDTO**: Contiene los detalles de la alerta de pánico generada por el dispositivo.
+- **Controllers**:
+  - **DeviceController**: Controlador que gestiona las solicitudes relacionadas con el estado y los datos del dispositivo.
+  - **SensorDataController**: Controlador que recibe y gestiona los datos de los sensores.
+  - **PanicAlertController**: Controlador que gestiona las alertas de pánico generadas por el dispositivo.
+
+#### 4.2.3.3. Application Layer. 
+
+- **Application Services**:
+  - **DeviceApplicationService**: Gestiona la lógica de negocio a nivel de aplicación para el manejo de dispositivos.
+  - **SensorDataApplicationService**: Procesa los datos recibidos por los sensores y los pasa a la capa de dominio.
+  - **PanicAlertApplicationService**: Gestiona la activación y el procesamiento de las alertas de pánico.
+- **Commands/Queries**:
+  - **RegisterSensorDataCommand**: Comando para registrar los datos de los sensores.
+  - **TriggerPanicAlertCommand**: Comando para activar una alerta de pánico.
+- **Command Handlers**:
+  - **RegisterSensorDataHandler**: Maneja el comando para registrar los datos de los sensores.
+  - **TriggerPanicAlertHandler**: Maneja el comando para activar una alerta de pánico.
+
+#### 4.2.3.4. Infrastructure Layer. 
+
+- **Repository Implementation**:
+  - **DeviceSQLRepository**: Implementación concreta de la interfaz DeviceRepository usando SQL para almacenar y recuperar información sobre dispositivos.
+  - **SensorDataSQLRepository**: Implementación de SensorDataRepository para manejar los datos de sensores en una base de datos SQL.
+  - **PanicAlertSQLRepository**: Implementación de PanicAlertRepository que almacena las alertas en una base de datos relacional.
+- **External Services**:
+  - Integración con un servicio externo para almacenar los datos en la nube y analizar las alertas generadas por el dispositivo.
+- **Factories**:
+  - **DeviceFactory**: Crea instancias del agregado DeviceAggregate y las entidades relacionadas como SensorData.
+- **ORM / Database Access**:
+  - Utiliza un ORM como **Hibernate** o **JPA** para mapear las entidades a una base de datos SQL.
+
+#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+El diagrama en el **Nivel de Componentes** de este bounded context incluiría los siguientes componentes:
+
+- **Device**: Representando el dispositivo y sus atributos clave.
+- **SensorData**: Representando los datos de los sensores (frecuencia cardíaca, temperatura, movimiento).
+- **PanicAlert**: Representando las alertas de pánico.
+
+(Usamos un enfoque C4 para modelar la relación entre estos componentes).
+
+#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.3.6.2. Bounded Context Database Design Diagram
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.003.png)
+
+### 4.2.4. Bounded Context Configuration: 
+
+Este bounded context permite la configuración de las bandas que se utilizan para el monitoreo de salud, gestionando la vinculación de cuidadores y familiares, la actualización de firmware y la sincronización con el sistema.
+
+#### 4.2.4.1. Domain Layer. 
+
+- **Entities:**
+  - **Band:** Representa la pulsera vinculada a un usuario para el monitoreo de salud.
+  - **Firmware:** Información relacionada con la versión de firmware instalada en la pulsera.
+  - **CaretakerAssignment:** Asocia cuidadores o familiares con la banda del usuario.
+- **Value Objects:**
+  - **FirmwareVersion:** Número de versión del firmware.
+  - **ConfigurationSettings:** Configuración específica del usuario para la banda.
+- **Aggregates:**
+  - **BandAggregate:** Encapsula las entidades Band, Firmware y CaretakerAssignment, gestionando la lógica de configuración.
+- **Repositories:**
+  - **BandRepository:** Almacena y recupera información sobre las bandas y su configuración.
+  - **FirmwareRepository:** Gestiona las actualizaciones y versiones del firmware.
+- **Domain Services:**
+  - **BandConfigurationService:** Gestiona la lógica de configuración de la banda, como la asignación de cuidadores o la actualización de firmware.
+
+#### 4.2.4.2. Interface Layer. 
+
+- **API Endpoints:**
+  - **POST /bands/{id}/configuration:** Configura una banda específica.
+  - **POST /bands/{id}/firmware:** Actualiza el firmware de una banda.
+  - **GET /bands/{id}/status:** Obtiene el estado de configuración y firmware de una banda.
+- **DTOs:**
+  - **BandDTO:** Contiene la información de la banda (ID, usuario asignado, versión de firmware).
+  - **FirmwareDTO:** Detalles sobre la versión y estado del firmware.
+- **Controllers:**
+  - **BandController:** Gestiona las solicitudes relacionadas con la configuración de las bandas.
+  - **FirmwareController:** Gestiona las solicitudes de actualización de firmware.
+
+#### 4.2.4.3. Application Layer. 
+
+- **Application Services:**
+  - **BandApplicationService:** Gestiona la lógica de configuración de las bandas.
+  - **FirmwareApplicationService:** Gestiona la lógica de actualización del firmware.
+- **Commands/Queries:**
+  - **ConfigureBandCommand:** Comando para configurar una banda.
+  - **UpdateFirmwareCommand:** Comando para actualizar el firmware.
+- **Command Handlers:**
+  - **ConfigureBandHandler:** Maneja el comando de configuración de la banda.
+  - **UpdateFirmwareHandler:** Maneja el comando de actualización de firmware.
+
+#### 4.2.4.4. Infrastructure Layer. 
+
+- **Repository Implementation:**
+  - **BandSQLRepository:** Implementación de BandRepository en SQL.
+  - **FirmwareSQLRepository:** Implementación de FirmwareRepository en SQL.
+- **External Services:**
+  - Servicios externos para actualizaciones de firmware y configuración remota.
+- **Factories:**
+  - **BandFactory:** Crea instancias del agregado BandAggregate y las entidades asociadas.
+- **ORM / Database Access:**
+  - Utiliza un ORM para mapear las entidades Band y Firmware a una base de datos SQL.
+
+#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+
+- **Componentes:**
+  - Band
+  - Firmware
+  - CaretakerAssignment
+
+
+
+#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.4.6.2. Bounded Context Database Design Diagram. 
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.004.png)
+
+### 4.2.5. Bounded Context Edge: 
+
+Este bounded context gestiona el procesamiento de datos en tiempo real recibidos desde el dispositivo, permitiendo un análisis inicial a nivel local.
+
+#### 4.2.5.1. Domain Layer. 
+
+- **Entities**:
+  - **EdgeProcessor**: Representa el nodo de procesamiento local que recibe los datos del dispositivo.
+  - **ProcessedData**: Datos ya analizados por el nodo Edge, como patrones de movimiento y análisis de frecuencia cardíaca.
+- **Value Objects**:
+  - **RealTimeData**: Valor que encapsula los datos procesados en tiempo real.
+  - **AlertThresholds**: Define los límites que, al ser superados, generan alertas.
+- **Aggregates**:
+  - **EdgeProcessingAggregate**: Agregado que gestiona el procesamiento y análisis de los datos recibidos del dispositivo.
+- **Repositories**:
+  - **EdgeProcessorRepository**: Accede y almacena el estado de los procesadores Edge.
+  - **ProcessedDataRepository**: Gestiona el almacenamiento de los datos procesados localmente.
+- **Domain Services**:
+  - **EdgeProcessingService**: Gestiona la lógica de procesamiento local de los datos, generando alertas cuando se exceden ciertos umbrales.
+
+#### 4.2.5.2. Interface Layer. 
+
+- **API Endpoints**:
+  - POST /edge/{id}/process: Recibe los datos del dispositivo y los procesa.
+  - GET /edge/{id}/processed-data: Obtiene los datos procesados por el nodo Edge.
+- **DTOs**:
+  - **EdgeProcessorDTO**: Contiene información del nodo Edge.
+  - **ProcessedDataDTO**: Contiene los datos procesados.
+- **Controllers**:
+  - **EdgeProcessorController**: Controlador que gestiona la interacción con el nodo Edge.
+  - **ProcessedDataController**: Controlador que expone los datos ya procesados.
+
+#### 4.2.5.3. Application Layer. 
+
+- **Application Services**:
+  - **EdgeProcessingApplicationService**: Gestiona la lógica de negocio relacionada con el procesamiento local de los datos.
+- **Commands/Queries**:
+  - **ProcessDataCommand**: Comando para procesar los datos en tiempo real.
+  - **QueryProcessedData**: Consulta los datos ya procesados.
+- **Command Handlers**:
+  - **ProcessDataHandler**: Maneja el comando de procesamiento de datos.
+  - **QueryProcessedDataHandler**: Maneja la consulta de datos procesados.
+
+#### 4.2.5.4. Infrastructure Layer. 
+
+- **Repository Implementation**:
+  - **EdgeProcessorSQLRepository**: Implementación de EdgeProcessorRepository usando SQL.
+  - **ProcessedDataSQLRepository**: Implementación de ProcessedDataRepository en SQL.
+- **External Services**:
+  - Integración con servicios en la nube para sincronizar los datos procesados.
+- **Factories**:
+  - **EdgeProcessorFactory**: Crea instancias de EdgeProcessingAggregate.
+
+### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+Este diagrama incluiría componentes como:
+
+•	**EdgeProcessor**: Nodo de procesamiento de datos.
+
+•	**ProcessedData**: Representando los datos procesados localmente.
+
+#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.5.6.2. Bounded Context Database Design Diagram
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.005.png)
+
+#### 4.2.6. Bounded Context Metrics: 
+
+Este contexto gestiona la generación de informes de datos de salud del usuario.
+
+#### 4.2.6.1. Domain Layer. 
+
+- **Entities**:
+  - **HealthReport**: Representa un informe de los datos de salud del usuario.
+- **Value Objects**:
+  - **ReportPeriod**: Define el periodo del informe (diario, semanal, mensual).
+  - **HealthMetrics**: Datos de salud como frecuencia cardíaca y temperatura.
+- **Aggregates**:
+  - **HealthReportAggregate**: Encapsula la lógica relacionada con la generación de informes.
+- **Repositories**:
+  - **HealthReportRepository**: Gestiona el acceso y almacenamiento de los informes generados.
+
+#### 4.2.6.2. Interface Layer. 
+
+- **API Endpoints**:
+  - GET /metrics/{id}/report: Obtiene un informe de salud específico.
+  - POST /metrics/generate: Genera un nuevo informe de salud.
+- **DTOs**:
+  - **HealthReportDTO**: Estructura del informe de salud.
+- **Controllers**:
+  - **MetricsController**: Controlador que maneja las solicitudes de generación de informes.
+
+#### 4.2.6.3. Application Layer. 
+
+- **Application Services**:
+  - **MetricsApplicationService**: Gestiona la lógica para la generación de informes de salud.
+- **Commands/Queries**:
+  - **GenerateReportCommand**: Comando para generar un informe de salud.
+
+#### 4.2.6.4. Infrastructure Layer. 
+
+- **Repository Implementation**:
+  - **HealthReportSQLRepository**: Implementación de HealthReportRepository en SQL.
+
+### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+
+Componentes clave:
+
+- **HealthReport**: Representando los informes de salud.
+
+#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.6.6.2. Bounded Context Database Design Diagram. 
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.006.png)
+
+### 4.2.7. Bounded Context Notification: 
+
+Este bounded context gestiona el envío de alertas y notificaciones a los cuidadores o familiares.
+
+#### 4.2.7.1. Domain Layer. 
+
+- **Entities**:
+  - **Notification**: Representa una notificación o alerta enviada a los cuidadores o familiares.
+- **Value Objects**:
+  - **Recipient**: Define a quién va dirigida la notificación.
+  - **NotificationType**: Tipo de notificación (por ejemplo, alerta crítica o actualización).
+- **Aggregates**:
+  - **NotificationAggregate**: Encapsula las entidades relacionadas con las notificaciones y la lógica de negocio asociada.
+- **Repositories**:
+  - **NotificationRepository**: Gestiona el almacenamiento y acceso a las notificaciones.
+- **Domain Services**:
+  - **NotificationService**: Gestiona la lógica de negocio para el envío y manejo de notificaciones.
+
+#### 4.2.7.2. Interface Layer. 
+
+- **API Endpoints**:
+  - POST /notifications/send: Envía una notificación a los destinatarios.
+  - GET /notifications/{id}: Obtiene el estado de una notificación específica.
+- **DTOs**:
+  - **NotificationDTO**: Estructura de la notificación a ser enviada.
+- **Controllers**:
+  - **NotificationController**: Controlador que maneja las solicitudes de notificación.
+
+#### 4.2.7.3. Application Layer. 
+
+- **Application Services**:
+  - **NotificationApplicationService**: Gestiona la lógica de negocio para la gestión de notificaciones.
+- **Commands/Queries**:
+  - **SendNotificationCommand**: Comando para enviar una notificación.
+- **Command Handlers**:
+  - **SendNotificationHandler**: Maneja el comando de envío de notificaciones.
+
+#### 4.2.7.4. Infrastructure Layer. 
+
+- **Repository Implementation**:
+  - **NotificationSQLRepository**: Implementación concreta de NotificationRepository usando SQL.
+- **External Services**:
+  - Integración con servicios externos como SMS o correo electrónico para el envío de notificaciones.
+
+#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams. 
+
+Componentes clave:
+
+- **Notification**: Representando las notificaciones y alertas.
+- **Recipient**: Los destinatarios de las notificaciones.
+
+#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams. 
+
+#### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams. 
+
+#### 4.2.7.6.2. Bounded Context Database Design Diagram. 
+
+![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.007.png)
 ---
 
 # Conclusiones
