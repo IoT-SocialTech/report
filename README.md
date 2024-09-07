@@ -667,7 +667,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
-![User Persona](./assets/user-persona.png)
+![User Persona](./assets/user-persona-ana-martinez.png)
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
@@ -681,20 +681,36 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 <table>
   <tr>
     <th>User Task</th>
-    <th colspan="2">Nombre</th>
-  </tr>
-  <tr>
-    <th></th>
     <th>Frequency</th>
     <th>Importance</th>
   </tr>
   <tr>
-    <td>Task 1</td>
+    <td>Monitoreo de signos vitales</td>
     <td>SIEMPRE</td>
     <td>ALTA</td>
   </tr>
-  
+  <tr>
+    <td>Prevención de caídas</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Comunicación con familias</td>
+    <td>USUALMENTE</td>
+    <td>MEDIA</td>
+  </tr>
+  <tr>
+    <td>Gestión de medicación del paciente</td>
+    <td>USUALMENTE</td>
+    <td>ALTA</td>
+  </tr>
+  <tr>
+    <td>Aseo y cuidado del paciente</td>
+    <td>SIEMPRE</td>
+    <td>ALTA</td>
+  </tr>
 </table>
+
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
@@ -719,7 +735,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
-![User Journey Mapping](./assets/user-journey-mapping.png)
+![User Journey Mapping](./assets/user-journey-mapping-caregiver.png)
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
@@ -729,7 +745,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
-![Empathy Mapping](./assets/empathy-mapping.png)
+![Empathy Mapping](./assets/empathy-mapping-ana-martinez.png)
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
@@ -739,7 +755,19 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
-![As-Is Scenario Mapping](./assets/asis-scenario-mapping.png)
+![As-Is Scenario Mapping](./assets/asis-scenario-mapping-ana-martinez.jpg)
+
+**Áreas Positivas**
+- Comunicación con las familias
+- Stasifacción por hacer bien su trabajo
+- Responsabilidad y compromiso con su labor
+
+**Áreas Negativas**
+- Información dispersa en diferentes dispositivos
+- El monitoreo constante del adulto mayor es desafiante
+
+**Blank Areas**
+- Qué tecnologías se pueden emplear para mejorar su trabajo
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
@@ -755,7 +783,7 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
-![To-Be Scenario Mapping](./assets/tobe-scenario-mapping.png)
+![To-Be Scenario Mapping](./assets/tobe-scenario-mapping-ana-martinez.jpg)
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
