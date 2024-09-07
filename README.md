@@ -940,30 +940,64 @@ En este punto, buscamos automation policies (políticas de automatización) que 
 ![ES-Step6](/assets/EV-Step6.png)
 
 **Step 7: Read Models**
+
 En este paso, introducimos el modelo de lectura, que es la representación de datos del dominio que un agente utiliza para decidir si debe ejecutar o no un comando. Por esta razón, definimos una vista de datos para cada comando, como monitores del sistema, informes, notificaciones, entre otros.
 
 ![ES-Step7](/assets/EV-Step7.png)
 
 **Step 8: External Systems**
+
 A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
 
 ![ES-Step8](/assets/EV-Step8.png)
 
 **Step 9: Aggregates**
+
 Luego de presentar todos los eventos y comandos, comenzamos a agrupar los conceptos relacionados en agregados, que son las unidades que reciben comandos y generan eventos.
 
 ![ES-Step9](/assets/EV-Step9.png)
 
 **Step 10: Bounded Contexts**
+
 Finalmente, identificamos los agregados que están relacionados entre sí y que son relevantes por representar funciones estrechamente vinculadas o porque están conectados según ciertas políticas. Estos grupos de agregados sirven como candidatos naturales para definir los Bounded Contexts (contextos delimitados) dentro del sistema.
 
 ![ES-Step10](/assets/EV-Step10.png)
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
+**Scenario: Detection of Heart Rhythm Abnormality**
+
+![DomianMessage-S1](/assets/DMFM-S1.png)
+
+**Scenario: Activating the Panic Button**
+
+![DomianMessage-S2](/assets/DMFM-S2.png)
+
+**Scenario: Setting up an IoT Band**
+
+![DomianMessage-S3](/assets/DMFM-S3.png)
+
+**Scenario: Daily Health Report Generation**
+
+![DomianMessage-S4](/assets/DMFM-S4.png)
+
+**Scenario: Subscription and Payment Update**
+
+![DomianMessage-S5](/assets/DMFM-S5.png)
+
+Enlace del Miroo para verlo completo:
+https://miro.com/app/board/uXjVKhkf7G8=/?share_link_id=819060613108 
+
 #### 4.1.1.3 Bounded Context Canvases
 
+
+
+Enlace del Miroo para verlo completo:
+https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652  
+
+
 ### 4.1.2. Context Mapping
+
 
 ### 4.1.3. Software Architecture
 
