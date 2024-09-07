@@ -654,24 +654,24 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
 
-<table border=1>
+<table border="1">
   <tr>
     <td>
-      <b>Nombres y <br>apellidos:</b> Nombre<br>
-      <b>Edad: </b> años <br>
-      <b>Distrito:</b> distrito <br>
-      <b>Timing:</b> 0:00 - 0:00 minutos
-      <b>Duración:</b>  minutos
+      <b>Nombres y <br>apellidos:</b> Gabriel Hachamizo<br>
+      <b>Edad:</b> 27 años <br>
+      <b>Distrito:</b> Los Aquijes - Ica <br>
+      <b>Timing:</b> 0:00 - 0:00 minutos<br>
+      <b>Duración:</b> minutos
     </td>
-    <td align=center>
-      <img src="./assets/Entrevista_PieroValverde.png" alt="img"  width="80%"/>
+    <td align="center">
+      <img src="./assets/entrevista-gabriel.png" alt="img" width="80%"/>
     </td>
   </tr>
   <tr>
-    <td colspan=2>
-      <b>Enlace:</b> <a></a>
+    <td colspan="2">
+      <b>Enlace:</b> <a href="#"></a>
       <br>
-      <b>Resumen:</b> resumen
+      <b>Resumen:</b> Gabriel es un licenciado en enfermería que trabaja en una casa de reposo para adultos mayores, desempeñando un rol administrativo. En la entrevista, comentó que los dispositivos más utilizados son celulares y laptops. Para el monitoreo de los pacientes, se utilizan cámaras de seguridad, mientras que la comunicación con los familiares se realiza principalmente a través de WhatsApp. Facebook se emplea para promocionar los servicios de la casa de reposo. Gabriel considera que la adopción de nuevas tecnologías es positiva y puede mejorar el cuidado de los pacientes. Sin embargo, enfrenta desafíos como el manejo de una gran cantidad de pacientes y la insuficiencia del protocolo de atención para garantizar una atención adecuada. También describe su rol en la empresa, incluyendo la priorización de actividades según su importancia. Además, Gabriel sugiere el desarrollo de un software para optimizar la administración y el registro de pacientes, así como para recopilar datos que contribuyan a una mejor atención.
     </td>
   </tr>
 </table>
