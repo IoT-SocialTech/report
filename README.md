@@ -131,7 +131,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.](#4226-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.](#42261-bounded-context-domain-layer-class-diagrams)
       - [4.2.2.6.2. Bounded Context Database Design Diagram.](#42262-bounded-context-database-design-diagram)
-    - [4.2.3. Bounded Context Device:](#423-bounded-context-device)
+    - [4.2.3. Bounded Context Notification:](#423-bounded-context-notification-context)
       - [4.2.3.1. Domain Layer.](#4231-domain-layer)
       - [4.2.3.2. Interface Layer.](#4232-interface-layer)
       - [4.2.3.3. Application Layer.](#4233-application-layer)
@@ -140,7 +140,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.](#4236-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.](#42361-bounded-context-domain-layer-class-diagrams)
       - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [4.2.4. Bounded Context Configuration:](#424-bounded-context-configuration)
+    - [4.2.4. Bounded Context Metrics:](#424-bounded-context-metrics-context)
       - [4.2.4.1. Domain Layer.](#4241-domain-layer)
       - [4.2.4.2. Interface Layer.](#4242-interface-layer)
       - [4.2.4.3. Application Layer.](#4243-application-layer)
@@ -149,7 +149,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.](#4246-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.](#42461-bounded-context-domain-layer-class-diagrams)
       - [4.2.4.6.2. Bounded Context Database Design Diagram.](#42462-bounded-context-database-design-diagram)
-    - [4.2.5. Bounded Context Edge:](#425-bounded-context-edge)
+    - [4.2.5. Bounded Context Payment:](#425-bounded-context-payment-context)
       - [4.2.5.1. Domain Layer.](#4251-domain-layer)
       - [4.2.5.2. Interface Layer.](#4252-interface-layer)
       - [4.2.5.3. Application Layer.](#4253-application-layer)
@@ -158,7 +158,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.](#4256-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.](#42561-bounded-context-domain-layer-class-diagrams)
       - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
-      - [4.2.6. Bounded Context Metrics:](#426-bounded-context-metrics)
+      - [4.2.6. Bounded Context Configuration:](#426-bounded-context-configuration-context)
       - [4.2.6.1. Domain Layer.](#4261-domain-layer)
       - [4.2.6.2. Interface Layer.](#4262-interface-layer)
       - [4.2.6.3. Application Layer.](#4263-application-layer)
@@ -167,7 +167,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.](#4266-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.](#42661-bounded-context-domain-layer-class-diagrams)
       - [4.2.6.6.2. Bounded Context Database Design Diagram.](#42662-bounded-context-database-design-diagram)
-    - [4.2.7. Bounded Context Notification:](#427-bounded-context-notification)
+    - [4.2.7. Bounded Context account:](#427-bounded-context-account-context)
       - [4.2.7.1. Domain Layer.](#4271-domain-layer)
       - [4.2.7.2. Interface Layer.](#4272-interface-layer)
       - [4.2.7.3. Application Layer.](#4273-application-layer)
@@ -2441,6 +2441,272 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 - **Relaciones:**
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
   - `Device` puede tener varias configuraciones asociadas.
+
+## 4.2.7. Bounded Context: Account Context
+
+### 4.2.7.1. Domain Layer
+
+#### Entities
+
+1. **Account:**
+   - **Descripción:** Representa la cuenta de usuario en el sistema, incluyendo información personal, roles y métodos de pago.
+   - **Atributos:**
+     - `id`: Identificador único de la cuenta.
+     - `username`: Nombre de usuario asociado a la cuenta.
+     - `password`: Contraseña de la cuenta.
+     - `email`: Dirección de correo electrónico asociada a la cuenta.
+     - `phoneNumber`: Número de teléfono del usuario.
+     - `role`: Rol del usuario dentro del sistema.
+
+2. **Role:**
+   - **Descripción:** Define los roles de usuario dentro del sistema, como administrador, cuidador, etc.
+   - **Atributos:**
+     - `id`: Identificador único del rol.
+     - `roleName`: Nombre del rol (por ejemplo, Admin, Caregiver).
+     - `description`: Descripción del rol y sus permisos.
+
+3. **Patient:**
+   - **Descripción:** Representa al paciente que es monitoreado mediante la plataforma.
+   - **Atributos:**
+     - `id`: Identificador único del paciente.
+     - `name`: Nombre del paciente.
+     - `age`: Edad del paciente.
+     - `address`: Dirección del paciente.
+     - `emergencyContact`: Contacto de emergencia para el paciente.
+     - `Account_id`: Referencia a la cuenta a la que pertenece el paciente.
+
+4. **Caregiver:**
+   - **Descripción:** Representa a la persona encargada de cuidar al paciente, que tiene acceso a la información de salud del paciente.
+   - **Atributos:**
+     - `id`: Identificador único del cuidador.
+     - `name`: Nombre del cuidador.
+     - `phone`: Número de teléfono del cuidador.
+     - `address`: Dirección del cuidador.
+     - `Account_id`: Referencia a la cuenta a la que pertenece el cuidador.
+
+#### Value Objects
+
+1. **ContactInformation:**
+   - **Descripción:** Objeto de valor que encapsula la información de contacto de un usuario, asegurando que los datos como el correo y el teléfono sean válidos.
+   - **Atributos:**
+     - `email`: Dirección de correo electrónico válida.
+     - `phoneNumber`: Número de teléfono válido.
+
+#### Domain Services
+
+1. **AccountDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con la gestión de cuentas, como la verificación de roles y la actualización de información.
+   - **Métodos:**
+     - `verifyRole(Account account, String role)`: Verifica si una cuenta tiene un rol específico.
+     - `updateContactInformation(Account account, ContactInformation contactInfo)`: Actualiza la información de contacto de la cuenta.
+
+#### Aggregates y Aggregate Root
+
+1. **AccountAggregateRoot:**
+   - **Justificación:** `Account` es el aggregate root que controla la consistencia y la lógica de negocio de los usuarios y sus roles. Asegura que todos los roles y datos de contacto relacionados con una cuenta sean válidos y consistentes.
+
+#### Repositories (Interfaces)
+
+1. **AccountRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de cuentas de usuario.
+   - **Métodos:**
+     - `findById(String id)`: Busca una cuenta por su ID.
+     - `save(Account account)`: Guarda o actualiza una cuenta en la base de datos.
+     - `delete(String id)`: Elimina una cuenta de la base de datos.
+
+2. **RoleRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de roles.
+   - **Métodos:**
+     - `findById(String id)`: Busca un rol por su ID.
+     - `save(Role role)`: Guarda o actualiza un rol en la base de datos.
+     - `delete(String id)`: Elimina un rol de la base de datos.
+
+3. **PatientRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de pacientes.
+   - **Métodos:**
+     - `findById(String id)`: Busca un paciente por su ID.
+     - `save(Patient patient)`: Guarda o actualiza un paciente en la base de datos.
+     - `delete(String id)`: Elimina un paciente de la base de datos.
+
+4. **CaregiverRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de cuidadores.
+   - **Métodos:**
+     - `findById(String id)`: Busca un cuidador por su ID.
+     - `save(Caregiver caregiver)`: Guarda o actualiza un cuidador en la base de datos.
+     - `delete(String id)`: Elimina un cuidador de la base de datos.
+
+### 4.2.7.2. Interface Layer
+
+#### Controllers
+
+1. **AccountController:**
+   - **Descripción:** Expone endpoints para la gestión de cuentas de usuario, permitiendo registrar, actualizar y consultar cuentas.
+   - **Métodos:**
+     - `registerAccount(Account account)`: Endpoint para registrar una nueva cuenta.
+     - `updateAccount(String id, Account account)`: Endpoint para actualizar la información de una cuenta.
+     - `getAccountById(String id)`: Endpoint para obtener los detalles de una cuenta por su ID.
+
+2. **RoleController:**
+   - **Descripción:** Expone endpoints para la gestión de roles de usuario, permitiendo registrar, actualizar y consultar roles.
+   - **Métodos:**
+     - `createRole(Role role)`: Endpoint para crear un nuevo rol.
+     - `updateRole(String id, Role role)`: Endpoint para actualizar la información de un rol.
+     - `getRoleById(String id)`: Endpoint para obtener los detalles de un rol por su ID.
+
+3. **PatientController:**
+   - **Descripción:** Expone endpoints para la gestión de pacientes, permitiendo registrar, actualizar y consultar pacientes.
+   - **Métodos:**
+     - `registerPatient(Patient patient)`: Endpoint para registrar un nuevo paciente.
+     - `updatePatient(String id, Patient patient)`: Endpoint para actualizar la información de un paciente.
+     - `getPatientById(String id)`: Endpoint para obtener los detalles de un paciente por su ID.
+
+4. **CaregiverController:**
+   - **Descripción:** Expone endpoints para la gestión de cuidadores, permitiendo registrar, actualizar y consultar cuidadores.
+   - **Métodos:**
+     - `registerCaregiver(Caregiver caregiver)`: Endpoint para registrar un nuevo cuidador.
+     - `updateCaregiver(String id, Caregiver caregiver)`: Endpoint para actualizar la información de un cuidador.
+     - `getCaregiverById(String id)`: Endpoint para obtener los detalles de un cuidador por su ID.
+
+### 4.2.7.3. Application Layer
+
+#### Command Handlers
+
+1. **CreateAccountHandler:**
+   - **Descripción:** Maneja el comando para registrar una nueva cuenta en el sistema.
+   - **Métodos:**
+     - `handle(CreateAccountCommand command)`: Valida y crea una nueva cuenta en el sistema.
+
+2. **CreateRoleHandler:**
+   - **Descripción:** Maneja el comando para crear un nuevo rol en el sistema.
+   - **Métodos:**
+     - `handle(CreateRoleCommand command)`: Valida y crea un nuevo rol en el sistema.
+
+3. **RegisterPatientHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo paciente en el sistema.
+   - **Métodos:**
+     - `handle(RegisterPatientCommand command)`: Valida y registra un nuevo paciente en el sistema.
+
+4. **RegisterCaregiverHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo cuidador en el sistema.
+   - **Métodos:**
+     - `handle(RegisterCaregiverCommand command)`: Valida y registra un nuevo cuidador en el sistema.
+
+#### Event Handlers
+
+1. **AccountCreatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se crea una nueva cuenta.
+   - **Métodos:**
+     - `handle(AccountCreatedEvent event)`: Ejecuta las acciones necesarias después de la creación de una cuenta.
+
+2. **RoleCreatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se crea un nuevo rol.
+   - **Métodos:**
+     - `handle(RoleCreatedEvent event)`: Ejecuta las acciones necesarias después de la creación de un rol.
+
+#### Query Handlers
+
+1. **GetAccountDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una cuenta específica.
+   - **Métodos:**
+     - `handle(GetAccountDetailsQuery query)`: Devuelve los detalles de la cuenta solicitada.
+
+2. **GetRoleDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un rol específico.
+   - **Métodos:**
+     - `handle(GetRoleDetailsQuery query)`: Devuelve los detalles del rol solicitado.
+
+3. **GetPatientDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un paciente específico.
+   - **Métodos:**
+     - `handle(GetPatientDetailsQuery query)`: Devuelve los detalles del paciente solicitado.
+
+4. **GetCaregiverDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un cuidador específico.
+   - **Métodos:**
+     - `handle(GetCaregiverDetailsQuery query)`: Devuelve los detalles del cuidador solicitado.
+
+### 4.2.7.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **AccountRepositoryImpl:**
+   - **Descripción:** Implementación de `AccountRepository` que define cómo se almacenan y recuperan las cuentas desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una cuenta por su ID.
+     - `save(Account account)`: Implementación para guardar o actualizar una cuenta en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una cuenta de la base de datos.
+
+2. **RoleRepositoryImpl:**
+   - **Descripción:** Implementación de `RoleRepository` que define cómo se almacenan y recuperan los roles desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un rol por su ID.
+     - `save(Role role)`: Implementación para guardar o actualizar un rol en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un rol de la base de datos.
+
+3. **PatientRepositoryImpl:**
+   - **Descripción:** Implementación de `PatientRepository` que define cómo se almacenan y recuperan los pacientes desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un paciente por su ID.
+     - `save(Patient patient)`: Implementación para guardar o actualizar un paciente en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un paciente de la base de datos.
+
+4. **CaregiverRepositoryImpl:**
+   - **Descripción:** Implementación de `CaregiverRepository` que define cómo se almacenan y recuperan los cuidadores desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un cuidador por su ID.
+     - `save(Caregiver caregiver)`: Implementación para guardar o actualizar un cuidador en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un cuidador de la base de datos.
+
+### 4.2.7.6. Bounded Context Software Architecture Component Level Diagrams
+
+#### Components (Web API):
+
+1. **AccountService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de cuentas. Interactúa con el `AccountRepository` para gestionar el registro y la actualización de cuentas.
+
+2. **RoleService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de roles. Interactúa con el `RoleRepository` para gestionar el registro y la actualización de roles.
+
+3. **PatientService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de pacientes. Interactúa con el `PatientRepository` para gestionar el registro y la actualización de pacientes.
+
+4. **CaregiverService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de cuidadores. Interactúa con el `CaregiverRepository` para gestionar el registro y la actualización de cuidadores.
+
+### 4.2.7.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.7.7.1. Bounded Context Domain Layer Class Diagrams
+
+- **Clases importantes:**
+  - `Account`
+  - `Role`
+  - `Patient`
+  - `Caregiver`
+
+- **Repositories:**
+  - `AccountRepository`
+  - `RoleRepository`
+  - `PatientRepository`
+  - `CaregiverRepository`
+
+#### 4.2.7.7.2. Bounded Context Database Design Diagram
+
+- **Tablas:**
+  - **Account:**
+    - Columnas: `id`, `username`, `password`, `email`, `phoneNumber`, `role`.
+  - **Role:**
+    - Columnas: `id`, `roleName`, `description`.
+  - **Patient:**
+    - Columnas: `id`, `name`, `age`, `address`, `emergencyContact`, `Account_id`.
+    - Llave Foránea: `Account_id`.
+  - **Caregiver:**
+    - Columnas: `id`, `name`, `phone`, `address`, `Account_id`.
+    - Llave Foránea: `Account_id`.
+
+- **Relaciones:**
+  - `Patient` se relaciona con `Account` a través de `Account_id`.
+  - `Caregiver` se relaciona con `Account` a través de `Account_id`.
+  - `Account` puede tener múltiples pacientes y cuidadores asociados.
 
 ---
 
