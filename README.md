@@ -851,113 +851,98 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
+Ana Martinez es una enfermera de 32 años que trabaja en Lima, Perú, especializada en el cuidado de adultos mayores. Ella es una cuidadora comprometida que se siente motivada por el bienestar y la seguridad de sus pacientes, y siempre busca ofrecer el mejor servicio posible. Su enfoque está en mejorar la eficiencia en el cuidado de sus pacientes, a pesar de enfrentar desafíos como las caídas y la falta de tecnología para facilitar su trabajo. A Ana le interesa incorporar nuevas tecnologías en su rutina para monitorear signos vitales de manera más eficiente y se siente frustrada por la dependencia de métodos manuales. Utiliza canales de comunicación como WhatsApp e Instagram para conectarse con los demás y sigue marcas tecnológicas como Xiaomi.
+
 ![User Persona](./assets/user-persona-ana-martinez.png)
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+
+Gabriel Lopez es un enfermero de 40 años que dirige una casa de reposo para adultos mayores en Lima, Perú. Como dueño y administrador, su principal objetivo es mejorar la eficiencia en la atención a los pacientes a través de un sistema que le permita gestionar el estado de estos de manera más efectiva. Aunque tiene una amplia experiencia en la gestión de personal y pacientes, uno de sus mayores retos es atender a todos sus pacientes simultáneamente, especialmente durante los momentos de mayor actividad. Gabriel valora profundamente la tecnología y busca constantemente formas de integrarla para optimizar tanto la calidad de los cuidados como la administración en su lugar de trabajo. Utiliza WhatsApp como su principal canal de comunicación y se siente influenciado por marcas como Lenovo.
 
 ![User Persona](./assets/user-persona-gabriel-lopez.png)
 
 
 ### 2.3.2. User Task Matrix
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+El User Task Matriz presenta las actividades en común que más realizan los usuarios Ana Martinez y Gabriel Lopez. Entre las más importantes se encuentran la supervisión del estado de los adultos mayores, gestión de los cuidados y medicación y la revisión de actividades diarias. Esto sugiere que tienen prioridades similares en su trabajo.
 
 <table>
   <tr>
-    <th>User Task</th>
-    <th>Frequency</th>
-    <th>Importance</th>
-  </tr>
-  <tr>
-    <td>Monitoreo de signos vitales</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Prevención de caídas</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Comunicación con familias</td>
-    <td>USUALMENTE</td>
-    <td>MEDIA</td>
-  </tr>
-  <tr>
-    <td>Gestión de medicación del paciente</td>
-    <td>USUALMENTE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Aseo y cuidado del paciente</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-</table>
-
-
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
-
-<table>
-  <tr>
-    <th>User Task</th>
-    <th colspan="2">Gabriel Lopez</th>
+    <th style="text-align: center;">User Task</th>
+    <th colspan="2" style="text-align: center;">Ana Martinez</th>
+    <th colspan="2" style="text-align: center;">Gabriel Lopez</th>
   </tr>
   <tr>
     <th></th>
-    <th>Frequency</th>
-    <th>Importance</th>
+    <th style="text-align: center;">Frequency</th>
+    <th style="text-align: center;">Importance</th>
+    <th style="text-align: center;">Frequency</th>
+    <th style="text-align: center;">Importance</th>
   </tr>
   <tr>
-    <td>Administrar y coordinar al personal de la casa de reposo</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
+    <td style="text-align: center;">Supervisión del estado de los pacientes</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
   </tr>
   <tr>
-    <td>Revisar y priorizar actividades diarias según su importancia</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
+    <td style="text-align: center;">Comunicación y coordinación con familias de los pacientes</td>
+    <td style="text-align: center;">USUALMENTE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">USUALMENTE</td>
+    <td style="text-align: center;">MEDIA</td>
   </tr>
   <tr>
-    <td>Implementar y evaluar protocolos de atención</td>
-    <td>A VECES</td>
-    <td>MEDIA</td>
+    <td style="text-align: center;">Gestión de cuidados y medicación de los pacientes</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
   </tr>
   <tr>
-    <td>Comunicar información a los familiares</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Monitorear el estado de los pacientes mediante cámaras de seguridad</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
+    <td style="text-align: center;">Revisar y priorizar actividades diarias</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
   </tr>
 </table>
 
+
 ### 2.3.3. User Journey Mapping
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+**User Persona:** Ana Martinez
+
+El User Journey Mapping de Ana Martínez destaca las dificultades que enfrenta a lo largo de su labor diaria. Durante todo el proceso, Ana experimenta una carga significativa debido a la falta de herramientas eficientes que faciliten el monitoreo continuo de los pacientes. Esta situación genera estrés y preocupación constante, especialmente en relación con la prevención de caídas y la precisión en la toma de signos vitales. 
 
 ![User Journey Mapping](./assets/user-journey-mapping-caregiver.png)
 
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+**User Persona:** Gabriel Lopez
+
+El User Journey Mapping de Gabriel López uestra su enfoque en la eficiencia de su personal y la mejora del bienestar de los pacientes. A lo largo de las fases, Gabriel se enfrenta a desafíos como la falta de un protocolo adecuado y la carga de trabajo, pero valora la adopción de nuevas tecnologías para optimizar la atención. Aunque se comunica activamente con los familiares y monitorea a los pacientes mediante cámaras, aún percibe la necesidad de una solución tecnológica que automatice estos procesos, mejorando tanto la atención de los pacientes como la tranquilidad de sus familias y cuidadores.
 
 ![User Journey Mapping](./assets/user-journey-mapping-owner.png)
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+**User Persona:** Ana Martinez
+
+En el mapa de empatía de Ana Martinez, observamos que es una persona profundamente comprometida con la seguridad y bienestar de sus pacientes, pero que se siente frustrada por la falta de herramientas tecnológicas que faciliten su labor. A diario, organiza su trabajo mediante horarios y recordatorios, realiza el monitoreo de signos vitales, y ayuda a los pacientes a evitar caídas, mientras escucha tanto las necesidades de estos como el agradecimiento de sus familias. Aunque enfrenta dificultades para garantizar que los pacientes se movilicen con seguridad, ve en la tecnología una oportunidad para optimizar sus tareas y mejorar la calidad de su trabajo.
 
 ![Empathy Mapping](./assets/empathy-mapping-ana-martinez.png)
 
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+**User Persona:** Gabriel Lopez
+
+En el mapa de empatía de Gabriel Lopez, observamos que está preocupado por cómo gestionar eficientemente la atención de todos sus pacientes y asegurar que todos reciban el cuidado adecuado. Escucha al personal expresar dificultades en el monitoreo y en la atención de los pacientes, así como comentarios sobre la necesidad de mejorar la atención y la comunicación. Observa un entorno con múltiples tareas y una carga de trabajo alta, y nota que las tecnologías pueden ser difíciles de usar para los pacientes. Su objetivo es elevar la calidad del cuidado y aumentar la satisfacción de los pacientes y sus familias.
 
 ![Empathy Mapping](./assets/empathy-mapping-gabriel-lopez.png)
 
 ### 2.3.5. As-is Scenario Mapping
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+**User Persona:** Ana Martinez
+
+Este mapa muestra el flujo de trabajo de Ana Martínez en la actualidad, desde el inicio de su turno hasta la comunicación con las familias. En cada fase, Ana realiza tareas como la revisión de su agenda, monitoreo de signos vitales (pulso, presión arterial y temperatura), ajustes en las posiciones de los pacientes para evitar las caídas y la comunicación constante con sus familias. Sus pensamientos están centrados en la organización y la precisión, mientras que sus emociones varían entre alivio cuando todo está en orden, estrés y preocupación constante por la prevención de caídas.
 
 ![As-Is Scenario Mapping](./assets/asis-scenario-mapping-ana-martinez.jpg)
 
@@ -973,7 +958,9 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 **Blank Areas**
 - Qué tecnologías se pueden emplear para mejorar su trabajo
 
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+**User Persona:** Gabriel Lopez
+
+Este mapa muestra el flujo de trabajo de Gabriel Lopez en la actualidad. Sus principales actividades son la asignación de tareas a su personal, supervición y la comunicación con los familiares de sus pacientes. En cada fase realiza tareas como priorizar las tareas de los cuidadores, supervisión a través de cámaras de seguridad e informar a las familias sobre el estado de los adultos mayores. Sus pensamientos están centrados en la efectividad del cuidado que se brinda en su casa de reposo, mientras que sus emociones varían entre frustración, insatisfacción y preocupación. 
 
 ![As-Is Scenario Mapping](./assets/asis-scenario-mapping-gabriel-lopez.jpg)
 
