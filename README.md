@@ -989,6 +989,9 @@ Este mapa muestra el flujo de trabajo de Gabriel Lopez en la actualidad. Sus pri
 | **Safety Protocol**        | Conjunto de reglas y procedimientos para asegurar la seguridad del adulto mayor. |
 | **Wellness**               | Estado general de salud y bienestar del adulto mayor.                |
 | **Medication Reminders**   | Notificaciones para recordar al adulto mayor que tome sus medicamentos. |
+| **Heart Rate**                   | Frecuencia con la que late el corazón, medida en pulsaciones por minuto (ppm).                     |
+| **Body Temperature**             | Medida de la temperatura corporal, que puede indicar fiebre o infecciones.                          |
+| **Fall Risk**                    | Riesgo de caídas del adulto mayor.     |
 
 
 ---
