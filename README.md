@@ -35,7 +35,7 @@ Trujillo Lopez, Luis Alberto <br>
 | Versión | Fecha | Autor | Descripción de la modificación |
 | ------- | ----- | ----- | ------------------------------ |
 |   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
-
+|   1.1     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
 ---
 
 # Project Report Collaboration Insights
@@ -113,74 +113,156 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.1.3.3. Software Architecture Container Level Diagrams](#4133-software-architecture-container-level-diagrams)
       - [4.1.3..4. Software Architecture Deployment Diagrams](#4134-software-architecture-deployment-diagrams)
   - [4.2. Tactical-Level Domain-Driven Design](#42-tactical-level-domain-driven-design)
-    - [4.2.1. Bounded Context Account:](#421-bounded-context-account)
-      - [4.2.1.1. Domain Layer.](#4211-domain-layer)
-      - [4.2.1.2. Interface Layer.](#4212-interface-layer)
-      - [4.2.1.3. Application Layer.](#4213-application-layer)
-      - [4.2.1.4. Infrastructure Layer.](#4214-infrastructure-layer)
-      - [4.2.1.5. Bounded Context Software Architecture Component Level Diagrams.](#4215-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.1.6. Bounded Context Software Architecture Code Level Diagrams.](#4216-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.1.6.1. Bounded Context Domain Layer Class Diagrams.](#42161-bounded-context-domain-layer-class-diagrams)
-      - [4.2.1.6.2. Bounded Context Database Design Diagram](#42162-bounded-context-database-design-diagram)
-    - [4.2.2. Bounded Context Payment:](#422-bounded-context-payment)
-      - [4.2.2.1. Domain Layer.](#4221-domain-layer)
-      - [4.2.2.2. Interface Layer.](#4222-interface-layer)
-      - [4.2.2.3. Application Layer.](#4223-application-layer)
-      - [4.2.2.4. Infrastructure Layer.](#4224-infrastructure-layer)
-      - [4.2.2.5. Bounded Context Software Architecture Component Level Diagrams.](#4225-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.2.6. Bounded Context Software Architecture Code Level Diagrams.](#4226-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.2.6.1. Bounded Context Domain Layer Class Diagrams.](#42261-bounded-context-domain-layer-class-diagrams)
-      - [4.2.2.6.2. Bounded Context Database Design Diagram.](#42262-bounded-context-database-design-diagram)
-    - [4.2.3. Bounded Context Device:](#423-bounded-context-device)
-      - [4.2.3.1. Domain Layer.](#4231-domain-layer)
-      - [4.2.3.2. Interface Layer.](#4232-interface-layer)
-      - [4.2.3.3. Application Layer.](#4233-application-layer)
-      - [4.2.3.4. Infrastructure Layer.](#4234-infrastructure-layer)
-      - [4.2.3.5. Bounded Context Software Architecture Component Level Diagrams.](#4235-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.3.6. Bounded Context Software Architecture Code Level Diagrams.](#4236-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.3.6.1. Bounded Context Domain Layer Class Diagrams.](#42361-bounded-context-domain-layer-class-diagrams)
-      - [4.2.3.6.2. Bounded Context Database Design Diagram](#42362-bounded-context-database-design-diagram)
-    - [4.2.4. Bounded Context Configuration:](#424-bounded-context-configuration)
-      - [4.2.4.1. Domain Layer.](#4241-domain-layer)
-      - [4.2.4.2. Interface Layer.](#4242-interface-layer)
-      - [4.2.4.3. Application Layer.](#4243-application-layer)
-      - [4.2.4.4. Infrastructure Layer.](#4244-infrastructure-layer)
-      - [4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.](#4245-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.4.6. Bounded Context Software Architecture Code Level Diagrams.](#4246-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.4.6.1. Bounded Context Domain Layer Class Diagrams.](#42461-bounded-context-domain-layer-class-diagrams)
-      - [4.2.4.6.2. Bounded Context Database Design Diagram.](#42462-bounded-context-database-design-diagram)
-    - [4.2.5. Bounded Context Edge:](#425-bounded-context-edge)
-      - [4.2.5.1. Domain Layer.](#4251-domain-layer)
-      - [4.2.5.2. Interface Layer.](#4252-interface-layer)
-      - [4.2.5.3. Application Layer.](#4253-application-layer)
-      - [4.2.5.4. Infrastructure Layer.](#4254-infrastructure-layer)
-    - [4.2.5.5. Bounded Context Software Architecture Component Level Diagrams.](#4255-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.5.6. Bounded Context Software Architecture Code Level Diagrams.](#4256-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.5.6.1. Bounded Context Domain Layer Class Diagrams.](#42561-bounded-context-domain-layer-class-diagrams)
-      - [4.2.5.6.2. Bounded Context Database Design Diagram](#42562-bounded-context-database-design-diagram)
-      - [4.2.6. Bounded Context Metrics:](#426-bounded-context-metrics)
-      - [4.2.6.1. Domain Layer.](#4261-domain-layer)
-      - [4.2.6.2. Interface Layer.](#4262-interface-layer)
-      - [4.2.6.3. Application Layer.](#4263-application-layer)
-      - [4.2.6.4. Infrastructure Layer.](#4264-infrastructure-layer)
-    - [4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.](#4265-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.6.6. Bounded Context Software Architecture Code Level Diagrams.](#4266-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.6.6.1. Bounded Context Domain Layer Class Diagrams.](#42661-bounded-context-domain-layer-class-diagrams)
-      - [4.2.6.6.2. Bounded Context Database Design Diagram.](#42662-bounded-context-database-design-diagram)
-    - [4.2.7. Bounded Context Notification:](#427-bounded-context-notification)
-      - [4.2.7.1. Domain Layer.](#4271-domain-layer)
-      - [4.2.7.2. Interface Layer.](#4272-interface-layer)
-      - [4.2.7.3. Application Layer.](#4273-application-layer)
-      - [4.2.7.4. Infrastructure Layer.](#4274-infrastructure-layer)
-      - [4.2.7.5. Bounded Context Software Architecture Component Level Diagrams.](#4275-bounded-context-software-architecture-component-level-diagrams)
-      - [4.2.7.6. Bounded Context Software Architecture Code Level Diagrams.](#4276-bounded-context-software-architecture-code-level-diagrams)
-      - [4.2.7.6.1. Bounded Context Domain Layer Class Diagrams.](#42761-bounded-context-domain-layer-class-diagrams)
-      - [4.2.7.6.2. Bounded Context Database Design Diagram.](#42762-bounded-context-database-design-diagram)
+  - [4.2.1. Bounded Context: Device Context](#421-bounded-context-device-context)
+    - [4.2.1.1. Domain Layer](#4211-domain-layer)
+      - [Entities](#entities)
+      - [Value Objects](#value-objects)
+      - [Domain Services](#domain-services)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root)
+      - [Repositories (Interfaces)](#repositories-interfaces)
+    - [4.2.1.2. Interface Layer](#4212-interface-layer)
+      - [Controllers](#controllers)
+    - [4.2.1.3. Application Layer](#4213-application-layer)
+      - [Command Handlers](#command-handlers)
+      - [Event Handlers](#event-handlers)
+      - [Query Handlers](#query-handlers)
+    - [4.2.1.4. Infrastructure Layer](#4214-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones)
+    - [4.2.1.6. Bounded Context Software Architecture Component Level Diagrams](#4216-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Edge API):](#components-edge-api)
+    - [4.2.1.7. Bounded Context Software Architecture Code Level Diagrams](#4217-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.1.7.1. Bounded Context Domain Layer Class Diagrams](#42171-bounded-context-domain-layer-class-diagrams)
+      - [4.2.1.7.2. Bounded Context Database Design Diagram](#42172-bounded-context-database-design-diagram)
+  - [4.2.2. Bounded Context: Edge Context](#422-bounded-context-edge-context)
+    - [4.2.2.1. Domain Layer](#4221-domain-layer)
+      - [Entities](#entities-1)
+      - [Value Objects](#value-objects-1)
+      - [Domain Services](#domain-services-1)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root-1)
+      - [Repositories (Interfaces)](#repositories-interfaces-1)
+    - [4.2.2.2. Interface Layer](#4222-interface-layer)
+      - [Controllers](#controllers-1)
+    - [4.2.2.3. Application Layer](#4223-application-layer)
+      - [Command Handlers](#command-handlers-1)
+      - [Event Handlers](#event-handlers-1)
+      - [Query Handlers](#query-handlers-1)
+    - [4.2.2.4. Infrastructure Layer](#4224-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones-1)
+    - [4.2.2.6. Bounded Context Software Architecture Component Level Diagrams](#4226-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Edge API):](#components-edge-api-1)
+    - [4.2.2.7. Bounded Context Software Architecture Code Level Diagrams](#4227-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.2.7.1. Bounded Context Domain Layer Class Diagrams](#42271-bounded-context-domain-layer-class-diagrams)
+      - [4.2.2.7.2. Bounded Context Database Design Diagram](#42272-bounded-context-database-design-diagram)
   - [](#)
+  - [4.2.3. Bounded Context: Notification Context](#423-bounded-context-notification-context)
+    - [4.2.3.1. Domain Layer](#4231-domain-layer)
+      - [Entities](#entities-2)
+      - [Value Objects](#value-objects-2)
+      - [Domain Services](#domain-services-2)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root-2)
+      - [Repositories (Interfaces)](#repositories-interfaces-2)
+    - [4.2.3.2. Interface Layer](#4232-interface-layer)
+      - [Controllers](#controllers-2)
+    - [4.2.3.3. Application Layer](#4233-application-layer)
+      - [Command Handlers](#command-handlers-2)
+      - [Event Handlers](#event-handlers-2)
+      - [Query Handlers](#query-handlers-2)
+    - [4.2.3.4. Infrastructure Layer](#4234-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones-2)
+    - [4.2.3.6. Bounded Context Software Architecture Component Level Diagrams](#4236-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Web API):](#components-web-api)
+    - [4.2.3.7. Bounded Context Software Architecture Code Level Diagrams](#4237-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.3.7.1. Bounded Context Domain Layer Class Diagrams](#42371-bounded-context-domain-layer-class-diagrams)
+      - [4.2.3.7.2. Bounded Context Database Design Diagram](#42372-bounded-context-database-design-diagram)
+  - [](#-1)
+  - [4.2.4. Bounded Context: Metrics Context](#424-bounded-context-metrics-context)
+    - [4.2.4.1. Domain Layer](#4241-domain-layer)
+      - [Entities](#entities-3)
+      - [Value Objects](#value-objects-3)
+      - [Domain Services](#domain-services-3)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root-3)
+      - [Repositories (Interfaces)](#repositories-interfaces-3)
+    - [4.2.4.2. Interface Layer](#4242-interface-layer)
+      - [Controllers](#controllers-3)
+    - [4.2.4.3. Application Layer](#4243-application-layer)
+      - [Command Handlers](#command-handlers-3)
+      - [Event Handlers](#event-handlers-3)
+      - [Query Handlers](#query-handlers-3)
+    - [4.2.4.4. Infrastructure Layer](#4244-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones-3)
+    - [4.2.4.6. Bounded Context Software Architecture Component Level Diagrams](#4246-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Edge API):](#components-edge-api-2)
+    - [4.2.4.7. Bounded Context Software Architecture Code Level Diagrams](#4247-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.4.7.1. Bounded Context Domain Layer Class Diagrams](#42471-bounded-context-domain-layer-class-diagrams)
+      - [4.2.4.7.2. Bounded Context Database Design Diagram](#42472-bounded-context-database-design-diagram)
+  - [4.2.5. Bounded Context: Payment Context](#425-bounded-context-payment-context)
+    - [4.2.5.1. Domain Layer](#4251-domain-layer)
+      - [Entities](#entities-4)
+      - [Value Objects](#value-objects-4)
+      - [Domain Services](#domain-services-4)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root-4)
+      - [Repositories (Interfaces)](#repositories-interfaces-4)
+    - [4.2.5.2. Interface Layer](#4252-interface-layer)
+      - [Controllers](#controllers-4)
+    - [4.2.5.3. Application Layer](#4253-application-layer)
+      - [Command Handlers](#command-handlers-4)
+      - [Event Handlers](#event-handlers-4)
+      - [Query Handlers](#query-handlers-4)
+    - [4.2.5.4. Infrastructure Layer](#4254-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones-4)
+    - [4.2.5.6. Bounded Context Software Architecture Component Level Diagrams](#4256-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Web API):](#components-web-api-1)
+    - [4.2.5.7. Bounded Context Software Architecture Code Level Diagrams](#4257-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.5.7.1. Bounded Context Domain Layer Class Diagrams](#42571-bounded-context-domain-layer-class-diagrams)
+      - [4.2.5.7.2. Bounded Context Database Design Diagram](#42572-bounded-context-database-design-diagram)
+  - [](#-2)
+  - [4.2.6. Bounded Context: Configuration Context](#426-bounded-context-configuration-context)
+    - [4.2.6.1. Domain Layer](#4261-domain-layer)
+      - [Entities](#entities-5)
+      - [Value Objects](#value-objects-5)
+      - [Domain Services](#domain-services-5)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root-5)
+      - [Repositories (Interfaces)](#repositories-interfaces-5)
+    - [4.2.6.2. Interface Layer](#4262-interface-layer)
+      - [Controllers](#controllers-5)
+    - [4.2.6.3. Application Layer](#4263-application-layer)
+      - [Command Handlers](#command-handlers-5)
+      - [Event Handlers](#event-handlers-5)
+      - [Query Handlers](#query-handlers-5)
+    - [4.2.6.4. Infrastructure Layer](#4264-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones-5)
+    - [4.2.6.6. Bounded Context Software Architecture Component Level Diagrams](#4266-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Edge API):](#components-edge-api-3)
+    - [4.2.6.7. Bounded Context Software Architecture Code Level Diagrams](#4267-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.6.7.1. Bounded Context Domain Layer Class Diagrams](#42671-bounded-context-domain-layer-class-diagrams)
+      - [4.2.6.7.2. Bounded Context Database Design Diagram](#42672-bounded-context-database-design-diagram)
+  - [4.2.7. Bounded Context: Account Context](#427-bounded-context-account-context)
+    - [4.2.7.1. Domain Layer](#4271-domain-layer)
+      - [Entities](#entities-6)
+      - [Value Objects](#value-objects-6)
+      - [Domain Services](#domain-services-6)
+      - [Aggregates y Aggregate Root](#aggregates-y-aggregate-root-6)
+      - [Repositories (Interfaces)](#repositories-interfaces-6)
+    - [4.2.7.2. Interface Layer](#4272-interface-layer)
+      - [Controllers](#controllers-6)
+    - [4.2.7.3. Application Layer](#4273-application-layer)
+      - [Command Handlers](#command-handlers-6)
+      - [Event Handlers](#event-handlers-6)
+      - [Query Handlers](#query-handlers-6)
+    - [4.2.7.4. Infrastructure Layer](#4274-infrastructure-layer)
+      - [Repositories (Implementaciones)](#repositories-implementaciones-6)
+    - [4.2.7.6. Bounded Context Software Architecture Component Level Diagrams](#4276-bounded-context-software-architecture-component-level-diagrams)
+      - [Components (Web API):](#components-web-api-2)
+    - [4.2.7.7. Bounded Context Software Architecture Code Level Diagrams](#4277-bounded-context-software-architecture-code-level-diagrams)
+      - [4.2.7.7.1. Bounded Context Domain Layer Class Diagrams](#42771-bounded-context-domain-layer-class-diagrams)
+      - [4.2.7.7.2. Bounded Context Database Design Diagram](#42772-bounded-context-database-design-diagram)
+  - [](#-3)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
   - [Videos de Exposición](#videos-de-exposición)
+  - [Diagrama C4 MIAM](#diagrama-c4-miam)
+
 
   
 ---
@@ -239,6 +321,12 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
             <b>Carrera:</b> Ingenieria de Software <br>
         <b>Descripcion:</b> Soy un estudiante de Ingeniería de Software interesado en las tecnologías de aprendizaje autónomo. Me gusta desarrollar en un entorno web páginas que se vean llamativas y que tengan múltiples funcionalidades enfocándome en la experiencia del usuario y en la creación de API’s. Poseo algunas habilidades que me permiten relacionarme en equipo, soy una persona responsable, con un enfoque centrado, comunicación asertiva, liderazgo y adaptabilidad. Mi meta es contribuir en el desarrollo de proyectos que me permitan mejorar y encontrar nuevas habilidades para adquirir mayores conocimientos laboral y profesionalmente.
         <td><img src="./assets/Luis-Trujillo.png" alt="Luis Trujillo" width="600"></td>
+    </tr>
+    <tr>
+        <td><b>Nombre:</b> Sagastegui Rodriguez, Luis Jesus<br>
+            <b>Carrera:</b> Ingenieria de Software <br>
+        <b>Descripcion:</b> Soy un estudiante de la carrera de ingenieria de Software y me apasiona mucho lo que hago. Siempre estoy interesado en aprender nuevas tecnologias y lenguajes de programacion. Me gusta ver proyectos de las demas personas y poder compartir ideas. Me considero una persona responsable y muy amable que siempre le gusta ayudar a las demas personas. Siempre trato de dar lo mejor de mi para poder destacar.
+           <td><img src="./assets/Jesus-Sagastegui.jpg" alt="Luis Trujillo" width="600"></td>
     </tr>
    <table>
 
@@ -407,9 +495,9 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 | Nombre del Competidor | Descripción |
 | :-------------------: | :---------- |
-| Life Alert | Life Alert es una de las marcas más reconocidas en sistemas de alerta médica, famosa por su eslogan “¡He caído y no puedo levantarme!”. Ofrece sistemas de emergencia diseñados para ayudar a personas mayores a solicitar asistencia rápidamente. Su principal dispositivo es un botón de emergencia que puede usarse en el hogar o fuera de él, enviando alertas a un centro de monitoreo disponible las 24 horas del día. |
-| MobileHelp | MobileHelp es un proveedor líder de sistemas de alerta médica que ofrece dispositivos portátiles y basados en el hogar para personas mayores. Sus dispositivos están diseñados para alertar a los servicios de emergencia en caso de una caída u otro incidente. Además de las soluciones de emergencia en el hogar, MobileHelp destaca por su cobertura fuera de casa gracias a su integración con redes móviles, lo que ofrece a los usuarios mayor independencia y movilidad. |
-| CarePredict | CarePredict es una empresa tecnológica que se enfoca en el monitoreo preventivo para adultos mayores. Utiliza dispositivos portátiles equipados con sensores para rastrear patrones de comportamiento y signos vitales. A través de la inteligencia artificial, CarePredict predice posibles problemas de salud antes de que ocurran, como caídas o infecciones, y permite la intervención proactiva de cuidadores y familiares. |
+| Life Alert ![](https://www.seniorliving.org/app/uploads/2019/01/Life-Alert-Logo.png) https://www.lifealert.com/ | Life Alert es una de las marcas más reconocidas en sistemas de alerta médica, famosa por su eslogan “¡He caído y no puedo levantarme!”. Ofrece sistemas de emergencia diseñados para ayudar a personas mayores a solicitar asistencia rápidamente. Su principal dispositivo es un botón de emergencia que puede usarse en el hogar o fuera de él, enviando alertas a un centro de monitoreo disponible las 24 horas del día. |
+| MobileHelp ![](https://mma.prnewswire.com/media/782992/MobileHelp_Logo.jpg?p=facebook) https://www.mobilehelp.com/  | MobileHelp es un proveedor líder de sistemas de alerta médica que ofrece dispositivos portátiles y basados en el hogar para personas mayores. Sus dispositivos están diseñados para alertar a los servicios de emergencia en caso de una caída u otro incidente. Además de las soluciones de emergencia en el hogar, MobileHelp destaca por su cobertura fuera de casa gracias a su integración con redes móviles, lo que ofrece a los usuarios mayor independencia y movilidad. |
+| CarePredict ![](https://mma.prnewswire.com/media/1217082/CarePredict_Logo.jpg?p=facebook) https://www.carepredict.com/  | CarePredict es una empresa tecnológica que se enfoca en el monitoreo preventivo para adultos mayores. Utiliza dispositivos portátiles equipados con sensores para rastrear patrones de comportamiento y signos vitales. A través de la inteligencia artificial, CarePredict predice posibles problemas de salud antes de que ocurran, como caídas o infecciones, y permite la intervención proactiva de cuidadores y familiares. |
 
 ### 2.1.1. Análisis competitivo
 
@@ -426,21 +514,28 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
   <tr>
     <td colspan="3">Competidores</td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        MIAM
+        MIAM 
+        <img src="assets/MIAM-Logov1.png" alt="Logo" class="logo-img">
         <div style="text-align: center; margin-top: 10px;">
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center">
-        Life Alert
+        Life Alert 
+        <img src="assets/Life-Alert.png" alt="Logo" class="logo-img">
+        https://www.lifealert.com/ 
         <div style="text-align: center; margin-top: 10px;">
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
         Carepredict
+        <img src="assets/CarePredict.jpg" alt="Logo" class="logo-img">
+        https://www.mobilehelp.com/
         <div style="text-align: center; margin-top: 10px;">
         </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;text-align: center" >
         MobileHelp
+        <img src="assets/MobileHelp.jpg" alt="Logo" class="logo-img">
+        https://www.carepredict.com/ 
         <div style="text-align: center; margin-top: 10px;">
         </div>
     </td>
@@ -908,113 +1003,98 @@ Compara el uso de celulares Android frente a iOS entre los dueños de casas de r
 
 **Segmento 1:** Cuidadores de adultos mayores (Caregivers)
 
+Ana Martinez es una enfermera de 32 años que trabaja en Lima, Perú, especializada en el cuidado de adultos mayores. Ella es una cuidadora comprometida que se siente motivada por el bienestar y la seguridad de sus pacientes, y siempre busca ofrecer el mejor servicio posible. Su enfoque está en mejorar la eficiencia en el cuidado de sus pacientes, a pesar de enfrentar desafíos como las caídas y la falta de tecnología para facilitar su trabajo. A Ana le interesa incorporar nuevas tecnologías en su rutina para monitorear signos vitales de manera más eficiente y se siente frustrada por la dependencia de métodos manuales. Utiliza canales de comunicación como WhatsApp e Instagram para conectarse con los demás y sigue marcas tecnológicas como Xiaomi.
+
 ![User Persona](./assets/user-persona-ana-martinez.png)
 
 **Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+
+Gabriel Lopez es un enfermero de 40 años que dirige una casa de reposo para adultos mayores en Lima, Perú. Como dueño y administrador, su principal objetivo es mejorar la eficiencia en la atención a los pacientes a través de un sistema que le permita gestionar el estado de estos de manera más efectiva. Aunque tiene una amplia experiencia en la gestión de personal y pacientes, uno de sus mayores retos es atender a todos sus pacientes simultáneamente, especialmente durante los momentos de mayor actividad. Gabriel valora profundamente la tecnología y busca constantemente formas de integrarla para optimizar tanto la calidad de los cuidados como la administración en su lugar de trabajo. Utiliza WhatsApp como su principal canal de comunicación y se siente influenciado por marcas como Lenovo.
 
 ![User Persona](./assets/user-persona-gabriel-lopez.png)
 
 
 ### 2.3.2. User Task Matrix
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+El User Task Matriz presenta las actividades en común que más realizan los usuarios Ana Martinez y Gabriel Lopez. Entre las más importantes se encuentran la supervisión del estado de los adultos mayores, gestión de los cuidados y medicación y la revisión de actividades diarias. Esto sugiere que tienen prioridades similares en su trabajo.
 
 <table>
   <tr>
-    <th>User Task</th>
-    <th>Frequency</th>
-    <th>Importance</th>
-  </tr>
-  <tr>
-    <td>Monitoreo de signos vitales</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Prevención de caídas</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Comunicación con familias</td>
-    <td>USUALMENTE</td>
-    <td>MEDIA</td>
-  </tr>
-  <tr>
-    <td>Gestión de medicación del paciente</td>
-    <td>USUALMENTE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Aseo y cuidado del paciente</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-</table>
-
-
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
-
-<table>
-  <tr>
-    <th>User Task</th>
-    <th colspan="2">Gabriel Lopez</th>
+    <th style="text-align: center;">User Task</th>
+    <th colspan="2" style="text-align: center;">Ana Martinez</th>
+    <th colspan="2" style="text-align: center;">Gabriel Lopez</th>
   </tr>
   <tr>
     <th></th>
-    <th>Frequency</th>
-    <th>Importance</th>
+    <th style="text-align: center;">Frequency</th>
+    <th style="text-align: center;">Importance</th>
+    <th style="text-align: center;">Frequency</th>
+    <th style="text-align: center;">Importance</th>
   </tr>
   <tr>
-    <td>Administrar y coordinar al personal de la casa de reposo</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
+    <td style="text-align: center;">Supervisión del estado de los pacientes</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
   </tr>
   <tr>
-    <td>Revisar y priorizar actividades diarias según su importancia</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
+    <td style="text-align: center;">Comunicación y coordinación con familias de los pacientes</td>
+    <td style="text-align: center;">USUALMENTE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">USUALMENTE</td>
+    <td style="text-align: center;">MEDIA</td>
   </tr>
   <tr>
-    <td>Implementar y evaluar protocolos de atención</td>
-    <td>A VECES</td>
-    <td>MEDIA</td>
+    <td style="text-align: center;">Gestión de cuidados y medicación de los pacientes</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
   </tr>
   <tr>
-    <td>Comunicar información a los familiares</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
-  </tr>
-  <tr>
-    <td>Monitorear el estado de los pacientes mediante cámaras de seguridad</td>
-    <td>SIEMPRE</td>
-    <td>ALTA</td>
+    <td style="text-align: center;">Revisar y priorizar actividades diarias</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
+    <td style="text-align: center;">SIEMPRE</td>
+    <td style="text-align: center;">ALTA</td>
   </tr>
 </table>
 
+
 ### 2.3.3. User Journey Mapping
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+**User Persona:** Ana Martinez
+
+El User Journey Mapping de Ana Martínez destaca las dificultades que enfrenta a lo largo de su labor diaria. Durante todo el proceso, Ana experimenta una carga significativa debido a la falta de herramientas eficientes que faciliten el monitoreo continuo de los pacientes. Esta situación genera estrés y preocupación constante, especialmente en relación con la prevención de caídas y la precisión en la toma de signos vitales. 
 
 ![User Journey Mapping](./assets/user-journey-mapping-caregiver.png)
 
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+**User Persona:** Gabriel Lopez
+
+El User Journey Mapping de Gabriel López uestra su enfoque en la eficiencia de su personal y la mejora del bienestar de los pacientes. A lo largo de las fases, Gabriel se enfrenta a desafíos como la falta de un protocolo adecuado y la carga de trabajo, pero valora la adopción de nuevas tecnologías para optimizar la atención. Aunque se comunica activamente con los familiares y monitorea a los pacientes mediante cámaras, aún percibe la necesidad de una solución tecnológica que automatice estos procesos, mejorando tanto la atención de los pacientes como la tranquilidad de sus familias y cuidadores.
 
 ![User Journey Mapping](./assets/user-journey-mapping-owner.png)
 
 ### 2.3.4. Empathy Mapping
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+**User Persona:** Ana Martinez
+
+En el mapa de empatía de Ana Martinez, observamos que es una persona profundamente comprometida con la seguridad y bienestar de sus pacientes, pero que se siente frustrada por la falta de herramientas tecnológicas que faciliten su labor. A diario, organiza su trabajo mediante horarios y recordatorios, realiza el monitoreo de signos vitales, y ayuda a los pacientes a evitar caídas, mientras escucha tanto las necesidades de estos como el agradecimiento de sus familias. Aunque enfrenta dificultades para garantizar que los pacientes se movilicen con seguridad, ve en la tecnología una oportunidad para optimizar sus tareas y mejorar la calidad de su trabajo.
 
 ![Empathy Mapping](./assets/empathy-mapping-ana-martinez.png)
 
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+**User Persona:** Gabriel Lopez
+
+En el mapa de empatía de Gabriel Lopez, observamos que está preocupado por cómo gestionar eficientemente la atención de todos sus pacientes y asegurar que todos reciban el cuidado adecuado. Escucha al personal expresar dificultades en el monitoreo y en la atención de los pacientes, así como comentarios sobre la necesidad de mejorar la atención y la comunicación. Observa un entorno con múltiples tareas y una carga de trabajo alta, y nota que las tecnologías pueden ser difíciles de usar para los pacientes. Su objetivo es elevar la calidad del cuidado y aumentar la satisfacción de los pacientes y sus familias.
 
 ![Empathy Mapping](./assets/empathy-mapping-gabriel-lopez.png)
 
 ### 2.3.5. As-is Scenario Mapping
 
-**Segmento 1:** Cuidadores de adultos mayores (Caregivers)
+**User Persona:** Ana Martinez
+
+Este mapa muestra el flujo de trabajo de Ana Martínez en la actualidad, desde el inicio de su turno hasta la comunicación con las familias. En cada fase, Ana realiza tareas como la revisión de su agenda, monitoreo de signos vitales (pulso, presión arterial y temperatura), ajustes en las posiciones de los pacientes para evitar las caídas y la comunicación constante con sus familias. Sus pensamientos están centrados en la organización y la precisión, mientras que sus emociones varían entre alivio cuando todo está en orden, estrés y preocupación constante por la prevención de caídas.
 
 ![As-Is Scenario Mapping](./assets/asis-scenario-mapping-ana-martinez.jpg)
 
@@ -1030,7 +1110,9 @@ Compara el uso de celulares Android frente a iOS entre los dueños de casas de r
 **Blank Areas**
 - Qué tecnologías se pueden emplear para mejorar su trabajo
 
-**Segmento 2:** Dueños de casas de reposo (Nursing Home Owners)
+**User Persona:** Gabriel Lopez
+
+Este mapa muestra el flujo de trabajo de Gabriel Lopez en la actualidad. Sus principales actividades son la asignación de tareas a su personal, supervición y la comunicación con los familiares de sus pacientes. En cada fase realiza tareas como priorizar las tareas de los cuidadores, supervisión a través de cámaras de seguridad e informar a las familias sobre el estado de los adultos mayores. Sus pensamientos están centrados en la efectividad del cuidado que se brinda en su casa de reposo, mientras que sus emociones varían entre frustración, insatisfacción y preocupación. 
 
 ![As-Is Scenario Mapping](./assets/asis-scenario-mapping-gabriel-lopez.jpg)
 
@@ -1059,6 +1141,9 @@ Compara el uso de celulares Android frente a iOS entre los dueños de casas de r
 | **Safety Protocol**        | Conjunto de reglas y procedimientos para asegurar la seguridad del adulto mayor. |
 | **Wellness**               | Estado general de salud y bienestar del adulto mayor.                |
 | **Medication Reminders**   | Notificaciones para recordar al adulto mayor que tome sus medicamentos. |
+| **Heart Rate**                   | Frecuencia con la que late el corazón, medida en pulsaciones por minuto (ppm).                     |
+| **Body Temperature**             | Medida de la temperatura corporal, que puede indicar fiebre o infecciones.                          |
+| **Fall Risk**                    | Riesgo de caídas del adulto mayor.     |
 
 
 ---
@@ -1302,500 +1387,1560 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 ![Context Diagram](./assets/context-diagram.png)
 
 #### 4.1.3.3. Software Architecture Container Level Diagrams
+En este apartado se presenta un diagrama con una una visión detallada de la arquitectura interna de MIAM, mostrando cómo se organiza el sistema en diferentes contenedores que manejan distintas responsabilidades. Los servicios externos de Google API y Paypal aseguran una experiencia de usuario fluida y segura para la creación de cuentas y la realización de pagos, integrándose perfectamente con la arquitectura del sistema.
 
-![Container Diagram](./assets/container-diagram.PNG)
+**Contenedores Principales del Sistema MIAM:**
+
+- Web Application: Proporciona el contenido estático y sirve como punto de entrada para la Single-Page Application (SPA). Permite a los usuarios ver información relevante y realizar acciones en la plataforma a través del navegador web.
+- Single-Page Application (SPA): Permite a los usuarios visualizar alertas, información de salud y configurar dispositivos. Es la interfaz interactiva principal que se ejecuta en el navegador del usuario.
+- Mobile Application: Ofrece una versión adaptada de la funcionalidad de la SPA en dispositivos móviles, permitiendo a los usuarios visualizar alertas e información de salud de manera cómoda en sus teléfonos móviles.
+- Web API: Maneja las solicitudes de las aplicaciones web y móviles. Proporciona acceso a la lógica de negocio y los datos, actuando como intermediario entre el frontend y las bases de datos en la nube.
+- Edge API: Interactúa directamente con los dispositivos IoT y gestiona el almacenamiento de datos locales. Este contenedor está diseñado para operar en el entorno local del centro de cuidadores, reduciendo la latencia y permitiendo respuestas rápidas.
+- IoT Application: Gestiona la comunicación y la recopilación de datos desde dispositivos IoT, como pulseras inteligentes utilizadas por los pacientes.
+- Flash Memory Database: Almacena datos localmente en el entorno de Edge API para acceso rápido y sin conexión, asegurando la continuidad del servicio incluso en caso de problemas de conectividad.
+- Cloud Database: Almacena los datos de la aplicación en la nube. Actúa como el repositorio principal para toda la información relevante de la aplicación.
+
+![Container Diagram](./assets/structurizr-95614-ContainerView.png)
 
 #### 4.1.3..4. Software Architecture Deployment Diagrams
-
-![Deployment Diagram](./assets/deployment.png)
+La Web Application se despliega en el Cloud Web Server y entrega el contenido estático al User's Web Browser, que ejecuta la Single-Page Application.
+La Mobile Application y la Single-Page Application consultan la Web API para obtener datos y ejecutar lógica de negocio.
+La Web API se comunica con la Cloud Database para almacenar y recuperar datos.
+La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Flash Memory Database para gestionar datos en tiempo real y almacenamiento local.
+![Deployment Diagram](./assets/structurizr-95614-DeploymentView.png)
 
 ## 4.2. Tactical-Level Domain-Driven Design
 
-### 4.2.1. Bounded Context Account: 
+## 4.2.1. Bounded Context: Device Context
 
-El contexto Account se encarga de gestionar el acceso de los usuarios al sistema de monitoreo, incluyendo el registro, inicio de sesión, verificación de cuentas y la actualización de suscripciones. Además, permite la gestión de acceso para cuidadores y familiares con diferentes roles y permisos.
+### 4.2.1.1. Domain Layer
 
-#### 4.2.1.1. Domain Layer. 
+#### Entities
 
-- **Entities:**
-  - **User:** Representa a un usuario registrado en el sistema.
-  - **Account:** Contiene la información de la cuenta, como el correo electrónico, nombre, y detalles de suscripción.
-  - **Role:** Define los roles asociados a cada cuenta (cuidador, familiar, administrador).
-- **Value Objects:**
-  - **Email:** Dirección de correo del usuario.
-  - **Password:** Contraseña cifrada del usuario.
-  - **Subscription:** Detalles del plan de suscripción del usuario.
-- **Aggregates:**
-  - **AccountAggregate:** Encapsula las entidades User y Account, gestionando la lógica de acceso y actualización de cuentas.
+1. **Device:**
+   - **Descripción:** Representa un dispositivo IoT en el sistema, el cual recopila datos de salud y permite la comunicación con la infraestructura de borde.
+   - **Atributos:**
+     - `id`: Identificador único del dispositivo.
+     - `model`: Modelo del dispositivo.
+     - `status`: Estado actual del dispositivo (activo, inactivo).
+     - `heartRate`: Frecuencia cardíaca registrada por el dispositivo.
+     - `temperature`: Temperatura registrada por el dispositivo.
+     - `location`: Ubicación actual del dispositivo.
+
+2. **IoTBand:**
+   - **Descripción:** Representa la banda IoT que se usa en el dispositivo para recopilar y transmitir datos de salud.
+   - **Atributos:**
+     - `id`: Identificador único de la banda.
+     - `firmwareVersion`: Versión del firmware de la banda.
+     - `status`: Estado actual de la banda (operativa, no operativa).
+
+3. **Configuration:**
+   - **Descripción:** Almacena las configuraciones específicas de un dispositivo IoT, como umbrales de alertas y parámetros de monitoreo.
+   - **Atributos:**
+     - `id`: Identificador único de la configuración.
+     - `configName`: Nombre de la configuración.
+     - `value`: Valor de la configuración.
+     - `Device_id`: Referencia al dispositivo al que pertenece la configuración.
+
+#### Value Objects
+
+1. **DeviceStatus:**
+   - **Descripción:** Objeto de valor que representa el estado de un dispositivo. Asegura que el estado cumpla con ciertas reglas de negocio (por ejemplo, solo valores como 'activo' o 'inactivo').
+   - **Atributos:**
+     - `status`: Estado del dispositivo (activo, inactivo, mantenimiento).
+
+#### Domain Services
+
+1. **DeviceDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con los dispositivos, como el cambio de estado y la verificación de configuraciones.
+   - **Métodos:**
+     - `updateDeviceStatus(Device device, String status)`: Actualiza el estado del dispositivo después de validar que es un estado permitido.
+
+#### Aggregates y Aggregate Root
+
+1. **DeviceAggregateRoot:**
+   - **Justificación:** `Device` es el aggregate root que controla la consistencia y la lógica de negocio de los dispositivos y sus configuraciones. Asegura que las configuraciones aplicadas a un dispositivo sean válidas y consistentes.
+
+#### Repositories (Interfaces)
+
+1. **DeviceRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de dispositivos.
+   - **Métodos:**
+     - `findById(String id)`: Busca un dispositivo por su ID.
+     - `save(Device device)`: Guarda o actualiza un dispositivo en la base de datos.
+     - `delete(String id)`: Elimina un dispositivo de la base de datos.
+
+2. **IoTBandRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de bandas IoT.
+   - **Métodos:**
+     - `findById(String id)`: Busca una banda por su ID.
+     - `save(IoTBand band)`: Guarda o actualiza una banda en la base de datos.
+     - `delete(String id)`: Elimina una banda de la base de datos.
+
+3. **ConfigurationRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de configuraciones.
+   - **Métodos:**
+     - `findById(String id)`: Busca una configuración por su ID.
+     - `save(Configuration config)`: Guarda o actualiza una configuración en la base de datos.
+     - `delete(String id)`: Elimina una configuración de la base de datos.
+
+### 4.2.1.2. Interface Layer
+
+#### Controllers
+
+1. **DeviceController:**
+   - **Descripción:** Expone endpoints para la gestión de dispositivos, incluyendo la creación, actualización y recuperación de dispositivos.
+   - **Métodos:**
+     - `registerDevice(Device device)`: Endpoint para registrar un nuevo dispositivo.
+     - `updateDeviceStatus(String id, String status)`: Endpoint para actualizar el estado de un dispositivo.
+     - `getDeviceById(String id)`: Endpoint para obtener los detalles de un dispositivo por su ID.
+
+2. **IoTBandController:**
+   - **Descripción:** Controlador que gestiona las bandas IoT, permitiendo su registro, actualización y consulta.
+   - **Métodos:**
+     - `registerIoTBand(IoTBand band)`: Endpoint para registrar una nueva banda IoT.
+     - `updateIoTBand(String id, IoTBand band)`: Endpoint para actualizar una banda IoT.
+     - `getIoTBandById(String id)`: Endpoint para obtener los detalles de una banda por su ID.
+
+3. **ConfigurationController:**
+   - **Descripción:** Controlador que gestiona las configuraciones de dispositivos, permitiendo su creación, actualización y consulta.
+   - **Métodos:**
+     - `createConfiguration(Configuration configuration)`: Endpoint para crear una nueva configuración.
+     - `updateConfiguration(Configuration configuration)`: Endpoint para actualizar una configuración.
+     - `getConfigurationById(String id)`: Endpoint para obtener los detalles de una configuración por su ID.
+
+### 4.2.1.3. Application Layer
+
+#### Command Handlers
+
+1. **UpdateDeviceStatusHandler:**
+   - **Descripción:** Maneja el comando que actualiza el estado de un dispositivo específico.
+   - **Métodos:**
+     - `handle(UpdateDeviceStatusCommand command)`: Valida y aplica el comando para actualizar el estado de un dispositivo.
+
+2. **RegisterIoTBandHandler:**
+   - **Descripción:** Maneja el comando para registrar una nueva banda IoT en el sistema.
+   - **Métodos:**
+     - `handle(RegisterIoTBandCommand command)`: Valida y registra una nueva banda IoT en el sistema.
+
+3. **UpdateConfigurationHandler:**
+   - **Descripción:** Maneja el comando para actualizar la configuración de un dispositivo específico.
+   - **Métodos:**
+     - `handle(UpdateConfigurationCommand command)`: Valida y aplica el comando para actualizar la configuración de un dispositivo.
+
+#### Event Handlers
+
+1. **DeviceUpdatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando un dispositivo es actualizado, asegurando que cualquier cambio sea procesado adecuadamente.
+   - **Métodos:**
+     - `handle(DeviceUpdatedEvent event)`: Procesa las acciones necesarias después de que un dispositivo ha sido actualizado.
+
+2. **IoTBandRegisteredEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se registra una nueva banda IoT, realizando tareas de inicialización.
+   - **Métodos:**
+     - `handle(IoTBandRegisteredEvent event)`: Ejecuta las acciones necesarias después del registro de una nueva banda IoT.
+
+#### Query Handlers
+
+1. **GetDeviceDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un dispositivo específico.
+   - **Métodos:**
+     - `handle(GetDeviceDetailsQuery query)`: Devuelve los detalles del dispositivo solicitado.
+
+2. **GetIoTBandDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una banda IoT específica.
+   - **Métodos:**
+     - `handle(GetIoTBandDetailsQuery query)`: Devuelve los detalles de la banda solicitada.
+
+3. **GetConfigurationDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una configuración específica.
+   - **Métodos:**
+     - `handle(GetConfigurationDetailsQuery query)`: Devuelve los detalles de la configuración solicitada.
+
+### 4.2.1.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **DeviceRepositoryImpl:**
+   - **Descripción:** Implementación de `DeviceRepository` que define cómo se almacenan y recuperan los dispositivos desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un dispositivo por su ID.
+     - `save(Device device)`: Implementación para guardar o actualizar un dispositivo en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un dispositivo de la base de datos.
+
+2. **IoTBandRepositoryImpl:**
+   - **Descripción:** Implementación de `IoTBandRepository` que define cómo se almacenan y recuperan las bandas IoT desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una banda por su ID.
+     - `save(IoTBand band)`: Implementación para guardar o actualizar una banda en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una banda de la base de datos.
+
+3. **ConfigurationRepositoryImpl:**
+   - **Descripción:** Implementación de `ConfigurationRepository` que define cómo se almacenan y recuperan las configuraciones desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una configuración por su ID.
+     - `save(Configuration config)`: Implementación para guardar o actualizar una configuración en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una configuración de la base de datos.
+
+### 4.2.1.6. Bounded Context Software Architecture Component Level Diagrams
+
+#### Components (Edge API):
+
+1. **DeviceService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de dispositivos. Interactúa con el `DeviceRepository` para registrar y actualizar dispositivos.
+
+2. **IoTBandService Component:**
+   - **Descripción:** Componente encargado de la gestión de bandas IoT. Interactúa con el `IoTBandRepository` para gestionar el registro y la actualización de bandas.
+
+3. **ConfigurationService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de configuraciones. Interactúa con el `ConfigurationRepository` para registrar y actualizar configuraciones.
+
+![alt text](assets/structurizr-95614-DeviceContext.png)
+
+### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams
+
+- **Clases importantes:**
+  - `Device`
+  - `IoTBand`
+  - `Configuration`
+
 - **Repositories:**
-  - **UserRepository:** Almacena y recupera información de los usuarios.
-  - **AccountRepository:** Almacena y recupera la información relacionada con las cuentas y sus suscripciones.
-- **Domain Services:**
-  - **AccountManagementService:** Gestiona la lógica de registro, autenticación y actualización de cuentas de usuario.
-  - **RoleAssignmentService:** Gestiona la asignación de roles y permisos a los usuarios.
+  - `DeviceRepository`
+  - `IoTBandRepository`
+  - `ConfigurationRepository`
 
-#### 4.2.1.2. Interface Layer. 
+  ![alt text](assets/device-class.png)
 
-- **API Endpoints:**
-  - **POST /accounts/register:** Registra un nuevo usuario.
-  - **POST /accounts/login:** Autentica un usuario en el sistema.
-  - **GET /accounts/{id}:** Obtiene la información de una cuenta específica.
-- **DTOs:**
-  - **UserDTO:** Contiene información del usuario (ID, nombre, correo electrónico).
-  - **AccountDTO:** Incluye detalles sobre la cuenta, como suscripción y roles asignados.
-- **Controllers:**
-  - **AccountController:** Gestiona las solicitudes relacionadas con el acceso y actualización de cuentas.
-  - **RoleController:** Gestiona las solicitudes relacionadas con la asignación de roles.
+#### 4.2.1.7.2. Bounded Context Database Design Diagram
 
-#### 4.2.1.3. Application Layer. 
+- **Tablas:**
+  - **Device:**
+    - Columnas: `id`, `model`, `status`, `Patient_id`.
+    - Llave Foránea: `Patient_id`.
+  - **IoTBand:**
+    - Columnas: `id`, `firmwareVersion`, `status`.
+  - **Configuration:**
+    - Columnas: `id`, `configName`, `value`, `Device_id`.
+    - Llave Foránea: `Device_id`.
 
-- **Application Services:**
-  - **AccountApplicationService:** Gestiona la lógica de negocio para el manejo de cuentas de usuario.
-  - **RoleApplicationService:** Gestiona la lógica de roles y permisos.
-- **Commands/Queries:**
-  - **RegisterUserCommand:** Comando para registrar un nuevo usuario.
-  - **LoginUserCommand:** Comando para autenticar un usuario.
-  - **AssignRoleCommand:** Comando para asignar un rol a un usuario.
-- **Command Handlers:**
-  - **RegisterUserHandler:** Maneja el comando de registro de usuarios.
-  - **LoginUserHandler:** Maneja el comando de autenticación.
-  - **AssignRoleHandler:** Maneja el comando de asignación de roles.
+![alt text](assets/diagram-db.png)
 
-#### 4.2.1.4. Infrastructure Layer. 
+- **Relaciones:**
+  - `Configuration` se relaciona con `Device` a través de `Device_id`.
+  - `Device` puede tener varias configuraciones asociadas.
 
-- **Repository Implementation:**
-  - **UserSQLRepository:** Implementación de UserRepository usando SQL.
-  - **AccountSQLRepository:** Implementación de AccountRepository en SQL.
-- **External Services:**
-  - Integración con servicios de autenticación y autorización externos.
-- **Factories:**
-  - **AccountFactory:** Crea instancias de la entidad Account y sus agregados.
-- **ORM / Database Access:**
-  - Utiliza un ORM como Hibernate para mapear las entidades a la base de datos.
+---
 
-#### 4.2.1.5. Bounded Context Software Architecture Component Level Diagrams. 
+## 4.2.2. Bounded Context: Edge Context
 
-- **Componentes:**
-  - User
-  - Account
-  - Role
-  - Subscription
+### 4.2.2.1. Domain Layer
 
-#### 4.2.1.6. Bounded Context Software Architecture Code Level Diagrams. 
+#### Entities
 
-#### 4.2.1.6.1. Bounded Context Domain Layer Class Diagrams. 
+1. **Metrics:**
+   - **Descripción:** Representa los datos de salud recopilados por un dispositivo, incluyendo frecuencia cardíaca y temperatura.
+   - **Atributos:**
+     - `id`: Identificador único de las métricas.
+     - `averageHeartRate`: Frecuencia cardíaca promedio registrada.
+     - `averageTemperature`: Temperatura promedio registrada.
+     - `alertsGenerated`: Número de alertas generadas basadas en las métricas.
 
-#### 4.2.1.6.2. Bounded Context Database Design Diagram
+2. **Patient:**
+   - **Descripción:** Representa al paciente al que se le realiza el monitoreo de salud a través del dispositivo IoT.
+   - **Atributos:**
+     - `id`: Identificador único del paciente.
+     - `name`: Nombre del paciente.
+     - `age`: Edad del paciente.
+     - `address`: Dirección del paciente.
+     - `emergencyContact`: Contacto de emergencia para el paciente.
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.001.png)
+3. **Device:**
+   - **Descripción:** Representa un dispositivo IoT en el sistema, utilizado para recopilar datos de salud del paciente.
+   - **Atributos:**
+     - `id`: Identificador único del dispositivo.
+     - `model`: Modelo del dispositivo.
+     - `status`: Estado actual del dispositivo (activo, inactivo, en mantenimiento).
+     - `Patient_id`: Referencia al paciente al que está asignado el dispositivo.
 
-### 4.2.2. Bounded Context Payment: 
+#### Value Objects
 
-Este bounded context gestiona las suscripciones y los pagos de los usuarios para el servicio de monitoreo.
+1. **HealthMetric:**
+   - **Descripción:** Objeto de valor que representa una métrica de salud específica, como la frecuencia cardíaca o la temperatura. Asegura que las métricas de salud cumplan con los requisitos establecidos.
+   - **Atributos:**
+     - `metricName`: Nombre de la métrica de salud (por ejemplo, frecuencia cardíaca, temperatura).
+     - `value`: Valor de la métrica.
 
-#### 4.2.2.1. Domain Layer. 
+#### Domain Services
 
-- **Entities**:
-  - **Subscription**: Representa un plan de suscripción que un usuario ha adquirido.
-  - **Payment**: Contiene la información de los pagos realizados por los usuarios.
-- **Value Objects**:
-  - **PaymentDetails**: Contiene los detalles del pago, como el monto, la fecha y el método.
-  - **SubscriptionPlan**: Describe las características del plan de suscripción, como la duración y el costo.
-- **Aggregates**:
-  - **SubscriptionAggregate**: Encapsula la lógica relacionada con la suscripción y su renovación.
-  - **PaymentAggregate**: Maneja la lógica relacionada con los pagos.
-- **Repositories**:
-  - **SubscriptionRepository**: Gestiona el acceso y almacenamiento de las suscripciones.
-  - **PaymentRepository**: Gestiona los pagos realizados por los usuarios.
-- **Domain Services**:
-  - **PaymentService**: Servicio que coordina los pagos y actualiza las suscripciones según el estado del pago.
+1. **MetricsDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con las métricas de salud, como el cálculo de promedios y la generación de alertas.
+   - **Métodos:**
+     - `calculateAverage(Metric metric)`: Calcula el promedio de una métrica de salud.
+     - `generateAlertIfNecessary(Metric metric)`: Genera una alerta si la métrica supera ciertos umbrales.
 
-#### 4.2.2.2. Interface Layer. 
+#### Aggregates y Aggregate Root
 
-- **API Endpoints**:
-  - POST /payment/process: Procesa un nuevo pago.
-  - GET /subscription/{userId}: Consulta el estado de la suscripción del usuario.
-- **DTOs**:
-  - **SubscriptionDTO**: Estructura que contiene los detalles de la suscripción.
-  - **PaymentDTO**: Estructura que contiene los detalles del pago.
-- **Controllers**:
-  - **PaymentController**: Controlador para gestionar las solicitudes de pago.
+1. **PatientAggregateRoot:**
+   - **Justificación:** `Patient` es el aggregate root que controla la consistencia y la lógica de negocio de los datos del paciente y sus métricas. Asegura que las métricas asociadas a un paciente sean válidas y consistentes.
 
-**SubscriptionController**: Controlador para manejar la información de suscripción.
+#### Repositories (Interfaces)
 
-#### 4.2.2.3. Application Layer. 
+1. **MetricsRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de métricas de salud.
+   - **Métodos:**
+     - `findById(String id)`: Busca una métrica por su ID.
+     - `save(Metric metric)`: Guarda o actualiza una métrica en la base de datos.
+     - `delete(String id)`: Elimina una métrica de la base de datos.
 
-- **Application Services**:
-  - **PaymentApplicationService**: Gestiona la lógica de negocio relacionada con los pagos.
-  - **SubscriptionApplicationService**: Gestiona las operaciones relacionadas con las suscripciones.
-- **Commands/Queries**:
-  - **ProcessPaymentCommand**: Comando que procesa un nuevo pago.
-  - **QuerySubscriptionStatus**: Consulta el estado de una suscripción específica.
-- **Command Handlers**:
-  - **ProcessPaymentHandler**: Maneja el comando de procesamiento de pagos.
-  - **QuerySubscriptionHandler**: Maneja la consulta sobre el estado de suscripción.
+2. **PatientRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de pacientes.
+   - **Métodos:**
+     - `findById(String id)`: Busca un paciente por su ID.
+     - `save(Patient patient)`: Guarda o actualiza un paciente en la base de datos.
+     - `delete(String id)`: Elimina un paciente de la base de datos.
 
-#### 4.2.2.4. Infrastructure Layer. 
+3. **DeviceRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de dispositivos.
+   - **Métodos:**
+     - `findById(String id)`: Busca un dispositivo por su ID.
+     - `save(Device device)`: Guarda o actualiza un dispositivo en la base de datos.
+     - `delete(String id)`: Elimina un dispositivo de la base de datos.
 
-- **Repository Implementation**:
-  - **SubscriptionSQLRepository**: Implementación concreta de SubscriptionRepository utilizando SQL.
-  - **PaymentSQLRepository**: Implementación concreta de PaymentRepository utilizando SQL.
-- **External Services**:
+### 4.2.2.2. Interface Layer
 
-Integración con servicios de pago como Stripe o PayPal.
+#### Controllers
 
-#### 4.2.2.5. Bounded Context Software Architecture Component Level Diagrams. 
+1. **MetricsController:**
+   - **Descripción:** Expone endpoints para la gestión de métricas, permitiendo crear, actualizar y consultar métricas de salud.
+   - **Métodos:**
+     - `createMetric(Metric metric)`: Endpoint para crear una nueva métrica de salud.
+     - `updateMetric(String id, Metric metric)`: Endpoint para actualizar una métrica existente.
+     - `getMetricById(String id)`: Endpoint para obtener los detalles de una métrica por su ID.
 
-Componentes clave:
+2. **PatientController:**
+   - **Descripción:** Expone endpoints para la gestión de pacientes, permitiendo crear, actualizar y consultar información del paciente.
+   - **Métodos:**
+     - `registerPatient(Patient patient)`: Endpoint para registrar un nuevo paciente.
+     - `updatePatient(String id, Patient patient)`: Endpoint para actualizar la información de un paciente.
+     - `getPatientById(String id)`: Endpoint para obtener los detalles de un paciente por su ID.
 
-- **Subscription**: Representa la suscripción del usuario al servicio.
-- **Payment**: Representa los pagos realizados por los usuarios.
+### 4.2.2.3. Application Layer
 
-#### 4.2.2.6. Bounded Context Software Architecture Code Level Diagrams. 
+#### Command Handlers
 
-#### 4.2.2.6.1. Bounded Context Domain Layer Class Diagrams. 
+1. **UpdateMetricsHandler:**
+   - **Descripción:** Maneja el comando para actualizar las métricas de salud de un paciente específico.
+   - **Métodos:**
+     - `handle(UpdateMetricsCommand command)`: Valida y aplica el comando para actualizar las métricas de salud.
 
-#### 4.2.2.6.2. Bounded Context Database Design Diagram. 
+2. **RegisterPatientHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo paciente en el sistema.
+   - **Métodos:**
+     - `handle(RegisterPatientCommand command)`: Valida y registra un nuevo paciente en el sistema.
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.002.png)
+#### Event Handlers
 
-### 4.2.3. Bounded Context Device: 
+1. **MetricAlertEventHandler:**
+   - **Descripción:** Maneja los eventos de alerta generados por métricas de salud. Asegura que las alertas se procesen y se notifique a los contactos de emergencia si es necesario.
+   - **Métodos:**
+     - `handle(MetricAlertEvent event)`: Procesa las acciones necesarias después de que se genere una alerta basada en las métricas de salud.
 
-Este bounded context es responsable de recopilar y procesar los datos obtenidos desde los sensores del dispositivo portátil que utiliza el adulto mayor. El dispositivo monitorea signos vitales (como frecuencia cardíaca y temperatura), movimiento, y también incluye un botón de pánico.
+#### Query Handlers
 
-#### 4.2.3.1. Domain Layer. 
+1. **GetPatientMetricsHandler:**
+   - **Descripción:** Maneja las consultas para obtener las métricas de salud de un paciente específico.
+   - **Métodos:**
+     - `handle(GetPatientMetricsQuery query)`: Devuelve las métricas de salud del paciente solicitado.
 
-- **Entities**:
-  - **Device**: Representa la pulsera inteligente que recopila los datos del adulto mayor.
-  - **SensorData**: Almacena los datos de los diferentes sensores del dispositivo, como frecuencia cardíaca, temperatura, y movimiento.
-  - **PanicAlert**: Representa la activación del botón de pánico en el dispositivo.
-- **Value Objects**:
-  - **HeartRate**: Valor que indica la frecuencia cardíaca medida por el dispositivo.
-  - **Temperature**: Valor de la temperatura corporal medida.
-  - **Movement**: Representa la cantidad o tipo de movimiento detectado.
-- **Aggregates**:
-  - **DeviceAggregate**: Encapsula las entidades Device y SensorData, y mantiene la lógica de negocio relacionada con el manejo de los datos del dispositivo.
-- **Repositories**:
-  - **DeviceRepository**: Acceso a los datos del dispositivo, incluido el estado de sus sensores.
-  - **SensorDataRepository**: Almacena y accede a los datos de los sensores recopilados por el dispositivo.
-  - **PanicAlertRepository**: Almacena las alertas generadas por la activación del botón de pánico.
-- **Domain Services**:
-  - **DeviceMonitoringService**: Gestiona la lógica de negocio relacionada con el monitoreo y la actualización de los datos del dispositivo.
-  - **AlertService**: Gestiona la lógica para la creación de alertas cuando los valores del dispositivo están fuera de los rangos normales.
+2. **GetDeviceDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un dispositivo específico.
+   - **Métodos:**
+     - `handle(GetDeviceDetailsQuery query)`: Devuelve los detalles del dispositivo solicitado.
 
-#### 4.2.3.2. Interface Layer. 
+### 4.2.2.4. Infrastructure Layer
 
-- **API Endpoints**:
-  - POST /devices/{id}/sensor-data: Recibe los datos de los sensores y los almacena.
-  - GET /devices/{id}/status: Obtiene el estado actual del dispositivo.
-  - POST /devices/{id}/panic-alert: Activa una alerta de pánico en el sistema.
-- **DTOs**:
-  - **DeviceDTO**: Contiene información sobre el dispositivo (ID, tipo de dispositivo, usuario asignado, etc.).
-  - **SensorDataDTO**: Contiene los datos de los sensores (frecuencia cardíaca, temperatura, movimiento, etc.).
-  - **PanicAlertDTO**: Contiene los detalles de la alerta de pánico generada por el dispositivo.
-- **Controllers**:
-  - **DeviceController**: Controlador que gestiona las solicitudes relacionadas con el estado y los datos del dispositivo.
-  - **SensorDataController**: Controlador que recibe y gestiona los datos de los sensores.
-  - **PanicAlertController**: Controlador que gestiona las alertas de pánico generadas por el dispositivo.
+#### Repositories (Implementaciones)
 
-#### 4.2.3.3. Application Layer. 
+1. **MetricsRepositoryImpl:**
+   - **Descripción:** Implementación de `MetricsRepository` que define cómo se almacenan y recuperan las métricas de salud desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una métrica por su ID.
+     - `save(Metric metric)`: Implementación para guardar o actualizar una métrica en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una métrica de la base de datos.
 
-- **Application Services**:
-  - **DeviceApplicationService**: Gestiona la lógica de negocio a nivel de aplicación para el manejo de dispositivos.
-  - **SensorDataApplicationService**: Procesa los datos recibidos por los sensores y los pasa a la capa de dominio.
-  - **PanicAlertApplicationService**: Gestiona la activación y el procesamiento de las alertas de pánico.
-- **Commands/Queries**:
-  - **RegisterSensorDataCommand**: Comando para registrar los datos de los sensores.
-  - **TriggerPanicAlertCommand**: Comando para activar una alerta de pánico.
-- **Command Handlers**:
-  - **RegisterSensorDataHandler**: Maneja el comando para registrar los datos de los sensores.
-  - **TriggerPanicAlertHandler**: Maneja el comando para activar una alerta de pánico.
+2. **PatientRepositoryImpl:**
+   - **Descripción:** Implementación de `PatientRepository` que define cómo se almacenan y recuperan los pacientes desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un paciente por su ID.
+     - `save(Patient patient)`: Implementación para guardar o actualizar un paciente en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un paciente de la base de datos.
 
-#### 4.2.3.4. Infrastructure Layer. 
+3. **DeviceRepositoryImpl:**
+   - **Descripción:** Implementación de `DeviceRepository` que define cómo se almacenan y recuperan los dispositivos desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un dispositivo por su ID.
+     - `save(Device device)`: Implementación para guardar o actualizar un dispositivo en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un dispositivo de la base de datos.
 
-- **Repository Implementation**:
-  - **DeviceSQLRepository**: Implementación concreta de la interfaz DeviceRepository usando SQL para almacenar y recuperar información sobre dispositivos.
-  - **SensorDataSQLRepository**: Implementación de SensorDataRepository para manejar los datos de sensores en una base de datos SQL.
-  - **PanicAlertSQLRepository**: Implementación de PanicAlertRepository que almacena las alertas en una base de datos relacional.
-- **External Services**:
-  - Integración con un servicio externo para almacenar los datos en la nube y analizar las alertas generadas por el dispositivo.
-- **Factories**:
-  - **DeviceFactory**: Crea instancias del agregado DeviceAggregate y las entidades relacionadas como SensorData.
-- **ORM / Database Access**:
-  - Utiliza un ORM como **Hibernate** o **JPA** para mapear las entidades a una base de datos SQL.
+### 4.2.2.6. Bounded Context Software Architecture Component Level Diagrams
 
-#### 4.2.3.5. Bounded Context Software Architecture Component Level Diagrams. 
+#### Components (Edge API):
 
-El diagrama en el **Nivel de Componentes** de este bounded context incluiría los siguientes componentes:
+1. **MetricsService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de métricas de salud. Interactúa con el `MetricsRepository` para registrar y actualizar métricas.
 
-- **Device**: Representando el dispositivo y sus atributos clave.
-- **SensorData**: Representando los datos de los sensores (frecuencia cardíaca, temperatura, movimiento).
-- **PanicAlert**: Representando las alertas de pánico.
+2. **PatientService Component:**
+   - **Descripción:** Componente encargado de la gestión de pacientes. Interactúa con el `PatientRepository` para gestionar el registro y la actualización de pacientes.
 
-(Usamos un enfoque C4 para modelar la relación entre estos componentes).
+3. **DeviceService Component:**
+   - **Descripción:** Componente encargado de la gestión de dispositivos IoT. Interactúa con el `DeviceRepository` para gestionar el registro y la actualización de dispositivos.
 
-#### 4.2.3.6. Bounded Context Software Architecture Code Level Diagrams. 
+![alt text](assets/structurizr-95614-EdgeContext.png)
 
-#### 4.2.3.6.1. Bounded Context Domain Layer Class Diagrams. 
 
-#### 4.2.3.6.2. Bounded Context Database Design Diagram
+### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.003.png)
+#### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams
 
-### 4.2.4. Bounded Context Configuration: 
+- **Clases importantes:**
+  - `Metric`
+  - `Patient`
+  - `Device`
 
-Este bounded context permite la configuración de las bandas que se utilizan para el monitoreo de salud, gestionando la vinculación de cuidadores y familiares, la actualización de firmware y la sincronización con el sistema.
-
-#### 4.2.4.1. Domain Layer. 
-
-- **Entities:**
-  - **Band:** Representa la pulsera vinculada a un usuario para el monitoreo de salud.
-  - **Firmware:** Información relacionada con la versión de firmware instalada en la pulsera.
-  - **CaretakerAssignment:** Asocia cuidadores o familiares con la banda del usuario.
-- **Value Objects:**
-  - **FirmwareVersion:** Número de versión del firmware.
-  - **ConfigurationSettings:** Configuración específica del usuario para la banda.
-- **Aggregates:**
-  - **BandAggregate:** Encapsula las entidades Band, Firmware y CaretakerAssignment, gestionando la lógica de configuración.
 - **Repositories:**
-  - **BandRepository:** Almacena y recupera información sobre las bandas y su configuración.
-  - **FirmwareRepository:** Gestiona las actualizaciones y versiones del firmware.
-- **Domain Services:**
-  - **BandConfigurationService:** Gestiona la lógica de configuración de la banda, como la asignación de cuidadores o la actualización de firmware.
-
-#### 4.2.4.2. Interface Layer. 
-
-- **API Endpoints:**
-  - **POST /bands/{id}/configuration:** Configura una banda específica.
-  - **POST /bands/{id}/firmware:** Actualiza el firmware de una banda.
-  - **GET /bands/{id}/status:** Obtiene el estado de configuración y firmware de una banda.
-- **DTOs:**
-  - **BandDTO:** Contiene la información de la banda (ID, usuario asignado, versión de firmware).
-  - **FirmwareDTO:** Detalles sobre la versión y estado del firmware.
-- **Controllers:**
-  - **BandController:** Gestiona las solicitudes relacionadas con la configuración de las bandas.
-  - **FirmwareController:** Gestiona las solicitudes de actualización de firmware.
-
-#### 4.2.4.3. Application Layer. 
-
-- **Application Services:**
-  - **BandApplicationService:** Gestiona la lógica de configuración de las bandas.
-  - **FirmwareApplicationService:** Gestiona la lógica de actualización del firmware.
-- **Commands/Queries:**
-  - **ConfigureBandCommand:** Comando para configurar una banda.
-  - **UpdateFirmwareCommand:** Comando para actualizar el firmware.
-- **Command Handlers:**
-  - **ConfigureBandHandler:** Maneja el comando de configuración de la banda.
-  - **UpdateFirmwareHandler:** Maneja el comando de actualización de firmware.
+  - `MetricsRepository`
+  - `PatientRepository`
+  - `DeviceRepository`
+
+   ![alt text](assets/edge-class.png)
+
+#### 4.2.2.7.2. Bounded Context Database Design Diagram
+
+- **Tablas:**
+  - **Metric:**
+    - Columnas: `id`, `averageHeartRate`, `averageTemperature`, `alertsGenerated`, `Patient_id`.
+    - Llave Foránea: `Patient_id`.
+  - **Patient:**
+    - Columnas: `id`, `name`, `age`, `address`, `emergencyContact`.
+  - **Device:**
+    - Columnas: `id`, `model`, `status`, `Patient_id`.
+    - Llave Foránea: `Patient_id`.
+
+- **Relaciones:**
+  - `Metric` se relaciona con `Patient` a través de `Patient_id`.
+  - `Device` se relaciona con `Patient` a través de `Patient_id`.
+  - `Patient` puede tener varias métricas y dispositivos asociados.
+
+![alt text](assets/diagram-db.png)
+---
+
+## 4.2.3. Bounded Context: Notification Context
+
+### 4.2.3.1. Domain Layer
+
+#### Entities
+
+1. **Notification:**
+   - **Descripción:** Representa una notificación enviada a los cuidadores y familiares en caso de anomalías detectadas en la salud del paciente.
+   - **Atributos:**
+     - `id`: Identificador único de la notificación.
+     - `message`: Mensaje de la notificación.
+     - `notificationType`: Tipo de notificación (emergencia, recordatorio, informe).
+     - `sentDate`: Fecha de envío de la notificación.
+     - `Caregiver_id`: Referencia al cuidador que recibe la notificación.
 
-#### 4.2.4.4. Infrastructure Layer. 
+2. **Caregiver:**
+   - **Descripción:** Representa al cuidador asignado para monitorear la salud del paciente y recibir notificaciones en caso de emergencia.
+   - **Atributos:**
+     - `id`: Identificador único del cuidador.
+     - `name`: Nombre del cuidador.
+     - `phone`: Número de teléfono del cuidador.
+
+#### Value Objects
+
+1. **NotificationMessage:**
+   - **Descripción:** Objeto de valor que representa el mensaje de una notificación. Asegura que el mensaje cumpla con ciertos requisitos (por ejemplo, longitud máxima, formato adecuado).
+   - **Atributos:**
+     - `message`: Contenido del mensaje de la notificación.
+
+#### Domain Services
+
+1. **NotificationDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con la gestión de notificaciones, como la validación y el envío de mensajes.
+   - **Métodos:**
+     - `sendNotification(Notification notification)`: Envía una notificación a un cuidador específico.
+     - `validateNotification(Notification notification)`: Valida que la notificación cumpla con los requisitos establecidos.
+
+#### Aggregates y Aggregate Root
 
-- **Repository Implementation:**
-  - **BandSQLRepository:** Implementación de BandRepository en SQL.
-  - **FirmwareSQLRepository:** Implementación de FirmwareRepository en SQL.
-- **External Services:**
-  - Servicios externos para actualizaciones de firmware y configuración remota.
-- **Factories:**
-  - **BandFactory:** Crea instancias del agregado BandAggregate y las entidades asociadas.
-- **ORM / Database Access:**
-  - Utiliza un ORM para mapear las entidades Band y Firmware a una base de datos SQL.
+1. **NotificationAggregateRoot:**
+   - **Justificación:** `Notification` es el aggregate root que controla la consistencia y la lógica de negocio para la gestión de notificaciones. Asegura que las notificaciones sean válidas antes de enviarlas a los cuidadores.
 
-#### 4.2.4.5. Bounded Context Software Architecture Component Level Diagrams.
+#### Repositories (Interfaces)
 
-- **Componentes:**
-  - Band
-  - Firmware
-  - CaretakerAssignment
+1. **NotificationRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de notificaciones.
+   - **Métodos:**
+     - `findById(String id)`: Busca una notificación por su ID.
+     - `save(Notification notification)`: Guarda o actualiza una notificación en la base de datos.
+     - `delete(String id)`: Elimina una notificación de la base de datos.
 
+2. **CaregiverRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de cuidadores.
+   - **Métodos:**
+     - `findById(String id)`: Busca un cuidador por su ID.
+     - `save(Caregiver caregiver)`: Guarda o actualiza un cuidador en la base de datos.
+     - `delete(String id)`: Elimina un cuidador de la base de datos.
 
+### 4.2.3.2. Interface Layer
 
-#### 4.2.4.6. Bounded Context Software Architecture Code Level Diagrams. 
+#### Controllers
 
-#### 4.2.4.6.1. Bounded Context Domain Layer Class Diagrams. 
+1. **NotificationController:**
+   - **Descripción:** Expone endpoints para la gestión de notificaciones, permitiendo crear, actualizar y consultar notificaciones.
+   - **Métodos:**
+     - `createNotification(Notification notification)`: Endpoint para crear una nueva notificación.
+     - `updateNotification(String id, Notification notification)`: Endpoint para actualizar una notificación existente.
+     - `getNotificationById(String id)`: Endpoint para obtener los detalles de una notificación por su ID.
 
-#### 4.2.4.6.2. Bounded Context Database Design Diagram. 
+2. **CaregiverController:**
+   - **Descripción:** Expone endpoints para la gestión de cuidadores, permitiendo registrar, actualizar y consultar información del cuidador.
+   - **Métodos:**
+     - `registerCaregiver(Caregiver caregiver)`: Endpoint para registrar un nuevo cuidador.
+     - `updateCaregiver(String id, Caregiver caregiver)`: Endpoint para actualizar la información de un cuidador.
+     - `getCaregiverById(String id)`: Endpoint para obtener los detalles de un cuidador por su ID.
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.004.png)
+### 4.2.3.3. Application Layer
 
-### 4.2.5. Bounded Context Edge: 
+#### Command Handlers
 
-Este bounded context gestiona el procesamiento de datos en tiempo real recibidos desde el dispositivo, permitiendo un análisis inicial a nivel local.
+1. **SendNotificationHandler:**
+   - **Descripción:** Maneja el comando para enviar una notificación a un cuidador específico.
+   - **Métodos:**
+     - `handle(SendNotificationCommand command)`: Valida y aplica el comando para enviar una notificación.
 
-#### 4.2.5.1. Domain Layer. 
+2. **RegisterCaregiverHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo cuidador en el sistema.
+   - **Métodos:**
+     - `handle(RegisterCaregiverCommand command)`: Valida y registra un nuevo cuidador en el sistema.
 
-- **Entities**:
-  - **EdgeProcessor**: Representa el nodo de procesamiento local que recibe los datos del dispositivo.
-  - **ProcessedData**: Datos ya analizados por el nodo Edge, como patrones de movimiento y análisis de frecuencia cardíaca.
-- **Value Objects**:
-  - **RealTimeData**: Valor que encapsula los datos procesados en tiempo real.
-  - **AlertThresholds**: Define los límites que, al ser superados, generan alertas.
-- **Aggregates**:
-  - **EdgeProcessingAggregate**: Agregado que gestiona el procesamiento y análisis de los datos recibidos del dispositivo.
-- **Repositories**:
-  - **EdgeProcessorRepository**: Accede y almacena el estado de los procesadores Edge.
-  - **ProcessedDataRepository**: Gestiona el almacenamiento de los datos procesados localmente.
-- **Domain Services**:
-  - **EdgeProcessingService**: Gestiona la lógica de procesamiento local de los datos, generando alertas cuando se exceden ciertos umbrales.
+#### Event Handlers
 
-#### 4.2.5.2. Interface Layer. 
+1. **NotificationSentEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando una notificación es enviada. Asegura que cualquier acción posterior se realice de manera adecuada.
+   - **Métodos:**
+     - `handle(NotificationSentEvent event)`: Procesa las acciones necesarias después de que una notificación ha sido enviada.
 
-- **API Endpoints**:
-  - POST /edge/{id}/process: Recibe los datos del dispositivo y los procesa.
-  - GET /edge/{id}/processed-data: Obtiene los datos procesados por el nodo Edge.
-- **DTOs**:
-  - **EdgeProcessorDTO**: Contiene información del nodo Edge.
-  - **ProcessedDataDTO**: Contiene los datos procesados.
-- **Controllers**:
-  - **EdgeProcessorController**: Controlador que gestiona la interacción con el nodo Edge.
-  - **ProcessedDataController**: Controlador que expone los datos ya procesados.
+#### Query Handlers
 
-#### 4.2.5.3. Application Layer. 
+1. **GetNotificationDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una notificación específica.
+   - **Métodos:**
+     - `handle(GetNotificationDetailsQuery query)`: Devuelve los detalles de la notificación solicitada.
 
-- **Application Services**:
-  - **EdgeProcessingApplicationService**: Gestiona la lógica de negocio relacionada con el procesamiento local de los datos.
-- **Commands/Queries**:
-  - **ProcessDataCommand**: Comando para procesar los datos en tiempo real.
-  - **QueryProcessedData**: Consulta los datos ya procesados.
-- **Command Handlers**:
-  - **ProcessDataHandler**: Maneja el comando de procesamiento de datos.
-  - **QueryProcessedDataHandler**: Maneja la consulta de datos procesados.
+2. **GetCaregiverDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un cuidador específico.
+   - **Métodos:**
+     - `handle(GetCaregiverDetailsQuery query)`: Devuelve los detalles del cuidador solicitado.
 
-#### 4.2.5.4. Infrastructure Layer. 
+### 4.2.3.4. Infrastructure Layer
 
-- **Repository Implementation**:
-  - **EdgeProcessorSQLRepository**: Implementación de EdgeProcessorRepository usando SQL.
-  - **ProcessedDataSQLRepository**: Implementación de ProcessedDataRepository en SQL.
-- **External Services**:
-  - Integración con servicios en la nube para sincronizar los datos procesados.
-- **Factories**:
-  - **EdgeProcessorFactory**: Crea instancias de EdgeProcessingAggregate.
+#### Repositories (Implementaciones)
 
-### 4.2.5.5. Bounded Context Software Architecture Component Level Diagrams. 
+1. **NotificationRepositoryImpl:**
+   - **Descripción:** Implementación de `NotificationRepository` que define cómo se almacenan y recuperan las notificaciones desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una notificación por su ID.
+     - `save(Notification notification)`: Implementación para guardar o actualizar una notificación en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una notificación de la base de datos.
 
-Este diagrama incluiría componentes como:
+2. **CaregiverRepositoryImpl:**
+   - **Descripción:** Implementación de `CaregiverRepository` que define cómo se almacenan y recuperan los cuidadores desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un cuidador por su ID.
+     - `save(Caregiver caregiver)`: Implementación para guardar o actualizar un cuidador en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un cuidador de la base de datos.
 
-•	**EdgeProcessor**: Nodo de procesamiento de datos.
+### 4.2.3.6. Bounded Context Software Architecture Component Level Diagrams
 
-•	**ProcessedData**: Representando los datos procesados localmente.
+#### Components (Web API):
 
-#### 4.2.5.6. Bounded Context Software Architecture Code Level Diagrams. 
+1. **NotificationService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de notificaciones. Interactúa con el `NotificationRepository` para registrar y enviar notificaciones.
 
-#### 4.2.5.6.1. Bounded Context Domain Layer Class Diagrams. 
+2. **CaregiverService Component:**
+   - **Descripción:** Componente encargado de la gestión de cuidadores. Interactúa con el `CaregiverRepository` para gestionar el registro y la actualización de cuidadores.
 
-#### 4.2.5.6.2. Bounded Context Database Design Diagram
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.005.png)
+![alt text](assets/structurizr-95614-NotificationContext.png)
 
-#### 4.2.6. Bounded Context Metrics: 
+### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams
 
-Este contexto gestiona la generación de informes de datos de salud del usuario.
+#### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams
 
-#### 4.2.6.1. Domain Layer. 
+- **Clases importantes:**
+  - `Notification`
+  - `Caregiver`
 
-- **Entities**:
-  - **HealthReport**: Representa un informe de los datos de salud del usuario.
-- **Value Objects**:
-  - **ReportPeriod**: Define el periodo del informe (diario, semanal, mensual).
-  - **HealthMetrics**: Datos de salud como frecuencia cardíaca y temperatura.
-- **Aggregates**:
-  - **HealthReportAggregate**: Encapsula la lógica relacionada con la generación de informes.
-- **Repositories**:
-  - **HealthReportRepository**: Gestiona el acceso y almacenamiento de los informes generados.
+- **Repositories:**
+  - `NotificationRepository`
+  - `CaregiverRepository`
 
-#### 4.2.6.2. Interface Layer. 
+   ![alt text](assets/notification-class.png)
 
-- **API Endpoints**:
-  - GET /metrics/{id}/report: Obtiene un informe de salud específico.
-  - POST /metrics/generate: Genera un nuevo informe de salud.
-- **DTOs**:
-  - **HealthReportDTO**: Estructura del informe de salud.
-- **Controllers**:
-  - **MetricsController**: Controlador que maneja las solicitudes de generación de informes.
+#### 4.2.3.7.2. Bounded Context Database Design Diagram
 
-#### 4.2.6.3. Application Layer. 
+- **Tablas:**
+  - **Notification:**
+    - Columnas: `id`, `message`, `notificationType`, `sentDate`, `Caregiver_id`.
+    - Llave Foránea: `Caregiver_id`.
+  - **Caregiver:**
+    - Columnas: `id`, `name`, `phone`.
 
-- **Application Services**:
-  - **MetricsApplicationService**: Gestiona la lógica para la generación de informes de salud.
-- **Commands/Queries**:
-  - **GenerateReportCommand**: Comando para generar un informe de salud.
+- **Relaciones:**
+  - `Notification` se relaciona con `Caregiver` a través de `Caregiver_id`.
+  - `Caregiver` puede recibir varias notificaciones.
 
-#### 4.2.6.4. Infrastructure Layer. 
+![alt text](assets/diagram-db.png)
+---
 
-- **Repository Implementation**:
-  - **HealthReportSQLRepository**: Implementación de HealthReportRepository en SQL.
+## 4.2.4. Bounded Context: Metrics Context
 
-### 4.2.6.5. Bounded Context Software Architecture Component Level Diagrams.
+### 4.2.4.1. Domain Layer
 
-Componentes clave:
+#### Entities
 
-- **HealthReport**: Representando los informes de salud.
+1. **Metrics:**
+   - **Descripción:** Representa los datos de salud recopilados por un dispositivo, incluyendo frecuencia cardíaca y temperatura.
+   - **Atributos:**
+     - `id`: Identificador único de las métricas.
+     - `averageHeartRate`: Frecuencia cardíaca promedio registrada.
+     - `averageTemperature`: Temperatura promedio registrada.
+     - `alertsGenerated`: Número de alertas generadas basadas en las métricas.
+     - `Patient_id`: Referencia al paciente al que pertenecen las métricas.
 
-#### 4.2.6.6. Bounded Context Software Architecture Code Level Diagrams. 
+2. **Patient:**
+   - **Descripción:** Representa al paciente al que se le realiza el monitoreo de salud a través del dispositivo IoT.
+   - **Atributos:**
+     - `id`: Identificador único del paciente.
+     - `name`: Nombre del paciente.
+     - `age`: Edad del paciente.
+     - `address`: Dirección del paciente.
+     - `emergencyContact`: Contacto de emergencia para el paciente.
 
-#### 4.2.6.6.1. Bounded Context Domain Layer Class Diagrams. 
+#### Value Objects
 
-#### 4.2.6.6.2. Bounded Context Database Design Diagram. 
+1. **HealthMetric:**
+   - **Descripción:** Objeto de valor que representa una métrica de salud específica, como la frecuencia cardíaca o la temperatura. Asegura que las métricas de salud cumplan con los requisitos establecidos.
+   - **Atributos:**
+     - `metricName`: Nombre de la métrica de salud (por ejemplo, frecuencia cardíaca, temperatura).
+     - `value`: Valor de la métrica.
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.006.png)
+#### Domain Services
 
-### 4.2.7. Bounded Context Notification: 
+1. **MetricsDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con las métricas de salud, como el cálculo de promedios y la generación de alertas.
+   - **Métodos:**
+     - `calculateAverage(Metric metric)`: Calcula el promedio de una métrica de salud.
+     - `generateAlertIfNecessary(Metric metric)`: Genera una alerta si la métrica supera ciertos umbrales.
 
-Este bounded context gestiona el envío de alertas y notificaciones a los cuidadores o familiares.
+#### Aggregates y Aggregate Root
 
-#### 4.2.7.1. Domain Layer. 
+1. **PatientAggregateRoot:**
+   - **Justificación:** `Patient` es el aggregate root que controla la consistencia y la lógica de negocio de los datos del paciente y sus métricas. Asegura que las métricas asociadas a un paciente sean válidas y consistentes.
 
-- **Entities**:
-  - **Notification**: Representa una notificación o alerta enviada a los cuidadores o familiares.
-- **Value Objects**:
-  - **Recipient**: Define a quién va dirigida la notificación.
-  - **NotificationType**: Tipo de notificación (por ejemplo, alerta crítica o actualización).
-- **Aggregates**:
-  - **NotificationAggregate**: Encapsula las entidades relacionadas con las notificaciones y la lógica de negocio asociada.
-- **Repositories**:
-  - **NotificationRepository**: Gestiona el almacenamiento y acceso a las notificaciones.
-- **Domain Services**:
-  - **NotificationService**: Gestiona la lógica de negocio para el envío y manejo de notificaciones.
+#### Repositories (Interfaces)
 
-#### 4.2.7.2. Interface Layer. 
+1. **MetricsRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de métricas de salud.
+   - **Métodos:**
+     - `findById(String id)`: Busca una métrica por su ID.
+     - `save(Metric metric)`: Guarda o actualiza una métrica en la base de datos.
+     - `delete(String id)`: Elimina una métrica de la base de datos.
 
-- **API Endpoints**:
-  - POST /notifications/send: Envía una notificación a los destinatarios.
-  - GET /notifications/{id}: Obtiene el estado de una notificación específica.
-- **DTOs**:
-  - **NotificationDTO**: Estructura de la notificación a ser enviada.
-- **Controllers**:
-  - **NotificationController**: Controlador que maneja las solicitudes de notificación.
+2. **PatientRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de pacientes.
+   - **Métodos:**
+     - `findById(String id)`: Busca un paciente por su ID.
+     - `save(Patient patient)`: Guarda o actualiza un paciente en la base de datos.
+     - `delete(String id)`: Elimina un paciente de la base de datos.
 
-#### 4.2.7.3. Application Layer. 
+### 4.2.4.2. Interface Layer
 
-- **Application Services**:
-  - **NotificationApplicationService**: Gestiona la lógica de negocio para la gestión de notificaciones.
-- **Commands/Queries**:
-  - **SendNotificationCommand**: Comando para enviar una notificación.
-- **Command Handlers**:
-  - **SendNotificationHandler**: Maneja el comando de envío de notificaciones.
+#### Controllers
 
-#### 4.2.7.4. Infrastructure Layer. 
+1. **MetricsController:**
+   - **Descripción:** Expone endpoints para la gestión de métricas, permitiendo crear, actualizar y consultar métricas de salud.
+   - **Métodos:**
+     - `createMetric(Metric metric)`: Endpoint para crear una nueva métrica de salud.
+     - `updateMetric(String id, Metric metric)`: Endpoint para actualizar una métrica existente.
+     - `getMetricById(String id)`: Endpoint para obtener los detalles de una métrica por su ID.
 
-- **Repository Implementation**:
-  - **NotificationSQLRepository**: Implementación concreta de NotificationRepository usando SQL.
-- **External Services**:
-  - Integración con servicios externos como SMS o correo electrónico para el envío de notificaciones.
+2. **PatientController:**
+   - **Descripción:** Expone endpoints para la gestión de pacientes, permitiendo crear, actualizar y consultar información del paciente.
+   - **Métodos:**
+     - `registerPatient(Patient patient)`: Endpoint para registrar un nuevo paciente.
+     - `updatePatient(String id, Patient patient)`: Endpoint para actualizar la información de un paciente.
+     - `getPatientById(String id)`: Endpoint para obtener los detalles de un paciente por su ID.
 
-#### 4.2.7.5. Bounded Context Software Architecture Component Level Diagrams. 
+### 4.2.4.3. Application Layer
 
-Componentes clave:
+#### Command Handlers
 
-- **Notification**: Representando las notificaciones y alertas.
-- **Recipient**: Los destinatarios de las notificaciones.
+1. **UpdateMetricsHandler:**
+   - **Descripción:** Maneja el comando para actualizar las métricas de salud de un paciente específico.
+   - **Métodos:**
+     - `handle(UpdateMetricsCommand command)`: Valida y aplica el comando para actualizar las métricas de salud.
 
-#### 4.2.7.6. Bounded Context Software Architecture Code Level Diagrams. 
+2. **RegisterPatientHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo paciente en el sistema.
+   - **Métodos:**
+     - `handle(RegisterPatientCommand command)`: Valida y registra un nuevo paciente en el sistema.
 
-#### 4.2.7.6.1. Bounded Context Domain Layer Class Diagrams. 
+#### Event Handlers
 
-#### 4.2.7.6.2. Bounded Context Database Design Diagram. 
+1. **MetricAlertEventHandler:**
+   - **Descripción:** Maneja los eventos de alerta generados por métricas de salud. Asegura que las alertas se procesen y se notifique a los contactos de emergencia si es necesario.
+   - **Métodos:**
+     - `handle(MetricAlertEvent event)`: Procesa las acciones necesarias después de que se genere una alerta basada en las métricas de salud.
 
-![](assets/Aspose.Words.0aa7c52a-00df-4dbb-9dff-cdeae2d27982.007.png)
+#### Query Handlers
+
+1. **GetPatientMetricsHandler:**
+   - **Descripción:** Maneja las consultas para obtener las métricas de salud de un paciente específico.
+   - **Métodos:**
+     - `handle(GetPatientMetricsQuery query)`: Devuelve las métricas de salud del paciente solicitado.
+
+2. **GetMetricsDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una métrica específica.
+   - **Métodos:**
+     - `handle(GetMetricsDetailsQuery query)`: Devuelve los detalles de la métrica solicitada.
+
+### 4.2.4.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **MetricsRepositoryImpl:**
+   - **Descripción:** Implementación de `MetricsRepository` que define cómo se almacenan y recuperan las métricas de salud desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una métrica por su ID.
+     - `save(Metric metric)`: Implementación para guardar o actualizar una métrica en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una métrica de la base de datos.
+
+2. **PatientRepositoryImpl:**
+   - **Descripción:** Implementación de `PatientRepository` que define cómo se almacenan y recuperan los pacientes desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un paciente por su ID.
+     - `save(Patient patient)`: Implementación para guardar o actualizar un paciente en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un paciente de la base de datos.
+
+### 4.2.4.6. Bounded Context Software Architecture Component Level Diagrams
+
+#### Components (Edge API):
+
+1. **MetricsService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de métricas de salud. Interactúa con el `MetricsRepository` para registrar y actualizar métricas.
+
+2. **PatientService Component:** 
+   - **Descripción:** Componente encargado de la gestión de información de los pacientes.
+Interactúa con el `PatientRepository`.
+Cada componente interactúa con sus respectivos repositorios y handlers para ejecutar la lógica de negocio y responder a las solicitudes de forma coherente con el patrón CQRS.
+
+
+![alt text](assets/structurizr-95614-MetricsContext.png)
+
+### 4.2.4.7. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.4.7.1. Bounded Context Domain Layer Class Diagrams
+En esta sección se detallan las clases del Domain Layer, sus atributos, métodos y relaciones. Clases importantes:
+
+**Metrics:**
+
+- `Atributos`: id, averageHeartRate, averageTemperature, alertsGenerated, Patient_id.
+- `Métodos`: calculateAverage(), generateAlert(threshold).
+
+**Patient:**
+- `Atributos`: id, name, age, address, emergencyContact.
+- `Métodos`: updateContact(newContact).
+
+**Repositories:**
+
+`MetricsRepository`, `PatientRepository`.
+
+![alt text](assets/metric-class.png)
+
+#### 4.2.4.7.2. Bounded Context Database Design Diagram
+En esta sección se define el diseño de la base de datos para persistir las entidades de este contexto.
+
+**Tablas:**
+
+- **Metrics**:
+`Columnas`: id, averageHeartRate, averageTemperature, alertsGenerated, Patient_id.
+`Llave Foránea`: Patient_id.
+- **Patient**:
+`Columnas`: id, name, age, address, emergencyContact.
+`Relaciones`: Metrics se relaciona con Patient a través de Patient_id.
+
+![alt text](assets/diagram-db.png)
+
+## 4.2.5. Bounded Context: Payment Context
+
+### 4.2.5.1. Domain Layer
+
+#### Entities
+
+1. **Account:**
+   - **Descripción:** Representa la cuenta de usuario en el sistema, incluyendo información de contacto y métodos de pago.
+   - **Atributos:**
+     - `id`: Identificador único de la cuenta.
+     - `username`: Nombre de usuario asociado a la cuenta.
+     - `password`: Contraseña de la cuenta.
+     - `role`: Rol del usuario dentro del sistema.
+     - `phoneNumber`: Número de teléfono del usuario.
+
+2. **Payment:**
+   - **Descripción:** Representa un pago realizado por el usuario para la suscripción del servicio.
+   - **Atributos:**
+     - `id`: Identificador único del pago.
+     - `amount`: Monto del pago realizado.
+     - `paymentDate`: Fecha en la que se realizó el pago.
+     - `paymentStatus`: Estado actual del pago (pendiente, completado, fallido).
+     - `Account_id`: Referencia a la cuenta asociada al pago.
+
+3. **Subscription:**
+   - **Descripción:** Representa una suscripción al servicio que tiene un usuario, incluyendo fechas de inicio y fin, y el plan asociado.
+   - **Atributos:**
+     - `id`: Identificador único de la suscripción.
+     - `startDate`: Fecha de inicio de la suscripción.
+     - `endDate`: Fecha de finalización de la suscripción.
+     - `status`: Estado de la suscripción (activa, inactiva, cancelada).
+     - `Account_id`: Referencia a la cuenta a la que pertenece la suscripción.
+     - `Plan_id`: Referencia al plan al que está suscrito el usuario.
+
+4. **Plan:**
+   - **Descripción:** Representa un plan de suscripción disponible en el sistema, con sus características y precio.
+   - **Atributos:**
+     - `id`: Identificador único del plan.
+     - `planName`: Nombre del plan de suscripción.
+     - `description`: Descripción del plan.
+     - `price`: Precio del plan de suscripción.
+
+5. **CreditCard:**
+   - **Descripción:** Representa la tarjeta de crédito asociada a una cuenta para realizar los pagos.
+   - **Atributos:**
+     - `id`: Identificador único de la tarjeta.
+     - `number`: Número de la tarjeta de crédito.
+     - `cvv`: Código de seguridad de la tarjeta.
+     - `expirationDate`: Fecha de expiración de la tarjeta.
+     - `Account_id`: Referencia a la cuenta asociada a la tarjeta.
+
+#### Value Objects
+
+1. **PaymentAmount:**
+   - **Descripción:** Objeto de valor que representa el monto del pago. Asegura que el monto sea positivo y esté dentro de los límites permitidos.
+   - **Atributos:**
+     - `amount`: Monto del pago.
+
+2. **SubscriptionStatus:**
+   - **Descripción:** Objeto de valor que representa el estado de una suscripción (activa, inactiva, cancelada).
+   - **Atributos:**
+     - `status`: Estado de la suscripción.
+
+#### Domain Services
+
+1. **PaymentDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con la gestión de pagos, como la validación de montos y la gestión del estado de los pagos.
+   - **Métodos:**
+     - `processPayment(Payment payment)`: Procesa el pago después de validar que todos los datos son correctos.
+     - `validatePaymentAmount(PaymentAmount amount)`: Valida que el monto del pago esté dentro de los límites permitidos.
+
+2. **SubscriptionDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con la gestión de suscripciones, como la activación y cancelación de suscripciones.
+   - **Métodos:**
+     - `activateSubscription(Subscription subscription)`: Activa una suscripción después de verificar que el pago fue completado.
+     - `cancelSubscription(Subscription subscription)`: Cancela una suscripción y gestiona los reembolsos si corresponde.
+
+#### Aggregates y Aggregate Root
+
+1. **AccountAggregateRoot:**
+   - **Justificación:** `Account` es el aggregate root que controla la consistencia y la lógica de negocio para la gestión de cuentas, pagos y suscripciones. Asegura que todos los pagos y suscripciones relacionados con una cuenta sean válidos y consistentes.
+
+#### Repositories (Interfaces)
+
+1. **AccountRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de cuentas de usuario.
+   - **Métodos:**
+     - `findById(String id)`: Busca una cuenta por su ID.
+     - `save(Account account)`: Guarda o actualiza una cuenta en la base de datos.
+     - `delete(String id)`: Elimina una cuenta de la base de datos.
+
+2. **PaymentRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de pagos.
+   - **Métodos:**
+     - `findById(String id)`: Busca un pago por su ID.
+     - `save(Payment payment)`: Guarda o actualiza un pago en la base de datos.
+     - `delete(String id)`: Elimina un pago de la base de datos.
+
+3. **SubscriptionRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de suscripciones.
+   - **Métodos:**
+     - `findById(String id)`: Busca una suscripción por su ID.
+     - `save(Subscription subscription)`: Guarda o actualiza una suscripción en la base de datos.
+     - `delete(String id)`: Elimina una suscripción de la base de datos.
+
+4. **PlanRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de planes de suscripción.
+   - **Métodos:**
+     - `findById(String id)`: Busca un plan por su ID.
+     - `save(Plan plan)`: Guarda o actualiza un plan en la base de datos.
+     - `delete(String id)`: Elimina un plan de la base de datos.
+
+5. **CreditCardRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de tarjetas de crédito.
+   - **Métodos:**
+     - `findById(String id)`: Busca una tarjeta de crédito por su ID.
+     - `save(CreditCard creditCard)`: Guarda o actualiza una tarjeta en la base de datos.
+     - `delete(String id)`: Elimina una tarjeta de la base de datos.
+
+### 4.2.5.2. Interface Layer
+
+#### Controllers
+
+1. **AccountController:**
+   - **Descripción:** Expone endpoints para la gestión de cuentas de usuario, permitiendo registrar, actualizar y consultar cuentas.
+   - **Métodos:**
+     - `registerAccount(Account account)`: Endpoint para registrar una nueva cuenta.
+     - `updateAccount(String id, Account account)`: Endpoint para actualizar la información de una cuenta.
+     - `getAccountById(String id)`: Endpoint para obtener los detalles de una cuenta por su ID.
+
+2. **PaymentController:**
+   - **Descripción:** Expone endpoints para la gestión de pagos, permitiendo realizar, consultar y actualizar pagos.
+   - **Métodos:**
+     - `processPayment(Payment payment)`: Endpoint para realizar un pago.
+     - `updatePayment(String id, Payment payment)`: Endpoint para actualizar la información de un pago.
+     - `getPaymentById(String id)`: Endpoint para obtener los detalles de un pago por su ID.
+
+3. **SubscriptionController:**
+   - **Descripción:** Expone endpoints para la gestión de suscripciones, permitiendo registrar, actualizar y consultar suscripciones.
+   - **Métodos:**
+     - `createSubscription(Subscription subscription)`: Endpoint para crear una nueva suscripción.
+     - `updateSubscription(String id, Subscription subscription)`: Endpoint para actualizar la información de una suscripción.
+     - `getSubscriptionById(String id)`: Endpoint para obtener los detalles de una suscripción por su ID.
+
+4. **PlanController:**
+   - **Descripción:** Expone endpoints para la gestión de planes de suscripción, permitiendo registrar, actualizar y consultar planes.
+   - **Métodos:**
+     - `createPlan(Plan plan)`: Endpoint para crear un nuevo plan de suscripción.
+     - `updatePlan(String id, Plan plan)`: Endpoint para actualizar la información de un plan.
+     - `getPlanById(String id)`: Endpoint para obtener los detalles de un plan por su ID.
+
+### 4.2.5.3. Application Layer
+
+#### Command Handlers
+
+1. **ProcessPaymentHandler:**
+   - **Descripción:** Maneja el comando para procesar un pago en el sistema.
+   - **Métodos:**
+     - `handle(ProcessPaymentCommand command)`: Valida y aplica el comando para procesar el pago.
+
+2. **CreateSubscriptionHandler:**
+   - **Descripción:** Maneja el comando para crear una nueva suscripción en el sistema.
+   - **Métodos:**
+     - `handle(CreateSubscriptionCommand command)`: Valida y crea una nueva suscripción en el sistema.
+
+3. **CreateAccountHandler:**
+   - **Descripción:** Maneja el comando para registrar una nueva cuenta en el sistema.
+   - **Métodos:**
+     - `handle(CreateAccountCommand command)`: Valida y crea una nueva cuenta en el sistema.
+
+4. **CreatePlanHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo plan de suscripción en el sistema.
+   - **Métodos:**
+     - `handle(CreatePlanCommand command)`: Valida y crea un nuevo plan en el sistema.
+
+#### Event Handlers
+
+1. **PaymentProcessedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando un pago ha sido procesado, actualizando el estado de la suscripción asociada.
+   - **Métodos:**
+     - `handle(PaymentProcessedEvent event)`: Procesa las acciones necesarias después de que un pago ha sido procesado.
+
+2. **SubscriptionCreatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se crea una nueva suscripción.
+   - **Métodos:**
+     - `handle(SubscriptionCreatedEvent event)`: Ejecuta las acciones necesarias después de la creación de una suscripción.
+
+#### Query Handlers
+
+1. **GetAccountDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una cuenta específica.
+   - **Métodos:**
+     - `handle(GetAccountDetailsQuery query)`: Devuelve los detalles de la cuenta solicitada.
+
+2. **GetPaymentDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un pago específico.
+   - **Métodos:**
+     - `handle(GetPaymentDetailsQuery query)`: Devuelve los detalles del pago solicitado.
+
+3. **GetSubscriptionDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una suscripción específica.
+   - **Métodos:**
+     - `handle(GetSubscriptionDetailsQuery query)`: Devuelve los detalles de la suscripción solicitada.
+
+4. **GetPlanDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un plan específico.
+   - **Métodos:**
+     - `handle(GetPlanDetailsQuery query)`: Devuelve los detalles del plan solicitado.
+
+### 4.2.5.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **AccountRepositoryImpl:**
+   - **Descripción:** Implementación de `AccountRepository` que define cómo se almacenan y recuperan las cuentas desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una cuenta por su ID.
+     - `save(Account account)`: Implementación para guardar o actualizar una cuenta en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una cuenta de la base de datos.
+
+2. **PaymentRepositoryImpl:**
+   - **Descripción:** Implementación de `PaymentRepository` que define cómo se almacenan y recuperan los pagos desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un pago por su ID.
+     - `save(Payment payment)`: Implementación para guardar o actualizar un pago en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un pago de la base de datos.
+
+3. **SubscriptionRepositoryImpl:**
+   - **Descripción:** Implementación de `SubscriptionRepository` que define cómo se almacenan y recuperan las suscripciones desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una suscripción por su ID.
+     - `save(Subscription subscription)`: Implementación para guardar o actualizar una suscripción en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una suscripción de la base de datos.
+
+4. **PlanRepositoryImpl:**
+   - **Descripción:** Implementación de `PlanRepository` que define cómo se almacenan y recuperan los planes desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un plan por su ID.
+     - `save(Plan plan)`: Implementación para guardar o actualizar un plan en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un plan de la base de datos.
+
+5. **CreditCardRepositoryImpl:**
+   - **Descripción:** Implementación de `CreditCardRepository` que define cómo se almacenan y recuperan las tarjetas de crédito desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una tarjeta de crédito por su ID.
+     - `save(CreditCard creditCard)`: Implementación para guardar o actualizar una tarjeta en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una tarjeta de la base de datos.
+
+### 4.2.5.6. Bounded Context Software Architecture Component Level Diagrams
+
+#### Components (Web API):
+
+1. **PaymentService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de pagos. Interactúa con el `PaymentRepository` para registrar y actualizar pagos.
+
+2. **SubscriptionService Component:**
+   - **Descripción:** Componente encargado de la gestión de suscripciones. Interactúa con el `SubscriptionRepository` para gestionar el registro y la actualización de suscripciones.
+
+3. **AccountService Component:**
+   - **Descripción:** Componente encargado de la gestión de cuentas de usuario. Interactúa con el `AccountRepository` para gestionar el registro y la actualización de cuentas.
+
+4. **PlanService Component:**
+   - **Descripción:** Componente encargado de la gestión de planes de suscripción. Interactúa con el `PlanRepository` para gestionar el registro y la actualización de planes.
+
+![PaymentContext](assets/structurizr-95614-PaymentContext.png)
+
+
+### 4.2.5.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.5.7.1. Bounded Context Domain Layer Class Diagrams
+
+- **Clases importantes:**
+  - `Account`
+  - `Payment`
+  - `Subscription`
+  - `Plan`
+  - `CreditCard`
+
+- **Repositories:**
+  - `AccountRepository`
+  - `PaymentRepository`
+  - `SubscriptionRepository`
+  - `PlanRepository`
+  - `CreditCardRepository`
+
+![alt text](assets/payment-class.png)
+
+#### 4.2.5.7.2. Bounded Context Database Design Diagram
+
+- **Tablas:**
+  - **Account:**
+    - Columnas: `id`, `username`, `password`, `role`, `phoneNumber`.
+  - **Payment:**
+    - Columnas: `id`, `amount`, `paymentDate`, `paymentStatus`, `Account_id`.
+    - Llave Foránea: `Account_id`.
+  - **Subscription:**
+    - Columnas: `id`, `startDate`, `endDate`, `status`, `Account_id`, `Plan_id`.
+    - Llave Foránea: `Account_id`, `Plan_id`.
+  - **Plan:**
+    - Columnas: `id`, `planName`, `description`, `price`.
+  - **CreditCard:**
+    - Columnas: `id`, `number`, `cvv`, `expirationDate`, `Account_id`.
+    - Llave Foránea: `Account_id`.
+
+- **Relaciones:**
+  - `Payment` se relaciona con `Account` a través de `Account_id`.
+  - `Subscription` se relaciona con `Account` y `Plan` a través de `Account_id` y `Plan_id`.
+  - `CreditCard` se relaciona con `Account` a través de `Account_id`.
+
+![alt text](assets/diagram-db.png)
+---
+
+## 4.2.6. Bounded Context: Configuration Context
+
+### 4.2.6.1. Domain Layer
+
+#### Entities
+
+1. **Configuration:**
+   - **Descripción:** Representa las configuraciones específicas de un dispositivo IoT, como umbrales de alertas y parámetros de monitoreo.
+   - **Atributos:**
+     - `id`: Identificador único de la configuración.
+     - `configName`: Nombre de la configuración.
+     - `value`: Valor de la configuración.
+     - `Device_id`: Referencia al dispositivo al que pertenece la configuración.
+
+2. **Device:**
+   - **Descripción:** Representa un dispositivo IoT en el sistema, utilizado para recopilar datos de salud del paciente.
+   - **Atributos:**
+     - `id`: Identificador único del dispositivo.
+     - `model`: Modelo del dispositivo.
+     - `status`: Estado actual del dispositivo (activo, inactivo).
+     - `location`: Ubicación del dispositivo.
+
+#### Value Objects
+
+1. **ConfigParameter:**
+   - **Descripción:** Objeto de valor que representa un parámetro de configuración específico. Asegura que el valor del parámetro esté dentro de los límites permitidos.
+   - **Atributos:**
+     - `name`: Nombre del parámetro.
+     - `value`: Valor del parámetro.
+
+#### Domain Services
+
+1. **ConfigurationDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con la gestión de configuraciones, como la validación de parámetros y la aplicación de cambios.
+   - **Métodos:**
+     - `applyConfiguration(Device device, Configuration config)`: Aplica una configuración a un dispositivo después de validar que todos los parámetros son correctos.
+     - `validateConfigParameter(ConfigParameter param)`: Valida que un parámetro de configuración esté dentro de los límites permitidos.
+
+#### Aggregates y Aggregate Root
+
+1. **ConfigurationAggregateRoot:**
+   - **Justificación:** `Configuration` es el aggregate root que controla la consistencia y la lógica de negocio para la gestión de configuraciones. Asegura que todas las configuraciones aplicadas a un dispositivo sean válidas y consistentes.
+
+#### Repositories (Interfaces)
+
+1. **ConfigurationRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de configuraciones.
+   - **Métodos:**
+     - `findById(String id)`: Busca una configuración por su ID.
+     - `save(Configuration config)`: Guarda o actualiza una configuración en la base de datos.
+     - `delete(String id)`: Elimina una configuración de la base de datos.
+
+2. **DeviceRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de dispositivos.
+   - **Métodos:**
+     - `findById(String id)`: Busca un dispositivo por su ID.
+     - `save(Device device)`: Guarda o actualiza un dispositivo en la base de datos.
+     - `delete(String id)`: Elimina un dispositivo de la base de datos.
+
+### 4.2.6.2. Interface Layer
+
+#### Controllers
+
+1. **ConfigurationController:**
+   - **Descripción:** Expone endpoints para la gestión de configuraciones, permitiendo crear, actualizar y consultar configuraciones.
+   - **Métodos:**
+     - `createConfiguration(Configuration configuration)`: Endpoint para crear una nueva configuración.
+     - `updateConfiguration(String id, Configuration configuration)`: Endpoint para actualizar una configuración existente.
+     - `getConfigurationById(String id)`: Endpoint para obtener los detalles de una configuración por su ID.
+
+2. **DeviceController:**
+   - **Descripción:** Expone endpoints para la gestión de dispositivos, permitiendo crear, actualizar y consultar dispositivos.
+   - **Métodos:**
+     - `registerDevice(Device device)`: Endpoint para registrar un nuevo dispositivo.
+     - `updateDeviceStatus(String id, String status)`: Endpoint para actualizar el estado de un dispositivo.
+     - `getDeviceById(String id)`: Endpoint para obtener los detalles de un dispositivo por su ID.
+
+### 4.2.6.3. Application Layer
+
+#### Command Handlers
+
+1. **UpdateConfigurationHandler:**
+   - **Descripción:** Maneja el comando para actualizar una configuración de un dispositivo específico.
+   - **Métodos:**
+     - `handle(UpdateConfigurationCommand command)`: Valida y aplica el comando para actualizar la configuración.
+
+2. **RegisterDeviceHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo dispositivo en el sistema.
+   - **Métodos:**
+     - `handle(RegisterDeviceCommand command)`: Valida y registra un nuevo dispositivo en el sistema.
+
+#### Event Handlers
+
+1. **ConfigurationUpdatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se actualiza una configuración. Asegura que cualquier cambio sea procesado adecuadamente.
+   - **Métodos:**
+     - `handle(ConfigurationUpdatedEvent event)`: Procesa las acciones necesarias después de que una configuración ha sido actualizada.
+
+2. **DeviceRegisteredEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se registra un nuevo dispositivo.
+   - **Métodos:**
+     - `handle(DeviceRegisteredEvent event)`: Ejecuta las acciones necesarias después del registro de un dispositivo.
+
+#### Query Handlers
+
+1. **GetConfigurationDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una configuración específica.
+   - **Métodos:**
+     - `handle(GetConfigurationDetailsQuery query)`: Devuelve los detalles de la configuración solicitada.
+
+2. **GetDeviceDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un dispositivo específico.
+   - **Métodos:**
+     - `handle(GetDeviceDetailsQuery query)`: Devuelve los detalles del dispositivo solicitado.
+
+### 4.2.6.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **ConfigurationRepositoryImpl:**
+   - **Descripción:** Implementación de `ConfigurationRepository` que define cómo se almacenan y recuperan las configuraciones desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una configuración por su ID.
+     - `save(Configuration config)`: Implementación para guardar o actualizar una configuración en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una configuración de la base de datos.
+
+2. **DeviceRepositoryImpl:**
+   - **Descripción:** Implementación de `DeviceRepository` que define cómo se almacenan y recuperan los dispositivos desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un dispositivo por su ID.
+     - `save(Device device)`: Implementación para guardar o actualizar un dispositivo en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un dispositivo de la base de datos.
+
+### 4.2.6.6. Bounded Context Software Architecture Component Level Diagrams
+
+#### Components (Edge API):
+
+1. **ConfigurationService Component:**
+   - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de configuraciones. Interactúa con el `ConfigurationRepository` para registrar y actualizar configuraciones.
+
+2. **DeviceService Component:**
+   - **Descripción:** Componente encargado de la gestión de dispositivos IoT. Interactúa con el `DeviceRepository` para gestionar el registro y la actualización de dispositivos.
+
+![ConfigurationContext](assets/structurizr-95614-ConfigurationContext.png)
+
+### 4.2.6.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.6.7.1. Bounded Context Domain Layer Class Diagrams
+
+- **Clases importantes:**
+  - `Configuration`
+  - `Device`
+
+- **Repositories:**
+  - `ConfigurationRepository`
+  - `DeviceRepository`
+
+![alt text](assets/configurations-class.png)
+
+#### 4.2.6.7.2. Bounded Context Database Design Diagram
+
+- **Tablas:**
+  - **Configuration:**
+    - Columnas: `id`, `configName`, `value`, `Device_id`.
+    - Llave Foránea: `Device_id`.
+  - **Device:**
+    - Columnas: `id`, `model`, `status`, `location`.
+
+- **Relaciones:**
+  - `Configuration` se relaciona con `Device` a través de `Device_id`.
+  - `Device` puede tener varias configuraciones asociadas.
+
+![alt text](assets/diagram-db.png)
+
+## 4.2.7. Bounded Context: Account Context
+
+### 4.2.7.1. Domain Layer
+
+#### Entities
+
+1. **Account:**
+   - **Descripción:** Representa la cuenta de usuario en el sistema, incluyendo información personal, roles y métodos de pago.
+   - **Atributos:**
+     - `id`: Identificador único de la cuenta.
+     - `username`: Nombre de usuario asociado a la cuenta.
+     - `password`: Contraseña de la cuenta.
+     - `email`: Dirección de correo electrónico asociada a la cuenta.
+     - `phoneNumber`: Número de teléfono del usuario.
+     - `role`: Rol del usuario dentro del sistema.
+
+2. **Role:**
+   - **Descripción:** Define los roles de usuario dentro del sistema, como administrador, cuidador, etc.
+   - **Atributos:**
+     - `id`: Identificador único del rol.
+     - `roleName`: Nombre del rol (por ejemplo, Admin, Caregiver).
+     - `description`: Descripción del rol y sus permisos.
+
+3. **Patient:**
+   - **Descripción:** Representa al paciente que es monitoreado mediante la plataforma.
+   - **Atributos:**
+     - `id`: Identificador único del paciente.
+     - `name`: Nombre del paciente.
+     - `age`: Edad del paciente.
+     - `address`: Dirección del paciente.
+     - `emergencyContact`: Contacto de emergencia para el paciente.
+     - `Account_id`: Referencia a la cuenta a la que pertenece el paciente.
+
+4. **Caregiver:**
+   - **Descripción:** Representa a la persona encargada de cuidar al paciente, que tiene acceso a la información de salud del paciente.
+   - **Atributos:**
+     - `id`: Identificador único del cuidador.
+     - `name`: Nombre del cuidador.
+     - `phone`: Número de teléfono del cuidador.
+     - `address`: Dirección del cuidador.
+     - `Account_id`: Referencia a la cuenta a la que pertenece el cuidador.
+
+#### Value Objects
+
+1. **ContactInformation:**
+   - **Descripción:** Objeto de valor que encapsula la información de contacto de un usuario, asegurando que los datos como el correo y el teléfono sean válidos.
+   - **Atributos:**
+     - `email`: Dirección de correo electrónico válida.
+     - `phoneNumber`: Número de teléfono válido.
+
+#### Domain Services
+
+1. **AccountDomainService:**
+   - **Descripción:** Contiene la lógica de negocio relacionada con la gestión de cuentas, como la verificación de roles y la actualización de información.
+   - **Métodos:**
+     - `verifyRole(Account account, String role)`: Verifica si una cuenta tiene un rol específico.
+     - `updateContactInformation(Account account, ContactInformation contactInfo)`: Actualiza la información de contacto de la cuenta.
+
+#### Aggregates y Aggregate Root
+
+1. **AccountAggregateRoot:**
+   - **Justificación:** `Account` es el aggregate root que controla la consistencia y la lógica de negocio de los usuarios y sus roles. Asegura que todos los roles y datos de contacto relacionados con una cuenta sean válidos y consistentes.
+
+#### Repositories (Interfaces)
+
+1. **AccountRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de cuentas de usuario.
+   - **Métodos:**
+     - `findById(String id)`: Busca una cuenta por su ID.
+     - `save(Account account)`: Guarda o actualiza una cuenta en la base de datos.
+     - `delete(String id)`: Elimina una cuenta de la base de datos.
+
+2. **RoleRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de roles.
+   - **Métodos:**
+     - `findById(String id)`: Busca un rol por su ID.
+     - `save(Role role)`: Guarda o actualiza un rol en la base de datos.
+     - `delete(String id)`: Elimina un rol de la base de datos.
+
+3. **PatientRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de pacientes.
+   - **Métodos:**
+     - `findById(String id)`: Busca un paciente por su ID.
+     - `save(Patient patient)`: Guarda o actualiza un paciente en la base de datos.
+     - `delete(String id)`: Elimina un paciente de la base de datos.
+
+4. **CaregiverRepository:**
+   - **Descripción:** Interfaz para interactuar con la base de datos de cuidadores.
+   - **Métodos:**
+     - `findById(String id)`: Busca un cuidador por su ID.
+     - `save(Caregiver caregiver)`: Guarda o actualiza un cuidador en la base de datos.
+     - `delete(String id)`: Elimina un cuidador de la base de datos.
+
+### 4.2.7.2. Interface Layer
+
+#### Controllers
+
+1. **AccountController:**
+   - **Descripción:** Expone endpoints para la gestión de cuentas de usuario, permitiendo registrar, actualizar y consultar cuentas.
+   - **Métodos:**
+     - `registerAccount(Account account)`: Endpoint para registrar una nueva cuenta.
+     - `updateAccount(String id, Account account)`: Endpoint para actualizar la información de una cuenta.
+     - `getAccountById(String id)`: Endpoint para obtener los detalles de una cuenta por su ID.
+
+2. **RoleController:**
+   - **Descripción:** Expone endpoints para la gestión de roles de usuario, permitiendo registrar, actualizar y consultar roles.
+   - **Métodos:**
+     - `createRole(Role role)`: Endpoint para crear un nuevo rol.
+     - `updateRole(String id, Role role)`: Endpoint para actualizar la información de un rol.
+     - `getRoleById(String id)`: Endpoint para obtener los detalles de un rol por su ID.
+
+3. **PatientController:**
+   - **Descripción:** Expone endpoints para la gestión de pacientes, permitiendo registrar, actualizar y consultar pacientes.
+   - **Métodos:**
+     - `registerPatient(Patient patient)`: Endpoint para registrar un nuevo paciente.
+     - `updatePatient(String id, Patient patient)`: Endpoint para actualizar la información de un paciente.
+     - `getPatientById(String id)`: Endpoint para obtener los detalles de un paciente por su ID.
+
+4. **CaregiverController:**
+   - **Descripción:** Expone endpoints para la gestión de cuidadores, permitiendo registrar, actualizar y consultar cuidadores.
+   - **Métodos:**
+     - `registerCaregiver(Caregiver caregiver)`: Endpoint para registrar un nuevo cuidador.
+     - `updateCaregiver(String id, Caregiver caregiver)`: Endpoint para actualizar la información de un cuidador.
+     - `getCaregiverById(String id)`: Endpoint para obtener los detalles de un cuidador por su ID.
+
+### 4.2.7.3. Application Layer
+
+#### Command Handlers
+
+1. **CreateAccountHandler:**
+   - **Descripción:** Maneja el comando para registrar una nueva cuenta en el sistema.
+   - **Métodos:**
+     - `handle(CreateAccountCommand command)`: Valida y crea una nueva cuenta en el sistema.
+
+2. **CreateRoleHandler:**
+   - **Descripción:** Maneja el comando para crear un nuevo rol en el sistema.
+   - **Métodos:**
+     - `handle(CreateRoleCommand command)`: Valida y crea un nuevo rol en el sistema.
+
+3. **RegisterPatientHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo paciente en el sistema.
+   - **Métodos:**
+     - `handle(RegisterPatientCommand command)`: Valida y registra un nuevo paciente en el sistema.
+
+4. **RegisterCaregiverHandler:**
+   - **Descripción:** Maneja el comando para registrar un nuevo cuidador en el sistema.
+   - **Métodos:**
+     - `handle(RegisterCaregiverCommand command)`: Valida y registra un nuevo cuidador en el sistema.
+
+#### Event Handlers
+
+1. **AccountCreatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se crea una nueva cuenta.
+   - **Métodos:**
+     - `handle(AccountCreatedEvent event)`: Ejecuta las acciones necesarias después de la creación de una cuenta.
+
+2. **RoleCreatedEventHandler:**
+   - **Descripción:** Maneja los eventos que se disparan cuando se crea un nuevo rol.
+   - **Métodos:**
+     - `handle(RoleCreatedEvent event)`: Ejecuta las acciones necesarias después de la creación de un rol.
+
+#### Query Handlers
+
+1. **GetAccountDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de una cuenta específica.
+   - **Métodos:**
+     - `handle(GetAccountDetailsQuery query)`: Devuelve los detalles de la cuenta solicitada.
+
+2. **GetRoleDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un rol específico.
+   - **Métodos:**
+     - `handle(GetRoleDetailsQuery query)`: Devuelve los detalles del rol solicitado.
+
+3. **GetPatientDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un paciente específico.
+   - **Métodos:**
+     - `handle(GetPatientDetailsQuery query)`: Devuelve los detalles del paciente solicitado.
+
+4. **GetCaregiverDetailsHandler:**
+   - **Descripción:** Maneja las consultas para obtener los detalles de un cuidador específico.
+   - **Métodos:**
+     - `handle(GetCaregiverDetailsQuery query)`: Devuelve los detalles del cuidador solicitado.
+
+### 4.2.7.4. Infrastructure Layer
+
+#### Repositories (Implementaciones)
+
+1. **AccountRepositoryImpl:**
+   - **Descripción:** Implementación de `AccountRepository` que define cómo se almacenan y recuperan las cuentas desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar una cuenta por su ID.
+     - `save(Account account)`: Implementación para guardar o actualizar una cuenta en la base de datos.
+     - `delete(String id)`: Implementación para eliminar una cuenta de la base de datos.
+
+2. **RoleRepositoryImpl:**
+   - **Descripción:** Implementación de `RoleRepository` que define cómo se almacenan y recuperan los roles desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un rol por su ID.
+     - `save(Role role)`: Implementación para guardar o actualizar un rol en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un rol de la base de datos.
+
+3. **PatientRepositoryImpl:**
+   - **Descripción:** Implementación de `PatientRepository` que define cómo se almacenan y recuperan los pacientes desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un paciente por su ID.
+     - `save(Patient patient)`: Implementación para guardar o actualizar un paciente en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un paciente de la base de datos.
+
+4. **CaregiverRepositoryImpl:**
+   - **Descripción:** Implementación de `CaregiverRepository` que define cómo se almacenan y recuperan los cuidadores desde la base de datos.
+   - **Métodos:**
+     - `findById(String id)`: Implementación para buscar un cuidador por su ID.
+     - `save(Caregiver caregiver)`: Implementación para guardar o actualizar un cuidador en la base de datos.
+     - `delete(String id)`: Implementación para eliminar un cuidador de la base de datos.
+
+### 4.2.7.6. Bounded Context Software Architecture Component Level Diagrams
+
+#### Components (Web API):
+
+1. **AccountService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de cuentas. Interactúa con el `AccountRepository` para gestionar el registro y la actualización de cuentas.
+
+2. **RoleService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de roles. Interactúa con el `RoleRepository` para gestionar el registro y la actualización de roles.
+
+3. **PatientService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de pacientes. Interactúa con el `PatientRepository` para gestionar el registro y la actualización de pacientes.
+
+4. **CaregiverService Component:**
+   - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de cuidadores. Interactúa con el `CaregiverRepository` para gestionar el registro y la actualización de cuidadores.
+
+![AccountContext](assets/structurizr-95614-AccountContext.png)
+
+### 4.2.7.7. Bounded Context Software Architecture Code Level Diagrams
+
+#### 4.2.7.7.1. Bounded Context Domain Layer Class Diagrams
+
+- **Clases importantes:**
+  - `Account`
+  - `Role`
+  - `Patient`
+  - `Caregiver`
+
+- **Repositories:**
+  - `AccountRepository`
+  - `RoleRepository`
+  - `PatientRepository`
+  - `CaregiverRepository`
+
+![alt text](assets/account-class.png)
+
+#### 4.2.7.7.2. Bounded Context Database Design Diagram
+
+- **Tablas:**
+  - **Account:**
+    - Columnas: `id`, `username`, `password`, `email`, `phoneNumber`, `role`.
+  - **Role:**
+    - Columnas: `id`, `roleName`, `description`.
+  - **Patient:**
+    - Columnas: `id`, `name`, `age`, `address`, `emergencyContact`, `Account_id`.
+    - Llave Foránea: `Account_id`.
+  - **Caregiver:**
+    - Columnas: `id`, `name`, `phone`, `address`, `Account_id`.
+    - Llave Foránea: `Account_id`.
+
+- **Relaciones:**
+  - `Patient` se relaciona con `Account` a través de `Account_id`.
+  - `Caregiver` se relaciona con `Account` a través de `Account_id`.
+  - `Account` puede tener múltiples pacientes y cuidadores asociados.
+
+![alt text](assets/diagram-db.png)
 ---
 
 # Conclusiones
@@ -1823,3 +2968,6 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 | Enlace                                             | Fecha        | Entregable                       |
 |----------------------------------------------------|--------------|----------------------------------|
 | [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
+
+## Diagrama C4 MIAM
+https://structurizr.com/share/95614/diagrams#SystemContext
