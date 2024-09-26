@@ -1438,6 +1438,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 3. **ConfigurationService Component:**
    - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de configuraciones. Interactúa con el `ConfigurationRepository` para registrar y actualizar configuraciones.
 
+![alt text](assets/structurizr-95614-DeviceContext.png)
+
 ### 4.2.1.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.1.7.1. Bounded Context Domain Layer Class Diagrams
@@ -1452,6 +1454,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `IoTBandRepository`
   - `ConfigurationRepository`
 
+  ![alt text](assets/device-class.png)
+
 #### 4.2.1.7.2. Bounded Context Database Design Diagram
 
 - **Tablas:**
@@ -1463,6 +1467,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - **Configuration:**
     - Columnas: `id`, `configName`, `value`, `Device_id`.
     - Llave Foránea: `Device_id`.
+
+![alt text](assets/diagram-db.png)
 
 - **Relaciones:**
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
@@ -1634,6 +1640,9 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 3. **DeviceService Component:**
    - **Descripción:** Componente encargado de la gestión de dispositivos IoT. Interactúa con el `DeviceRepository` para gestionar el registro y la actualización de dispositivos.
 
+![alt text](assets/structurizr-95614-EdgeContext.png)
+
+
 ### 4.2.2.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.2.7.1. Bounded Context Domain Layer Class Diagrams
@@ -1647,6 +1656,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `MetricsRepository`
   - `PatientRepository`
   - `DeviceRepository`
+
+   ![alt text](assets/edge-class.png)
 
 #### 4.2.2.7.2. Bounded Context Database Design Diagram
 
@@ -1665,6 +1676,7 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `Device` se relaciona con `Patient` a través de `Patient_id`.
   - `Patient` puede tener varias métricas y dispositivos asociados.
 
+![alt text](assets/diagram-db.png)
 ---
 
 ## 4.2.3. Bounded Context: Notification Context
@@ -1804,6 +1816,9 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 2. **CaregiverService Component:**
    - **Descripción:** Componente encargado de la gestión de cuidadores. Interactúa con el `CaregiverRepository` para gestionar el registro y la actualización de cuidadores.
 
+
+![alt text](assets/structurizr-95614-NotificationContext.png)
+
 ### 4.2.3.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.3.7.1. Bounded Context Domain Layer Class Diagrams
@@ -1815,6 +1830,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 - **Repositories:**
   - `NotificationRepository`
   - `CaregiverRepository`
+
+   ![alt text](assets/notification-class.png)
 
 #### 4.2.3.7.2. Bounded Context Database Design Diagram
 
@@ -1829,6 +1846,7 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `Notification` se relaciona con `Caregiver` a través de `Caregiver_id`.
   - `Caregiver` puede recibir varias notificaciones.
 
+![alt text](assets/diagram-db.png)
 ---
 
 ## 4.2.4. Bounded Context: Metrics Context
@@ -1967,6 +1985,47 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 
 1. **MetricsService Component:**
    - **Descripción:** Componente que encapsula la lógica de negocio relacionada con la gestión de métricas de salud. Interactúa con el `MetricsRepository` para registrar y actualizar métricas.
+
+2. **PatientService Component:** 
+   - **Descripción:** Componente encargado de la gestión de información de los pacientes.
+Interactúa con el `PatientRepository`.
+Cada componente interactúa con sus respectivos repositorios y handlers para ejecutar la lógica de negocio y responder a las solicitudes de forma coherente con el patrón CQRS.
+
+
+![alt text](assets/structurizr-95614-MetricsContext.png)
+
+### 4.2.4.7. Bounded Context Software Architecture Code Level Diagrams
+#### 4.2.4.7.1. Bounded Context Domain Layer Class Diagrams
+En esta sección se detallan las clases del Domain Layer, sus atributos, métodos y relaciones. Clases importantes:
+
+**Metrics:**
+
+- `Atributos`: id, averageHeartRate, averageTemperature, alertsGenerated, Patient_id.
+- `Métodos`: calculateAverage(), generateAlert(threshold).
+
+**Patient:**
+- `Atributos`: id, name, age, address, emergencyContact.
+- `Métodos`: updateContact(newContact).
+
+**Repositories:**
+
+`MetricsRepository`, `PatientRepository`.
+
+![alt text](assets/metric-class.png)
+
+#### 4.2.4.7.2. Bounded Context Database Design Diagram
+En esta sección se define el diseño de la base de datos para persistir las entidades de este contexto.
+
+**Tablas:**
+
+- **Metrics**:
+`Columnas`: id, averageHeartRate, averageTemperature, alertsGenerated, Patient_id.
+`Llave Foránea`: Patient_id.
+- **Patient**:
+`Columnas`: id, name, age, address, emergencyContact.
+`Relaciones`: Metrics se relaciona con Patient a través de Patient_id.
+
+![alt text](assets/diagram-db.png)
 
 ## 4.2.5. Bounded Context: Payment Context
 
@@ -2232,6 +2291,9 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 4. **PlanService Component:**
    - **Descripción:** Componente encargado de la gestión de planes de suscripción. Interactúa con el `PlanRepository` para gestionar el registro y la actualización de planes.
 
+![PaymentContext](assets/structurizr-95614-PaymentContext.png)
+
+
 ### 4.2.5.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.5.7.1. Bounded Context Domain Layer Class Diagrams
@@ -2249,6 +2311,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `SubscriptionRepository`
   - `PlanRepository`
   - `CreditCardRepository`
+
+![alt text](assets/payment-class.png)
 
 #### 4.2.5.7.2. Bounded Context Database Design Diagram
 
@@ -2272,6 +2336,7 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `Subscription` se relaciona con `Account` y `Plan` a través de `Account_id` y `Plan_id`.
   - `CreditCard` se relaciona con `Account` a través de `Account_id`.
 
+![alt text](assets/diagram-db.png)
 ---
 
 ## 4.2.6. Bounded Context: Configuration Context
@@ -2417,6 +2482,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 2. **DeviceService Component:**
    - **Descripción:** Componente encargado de la gestión de dispositivos IoT. Interactúa con el `DeviceRepository` para gestionar el registro y la actualización de dispositivos.
 
+![ConfigurationContext](assets/structurizr-95614-ConfigurationContext.png)
+
 ### 4.2.6.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.6.7.1. Bounded Context Domain Layer Class Diagrams
@@ -2428,6 +2495,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 - **Repositories:**
   - `ConfigurationRepository`
   - `DeviceRepository`
+
+![alt text](assets/configurations-class.png)
 
 #### 4.2.6.7.2. Bounded Context Database Design Diagram
 
@@ -2441,6 +2510,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 - **Relaciones:**
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
   - `Device` puede tener varias configuraciones asociadas.
+
+![alt text](assets/diagram-db.png)
 
 ## 4.2.7. Bounded Context: Account Context
 
@@ -2673,6 +2744,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 4. **CaregiverService Component:**
    - **Descripción:** Componente encargado de la lógica de negocio relacionada con la gestión de cuidadores. Interactúa con el `CaregiverRepository` para gestionar el registro y la actualización de cuidadores.
 
+![AccountContext](assets/structurizr-95614-AccountContext.png)
+
 ### 4.2.7.7. Bounded Context Software Architecture Code Level Diagrams
 
 #### 4.2.7.7.1. Bounded Context Domain Layer Class Diagrams
@@ -2688,6 +2761,8 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `RoleRepository`
   - `PatientRepository`
   - `CaregiverRepository`
+
+![alt text](assets/account-class.png)
 
 #### 4.2.7.7.2. Bounded Context Database Design Diagram
 
@@ -2708,6 +2783,7 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
   - `Caregiver` se relaciona con `Account` a través de `Account_id`.
   - `Account` puede tener múltiples pacientes y cuidadores asociados.
 
+![alt text](assets/diagram-db.png)
 ---
 
 # Conclusiones
