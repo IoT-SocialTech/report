@@ -239,6 +239,12 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
         <b>Descripcion:</b> Soy un estudiante de Ingeniería de Software interesado en las tecnologías de aprendizaje autónomo. Me gusta desarrollar en un entorno web páginas que se vean llamativas y que tengan múltiples funcionalidades enfocándome en la experiencia del usuario y en la creación de API’s. Poseo algunas habilidades que me permiten relacionarme en equipo, soy una persona responsable, con un enfoque centrado, comunicación asertiva, liderazgo y adaptabilidad. Mi meta es contribuir en el desarrollo de proyectos que me permitan mejorar y encontrar nuevas habilidades para adquirir mayores conocimientos laboral y profesionalmente.
         <td><img src="./assets/Luis-Trujillo.png" alt="Luis Trujillo" width="600"></td>
     </tr>
+    <tr>
+        <td><b>Nombre:</b> Sagastegui Rodriguez, Luis Jesus<br>
+            <b>Carrera:</b> Ingenieria de Software <br>
+        <b>Descripcion:</b> Soy un estudiante de la carrera de ingenieria de Software y me apasiona mucho lo que hago. Siempre estoy interesado en aprender nuevas tecnologias y lenguajes de programacion. Me gusta ver proyectos de las demas personas y poder compartir ideas. Me considero una persona responsable y muy amable que siempre le gusta ayudar a las demas personas. Siempre trato de dar lo mejor de mi para poder destacar.
+           <td><img src="./assets/Jesus-Sagastegui.jpg" alt="Luis Trujillo" width="600"></td>
+    </tr>
    <table>
 
 ## 1.2. Solution Profile
