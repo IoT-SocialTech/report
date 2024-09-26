@@ -180,6 +180,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
+  - [Videos de Exposición](#videos-de-exposición)
 
   
 ---
@@ -815,17 +816,45 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 ![Caracteristicas Objeticas1](./assets/S1_CO_01.png)
 
+La gráfica muestra el porcentaje de cuidadores que han adoptado un sistema de monitoreo para personas mayores, comparado con aquellos que no lo han hecho. Se observa que una gran mayoría de cuidadores ya utiliza algún tipo de tecnología para supervisar la salud y seguridad de los adultos mayores, lo que sugiere una tendencia creciente hacia la digitalización y automatización en el cuidado de la tercera edad.
+
 ![Caracteristicas Objeticas2](./assets/S1_CO_02.png)
+
+Indica el porcentaje de cuidadores que realizan un monitoreo activo de los signos vitales, como el pulso, de los adultos mayores bajo su cuidado, frente a aquellos que no realizan estas mediciones. Esto refleja la importancia que se le da al seguimiento de la salud en tiempo real para prevenir posibles complicaciones y mantener un control constante de la condición física del adulto mayor.
 
 ![Caracteristicas Objeticas3](./assets/S1_CO_03.png)
 
+Muestra el porcentaje de cuidadores que enfrentan desafíos significativos en su labor diaria. Los desafíos más comunes incluyen la falta de tiempo, el estrés emocional y la necesidad de equilibrar el cuidado con otras responsabilidades personales. Esta gráfica resalta la necesidad de brindar más apoyo y recursos a los cuidadores.
+
 ![Caracteristicas Objeticas4](./assets/S1_CO_04.png)
+
+Representa el porcentaje de cuidadores que consideran las caídas como uno de los mayores riesgos para las personas mayores, en comparación con aquellos que no le dan tanta importancia a este factor. Las caídas son una causa principal de hospitalizaciones y lesiones graves en adultos mayores, por lo que es crucial implementar medidas preventivas.
 
 - Características Subjetivas: 
 
 ![Caracteristicas Subjetivas1](./assets/S1_CS_01.png)
 
+Compara la satisfacción personal de los cuidadores que reciben gratitud por parte de los adultos mayores, frente a aquellos que no experimentan este tipo de reconocimiento. La gratitud tiene un impacto positivo en la motivación y bienestar emocional del cuidador, subrayando la importancia del reconocimiento y apoyo en su rol.
+
 ![Caracteristicas Subjetivas2](./assets/S1_CS_02.png)
+
+Refleja la capacidad de adaptabilidad de los cuidadores hacia el uso de tecnología en el cuidado de adultos mayores. Aquellos con alta adaptabilidad suelen sentirse más cómodos utilizando dispositivos y aplicaciones para monitorear la salud, mientras que los de baja adaptabilidad pueden requerir capacitación adicional para integrar la tecnología en su rutina.
+
+![Caracteristicas Subjetivas3](./assets/S1_CS_03.png)
+
+Muestra la preferencia en el uso de sistemas operativos móviles entre los cuidadores, comparando el uso de Android frente a iOS. Esta preferencia puede influir en la adopción de ciertas aplicaciones o herramientas de monitoreo, y es importante considerarlo al desarrollar soluciones tecnológicas para el cuidado.
+
+![Caracteristicas Subjetivas4](./assets/S1_CS_04.png)
+
+Compara la personalidad de los cuidadores, destacando la proporción de extrovertidos frente a introvertidos. Los extrovertidos pueden encontrar más satisfacción en roles que implican interacción constante con los adultos mayores y otros cuidadores, mientras que los introvertidos pueden preferir tareas más orientadas al seguimiento y administración.
+
+![Caracteristicas Subjetivas5](./assets/S1_CS_05.png)
+
+Indica el uso de diferentes redes sociales entre los cuidadores, incluyendo WhatsApp, Facebook, Instagram y TikTok. Esta información es útil para diseñar estrategias de comunicación y apoyo, así como para entender las preferencias de interacción social de los cuidadores en plataformas digitales.
+
+![Caracteristicas Subjetivas6](./assets/S1_CS_06.png)
+
+Compara la preferencia por marcas de dispositivos móviles, mostrando una alta presencia de marcas como Xiaomi, Apple y Motorola. Este dato es relevante para el desarrollo de aplicaciones móviles, asegurando compatibilidad y optimización en las marcas más utilizadas por los cuidadores.
 
 **Segmento Objetivo -> Dueños de casas de reposo:**
 
@@ -833,17 +862,45 @@ Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan 
 
 ![Caracteristicas Objeticas1](./assets/S2_CO_01.png)
 
+Muestra el uso de cámaras de monitoreo en casas de reposo, resaltando la importancia de la vigilancia para la seguridad de los residentes. Los propietarios de casas de reposo que implementan sistemas de cámaras suelen tener un mejor control y respuesta ante situaciones de emergencia.
+
 ![Caracteristicas Objeticas2](./assets/S2_CO_02.png)
 
+Indica los principales desafíos que enfrentan los dueños de casas de reposo, como la gestión eficiente del personal y la implementación de tecnología para mejorar la atención. Este gráfico destaca la necesidad de soluciones tecnológicas que simplifiquen la administración y mejoren la calidad del servicio.
+
 ![Caracteristicas Objeticas3](./assets/S2_CO_03.png)
+
+Resalta el interés de los dueños de casas de reposo en implementar tecnología para mejorar sus servicios. La mayoría está abierta a adoptar nuevas herramientas que les permitan monitorear mejor a los residentes y optimizar los recursos disponibles.
 
 - Características Subjetivas: 
 
 ![Caracteristicas Subjetivas1](./assets/S2_CS_01.png)
 
+Muestra el nivel de satisfacción de los dueños de casas de reposo al brindar cuidado a los adultos mayores. La satisfacción personal es un indicador de la calidad del servicio y la motivación para continuar mejorando el entorno y la atención brindada.
+
 ![Caracteristicas Subjetivas2](./assets/S2_CS_02.png)
 
-![Caracteristicas Subjetivas2](./assets/S2_CS_03.png)
+Indica el grado de adaptabilidad a nuevas tecnologías de los dueños de casas de reposo. Aquellos con alta adaptabilidad suelen estar más dispuestos a implementar sistemas avanzados de monitoreo y gestión en sus instalaciones.
+
+![Caracteristicas Subjetivas3](./assets/S2_CS_03.png)
+
+Refleja el interés en mejorar el uso de la tecnología en el entorno laboral de las casas de reposo. La mayoría busca soluciones que integren funciones como monitoreo de salud, administración de medicamentos y comunicación con familiares.
+
+![Caracteristicas Subjetivas4](./assets/S2_CS_04.png)
+
+Compara la preferencia por dispositivos Lenovo y Apple entre los dueños de casas de reposo. Esta información puede influir en la decisión de adquirir herramientas tecnológicas compatibles y optimizadas para los dispositivos más utilizados.
+
+![Caracteristicas Subjetivas5](./assets/S2_CS_05.png)
+
+Muestra la proporción de dueños de casas de reposo que son extrovertidos frente a introvertidos. Los extrovertidos tienden a liderar con un enfoque más comunicativo y abierto, mientras que los introvertidos pueden centrarse más en la organización interna y la eficiencia operativa.
+
+![Caracteristicas Subjetivas6](./assets/S2_CS_06.png)
+
+Indica el uso de redes sociales como WhatsApp y Facebook entre los dueños de casas de reposo. Estas plataformas son clave para la comunicación con familiares y el equipo de trabajo, facilitando el intercambio de información y la coordinación.
+
+![Caracteristicas Subjetivas7](./assets/S2_CS_07.png)
+
+Compara el uso de celulares Android frente a iOS entre los dueños de casas de reposo. Esta preferencia tecnológica puede afectar la adopción de aplicaciones y sistemas de gestión diseñados para dispositivos móviles, destacando la importancia de crear soluciones multiplataforma.
 
 ## 2.3. Needfinding
 
