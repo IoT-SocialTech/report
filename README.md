@@ -35,7 +35,7 @@ Trujillo Lopez, Luis Alberto <br>
 | Versión | Fecha | Autor | Descripción de la modificación |
 | ------- | ----- | ----- | ------------------------------ |
 |   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
-
+|   1.1     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
 ---
 
 # Project Report Collaboration Insights
