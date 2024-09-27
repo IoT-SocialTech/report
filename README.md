@@ -32,11 +32,15 @@ Trujillo Lopez, Luis Alberto <br>
 
 # Registro de Versiones del Informe
 
-| Versión | Fecha | Autor | Descripción de la modificación |
-| ------- | ----- | ----- | ------------------------------ |
-|   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
-|   1.1   |   25/09/2024   |  Aliaga Trevejo Lucía Guadalupe |   Se añadieron y corrigieron los elementos correspondientes en el capítulo de Needfinding |
-|   1.2     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
+| Versión | Fecha       | Autor                                                                                                             | Descripción de la modificación                                                                                                 |
+| ------- | ----------- | ----------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| 1.0     | 06/09/2024  | Achamizo Huamani Jean Carlos, Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto | Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)                                        |
+| 1.1     | 25/09/2024  | Aliaga Trevejo Lucía Guadalupe                                                                                    | Se añadieron y corrigieron los elementos correspondientes en el capítulo de Needfinding                                        |
+| 1.2     | 25/09/2024  | Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto                                                       | Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripción y las imágenes de cada diagrama. |
+| 1.3     | 27/09/2024  | Raymundo Guevara Rodrigo Alejandro                                                                               | Se añadieron los mockups y wireframes en la sección de diseño de interfaz.                                                     |
+| 1.4     | 27/09/2024  | Sagasti Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
+| 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
+
 
 
 ---
@@ -1214,6 +1218,11 @@ Este mapa muestra el flujo de trabajo de Gabriel Lopez en la actualidad. Sus pri
 | TS038         | Seguridad de la API                     | Como desarrollador, quiero asegurarme de que la API tenga la autenticación y autorización adecuadas para proteger los datos sensibles de los usuarios de la pulsera.                                       | **Dado que** el usuario intenta acceder a los datos de la API,<br>**cuando** se realiza una solicitud,<br>**entonces** la API requiere un token de autenticación válido para acceder a los datos de salud. <br>**Dado que** un usuario intenta acceder sin autenticación,<br>**cuando** la API detecta el acceso no autorizado,<br>**entonces** bloquea la solicitud e informa la necesidad de autenticación.                       | EP007                   |
 | TS039         | Documentación de la API                 | Como desarrollador, quiero que la API esté documentada de manera clara y completa para que otros desarrolladores puedan integrarse fácilmente.                                                              | **Dado que** la API está lista para su uso,<br>**cuando** un desarrollador necesita información,<br>**entonces** la documentación incluye ejemplos de uso de todos los endpoints y parámetros disponibles. <br>**Dado que** no se encuentra la documentación completa,<br>**cuando** un desarrollador intenta acceder a un endpoint,<br>**entonces** se muestra un mensaje solicitando la actualización de la documentación.                         | EP007                   |
 | TS040         | Optimización del Rendimiento de la API  | Como desarrollador, quiero optimizar la API para que las respuestas sean rápidas y eficientes, mejorando la experiencia del usuario final.                                                                  | **Dado que** la API está en producción,<br>**cuando** se realizan consultas,<br>**entonces** la API tiene tiempos de respuesta inferiores a 200ms. <br>**Dado que** se realizan consultas repetitivas,<br>**cuando** la API detecta patrones de uso,<br>**entonces** utiliza técnicas de caché para mejorar el rendimiento.                                                                                                                | EP007                   |
+| EP006         | Autenticación de Usuario                 | Como Visitante, quiero poder iniciar sesión de manera segura en la aplicación para acceder a las funcionalidades personalizadas.                                    |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US006         | Inicio de Sesión                         | Como Visitante, quiero iniciar sesión utilizando mi correo electrónico y contraseña para acceder a las funcionalidades personalizadas de la aplicación.             | **Dado que** el usuario está en la pantalla de login,<br>**cuando** ingresa su correo y contraseña correctos,<br>**entonces** se permite el acceso a su cuenta y se redirige a la página principal.<br>**Dado que** el usuario ingresa credenciales incorrectas,<br>**cuando** se realiza este error,<br>**entonces** se muestra un mensaje de error indicando la falla en el ingreso. | EP002                   |
+| US007         | Recuperación de Contraseña               | Como Visitante, quiero recuperar mi contraseña en caso de haberla olvidado para poder acceder nuevamente a mi cuenta.                                               | **Dado que** el usuario ha olvidado su contraseña,<br>**cuando** selecciona la opción de "Recuperar Contraseña" e ingresa su correo electrónico,<br>**entonces** el sistema envía un enlace de recuperación a su correo.<br>**Dado que** se intenta recuperar con un correo no registrado,<br>**cuando** se produce este error,<br>**entonces** se muestra un mensaje indicando la ausencia de cuenta asociada. | EP002                   |
+
+
 
 
 ## 3.3. Impact Mapping
@@ -3283,6 +3292,8 @@ A continuación, se presentan los wireframes de las secciones más importantes d
 #### 5.4.2.1. Web Application Wireflow Diagrams
 
 #### 5.4.2.2. Mobile Application Wireflow Diagrams
+
+
 
 ### 5.4.3. Applications Mock-ups
 
