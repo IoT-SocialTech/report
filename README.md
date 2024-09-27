@@ -3051,6 +3051,88 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Account` puede tener múltiples pacientes y cuidadores asociados.
 
 ![alt text](assets/diagram-db.png)
+
+# Capítulo V:Solution UI/UX Design
+
+## 5.1. Strategic-Level Attribute-Driven Design
+
+### 5.1.1. General Style Guidelines 
+
+#### 5.1.1.1. Branding
+
+El sistema de Monitoreo Integral del Adulto Mayor está diseñado para transmitir una sensación de confianza y profesionalismo, fundamental en el contexto de la salud. Se busca un estilo visual que sea accesible y amigable tanto para cuidadores como para usuarios con menos experiencia tecnológica, sin perder el rigor necesario para una aplicación de monitoreo.
+
+El diseño busca reflejar valores como seguridad, precisión, y cuidado. Esto se observa a través de:
+- Paleta de colores: Tonos suaves pero contrastantes, alineados con el contexto de la salud, que generan una sensación de calma y confianza.
+- Tipografía moderna: Elegida por su legibilidad clara y estética limpia, contribuyendo a una experiencia visual armónica.
+- Diseño minimalista: Enfocado en la funcionalidad, reduciendo la sobrecarga visual para que los usuarios puedan interactuar fácilmente con la interfaz.
+
+Tanto en las aplicaciones como el landing page, se adopta un tono de comunicación respetuoso y sereno, alineado con la naturaleza sensible del cuidado de la salud. El lenguaje es formal, pero sin llegar a ser excesivamente técnico, para que tanto profesionales de la salud como cuidadores y usuarios con menor experiencia tecnológica puedan entender fácilmente la información proporcionada.
+
+#### 5.1.1.2. Logotipo
+
+El logo sigue un diseño minimalista, con líneas limpias y formas simples. El logotipo es fácilmente reconocible y se integra bien en la interfaz sin distraer del contenido principal. 
+
+Se presentan dos variaciones principales:
+
+![MIAM logo color](assets/miam_logo_color.png)
+
+La versión a color, utilizada en fondos claros, resalta la identidad de la marca. Es ideal para el uso en el Landing Page, donde el contraste con el fondo es fundamental para captar la atención del usuario.
+
+![MIAM logo white](assets/miam_logo_white.png)
+
+La versión en blanco,diseñada para fondos oscuros o más complejos. Esta versión asegura que la marca se mantenga presente de manera elegante y sin perder visibilidad. Se utiliza principalmente en situaciones donde el logo necesita integrarse sin competir visualmente con otros elementos, como en el sidebar o áreas más visualmente cargadas.
+
+
+#### 5.1.1.3. Typography
+
+La tipografía principal utilizada en los encabezados y el cuerpo es Inter, una fuente sans-serif moderna y versátil, reconocida por su excelente legibilidad tanto en dispositivos móviles como en pantallas de alta resolución. Inter se caracteriza por su diseño limpio y espaciado óptimo
+
+![INTER Font](assets/font_inter.png)
+
+La estructura tipográfica se organiza mediante variaciones en el tamaño, grosor y estilo de la fuente, estableciendo una jerarquía visual clara que facilita la navegación. 
+
+Los títulos se presentan en negrita y con un tamaño mayor, destacándose para captar la atención del usuario de inmediato. En contraste, el cuerpo del texto y las descripciones utilizan tamaños más pequeños y estilos regulares, lo que ofrece una lectura fluida y cómoda en bloques más extensos de información.
+
+#### 5.1.1.4. Colors
+
+Las aplicaciones web y móvil emplean una paleta cuidadosamente seleccionada que equilibra profesionalismo y tranquilidad, con un enfoque en la accesibilidad y la funcionalidad visual.
+
+<b>Paleta Principal</b>
+
+![Main Palette](assets/main_palette.png)
+
+- <b>#5C9BD5:</b> Actúa como el color principal, utilizado en títulos y elementos como enlaces o botones de acción secundarios. Este tono de azul está asociado con la tecnología y la seguridad, lo que transmite confianza y estabilidad.
+- <b>#F2F7FC:</b> Se utiliza como color de fondo tanto en las pantallas de la versión web como móvil, creando un entorno limpio que facilita la lectura y mejora la experiencia de usuario.
+- <b>#1C2D3D:</b> Se emplea en la barra lateral, proporcionando un contraste oscuro que resalta los íconos y las opciones de navegación.
+
+<b>Colores neutros:</b>
+
+![Neutral Colors Palette](assets/neutral_colors.png)
+
+- <b>#4F4F4F:</b> Es la elección predominante para todo el texto principal y algunos títulos, asegurando una legibilidad cómoda.
+- <b>#959595:</b> Se utiliza para textos pequeños o información que no debe competir visualmente con otros elementos.
+- <b>#FFFFFF:</b> El color blanco se emplea para textos y elementos sobre fondos oscuros.
+
+<b>Colores de estado:</b>
+
+![State Colors Palette](assets/state_colors.png)
+
+- <b>#80CD83:</b> Representa estabilidad y situaciones normales, siendo empleado en indicadores de salud, como los signos vitales.
+- <b>#FBBC05:</b> Indica advertencias o situaciones que requieren precaución.
+- <b>#FE5E81:</b> Se utiliza para notificar estados críticos o de alto riesgo.
+
+#### 5.1.1.5. Spacing
+
+Se utiliza un espaciado amplio y consistente entre los diferentes elementos de la interfaz, de al menos 10px entre cada elemento. Esto facilita la lectura y la navegación, y evita que la interfaz se vea sobrecargada. 
+
+![Spacing](assets/spacing.png)
+
+En cuanto a la aplicación móvil, los botones y áreas interactivas son lo suficientemente grandes como para ser utilizados fácilmente en pantallas táctiles.
+
+### 5.1.2. Web, Mobile and IoT Style Guidelines 
+
+
 ---
 
 # Conclusiones
