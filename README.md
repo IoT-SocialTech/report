@@ -21,6 +21,7 @@
 Achamizo Huamani, Jean Carlos <br>
 Aliaga Trevejo, Lucía Guadalupe <br>
 Raymundo Guevara, Rodrigo Alejandro <br>
+Sagastegui Rodriguez, Luis Jesús <br>
 Siancas Reategui, Luis Alberto <br>
 Trujillo Lopez, Luis Alberto <br>
 
