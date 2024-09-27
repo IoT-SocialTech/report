@@ -1011,13 +1011,33 @@ En este paso, introducimos el modelo de lectura, que es la representación de da
 
 A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
 
-![ES-Step8](./assets/EV-Step8.png)
+![ES-Step8](./assets/event37.jpg)
+
+![ES-Step8](./assets/event38.jpg)
+
+![ES-Step8](./assets/event39.jpg)
+
+![ES-Step8](./assets/event40.jpg)
+
+![ES-Step8](./assets/event41.jpg)
+
+![ES-Step8](./assets/event42.jpg)
 
 **Step 9: Aggregates**
 
 Luego de presentar todos los eventos y comandos, comenzamos a agrupar los conceptos relacionados en agregados, que son las unidades que reciben comandos y generan eventos.
 
-![ES-Step9](./assets/EV-Step9.png)
+![ES-Step9](./assets/event43.jpg)
+
+![ES-Step9](./assets/event44.jpg)
+
+![ES-Step9](./assets/event45.jpg)
+
+![ES-Step9](./assets/event46.jpg)
+
+![ES-Step9](./assets/event47.jpg)
+
+![ES-Step9](./assets/event48.jpg)
 
 **Step 10: Bounded Contexts**
 
