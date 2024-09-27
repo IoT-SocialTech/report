@@ -3784,7 +3784,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Review Summary</b>
         </td>
         <td>
-            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de funcionamiento de la plataforma TasteTour.
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de funcionamiento de la plataforma MIAM.
             </br></br>
             La Landing Page se implementó exitosamente.  
         </td>
