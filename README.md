@@ -3285,7 +3285,6 @@ A continuación, se presentan los wireframes de las secciones más importantes d
 ![Wireframe Billing 3](assets/wireframe-mobile-billing3.png)
 
 
-
 ### 5.4.2. Applications Wireflow Diagrams
 
 #### 5.4.2.1. Web Application Wireflow Diagrams
@@ -3442,6 +3441,13 @@ A continuación, se muestran los mock-ups de las secciones más importantes de l
 
 #### 5.4.4.2. Mobile Application User Flow Diagrams
 
+
+## 5.5 Applications Prototyping
+
+![Web Application Prototype](assets/prototype.PNG)
+
+Enlace del prototipo:
+<a href="https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1">https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1</a>
 
 ---
 
