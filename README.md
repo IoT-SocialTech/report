@@ -2994,7 +2994,7 @@ Las aplicaciones web y móvil emplean una paleta cuidadosamente seleccionada que
 
 - <b>#5C9BD5:</b> Actúa como el color principal, utilizado en títulos y elementos como enlaces o botones de acción secundarios. Este tono de azul está asociado con la tecnología y la seguridad, lo que transmite confianza y estabilidad.
 - <b>#F2F7FC:</b> Se utiliza como color de fondo tanto en las pantallas de la versión web como móvil, creando un entorno limpio que facilita la lectura y mejora la experiencia de usuario.
-- <b>#1C2D3D:</b> Se emplea en la barra lateral, proporcionando un contraste oscuro que resalta los íconos y las opciones de navegación.
+- <b>#1C2D3D:</b> Se emplea para proporcionar un contraste oscuro que resalta los íconos y las opciones de navegación.
 
 <b>Colores neutros:</b>
 
@@ -3022,6 +3022,55 @@ En cuanto a la aplicación móvil, los botones y áreas interactivas son lo sufi
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines 
 
+### 5.1.2.1. Web Style Guidelines
+
+<b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
+
+- <b>#5C9BD5:</b> Usado para títulos, enlaces y botones de acción menos importantes.
+- <b>#1C2D3D:</b> Color del sidebar, proporcionando un contraste fuerte con el fondo.
+- <b>#F2F7FC:</b> Color de fondo que crea un ambiente ligero y limpio en la interfaz.
+
+<b>Tipografía:</b> Se eligió la fuente Inter. Los títulos se presentan en un tamaño mayor (24px) y un peso más fuerte, mientras que el texto del cuerpo se establece en 16px.
+
+<b>Espaciado y alineación:</b> El diseño mantiene un espaciado consistente entre elementos, con márgenes de al menos 16px para evitar la saturación visual y mejorar la experiencia del usuario.
+
+<b>Botones: </b> Los botones tienen un diseño rectángulo con bordes redondeados, proporcionando una sensación amigable.
+
+![Buttons](assets/buttons.png)
+
+<b>Gráficos y Visualización de Datos:</b> Los gráficos de signos vitales (temperatura y frecuencia cardíaca) se presentan con líneas claras y colores contrastantes para facilitar su interpretación.
+
+![Graphics](assets/graphics.png)
+
+
+<b>Navegación:</b> La navegación se organiza mediante un menú lateral, permitiendo un acceso fácil a todas las secciones de la aplicación. Las opciones de menú se destacan con iconos intuitivos y etiquetas que mejoran la usabilidad.
+
+![Sidebar](assets/sidebar.png)
+
+
+### 5.1.2.2. Mobile Style Guidelines
+
+<b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
+
+- <b>#5C9BD5:</b> Usado para títulos, enlaces y botones de acción menos importantes.
+- <b>#1C2D3D:</b> Color del sidebar, proporcionando un contraste fuerte con el fondo.
+- <b>#F2F7FC:</b> Color de fondo que crea un ambiente ligero y limpio en la interfaz.
+
+<b>Tipografía:</b> Las fuentes son consistentes con las de la versión web, asegurando que el texto sea claro y fácil de leer en pantallas más pequeñas. Los títulos se presentan en 20px y el texto de cuerpo en 14px.
+
+<b>Espaciado y alineación:</b> El diseño mantiene un espaciado adecuado entre elementos, con un margen mínimo de 12px, evitando la saturación en pantallas reducidas.
+
+<b>Botones: </b> Los botones son amplios y accesibles, con un tamaño mínimo de 44px de alto para facilitar la interacción táctil. Se implementan colores de estado claros que indican interacciones.
+
+![Buttons Mobile](assets/button-mobile.PNG)
+
+![Buttons Mobile](assets/button-mobile-2.PNG)
+
+<b>Gráficos y Visualización de Datos:</b> Los gráficos de signos vitales se adaptan a la pantalla, utilizando líneas y etiquetas legibles. Se asegura que la información sea fácilmente interpretable en dispositivos móviles.
+
+<b>Navegación:</b> La navegación se coloca en una barra inferior, ofreciendo accesibilidad a las funciones principales de la aplicación. Los iconos son grandes y fáciles de reconocer, permitiendo una navegación intuitiva.
+
+![Navbar Mobile](assets/mobile-navbar.png)
 
 ---
 
