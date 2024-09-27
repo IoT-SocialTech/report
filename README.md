@@ -88,10 +88,7 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [Assumptions worksheet](#assumptions-worksheet)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [Features Hypothesis](#features-hypothesis)
-      - [Business Hypothesis](#business-hypothesis)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
@@ -121,6 +118,20 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
       - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
+      - [Proceso para Crear el Context Mapping y Análisis de Alternativas](#proceso-para-crear-el-context-mapping-y-análisis-de-alternativas)
+        - [1. Pasos para Crear el Context Mapping](#1-pasos-para-crear-el-context-mapping)
+          - [1.1. Identificación de los Bounded Contexts](#11-identificación-de-los-bounded-contexts)
+          - [1.2. Identificación de Relaciones Iniciales](#12-identificación-de-relaciones-iniciales)
+        - [2. Análisis de Alternativas y Preguntas Clave](#2-análisis-de-alternativas-y-preguntas-clave)
+          - [2.1. ¿Qué pasaría si movemos este capability a otro bounded context?](#21-qué-pasaría-si-movemos-este-capability-a-otro-bounded-context)
+          - [2.2. ¿Qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?](#22-qué-pasaría-si-descomponemos-este-capability-y-movemos-uno-de-los-sub-capabilities-a-otro-bounded-context)
+          - [2.3. ¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?](#23-qué-pasaría-si-partimos-el-bounded-context-en-múltiples-bounded-contexts)
+          - [2.4. ¿Qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?](#24-qué-pasaría-si-tomamos-este-capability-de-estos-3-contexts-y-lo-usamos-para-formar-un-nuevo-context)
+          - [2.5. ¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?](#25-qué-pasaría-si-duplicamos-una-funcionalidad-para-romper-la-dependencia)
+          - [2.6. ¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?](#26-qué-pasaría-si-creamos-un-shared-service-para-reducir-la-duplicación-entre-múltiples-bounded-contexts)
+          - [2.7. ¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?](#27-qué-pasaría-si-aislamos-los-core-capabilities-y-movemos-los-otros-a-un-context-aparte)
+        - [3. Alternativa Recomendada de Context Mapping](#3-alternativa-recomendada-de-context-mapping)
+        - [4. Patrones de Relaciones Sugeridos](#4-patrones-de-relaciones-sugeridos)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
       - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
@@ -270,42 +281,63 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
     - [4.2.7.7. Bounded Context Software Architecture Code Level Diagrams](#4277-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.7.7.1. Bounded Context Domain Layer Class Diagrams](#42771-bounded-context-domain-layer-class-diagrams)
       - [4.2.7.7.2. Bounded Context Database Design Diagram](#42772-bounded-context-database-design-diagram)
-- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
-  - [5.1 Style Guidelines](#51-style-guidelines)
-    - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
-    - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
-  - [5.2 Information Architecture](#52-information-architecture)
-    - [5.2.1 Organization Systems](#521-organization-systems)
-    - [5.2.2 Labeling Systems](#522-labeling-systems)
-    - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-    - [5.2.4 Searching Systems](#524-searching-systems)
-    - [5.2.5 Navigation Systems](#525-navigation-systems)
-  - [5.3 Landing Page UI Design](#53-landing-page-ui-design)
-    - [5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)
-    - [5.3.2 Landing Page Mock-up](#532-landing-page-mock-up)
-  - [5.4 Applications UX/UI Design](#54-applications-uxui-design)
-    - [5.4.1 Applications Wireframes](#541-applications-wireframes)
-    - [5.4.2 Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
-    - [5.4.3 Applications Mock-ups](#543-applications-mock-ups)
-    - [5.4.4 Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+- [Capítulo V:Solution UI/UX Design](#capítulo-vsolution-uiux-design)
+  - [5.1. Strategic-Level Attribute-Driven Design](#51-strategic-level-attribute-driven-design)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+      - [5.1.1.1. Branding](#5111-branding)
+      - [5.1.1.2. Logotipo](#5112-logotipo)
+      - [5.1.1.3. Typography](#5113-typography)
+      - [5.1.1.4. Colors](#5114-colors)
+      - [5.1.1.5. Spacing](#5115-spacing)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+    - [5.1.2.1. Web Style Guidelines](#5121-web-style-guidelines)
+    - [5.1.2.2. Mobile Style Guidelines](#5122-mobile-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems.](#521-organization-systems)
+    - [5.2.2. Labeling Systems.](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags.](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Navigation Systems.](#524-navigation-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags-1)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems-1)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+      - [5.4.1.1. Web Application Wireframes](#5411-web-application-wireframes)
+      - [5.4.1.2. Mobile Application Wireframes](#5412-mobile-application-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+      - [5.4.2.1. Web Application Wireflow Diagrams](#5421-web-application-wireflow-diagrams)
+      - [5.4.2.2. Mobile Application Wireflow Diagrams](#5422-mobile-application-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+      - [5.4.3.1. Web Application Mock-ups](#5431-web-application-mock-ups)
+      - [5.4.3.2. Mobile Application Mock-ups](#5432-mobile-application-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+      - [5.4.4.1. Web Application User Flow Diagrams](#5441-web-application-user-flow-diagrams)
+      - [5.4.4.2. Mobile Application User Flow Diagrams](#5442-mobile-application-user-flow-diagrams)
   - [5.5 Applications Prototyping](#55-applications-prototyping)
-
-- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
-  - [6.1 Software Configuration Management](#61-software-configuration-management)
-    - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
-    - [6.1.2 Source Code Management](#612-source-code-management)
-    - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
-    - [6.1.4 Software Deployment Configuration](#614-software-deployment-configuration)
-  - [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
-    - [6.2.1 Sprint 1](#62x-sprint-1)
-      - [6.2.1.1 Sprint Planning n](#62x1-sprint-planning-1)
-      - [6.2.1.2 Sprint Backlog n](#62x2-sprint-backlog-1)
-      - [6.2.1.3 Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
-      - [6.2.1.4 Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
-      - [6.2.1.5 Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
-      - [6.2.1.6 Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
-      - [6.2.1.7 Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
-      - [6.2.1.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+      - [6.3 Validation Interviews.](#63-validation-interviews)
+      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+      - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+      - [6.4. Video About-the-Product.](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -1314,6 +1346,8 @@ En el primer paso del EventStorming, se inicia con una sesión de lluvia de idea
 
 ![ES-Step1](./assets/EV-Step1.png)
 
+Realizamos una lluvia de ideas para identificar todos los eventos, datos y acciones relevantes que el sistema IoT para el cuidado de adultos mayores debería manejar utilizando una pulsera inteligente y aplicaciones web. Se incluyeron eventos relacionados con la activación de sensores y monitoreo de signos vitales, como la detección de movimiento, ritmo cardíaco y temperatura, para garantizar el seguimiento de la salud del usuario. También se consideraron acciones del sistema, como envío de alertas, notificaciones a familiares y cuidadores, así como la gestión de cuentas y configuración del dispositivo. Se añadieron posibles fallos en la conexión o en los sensores para asegurar la robustez del sistema ante fallos técnicos. Además, se contemplaron aspectos de gestión de datos y sus actualizaciones en diferentes plataformas, así como la interacción con servicios adicionales como suscripciones y pagos. Estos pos-its reflejan un mapeo inicial de todas las posibles interacciones y eventos que el sistema debería manejar para brindar una solución integral y segura para el cuidado de adultos mayores.
+
 **Step 2: Timelines**
 
 En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
@@ -1327,6 +1361,8 @@ En este segundo paso, se revisan los eventos de dominio generados y se organizan
 ![ES-Step2-4](./assets/event4.jpg)
 
 ![ES-Step2-5](./assets/event5.jpg)
+
+Hemos organizado la información generada en la fase de exploración no estructurada mediante flujos de eventos específicos, identificando así cómo debería reaccionar el sistema ante distintas situaciones relacionadas con el monitoreo de salud y seguridad del adulto mayor. Cada flujo visualiza un conjunto de eventos y acciones correlacionadas, desde la activación de sensores y la medición de parámetros vitales hasta la generación de alertas y la notificación a familiares o cuidadores. Se detallan diferentes escenarios como la detección de movimientos inusuales, alteraciones en la frecuencia cardíaca o temperatura, así como la gestión de fallos en el sistema. Además, se incluye la actualización de datos en distintas plataformas (nube, aplicaciones móviles y web) y la generación de reportes de salud. Este paso permite visualizar las posibles trayectorias que seguiría el sistema en respuesta a cada evento, estableciendo la base para desarrollar un flujo de trabajo eficiente y cohesivo que garantice una respuesta rápida y adecuada a cada situación monitorizada.
 
 
 **Step 3: Paint Points**
@@ -1345,6 +1381,8 @@ Después de organizar los eventos en una línea de tiempo, aprovechamos esta vis
 
 ![ES-Step3-6](./assets/event11.jpg)
 
+Hemos identificado y documentado los puntos críticos y decisiones clave en cada flujo de eventos. Estos flujos se detallan con preguntas clave que deben ser respondidas para garantizar el correcto funcionamiento del sistema, como la forma de detectar un pulso estable, la verificación de un movimiento repentino o la identificación de una temperatura normal. Además, se analiza cómo se registran y actualizan los datos en la nube, y cómo se notifica al cuidador en caso de eventos anómalos. Se incluyen flujos adicionales para la gestión de la conexión de la banda IoT, la configuración y vinculación de cuentas, así como la verificación de usuarios y renovaciones de suscripción. Este paso permite una mayor claridad sobre los requerimientos específicos del sistema, asegurando que se cubran todos los posibles escenarios y puntos de fallo, y se establezcan procesos claros para la toma de decisiones en situaciones críticas, mejorando así la robustez y la confiabilidad de la solución IoT propuesta.
+
 **Step 4: Pivotal Points**
 
 Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain points, buscamos eventos comerciales clave que marquen un cambio en el contexto o en la fase del proceso. Estos se denominan eventos principales y los señalamos con una barra vertical que separa los eventos anteriores de los posteriores a dicho evento.
@@ -1361,6 +1399,8 @@ Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain poin
 
 ![ES-Step4-6](./assets/event17.jpg)
 
+Hemos identificado los puntos críticos (pivotal points) que son esenciales para la correcta operación y toma de decisiones del sistema IoT de cuidado de adultos mayores. Estos puntos son momentos donde se requiere validar decisiones importantes para garantizar que el sistema funcione de manera adecuada. Por ejemplo, se definieron puntos de verificación como la detección de ritmo cardíaco y temperatura estables, la actualización de datos en la nube y la generación de alertas a cuidadores y familiares. También se incluyeron decisiones sobre la configuración de la banda IoT, la verificación de usuarios y la gestión de suscripciones. Estos puntos críticos permiten asegurar que, ante cualquier eventualidad, el sistema tenga claras las acciones a seguir para brindar una respuesta eficiente y oportuna, minimizando el riesgo de fallos y mejorando la confiabilidad del sistema.
+
 **Step 5: Commands**
 
 En este paso también introducimos los comandos, los cuales describen la causa de un evento o el flujo de eventos. A diferencia de los eventos de dominio, los comandos son expresados en modo imperativo, describiendo las operaciones que deben ejecutarse en el sistema.
@@ -1376,6 +1416,8 @@ En este paso también introducimos los comandos, los cuales describen la causa d
 ![ES-Step5-5](./assets/event22.jpg)
 
 ![ES-Step5-6](./assets/event23.jpg)
+
+Estructuramos las funcionalidades y acciones clave del sistema IoT para el cuidado de adultos mayores, identificando los actores involucrados y sus interacciones con el sistema. Se definieron procesos específicos para la recolección de datos de los sensores, su visualización y almacenamiento en la base de datos, y la generación de alertas en caso de situaciones anómalas. Además, se detallaron los flujos de registro, vinculación y desvinculación de usuarios, cuidadores y familiares, así como la configuración de la banda IoT y su sincronización. Este paso permitió mapear con claridad cómo cada actor interactúa con el sistema y cómo se gestionan los datos críticos, asegurando que todas las funcionalidades necesarias estén integradas para ofrecer una solución completa y eficiente.
 
 **Step 6: Policies**
 
