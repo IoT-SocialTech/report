@@ -3242,6 +3242,42 @@ A continuación, se muestran los wireframes de las secciones más importantes de
 
 #### 5.4.1.2. Mobile Application Wireframes
 
+Los wireframes móviles representan una versión preliminar del diseño de la aplicación, mostrando cómo se organizará la información en una pantalla más pequeña. Se ha aplicado de manera cuidadosa la arquitectura de información para garantizar que los elementos clave estén ubicados de forma lógica y accesible para los usuarios en sus dispositivos móviles.
+
+Se han utilizado principios de jerarquía visual y alineación para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una navegación fluida entre las diferentes secciones de la aplicación. El diseño responsivo asegura que la experiencia del usuario sea consistente, fácil de usar y sin comprometer la funcionalidad en dispositivos móviles.
+
+A continuación, se presentan los wireframes de las secciones más importantes de la aplicación móvil, mostrando la disposición de los menús, botones de acción y secciones de contenido en un formato optimizado para pantallas de smartphones:
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframe-mobile-dashboard.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframe-mobile-configuration.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframe-mobile-alert.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframe-mobile-patients.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframe-mobile-billing1.png)
+
+![Wireframe Billing 2](assets/wireframe-mobile-billing2.png)
+
+![Wireframe Billing 3](assets/wireframe-mobile-billing3.png)
+
+
+
 ### 5.4.2. Applications Wireflow Diagrams
 
 #### 5.4.2.1. Web Application Wireflow Diagrams
@@ -3252,48 +3288,72 @@ A continuación, se muestran los wireframes de las secciones más importantes de
 
 #### 5.4.3.1. Web Application Mock-ups
 
-En esta sección, se presentan los mock-ups de la aplicación web, mostrando una representación visual más detallada y cercana al producto final. 
+En esta sección se presentan los mock-ups de la aplicación móvil, mostrando una representación visual más detallada y cercana a la versión final para dispositivos móviles.
 
-Estos mock-ups integran todos los principios de diseño, como la consistencia visual y la combinación equilibrada de colores para garantizar una experiencia de usuario cohesiva y atractiva. Cada componente está diseñado siguiendo las pautas establecidas en el design system, asegurando que los botones, tipografías, y otros elementos mantengan coherencia a lo largo de toda la aplicación.
+Estos mock-ups integran todos los principios de diseño adaptados a la experiencia móvil, como la consistencia visual y la combinación equilibrada de colores, asegurando que la experiencia de usuario sea cohesiva y atractiva en pantallas pequeñas. Cada componente, como botones, tipografías y otros elementos, está diseñado siguiendo las pautas establecidas en el design system, garantizando que se mantenga una coherencia visual a lo largo de toda la aplicación móvil.
 
-A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación: 
+A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación móvil, donde se destacan la disposición de los menús, los accesos rápidos y las interacciones táctiles optimizadas para ofrecer una navegación intuitiva y fluida en smartphones:
 
 - Log in
 
-![Mockup Login 1](assets/mockups_login_1.png)
-![Mockup Login 2](assets/mockups_login_2.png)
+![Mockup Login 1](assets/mockup-mobile-login.png)
 
 - Dashboard
 
-![Mockup Dashboard 1](assets/mockups_dashboard_1.png)
-![Mockup Dashboard 2](assets/mockups_dashboard_2.png)
-![Mockup Dashboard 3](assets/mockups_dashboard_3.png)
+![Mockup Dashboard 1](assets/mockup-mobile-dashboard.png)
 
 - Band configuration
 
-![Mockup Band Configuration 1](assets/mockups_bandconfiguration_1.png)
-![Mockup Band Configuration 2](assets/mockups_bandconfiguration_2.png)
+![Mockup Band Configuration 1](assets/mockup-mobile-configuration.png)
 
 - Alerts 
 
-![Mockup Alerts 1](assets/mockups_alerts_1.png)
-![Mockup Alerts 2](assets/mockups_alerts_2.png)
+![Mockup Alerts 1](assets/mockup-mobile-alerts.png)
 
 - Patients
 
-![Mockup Patients 1](assets/mockups_patients_1.png)
-![Mockup Patients 2](assets/mockups_patients_2.png)
-![Mockup Patients 3](assets/mockups_patients_3.png)
-![Mockup Patients 4](assets/mockups_patients_4.png)
+![Mockup Patients 1](assets/mockup-mobile-patients.png)
 
 - Billing
 
-![Mockup Billing 1](assets/mockups_billing_1.png)
-![Mockup Billing 2](assets/mockups_billing_2.png)
-![Mockup Billing 3](assets/mockups_billing_3.png)
-![Mockup Billing 3](assets/mockups_billing_4.png)
+![Mockup Billing 1](assets/mockup-mobile-billing1.png)
+
+![Mockup Billing 2](assets/mockup-mobile-billing2.png)
+
+![Mockup Billing 3](assets/mockup-mobile-billing3.png)
 
 #### 5.4.3.2. Mobile Application Mock-ups
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
 
 ### 5.4.4. Applications User Flow Diagrams
 
