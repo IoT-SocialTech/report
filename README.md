@@ -1307,31 +1307,83 @@ En el primer paso del EventStorming, se inicia con una sesión de lluvia de idea
 
 En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
 
-![ES-Step2](./assets/EV-Step2.png)
+![ES-Step2-1](./assets/event1.jpg)
+
+![ES-Step2-2](./assets/event2.jpg)
+
+![ES-Step2-3](./assets/event3.jpg)
+
+![ES-Step2-4](./assets/event4.jpg)
+
+![ES-Step2-5](./assets/event5.jpg)
+
 
 **Step 3: Paint Points**
 
 Después de organizar los eventos en una línea de tiempo, aprovechamos esta vista general para identificar puntos de interés a lo largo del proceso. Estos puntos de interés pueden incluir cuellos de botella, pasos manuales que podrían ser automatizados, falta de documentación o carencias de conocimiento del dominio.
 
-![ES-Step3](./assets/EV-Step3.png)
+![ES-Step3-1](./assets/event6.jpg)
+
+![ES-Step3-2](./assets/event7.jpg)
+
+![ES-Step3-3](./assets/event8.jpg)
+
+![ES-Step3-4](./assets/event9.jpg)
+
+![ES-Step3-5](./assets/event10.jpg)
+
+![ES-Step3-6](./assets/event11.jpg)
 
 **Step 4: Pivotal Points**
 
 Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain points, buscamos eventos comerciales clave que marquen un cambio en el contexto o en la fase del proceso. Estos se denominan eventos principales y los señalamos con una barra vertical que separa los eventos anteriores de los posteriores a dicho evento.
 
-![ES-Step4](./assets/EV-Step4.png)
+![ES-Step4-1](./assets/event12.jpg)
+
+![ES-Step4-2](./assets/event13.jpg)
+
+![ES-Step4-3](./assets/event14.jpg)
+
+![ES-Step4-4](./assets/event15.jpg)
+
+![ES-Step4-5](./assets/event16.jpg)
+
+![ES-Step4-6](./assets/event17.jpg)
 
 **Step 5: Commands**
 
 En este paso también introducimos los comandos, los cuales describen la causa de un evento o el flujo de eventos. A diferencia de los eventos de dominio, los comandos son expresados en modo imperativo, describiendo las operaciones que deben ejecutarse en el sistema.
 
-![ES-Step5](./assets/EV-Step5.png)
+![ES-Step5-1](./assets/event18.jpg)
+
+![ES-Step5-2](./assets/event19.jpg)
+
+![ES-Step5-3](./assets/event20.jpg)
+
+![ES-Step5-4](./assets/event21.jpg)
+
+![ES-Step5-5](./assets/event22.jpg)
+
+![ES-Step5-6](./assets/event23.jpg)
 
 **Step 6: Policies**
 
 En este punto, buscamos automation policies (políticas de automatización) que puedan ejecutar estos comandos. Esto significa que un evento específico del dominio desencadena automáticamente la ejecución de un comando. En otras palabras, cuando ocurre un evento determinado, el comando correspondiente se ejecuta de manera automática.
 
-![ES-Step6](./assets/EV-Step6.png)
+![ES-Step6-1](./assets/event24.jpg)
+
+![ES-Step6-2](./asset/sevent25.jpg)
+
+![ES-Step6-3](./assets/event26.jpg)
+
+![ES-Step6-4](./assets/event27.jpg)
+
+![ES-Step6-5](./assets/event28.jpg)
+
+![ES-Step6-6](./assets/event29.jpg)
+
+![ES-Step6-7](./assets/event30.jpg)
+
 
 **Step 7: Read Models**
 
