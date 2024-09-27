@@ -3196,6 +3196,113 @@ Además, el Hero Section incluye el Call to action "How it Works", que invita a 
 ![Team section](assets/team-section.PNG)
 ![Contact and footer section](assets/contact-footer-section.PNG)
 
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications Wireframes
+
+#### 5.4.1.1. Web Application Wireframes
+
+Los wireframes sirven como una representación inicial del diseño. En ellos se ha aplicado cuidadosamente la arquitectura de información, asegurando que los elementos clave se ubiquen de manera lógica y accesible para los usuarios. 
+
+Los principios de jerarquía visual y alineación sirven para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una fácil navegación entre las diferentes secciones.
+
+A continuación, se muestran los wireframes de las secciones más importantes de la aplicación: 
+
+- Log in
+
+![Wireframe Login](assets/wireframes_login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
+
+
+#### 5.4.1.2. Mobile Application Wireframes
+
+### 5.4.2. Applications Wireflow Diagrams
+
+#### 5.4.2.1. Web Application Wireflow Diagrams
+
+#### 5.4.2.2. Mobile Application Wireflow Diagrams
+
+### 5.4.3. Applications Mock-ups
+
+#### 5.4.3.1. Web Application Mock-ups
+
+En esta sección, se presentan los mock-ups de la aplicación web, mostrando una representación visual más detallada y cercana al producto final. 
+
+Estos mock-ups integran todos los principios de diseño, como la consistencia visual y la combinación equilibrada de colores para garantizar una experiencia de usuario cohesiva y atractiva. Cada componente está diseñado siguiendo las pautas establecidas en el design system, asegurando que los botones, tipografías, y otros elementos mantengan coherencia a lo largo de toda la aplicación.
+
+A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación: 
+
+- Log in
+
+![Mockup Login 1](assets/mockups_login_1.png)
+![Mockup Login 2](assets/mockups_login_2.png)
+
+- Dashboard
+
+![Mockup Dashboard 1](assets/mockups_dashboard_1.png)
+![Mockup Dashboard 2](assets/mockups_dashboard_2.png)
+![Mockup Dashboard 3](assets/mockups_dashboard_3.png)
+
+- Band configuration
+
+![Mockup Band Configuration 1](assets/mockups_bandconfiguration_1.png)
+![Mockup Band Configuration 2](assets/mockups_bandconfiguration_2.png)
+
+- Alerts 
+
+![Mockup Alerts 1](assets/mockups_alerts_1.png)
+![Mockup Alerts 2](assets/mockups_alerts_2.png)
+
+- Patients
+
+![Mockup Patients 1](assets/mockups_patients_1.png)
+![Mockup Patients 2](assets/mockups_patients_2.png)
+![Mockup Patients 3](assets/mockups_patients_3.png)
+![Mockup Patients 4](assets/mockups_patients_4.png)
+
+- Billing
+
+![Mockup Billing 1](assets/mockups_billing_1.png)
+![Mockup Billing 2](assets/mockups_billing_2.png)
+![Mockup Billing 3](assets/mockups_billing_3.png)
+![Mockup Billing 3](assets/mockups_billing_4.png)
+
+#### 5.4.3.2. Mobile Application Mock-ups
+
+### 5.4.4. Applications User Flow Diagrams
+
+#### 5.4.4.1. Web Application User Flow Diagrams
+
+#### 5.4.4.2. Mobile Application User Flow Diagrams
+
+
+
 ---
 
 # Conclusiones
