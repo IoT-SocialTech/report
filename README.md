@@ -3153,6 +3153,49 @@ Se utilizaron los tres sistemas de organización visual: jerárquica, secuencial
 
 ![Alerts](assets/mockups_alerts.png)
 
+### 5.2.2. Labeling Systems.
+
+### 5.2.3. SEO Tags and Meta Tags
+
+### 5.2.4. Searching Systems.
+
+### 5.2.5. Navigation Systems.
+
+
+## 5.3. Landing Page UI Design
+
+Se diseñó el Landing Page con un enfoque centrado en la experiencia del usuario, donde las decisiones de diseño y la arquitectura de la información se han basado en principios clave como la simplicidad, la accesibilidad y la claridad de comunicación. 
+
+Cada componente de la interfaz responde a la necesidad de brindar confianza y facilitar la comprensión del servicio ofrecido, tanto en versiones de escritorio como en dispositivos móviles.
+
+### 5.3.1. Landing Page Wireframe
+
+El wireframe para el navegador de escritorio presenta una estructura organizada en bloques que prioriza el flujo de información y facilita la exploración de contenido de manera natural. En la parte superior, se encuentra un encabezado con el menú de navegación, manteniendo visibles las secciones más relevantes.
+
+El diseño sigue los principios de la jerarquía visual al posicionar la información más importante en el área superior de la pantalla, lo que mejora la usabilidad. También se aplican principios de diseño inclusivo, con un enfoque en la legibilidad de los textos y la facilidad para navegar por el contenido.
+
+![Wireframe Hero section](assets/wireframe-hero-section.PNG)
+![Wireframe How it works section](assets/wireframe-how-it-works-section.PNG)
+![Wireframe Why choose us section](assets/wireframe-why-choose-us-section.PNG)
+![Wireframe Plans section](assets/wireframe-plans-section.PNG)
+![Wireframe Testimonials section](assets/wireframe-testimonials-section.PNG)
+![Wireframe Team section](assets/wireframe-team-section.PNG)
+![Wireframe Contact and footer section](assets/wireframe-contact-footer-section.PNG)
+
+###  5.3.2. Landing Page Mock-up 
+
+El mock-up para la versión de escritorio del Landing Page refleja la aplicación concreta de los principios de diseño establecidos, como la consistencia visual, con el uso de una paleta de colores neutros y azulados que generan una atmósfera de confianza y tranquilidad. Se han empleado tipografías legibles y contrastes adecuados para mejorar la accesibilidad, siguiendo las pautas de diseño inclusivo.
+
+Además, el Hero Section incluye el Call to action "How it Works", que invita a los usuarios a conocer más el sistema.
+
+![Hero section](assets/hero-section.PNG)
+![How it works section](assets/how-it-works-section.PNG)
+![Why choose us section](assets/why-choose-us-section.PNG)
+![Plans section](assets/plans-section.PNG)
+![Testimonials section](assets/testimonials-section.PNG)
+![Team section](assets/team-section.PNG)
+![Contact and footer section](assets/contact-footer-section.PNG)
+
 ---
 
 # Conclusiones
