@@ -262,14 +262,6 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
     - [4.2.7.7. Bounded Context Software Architecture Code Level Diagrams](#4277-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.7.7.1. Bounded Context Domain Layer Class Diagrams](#42771-bounded-context-domain-layer-class-diagrams)
       - [4.2.7.7.2. Bounded Context Database Design Diagram](#42772-bounded-context-database-design-diagram)
-  - [](#-3)
-- [Conclusiones](#conclusiones)
-- [Bibliografía](#bibliografía)
-- [Anexos](#anexos)
-  - [Videos de Exposición](#videos-de-exposición)
-  - [Diagrama C4 MIAM](#diagrama-c4-miam)
-
-
 - [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
   - [5.1 Style Guidelines](#51-style-guidelines)
     - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
@@ -306,6 +298,12 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [6.2.1.6 Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7 Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
       - [6.2.1.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
+  - [Videos de Exposición](#videos-de-exposición)
+  - [Diagrama C4 MIAM](#diagrama-c4-miam)
+
 
 
 
@@ -3925,6 +3923,7 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 | Enlace                                             | Fecha        | Entregable                       |
 |----------------------------------------------------|--------------|----------------------------------|
 | [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
+| [TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EfmvDSVbl8dFvhLPFbvhgWsBQABB_YiN7W9nQ8I-91Dr2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QsTfwJ)       | 26/09/2024   | TP        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
