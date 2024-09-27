@@ -21,6 +21,7 @@
 Achamizo Huamani, Jean Carlos <br>
 Aliaga Trevejo, Lucía Guadalupe <br>
 Raymundo Guevara, Rodrigo Alejandro <br>
+Sagastegui Rodriguez, Luis Jesús <br>
 Siancas Reategui, Luis Alberto <br>
 Trujillo Lopez, Luis Alberto <br>
 
@@ -35,7 +36,12 @@ Trujillo Lopez, Luis Alberto <br>
 | Versión | Fecha | Autor | Descripción de la modificación |
 | ------- | ----- | ----- | ------------------------------ |
 |   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
-|   1.1     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
+|   1.1   |   25/09/2024   |  Aliaga Trevejo Lucía Guadalupe |   Se añadieron y corrigieron los elementos correspondientes en el capítulo de Needfinding |
+|   1.2     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
+|   1.3     |   26/09/2024   |  Achamizo Huamani Jean Carlos|   Se corrigieron los elementos correspondientes del Lean UX Process, los apartados de Lean UX Assumptions y Lean UX Hypothesis Statements |
+| 1.3     | 27/09/2024  | Raymundo Guevara Rodrigo Alejandro                                                                               | Se añadieron los mockups y wireframes en la sección de diseño de interfaz.                                                     |
+| 1.4     | 27/09/2024  | Sagasti Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
+| 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
 ---
 
 # Project Report Collaboration Insights
@@ -53,8 +59,17 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
 
 ![Network TB1](./assets/network-tb1.PNG)
 
----
+**TP1**
 
+Para la segunda entrega, el equipo logró un total de 78 commits en todas las ramas.
+
+![Insights TP1](./assets/insights-tp1.PNG)
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
+![Network TP1](./assets/network-tp1.PNG)
+
+---
 
 # Contenido
 
@@ -256,7 +271,42 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
     - [4.2.7.7. Bounded Context Software Architecture Code Level Diagrams](#4277-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.7.7.1. Bounded Context Domain Layer Class Diagrams](#42771-bounded-context-domain-layer-class-diagrams)
       - [4.2.7.7.2. Bounded Context Database Design Diagram](#42772-bounded-context-database-design-diagram)
-  - [](#-3)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1 Style Guidelines](#51-style-guidelines)
+    - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2 Information Architecture](#52-information-architecture)
+    - [5.2.1 Organization Systems](#521-organization-systems)
+    - [5.2.2 Labeling Systems](#522-labeling-systems)
+    - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4 Searching Systems](#524-searching-systems)
+    - [5.2.5 Navigation Systems](#525-navigation-systems)
+  - [5.3 Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2 Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4 Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1 Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2 Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3 Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4 Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5 Applications Prototyping](#55-applications-prototyping)
+
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1 Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2 Source Code Management](#612-source-code-management)
+    - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4 Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1 Sprint 1](#62x-sprint-1)
+      - [6.2.1.1 Sprint Planning n](#62x1-sprint-planning-1)
+      - [6.2.1.2 Sprint Backlog n](#62x2-sprint-backlog-1)
+      - [6.2.1.3 Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
+      - [6.2.1.4 Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5 Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
+      - [6.2.1.6 Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7 Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -264,16 +314,15 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
   - [Diagrama C4 MIAM](#diagrama-c4-miam)
 
 
-  
+
+
 ---
 
 # Student Outcome
-
-| Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
-|------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Participó activamente en la planificación y ejecución de las actividades del equipo. Coordinó las reuniones para discutir el progreso del proyecto y tomó la iniciativa en la resolución de conflictos. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Facilitó las discusiones del equipo, asegurando que todos los miembros pudieran expresar sus opiniones. Tomó la responsabilidad de consolidar la información y presentar el avance del proyecto a los stakeholders. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Contribuyó al liderazgo del equipo al proporcionar soporte técnico y orientación durante la implementación de las tareas. Coordinó con otros miembros del equipo para asegurar la alineación de los objetivos del proyecto. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Asumió un rol activo en la definición de metas y en la planificación de tareas, manteniendo a todos los miembros del equipo enfocados en los objetivos comunes. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Lideró la revisión de las tareas y ayudó a motivar al equipo a cumplir con los plazos establecidos. Estableció un entorno de trabajo colaborativo que facilitó la cooperación entre todos los miembros del equipo. <br><br>|  *TB1* <br> El trabajo en equipo fue efectivo en proporcionar un liderazgo colaborativo, facilitando una comunicación abierta y un enfoque compartido hacia la consecución de objetivos. Cada miembro del equipo contribuyó significativamente a la planificación y ejecución del proyecto, mejorando la dinámica y eficiencia del grupo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Facilitó la creación de un entorno inclusivo al asegurar que todas las voces fueran escuchadas durante las discusiones del equipo. Colaboró en la definición de metas claras y en la planificación de tareas para alcanzar los objetivos del proyecto. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Promovió la inclusión en el equipo al garantizar que las tareas y objetivos fueran distribuidos equitativamente. Ayudó a planificar y asignar tareas de manera que se maximizara el potencial de cada miembro del equipo. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Colaboró en la creación de un ambiente de trabajo abierto y respetuoso, donde cada miembro del equipo pudo contribuir con sus ideas. Participó activamente en la planificación y en el establecimiento de objetivos alcanzables. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Se encargó de supervisar el progreso del equipo en relación con las metas establecidas, asegurando que todos los miembros estuvieran alineados con los objetivos del proyecto. Facilitó la planificación de tareas y la resolución de problemas para mantener el proyecto en camino. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Implementó prácticas para fomentar un entorno colaborativo y inclusivo, realizando sesiones de planificación y seguimiento para asegurar el cumplimiento de los objetivos. Supervisó el progreso y la realización de tareas, ayudando al equipo a mantenerse enfocado. <br><br>|   *TB1* <br> Se logró establecer un entorno de trabajo colaborativo e inclusivo, con una planificación efectiva y cumplimiento de metas. La distribución equitativa de tareas y la supervisión continua ayudaron a mantener al equipo alineado y motivado para alcanzar los objetivos del proyecto. |
-
+| Criterio específico                                              | Acciones realizadas                                                                                                                   | Conclusión                                                                                                                       |
+|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta  | **Jean Carlos Achamizo Huamani** <br> TB1: <br> Implementé inicialmente los apartados de assumptions e hipótesis, estructurando las bases del proyecto y facilitando la comprensión común de los objetivos. Esta acción ayudó a definir un enfoque claro y unificado para el equipo, asegurando que todos los miembros estuvieran alineados desde el principio. <br> TP1: <br> Corregí los assumptions originales, añadiendo cinco nuevos y elaboré hipótesis detalladas utilizando la plantilla proporcionada. Esto permitió al equipo validar los objetivos del proyecto y adaptar las actividades según los requerimientos específicos, lo que mejoró la toma de decisiones conjunta y la planificación estratégica. <br><br> **Luis Alberto Trujillo Lopez** <br> TB1: <br> Añadí las páginas web de los competidores y sus logos, proporcionando una base inicial para el análisis competitivo. Esto facilitó la comprensión del panorama del mercado y permitió al equipo definir estrategias de manera más informada. <br> TP1: <br> Expandí esta información agregando descripciones detalladas de cada competidor y reorganizando las imágenes del Event Storming en secciones claras con descripciones para cada fase. Al hacer esto, ayudé a clarificar los roles y responsabilidades dentro del equipo, promoviendo un liderazgo compartido y un trabajo en equipo más cohesivo. <br><br> **Lucía Guadalupe Aliaga Trevejo** <br> TB1: <br> Realicé los primeros resúmenes de entrevistas y la descripción inicial de los User Personas. Facilitando las discusiones del equipo, me aseguré de que todas las opiniones fueran consideradas, promoviendo un entorno de trabajo colaborativo. <br> TP1: <br> Mejoré los enlaces y resúmenes de entrevistas, incluyendo detalles sobre marcas y personalidad del entrevistado. Corregí la descripción de los User Personas basándome en el análisis de entrevistas. Esto ayudó a alinear la visión del equipo con las necesidades reales de los usuarios, fortaleciendo el liderazgo conjunto en la toma de decisiones. <br><br> **Luis Alberto Siancas Reategui** <br> TB1: <br> Comencé el análisis inicial de entrevistas, incluyendo detalles generales sobre los entrevistados y tecnologías utilizadas. Esto proporcionó al equipo una comprensión básica del perfil de usuario. <br> TP1: <br> Añadí detalles específicos sobre las tecnologías utilizadas por los entrevistados, sus marcas preferidas y las influencias que afectan su toma de decisiones. Esta información fue clave para que el equipo pudiera tomar decisiones informadas y desarrollar estrategias que respondieran efectivamente a las necesidades identificadas. <br><br> **Rodrigo Alejandro Raymundo Guevara** <br> TB1: <br> Definí las primeras User Stories y Epics, estableciendo la base del backlog del proyecto. Esto permitió al equipo organizar el trabajo en tareas claras y priorizadas, promoviendo una coordinación efectiva. <br> TP1: <br> Unifiqué el cuadro de User Stories y Epics, mejoré la redacción de las User Stories y sus escenarios en español, e incluí las User Stories de la landing page. Esto ayudó a estructurar mejor el trabajo del equipo, asegurando que todos estuvieran alineados con las prioridades del proyecto y facilitando un liderazgo compartido. <br><br> **Luis Jesús Sagastegui Rodríguez** <br> TB1: <br> Empecé la definición de las reglas de negocio básicas para los aggregates y el diseño inicial de la base de datos. Esto proporcionó una base técnica para la planificación del proyecto. <br> TP1: <br> Añadí reglas de negocio detalladas para los aggregates, elaboré diagramas de clases y de base de datos. Estas acciones facilitaron una mejor comprensión técnica del proyecto, permitiendo al equipo tomar decisiones técnicas de manera más colaborativa y eficiente. <br><br> | **Conclusión TB1:** El equipo estableció una base sólida para el proyecto al definir claramente las responsabilidades y objetivos iniciales, promoviendo un liderazgo conjunto y una toma de decisiones participativa. Se crearon los apartados iniciales y se definieron roles, lo que facilitó el trabajo en equipo. <br><br> **Conclusión TP1:** El equipo mejoró la planificación y ejecución del proyecto al revisar y corregir los elementos iniciales. Cada miembro contribuyó a profundizar y perfeccionar sus responsabilidades, permitiendo una mayor coordinación y efectividad en la consecución de los objetivos. Todos los roles estuvieron alineados, lo que reforzó el liderazgo conjunto y la cohesión del equipo.                                                                                                           |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Jean Carlos Achamizo Huamani** <br> TB1: <br> Facilitó la creación de un entorno inclusivo al asegurar que todas las voces fueran escuchadas durante las discusiones del equipo. Definí metas claras y organicé la planificación de tareas iniciales. Esto ayudó a establecer una base sólida para que el equipo trabajara de manera coordinada hacia objetivos comunes. <br> TP1: <br> Corregí y expandí los assumptions, añadiendo cinco nuevos y elaborando hipótesis más específicas para guiar el trabajo del equipo. Estas acciones permitieron establecer objetivos más precisos y alineados con la visión del proyecto, facilitando un entorno colaborativo donde todos entendieron claramente su rol. <br><br> **Luis Alberto Trujillo Lopez** <br> TB1: <br> Promoví la inclusión en el equipo al proporcionar la base del análisis competitivo con las páginas web y logos de competidores, facilitando la planificación inicial del análisis. Esto ayudó al equipo a comprender mejor el entorno competitivo y a definir metas realistas. <br> TP1: <br> Añadí descripciones detalladas de los competidores, mejorando la calidad del análisis y facilitando la colaboración del equipo en la definición de metas estratégicas. Al clarificar las diferencias y similitudes con la competencia, ayudé a que el equipo pudiera enfocar sus esfuerzos en áreas de oportunidad específicas. <br><br> **Lucía Guadalupe Aliaga Trevejo** <br> TB1: <br> Garantizé que las tareas y objetivos fueran distribuidos equitativamente. Realicé los resúmenes iniciales de entrevistas y la descripción de User Personas, maximizando el potencial de cada miembro del equipo. Esto permitió al equipo tener un punto de partida claro para entender las necesidades de los usuarios. <br> TP1: <br> Mejoré los resúmenes de entrevistas, incluyendo detalles importantes, y consolidé la User Task Matrix en un solo cuadro, describiendo tareas comunes y corrigiendo el User Journey Mapping. Estas acciones permitieron al equipo tener una visión más clara de las tareas y su importancia, facilitando la planificación y el cumplimiento de objetivos. <br><br> **Luis Alberto Siancas Reategui** <br> TB1: <br> Supervisé el progreso del equipo en relación con las metas establecidas y facilité la planificación de tareas iniciales basadas en el análisis preliminar de entrevistas. Esto aseguró que el equipo estuviera alineado y enfocado en las actividades prioritarias. <br> TP1: <br> Completé el análisis de entrevistas, detallando las tecnologías utilizadas, marcas preferidas e influencias de los entrevistados. Esta información fue crucial para ajustar las metas y estrategias del equipo, asegurando que las tareas planificadas respondieran a las expectativas de los usuarios y cumplieran con los objetivos del proyecto. <br><br> **Rodrigo Alejandro Raymundo Guevara** <br> TB1: <br> Colaboré en la creación de un ambiente de trabajo respetuoso y colaborativo, donde cada miembro pudo contribuir con sus ideas en la planificación de tareas iniciales y la redacción de User Stories. Esto permitió al equipo organizar el trabajo de manera efectiva desde el inicio. <br> TP1: <br> Mejoré la redacción de las User Stories y sus criterios de aceptación, prioricé las User Stories de la landing page y unifiqué las Epics y User Stories. Estas acciones ayudaron al equipo a tener una dirección clara y a organizar las tareas de manera que todos entendieran qué se esperaba de cada uno, facilitando el cumplimiento de objetivos. <br><br> **Luis Jesús Sagastegui Rodríguez** <br> TB1: <br> Implementé prácticas colaborativas e inclusivas, asegurando que todos los miembros estuvieran enfocados en las tareas iniciales establecidas y facilitando la planificación de objetivos. Esto permitió una mejor organización y claridad en el trabajo del equipo. <br> TP1: <br> Añadí reglas detalladas de los aggregates, diagramas de clases y estructura de la base de datos, organizando mejor la planificación de tareas y el cumplimiento de objetivos técnicos del proyecto. Estas acciones proporcionaron un marco técnico sólido para el equipo, permitiendo una colaboración más efectiva en el desarrollo de la solución. <br><br> | **Conclusión TB1:** El equipo trabajó de manera efectiva en la planificación inicial del proyecto, estableciendo metas claras y asegurando la participación equitativa de todos los miembros. Cada miembro contribuyó a la creación de un entorno colaborativo e inclusivo, estableciendo las bases para un trabajo coordinado y enfocado en objetivos comunes. <br><br> **Conclusión TP1:** Se consolidó la colaboración y la inclusión, revisando y mejorando los elementos iniciales y planificando de manera detallada las tareas. Cada miembro del equipo ajustó sus responsabilidades y contribuciones en función de los datos y análisis obtenidos, lo que permitió una mejor planificación y ejecución de los objetivos establecidos.                                                                                                               |
 
 ---
 
@@ -372,64 +421,36 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 
 #### 1.2.2.2. Lean UX Assumptions
-#### Assumptions worksheet
+En esta sección se formulan las hipótesis basadas en las suposiciones previas, estableciendo relaciones claras entre las características del producto, los comportamientos esperados de los usuarios y los resultados de negocio deseados. Con puntos 
 
-**¿Quién es el usuario?**
-El usuario principal son los dueños de casas de reposo y cuidadores de adultos mayores que buscan mejorar la seguridad y bienestar de los residentes.
-
-**¿Qué problemas tiene nuestro producto? ¿Resolver?**
-MIAM resuelve la necesidad de un monitoreo constante y efectivo de los adultos mayores, ayudando a prevenir caídas, detectar cambios en signos vitales y garantizar que los residentes estén en áreas seguras y obtengan un mejor cuidado.
-
-**¿Qué características son importantes?**
-Monitoreo en tiempo real de movimientos y signos vitales.
-Alertas instantáneas en caso de caídas o presencia en zonas riesgosas.
-Interfaz fácil de usar en la plataforma web y aplicación móvil.
-Botón de alerta para solicitar asistencia
-
-**¿Dónde encaja nuestro producto en su trabajo o vida?**
-MIAM se integra en el trabajo diario de los administradores y cuidadores como una herramienta de software esencial para supervisar la salud y en los adultos se presentarán pulseras para su monitoreo de estado, minimizando riesgos y mejorando la calidad del cuidado.
-**¿Cuándo y cómo es nuestro producto? ¿Usado?**
-El producto es utilizado como una pulsera continuamente a lo largo del día para monitorear en tiempo real la ubicación y salud de los residentes. Los cuidadores y administradores lo  administran tanto desde dispositivos móviles como desde la plataforma web.
-**¿Cómo debe verse nuestro producto y cómo comportarse?**
-El producto software debe tener una interfaz intuitiva y accesible, con gráficos claros que muestren el estado de los residentes y notificaciones visibles para alertas urgentes. Debe ser confiable, fácil de usar y responder rápidamente a cualquier evento crítico y en los residentes la pulsera debe ser ligera y de un diseño simple que no incomode a los residentes.
-
-**Creo que mis clientes necesitan** un sistema fiable y fácil de usar para monitorear la seguridad y salud de los adultos mayores.
-**Estas necesidades se pueden resolver con** una combinación de tecnología de sensores, monitoreo de signos vitales y una plataforma accesible para la gestión de datos y alertas.
-**Mis clientes iniciales son (o serán)** dueños de casas de reposo y cuidadores de adultos mayores que valoran la seguridad y calidad de vida de sus residentes.
-**El valor #1**que un cliente quiere de mi servicio es la capacidad de prevenir accidentes y responder rápidamente a emergencias, garantizando la seguridad de los residentes.
-**El cliente también puede obtener estos beneficios adicionales** como la tranquilidad de los familiares, una mayor eficiencia en la gestión del cuidado y una reducción en los incidentes graves.
-**Voy a adquirir la mayoría de mis clientes a través de** estrategias de marketing directo a casas de reposo y promociones en eventos de la industria geriátrica.
-**Haré dinero a través de** la venta de los equipos  de pulsera y la suscripción al sistema de monitoreo.
-**Mi competencia principal en el mercado serán** otros proveedores de sistemas de monitoreo para adultos mayores, así como dispositivos de salud y seguridad específicos.
-Los venceremos debido a nuestra integración completa de sensores de movimiento, monitoreo de signos vitales y una plataforma fácil de usar que ofrece alertas en tiempo real.
-**Mi mayor riesgo de producto es** la posibilidad de que los sensores o la plataforma no funcionen correctamente en situaciones críticas.
-Resolveremos esto a través de pruebas exhaustivas, mantenimiento regular y la implementación de redundancias en el sistema para asegurar su fiabilidad.
-**¿Qué otras suposiciones tenemos? ¿Eso, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?**
-Asumimos que los clientes estarán dispuestos a pagar una suscripción mensual para mantener el servicio. Si no es así, podríamos enfrentar dificultades financieras.
+1. Business Assumptions:
+Asumimos que los dueños de casas de reposo y cuidadores profesionales requieren una solución integrada y confiable para monitorear la salud y seguridad de los adultos mayores, reduciendo el riesgo de incidentes y mejorando la eficiencia en el cuidado diario.
+2. Business Outcome Assumptions:
+ Asumimos que los dueños de casas de reposo y cuidadores medirán el éxito de nuestro servicio por su capacidad para reducir en un 30% los incidentes de caídas y mejorar la respuesta a emergencias en un 50% durante el primer año de implementación.
+3. User Assumptions:
+ Asumimos que los cuidadores profesionales y los administradores de casas de reposo estarán dispuestos a adoptar nuevas tecnologías si estas les permiten monitorear de manera proactiva la salud de los residentes y reducir la carga laboral asociada a la supervisión manual.
+4. User Outcome Assumptions:
+ Asumimos que los cuidadores y administradores de casas de reposo experimentarán una mejora en la satisfacción laboral, una disminución del 20% en las tareas repetitivas de supervisión y un aumento del 40% en la percepción de seguridad por parte de los familiares de los residentes durante el primer semestre de uso del sistema.
+5. Feature Assumptions:
+ Asumimos que la combinación de sensores de movimiento y signos vitales, junto con alertas en tiempo real personalizables según el estado de salud de cada residente, será la característica clave que diferenciará nuestra solución de la competencia y captará al menos el 25% del mercado objetivo en el primer año.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-#### Features Hypothesis
+En esta sección se presentan las suposiciones clave que sustentan el diseño y desarrollo del producto. Estas suposiciones se basan en el entendimiento actual de las necesidades y comportamientos de los usuarios, así como en las condiciones del mercado. Identificar y documentar estas suposiciones permite al equipo alinearse en torno a expectativas comunes y establecer una base sólida para el proceso de validación a través de pruebas e iteraciones futuras.
 
-**Statement 1:**
-Creemos que la incorporación de un botón de alerta en la banda de monitoreo que los residentes puedan activar manualmente reducirá el tiempo de reacción en situaciones de emergencia.
-Sabremos que hemos tenido éxito cuando el 90% de las alertas manuales se respondan en menos de 2 minutos durante los primeros 6 meses de uso.
-**Statement 2:** 											Creemos que el incluir alertas instantáneas en la aplicación móvil para notificar a los cuidadores sobre caídas o cambios anómalos en signos vitales mejorará la respuesta a emergencias.
-Sabremos que hemos tenido éxito cuando veamos una reducción del 30% en el tiempo de respuesta ante emergencias registradas en los primeros 3 meses de uso.
-**Statement 3:**
-Creemos que la integración de un historial de salud y actividad en la plataforma web permitirá a los cuidadores tomar decisiones más informadas sobre el bienestar de los residentes.
-Sabremos que hemos tenido éxito cuando el 80% de los usuarios informen que revisan el historial de salud al menos una vez por semana para ajustar el plan de cuidado.
+**Hypothesis Statements 1:**
+Creemos que al implementar un sistema de monitoreo integrado, los dueños de casas de reposo y cuidadores verán una reducción del 30% en los incidentes de caídas y una mejora del 20% en la eficiencia operativa dentro de los primeros seis meses. Sabremos que esto es cierto cuando se observe una disminución documentada en los reportes de incidentes y una mejora en la satisfacción y eficiencia reportada por los usuarios.
 
-#### Business Hypothesis
+**Hypothesis Statements 2:**
+Creemos que al utilizar nuestro sistema, los dueños de casas de reposo y cuidadores notarán una disminución del 30% en los incidentes de caídas y un 50% de mejora en el tiempo de respuesta a emergencias dentro del primer año. Sabremos que hemos tenido éxito cuando se registren mejoras documentadas en los reportes de incidentes y tiempos de respuesta durante este período.
 
-**Statement 1:**
-Creemos que el alquiler de equipos junto con la suscripción al sistema de monitoreo MIAM será la mejor estrategia para obtener ingresos sostenibles.
-Sabremos que esto es cierto cuando el 70% de las casas de reposo que prueben el sistema opten por continuar con la suscripción después del periodo de prueba inicial.
-**Statement 2:**
-Creemos que ofrecer un periodo de prueba gratuito de 30 días aumentará la tasa de adopción inicial de nuestro sistema entre nuevas casas de reposo.
-Sabremos que esto es cierto cuando al menos el 60% de los usuarios que completen el periodo de prueba decidan suscribirse al servicio.
-**Statement 3:**
-Creemos que al asociarnos con organizaciones de cuidado geriátrico y hospitales locales podremos ampliar nuestro mercado objetivo y generar más leads calificados.
-Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan de referencias o asociaciones con estas instituciones dentro de los primeros 6 meses
+**Hypothesis Statements 3:**
+Creemos que al ofrecer una solución tecnológica que facilite la supervisión proactiva, al menos el 70% de los cuidadores profesionales y administradores adoptarán nuestro sistema en los primeros seis meses. Sabremos que esto es cierto cuando el 70% de los usuarios registrados utilicen activamente la solución y reporten una disminución significativa en la carga laboral.
+
+**Hypothesis Statements 4:**
+Creemos que al usar nuestro sistema de monitoreo, los cuidadores y administradores de casas de reposo reportarán una mejora del 30% en su satisfacción laboral y una disminución del 20% en las tareas de supervisión repetitivas dentro del primer semestre. Sabremos que hemos tenido éxito cuando los resultados de encuestas de satisfacción y reportes de tiempo de trabajo lo reflejen, y al menos el 40% de los familiares indiquen una mayor percepción de seguridad.
+
+**Hypothesis Statements 5:**
+Creemos que la integración de sensores de movimiento y signos vitales con alertas personalizables en tiempo real aumentará la adopción de nuestro sistema en un 25% del mercado objetivo durante el primer año. Sabremos que hemos tenido éxito cuando el 25% del mercado potencial (casas de reposo y cuidadores profesionales) hayan adquirido y utilicen activamente nuestra solución, reportando mejoras en la seguridad y satisfacción del cuidado.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1162,95 +1183,111 @@ Este mapa muestra el flujo de trabajo de Gabriel Lopez en la actualidad. Sus pri
 
 ## 3.2. User Stories
 
-| Epic ID | Título                | Descripción                                                                                                                                                |
-|---------|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| EP001 | Health Monitoring| As an app user, I want the bracelet to monitor my temperature and heart rate in real time so that I can receive alerts if abnormal values ​​are detected and keep my health under control.|
-| EP002 | Help Request | As a bracelet user, I want to have an emergency button that notifies caregivers so that I can quickly call for help if needed, and caregivers receive an immediate notification on their mobile devices. |
-| EP003 | Bracelet Management | As a system administrator, I want to manage rented wristbands so that I can update rental information, track available wristbands, and generate usage reports for billing. |
-| EP004 | User Interface | As a mobile or web app user, I want an easy-to-use interface so that I can easily view and understand bracelet data, access reports, and manage notifications intuitively. |
-| EP005 | Report Generation | As a system administrator, I want to generate detailed reports with the bracelet data so that I can analyze the health of the users, generate usage reports and make recommendations based on the collected data. |
-| EP006 | API Development | As an integrative developer, I want a well-documented API with key functionalities so that I can integrate the application with other systems, manage bracelet data, receive notifications and access reports efficiently. |
+| Epic/Story ID | Título                                   | Descripción                                                                                                                                                         | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                   | Relacionado con Epic ID |
+|---------------|------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| EP001         | Información del Producto                 | Como Visitante, quiero desplazarme entre las secciones de la Página de Inicio para leer la información sobre el producto.                                           |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US001         | Beneficios del Producto                  | Como Visitante, quiero leer información sobre los beneficios del producto para evaluar cómo satisface mis necesidades.                                              | **Dado que** el visitante está en la Página de Inicio,<br>**cuando** se desplaza por la sección de beneficios,<br>**entonces** se muestra la información de los beneficios del producto.                                                                                                                                                                                | EP001                   |
+| US002         | Modelo de Negocio                        | Como Visitante, quiero leer información sobre el modelo de negocio para evaluar si el producto beneficia mis objetivos y necesidades.                                | **Dado que** el visitante está en la Página de Inicio,<br>**cuando** se desplaza por la sección de modelo de negocio,<br>**entonces** se muestra la información del modelo de negocio del producto.                                                                                                                                                                       | EP001                   |
+| US003         | Reseñas de Clientes                      | Como Visitante, quiero leer reseñas de clientes para tomar una decisión informada sobre si comprar o usar un producto o servicio.                                   | **Dado que** el visitante está en la Página de Inicio,<br>**cuando** se desplaza por la sección de reseñas,<br>**entonces** se muestran las reseñas de clientes.<br>**Dado que** no hay reseñas disponibles,<br>**cuando** no se encuentren datos,<br>**entonces** se muestra un mensaje indicando la ausencia de reseñas.                                               | EP001                   |
+| US004         | Contactar a Miembros de la Compañía      | Como Visitante, quiero contactar a los miembros de la compañía para solicitar más información o recibir soporte antes de completar una compra.                      | **Dado que** el visitante está en la sección de contacto,<br>**cuando** se envía una solicitud de contacto,<br>**entonces** el sistema muestra un mensaje de confirmación.<br>**Dado que** no se puede enviar la solicitud,<br>**cuando** ocurre un error,<br>**entonces** el sistema muestra un mensaje indicando el problema.                                           | EP001                   |
+| US005         | Información de Miembros de la Compañía   | Como Visitante, quiero leer información sobre los miembros de la compañía para entender su experiencia y antecedentes.                                               | **Dado que** el visitante está en la Página de Inicio,<br>**cuando** se desplaza por la sección de miembros de la compañía,<br>**entonces** se muestra la información de cada miembro.<br>**Dado que** no hay información disponible,<br>**cuando** no se encuentran datos,<br>**entonces** el sistema muestra un mensaje indicando la ausencia de información.               | EP001                   |
+| EP002         | Monitoreo de Salud                       | Como Caregiver, quiero que la pulsera monitoree la temperatura y el ritmo cardíaco en tiempo real para recibir alertas en caso de valores anormales. |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US006         | Monitoreo de Temperatura en Tiempo Real  | Como Caregiver, quiero que el sistema monitoree la temperatura en tiempo real para recibir alertas si la temperatura está fuera del rango saludable. | **Dado que** la pulsera está en uso,<br>**cuando** la temperatura es monitoreada,<br>**entonces** el sistema muestra el valor actual y envía una alerta si está fuera del rango predefinido. <br>**Dado que** el rango de temperatura no está configurado,<br>**cuando** el sistema no encuentra un rango,<br>**entonces** se muestra un mensaje solicitando la configuración. | EP002                   |
+| US007         | Monitoreo del Ritmo Cardíaco en Tiempo Real | Como Caregiver, quiero que el sistema monitoree el ritmo cardíaco en tiempo real para recibir alertas si está fuera del rango saludable.           | **Dado que** la pulsera está en uso,<br>**cuando** el ritmo cardíaco es monitoreado,<br>**entonces** el sistema muestra el valor actual y envía una alerta si está fuera del rango predefinido. <br>**Dado que** el sensor de ritmo cardíaco no funciona correctamente,<br>**cuando** el sistema detecta un fallo,<br>**entonces** se muestra un mensaje indicando el problema. | EP002                   |
+| US008         | Alertas de Salud                         | Como Caregiver, quiero recibir alertas en caso de valores anormales de temperatura o ritmo cardíaco para tomar acciones rápidamente.            | **Dado que** se detectan valores anormales,<br>**cuando** el sistema envía una alerta,<br>**entonces** el cuidador recibe una notificación en su dispositivo móvil. <br>**Dado que** el dispositivo no está vinculado,<br>**cuando** el sistema no puede enviar la alerta,<br>**entonces** se muestra un mensaje solicitando la vinculación.                            | EP002                   |
+| US009         | Historial de Datos de Salud              | Como Caregiver, quiero ver el historial de datos de salud para tener un registro completo de la temperatura y ritmo cardíaco a lo largo del tiempo. | **Dado que** el cuidador está en la sección de historial,<br>**cuando** selecciona una fecha específica,<br>**entonces** el sistema muestra el historial con gráficos o tablas de la temperatura y el ritmo cardíaco. <br>**Dado que** no hay datos disponibles,<br>**cuando** se selecciona un rango sin información,<br>**entonces** se muestra un mensaje indicando la ausencia de datos.               | EP002                   |
+| US010         | Configuración de Alertas Personalizadas  | Como Caregiver, quiero configurar alertas personalizadas para temperatura y ritmo cardíaco para adaptar las notificaciones a necesidades específicas. | **Dado que** el cuidador está en la sección de configuración,<br>**cuando** se configuran los umbrales de temperatura y ritmo cardíaco,<br>**entonces** el sistema guarda los umbrales personalizados para enviar alertas. <br>**Dado que** se intenta guardar un umbral no válido,<br>**cuando** se ingresa un valor incorrecto,<br>**entonces** se muestra un mensaje de error indicando la configuración incorrecta.    | EP002                   |
+| EP003         | Solicitud de Ayuda                       | Como Caregiver, quiero que los usuarios puedan solicitar ayuda rápidamente en caso de necesidad para poder actuar de manera oportuna.            |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US011         | Envío de Notificación de Emergencia      | Como Caregiver, quiero que se envíe una notificación cuando se presione el botón de emergencia para recibir ayuda rápidamente en caso de necesidad. | **Dado que** el usuario presiona el botón de emergencia,<br>**cuando** se envía la notificación,<br>**entonces** el cuidador recibe un mensaje con la ubicación actual y el estado de emergencia. <br>**Dado que** no se registra la confirmación de recepción,<br>**cuando** el sistema no recibe respuesta,<br>**entonces** intenta reenviar la notificación y registra el fallo.                        | EP003                   |
+| US012         | Recepción de Notificaciones de Ayuda     | Como Caregiver, quiero recibir notificaciones en mi dispositivo móvil cuando se presione el botón de emergencia para actuar rápidamente.          | **Dado que** el botón de emergencia es presionado,<br>**cuando** se envía la notificación,<br>**entonces** el cuidador recibe la notificación con la ubicación y detalles de la emergencia. <br>**Dado que** la notificación no es recibida,<br>**cuando** el sistema detecta un fallo,<br>**entonces** informa al administrador y registra el problema.                                                | EP003                   |
+| US013         | Gestión de Notificaciones                | Como Caregiver, quiero gestionar las notificaciones recibidas para revisar y dar seguimiento a las alertas de emergencia.                        | **Dado que** el cuidador está en la sección de notificaciones,<br>**cuando** se revisa el historial,<br>**entonces** se muestran todas las notificaciones de emergencia recibidas con sus detalles. <br>**Dado que** no se encuentran notificaciones,<br>**cuando** no hay datos en el historial,<br>**entonces** se muestra un mensaje indicando la ausencia de alertas.                            | EP003                   |
+| US014         | Configuración de Alertas de Emergencia   | Como Caregiver, quiero configurar alertas de emergencia para ajustar los parámetros según necesidades y preferencias.                             | **Dado que** el cuidador está en la sección de configuración de emergencias,<br>**cuando** se configuran las preferencias de notificación,<br>**entonces** el sistema guarda y aplica estas preferencias a futuras emergencias. <br>**Dado que** se intenta guardar una configuración no válida,<br>**cuando** se ingresa un valor incorrecto,<br>**entonces** se muestra un mensaje de error solicitando la corrección. | EP003                   |
+| EP004         | Gestión de Pulseras                      | Como Nursing Home Owner, quiero gestionar las pulseras alquiladas para actualizar la información de alquiler, rastrear pulseras disponibles y generar informes de uso para la facturación. |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US015         | Acceso a Datos de Usuario                | Como Nursing Home Owner, quiero acceder a los datos de usuario para generar informes y realizar un seguimiento del uso de las pulseras.                                | **Dado que** el administrador está en la sección de datos de usuario,<br>**cuando** selecciona los datos de temperatura o ritmo cardíaco,<br>**entonces** el sistema muestra el historial del usuario. <br>**Dado que** no hay datos disponibles,<br>**cuando** se selecciona un usuario sin información,<br>**entonces** se muestra un mensaje indicando la ausencia de información.                                   | EP004                   |
+| US016         | Gestión de Pulseras Alquiladas           | Como Nursing Home Owner, quiero gestionar las pulseras alquiladas para actualizar información, rastrear su uso y emitir facturas.                                      | **Dado que** el administrador está en la sección de gestión de pulseras,<br>**cuando** se actualiza el estado de una pulsera alquilada,<br>**entonces** el sistema refleja el cambio en el inventario y en la facturación. <br>**Dado que** el inventario no coincide,<br>**cuando** el sistema detecta una discrepancia,<br>**entonces** se muestra un mensaje de error indicando el problema.                    | EP004                   |
+| US017         | Visualización de Pulseras Disponibles    | Como Nursing Home Owner, quiero ver una lista de pulseras disponibles para saber cuáles están en alquiler y cuáles están disponibles para nuevos usuarios.             | **Dado que** el administrador está en la sección de pulseras,<br>**cuando** selecciona la opción de pulseras disponibles,<br>**entonces** el sistema muestra una lista de pulseras con su estado actual. <br>**Dado que** la lista no se actualiza,<br>**cuando** el sistema detecta un error,<br>**entonces** muestra un mensaje solicitando la verificación manual.                                | EP004                   |
+| US018         | Generación de Informes de Uso            | Como Nursing Home Owner, quiero generar informes sobre el uso de las pulseras para analizar su utilización y rendimiento.                                             | **Dado que** el administrador está en la sección de informes,<br>**cuando** selecciona generar un informe de uso,<br>**entonces** el sistema muestra un informe detallado con la información de uso de las pulseras. <br>**Dado que** no se puede exportar el informe,<br>**cuando** el sistema detecta un fallo,<br>**entonces** muestra un mensaje indicando el problema y solicita un nuevo intento.                      | EP004                   |
+| US019         | Monitoreo de Sensores de Pulseras        | Como Nursing Home Owner, quiero monitorear el estado de los sensores de las pulseras para asegurarme de que funcionen correctamente en todo momento.                   | **Dado que** el administrador está en la sección de monitoreo de sensores,<br>**cuando** selecciona una pulsera específica,<br>**entonces** el sistema muestra el estado de sus sensores, incluyendo batería, conectividad y precisión. <br>**Dado que** se detecta una falla,<br>**cuando** el sistema encuentra un problema en el sensor,<br>**entonces** envía una alerta al administrador indicando el fallo. | EP004                   |
+| US020         | Asignación de Pulsera a un Usuario       | Como Nursing Home Owner, quiero asignar una pulsera a un nuevo usuario para que pueda comenzar a utilizar el sistema de monitoreo de salud de inmediato.               | **Dado que** el administrador está en la sección de asignación,<br>**cuando** selecciona un nuevo usuario y una pulsera disponible,<br>**entonces** el sistema asigna la pulsera al usuario y actualiza el estado en el inventario. <br>**Dado que** la asignación no se realiza correctamente,<br>**cuando** el sistema detecta un error,<br>**entonces** muestra un mensaje solicitando la verificación manual.                          | EP004                   |
+| US021         | Generación de Informes Financieros       | Como Nursing Home Owner, quiero generar informes financieros para analizar los ingresos generados por el alquiler de pulseras.                                        | **Dado que** el administrador está en la sección de informes financieros,<br>**cuando** selecciona generar un informe,<br>**entonces** el sistema muestra un informe financiero detallado con ingresos por alquiler y pagos recibidos. <br>**Dado que** no hay datos en el rango seleccionado,<br>**cuando** el sistema no encuentra información,<br>**entonces** muestra un mensaje indicando la ausencia de información.               | EP004                   |
+| US022         | Configuración de Pagos Automatizados     | Como Nursing Home Owner, quiero configurar pagos automatizados para facilitar la gestión de los cobros por el alquiler de pulseras.                                   | **Dado que** el administrador está en la sección de configuración,<br>**cuando** selecciona configurar pagos automáticos,<br>**entonces** el sistema procesa los pagos automáticamente según el intervalo configurado. <br>**Dado que** no se puede procesar un pago,<br>**cuando** el sistema detecta un fallo en el proceso,<br>**entonces** muestra una alerta indicando el problema y solicita la verificación manual.                   | EP004                   |
+| US023         | Cancelación de Alquiler de Pulseras      | Como Nursing Home Owner, quiero cancelar el alquiler de una pulsera para liberar la pulsera y actualizar el estado en el inventario.                                   | **Dado que** el administrador está en la sección de gestión de alquileres,<br>**cuando** selecciona cancelar un alquiler,<br>**entonces** el sistema libera la pulsera en el inventario y actualiza el estado del alquiler. <br>**Dado que** no se puede liberar la pulsera,<br>**cuando** el sistema detecta un fallo,<br>**entonces** muestra un mensaje solicitando la verificación manual.                                             | EP004                   |
+| US024         | Actualización de Tarifas de Alquiler     | Como Nursing Home Owner, quiero actualizar las tarifas de alquiler de pulseras para reflejar cambios en los costos actuales de alquiler.                              | **Dado que** el administrador está en la sección de tarifas,<br>**cuando** selecciona actualizar una tarifa,<br>**entonces** el sistema aplica la nueva tarifa a futuros alquileres. <br>**Dado que** se intenta aplicar la tarifa retroactivamente,<br>**cuando** el sistema detecta una inconsistencia,<br>**entonces** muestra un mensaje solicitando la verificación manual.                                | EP004                   |
+| EP005         | Interfaz de Usuario                      | Como Visitor, Caregiver o Nursing Home Owner, quiero una interfaz fácil de usar para visualizar y entender los datos de la pulsera, acceder a informes y gestionar notificaciones de manera intuitiva.      |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US025         | Acceso Rápido a Datos de la Pulsera      | Como Caregiver, quiero acceder rápidamente a los datos actuales de la pulsera desde la pantalla principal para ver información de salud sin navegar por múltiples páginas.              | **Dado que** el cuidador está en la pantalla principal de la aplicación,<br>**cuando** abre la aplicación,<br>**entonces** el sistema muestra la temperatura y el ritmo cardíaco actuales sin necesidad de navegar por diferentes menús. <br>**Dado que** no se pueden actualizar los datos en tiempo real,<br>**cuando** el sistema detecta una pérdida de conexión,<br>**entonces** muestra un mensaje indicando el problema y solicita un nuevo intento. | EP005                   |
+| US026         | Navegación Intuitiva                     | Como Caregiver, quiero una navegación intuitiva en la aplicación para acceder fácilmente a las diferentes funcionalidades sin confusión.                                             | **Dado que** el cuidador está navegando en la aplicación,<br>**cuando** selecciona una sección,<br>**entonces** puede cambiar de una sección a otra a través de una barra de navegación o botones accesibles. <br>**Dado que** se intenta acceder a una sección no disponible,<br>**cuando** el sistema detecta un acceso indebido,<br>**entonces** muestra un mensaje indicando la opción no habilitada.                                | EP005                   |
+| US027         | Visualización Clara de Alertas          | Como Caregiver, quiero que las alertas importantes se destaquen visualmente para identificar rápidamente las notificaciones críticas.                                                 | **Dado que** el cuidador está en la aplicación,<br>**cuando** se recibe una alerta crítica,<br>**entonces** el sistema destaca visualmente la alerta utilizando colores y tamaño de texto. <br>**Dado que** la alerta no se visualiza correctamente,<br>**cuando** el sistema detecta un fallo en la visualización,<br>**entonces** muestra un mensaje indicando el problema y solicita la verificación manual.                              | EP005                   |
+| US028         | Personalización de la Interfaz          | Como Caregiver, quiero personalizar algunos aspectos de la interfaz para adaptarla a mis preferencias de visualización.                                                                | **Dado que** el cuidador está en la sección de configuración,<br>**cuando** selecciona opciones de personalización,<br>**entonces** el sistema permite cambiar el esquema de colores y el tamaño de texto. <br>**Dado que** el sistema no guarda las preferencias,<br>**cuando** se intenta guardar la configuración,<br>**entonces** se muestra un mensaje indicando el problema y solicita un nuevo intento.                              | EP005                   |
+| US029         | Notificaciones en Tiempo Real           | Como Caregiver, quiero recibir notificaciones en tiempo real sobre cambios en la salud para reaccionar rápidamente en caso de emergencias.                                            | **Dado que** el sistema detecta un cambio significativo en la salud,<br>**cuando** se envía la notificación,<br>**entonces** el cuidador recibe una notificación instantánea en su dispositivo móvil o aplicación web. <br>**Dado que** la notificación no llega al dispositivo,<br>**cuando** el sistema detecta un fallo en la entrega,<br>**entonces** registra el fallo e intenta reenviar la notificación.                    | EP005                   |
+| US030         | Resumen Diario de Salud                 | Como Caregiver, quiero recibir un resumen diario del estado de salud para estar informado sobre el bienestar general sin revisar constantemente los datos.                             | **Dado que** el sistema está registrando los datos de salud,<br>**cuando** finaliza el día,<br>**entonces** se genera y envía un resumen diario con los datos de salud clave al usuario. <br>**Dado que** el resumen no se genera correctamente,<br>**cuando** el sistema detecta un problema,<br>**entonces** muestra un mensaje indicando el fallo y solicita la verificación manual.                                           | EP005                   |
+| EP006         | Generación de Informes                  | Como Nursing Home Owner, quiero generar informes detallados con los datos de la pulsera para analizar la salud de los usuarios, generar informes de uso y hacer recomendaciones basadas en los datos recopilados. |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US031         | Generación de Informes de Salud         | Como Nursing Home Owner, quiero generar informes detallados sobre la salud de los usuarios para analizar patrones y tendencias a lo largo del tiempo.                                                       | **Dado que** el administrador está en la sección de informes,<br>**cuando** selecciona un período de tiempo,<br>**entonces** el sistema genera un informe con gráficos y análisis de los datos de salud recopilados. <br>**Dado que** no hay datos en el período seleccionado,<br>**cuando** el sistema detecta la ausencia de información,<br>**entonces** muestra un mensaje indicando la falta de datos.                      | EP006                   |
+| US032         | Filtros Avanzados en Informes           | Como Nursing Home Owner, quiero aplicar filtros avanzados al generar informes para obtener la información más relevante de manera rápida y efectiva.                                                        | **Dado que** el administrador está generando un informe,<br>**cuando** selecciona filtros como fecha, tipo de alerta y rango de valores,<br>**entonces** el sistema muestra los datos relevantes basados en los filtros aplicados. <br>**Dado que** los filtros no producen resultados,<br>**cuando** el sistema no encuentra datos coincidentes,<br>**entonces** muestra un mensaje indicando la ausencia de información.         | EP006                   |
+| US033         | Análisis de Tendencias de Salud         | Como Nursing Home Owner, quiero ver un análisis de tendencias basado en los datos recopilados para identificar posibles problemas de salud a largo plazo.                                                   | **Dado que** el administrador está en la sección de informes,<br>**cuando** selecciona análisis de tendencias,<br>**entonces** el sistema genera gráficos que muestran patrones y posibles riesgos de salud a partir de los datos de los usuarios. <br>**Dado que** no hay datos suficientes,<br>**cuando** el sistema detecta la ausencia de datos,<br>**entonces** muestra un mensaje indicando la falta de información para el análisis. | EP006                   |
+| US034         | Comparación de Datos entre Usuarios     | Como Nursing Home Owner, quiero comparar los datos de salud de múltiples usuarios para identificar patrones comunes o diferencias importantes en sus condiciones de salud.                                  | **Dado que** el administrador tiene múltiples usuarios en el sistema,<br>**cuando** selecciona usuarios específicos,<br>**entonces** el sistema genera un informe comparativo con gráficos y datos fáciles de interpretar. <br>**Dado que** no hay datos suficientes para la comparación,<br>**cuando** el sistema no encuentra información,<br>**entonces** muestra un mensaje indicando la falta de datos para la comparación.     | EP006                   |
+| US035         | Exportación de Datos para Análisis Externo| Como Nursing Home Owner, quiero exportar todos los datos de salud en formato bruto para un análisis más detallado con herramientas externas.                                                                | **Dado que** el administrador necesita realizar un análisis externo,<br>**cuando** selecciona exportar datos,<br>**entonces** el sistema permite la exportación de todos los datos de salud en formato CSV o JSON. <br>**Dado que** la exportación no se realiza correctamente,<br>**cuando** el sistema detecta un problema,<br>**entonces** muestra un mensaje indicando el fallo y solicita un nuevo intento.                             | EP006                   |
+| EP007         | Desarrollo de API                       | Como desarrollador integrador, quiero una API bien documentada con funcionalidades clave para integrar la aplicación con otros sistemas, gestionar datos de la pulsera, recibir notificaciones y acceder a informes de manera eficiente. |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| TS036         | Implementación de API para Integración  | Como desarrollador, quiero implementar una API para integrar los datos de la pulsera con otros sistemas de monitoreo para asegurar que los datos sean accesibles desde otras plataformas.                                                        | **Dado que** el desarrollador necesita acceder a datos de la pulsera,<br>**cuando** la API recibe una solicitud de datos,<br>**entonces** devuelve los datos de temperatura y ritmo cardíaco en tiempo real. <br>**Dado que** no se permite el acceso,<br>**cuando** la API detecta un problema de acceso,<br>**entonces** muestra un mensaje indicando la falta de acceso a los datos solicitados.                                     | EP007                   |
+| TS037         | Creación de Endpoints de Notificación   | Como desarrollador, quiero crear endpoints para gestionar notificaciones en la API para que las alertas de salud se configuren y envíen correctamente.                                                     | **Dado que** el desarrollador está implementando la API,<br>**cuando** se configura una alerta,<br>**entonces** los endpoints permiten la creación, edición y eliminación de notificaciones. <br>**Dado que** no se permiten notificaciones,<br>**cuando** la API detecta un problema,<br>**entonces** muestra un mensaje indicando la falta de acceso a la funcionalidad y solicita un nuevo intento.                          | EP007                   |
+| TS038         | Seguridad de la API                     | Como desarrollador, quiero asegurarme de que la API tenga la autenticación y autorización adecuadas para proteger los datos sensibles de los usuarios de la pulsera.                                       | **Dado que** el usuario intenta acceder a los datos de la API,<br>**cuando** se realiza una solicitud,<br>**entonces** la API requiere un token de autenticación válido para acceder a los datos de salud. <br>**Dado que** un usuario intenta acceder sin autenticación,<br>**cuando** la API detecta el acceso no autorizado,<br>**entonces** bloquea la solicitud e informa la necesidad de autenticación.                       | EP007                   |
+| TS039         | Documentación de la API                 | Como desarrollador, quiero que la API esté documentada de manera clara y completa para que otros desarrolladores puedan integrarse fácilmente.                                                              | **Dado que** la API está lista para su uso,<br>**cuando** un desarrollador necesita información,<br>**entonces** la documentación incluye ejemplos de uso de todos los endpoints y parámetros disponibles. <br>**Dado que** no se encuentra la documentación completa,<br>**cuando** un desarrollador intenta acceder a un endpoint,<br>**entonces** se muestra un mensaje solicitando la actualización de la documentación.                         | EP007                   |
+| TS040         | Optimización del Rendimiento de la API  | Como desarrollador, quiero optimizar la API para que las respuestas sean rápidas y eficientes, mejorando la experiencia del usuario final.                                                                  | **Dado que** la API está en producción,<br>**cuando** se realizan consultas,<br>**entonces** la API tiene tiempos de respuesta inferiores a 200ms. <br>**Dado que** se realizan consultas repetitivas,<br>**cuando** la API detecta patrones de uso,<br>**entonces** utiliza técnicas de caché para mejorar el rendimiento.                                                                                                                | EP007                   |
 
-| Story ID | Título                                    | Descripción                                                                                                                                                            | Criterios de Aceptación                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        | Relacionado con Epic ID |
-|----------|-------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------|
-| US001 | Real Time Temperature Monitoring | As for the bracelet<br>I want to monitor my user temperature in real time<br>To receive alerts if the temperature is outside the healthy range.                 | --- Scenario: Check Temperature<br>Since the user is wearing the bracelet,<br>When the temperature is measured,<br>Then the system should display the current temperature and send an alert if it is outside the predefined range. < br><br>--- Scenario: Setting the temperature range<br>Since the user is in the bracelet setting,<br>When the user sets the temperature range,<br>Then the system should save Range and usage for alerts.                                                                                                  | EP001 |
-| US002 | Real-Time Heart Rate Monitoring | Like the bracelet<br>I want to monitor my user's heart rate in real time<br>To receive alerts if the heart rate is outside the healthy range.           | --- Scenario: Check heart rate<br>Since the user is wearing the bracelet,<br>When the heart rate is measured,<br>Then the system should display the current heart rate and send an alert if it is out of range preset range.<br><br>--- Scenario: Heart rate range setting<br>Since the user is in the bracelet setting,<br>When the user sets the heart rate range,<br >Then the system should save the range and use it for alerts.                                                                                                  | EP001                   |
-| US003 | Health Alerts | As a user of the bracelet<br>I want to receive alerts in case of abnormal temperature or heart rate values<br>To take action quickly if a health problem is detected. | --- Scenario: Receive temperature alert<br>Given the system detects an abnormal temperature,<br>When the alert is activated,<br>Then the user receives a notification on his mobile device.<br><br>- -- Scenario: Receive heart rate alert<br>Given the system detects an abnormal heart rate,<br>When the alert is activated,<br>Then the user receives a notification on their mobile device.                                                                                                                  | EP001 |
-| US004 | Health Data History | As a bracelet user<br>I want to see the history of my health data<br>To have a complete record of my temperature and heart rate over time. | --- Scenario: Display temperature history<br>Given the user is in the history section,<br>When he selects the temperature option,<br>Then the system displays a graph or table with the temperature history.<br> br><br>--- Scenario: Display heart rate history<br>Given the user is in the history section,<br>When he selects the heart rate option,<br>Then the system displays a graph or table with history of heart rhythms.                                                                                       | EP001                   |
-| US005 | Custom Alert Settings | As a bracelet user<br>I want to set up custom alerts for temperature and heart rate<br>To tailor notifications to my specific needs. | --- Scenario: Configure Temperature Alerts<br>Given the user is in the alert configuration section,<br>When he sets the temperature thresholds,<br>Then the system should save these thresholds and use them for alerts. <br><br>--- Scenario: Configure heart rate alerts<br>Given the user is in the alert configuration section,<br>When you set the heart rate thresholds,<br>Then the system should save these thresholds and use them for alerts.                                                                          | EP001 |
-| US006 | Send Emergency Notification | As a bracelet user<br>I want a notification to be sent to caregivers when pressing the emergency button<br>So that I can receive quick help if necessary. | --- Scenario: Press the emergency button<br>Given the user is wearing the bracelet,<br>When the user presses the emergency button,<br>Then the system sends a notification to the caregivers with the current location of the user and an emergency message.<br><br>--- Scenario: Confirm receipt of notification<br>Given the emergency notification has been sent,<br>When the caregiver receives the notification,<br>Then the caregiver you should see the user's emergency information and location.                               | EP002 |
-| US007 | Help Notification | As a caregiver<br>I want to receive notifications on my mobile device when the user presses the emergency button<br>So I can act quickly and assist the user. | --- Scenario: Receive emergency notification<br>Given the caregiver is waiting for notifications,<br>When the user presses the emergency button,<br>Then the caregiver receives a notification on his mobile device with the location and emergency details.<br><br>--- Scenario: View emergency details<br>Given the caregiver receives the notification,<br>When you select the notification,<br>Then the caregiver should see the location and the details of the emergency message.                                         | EP002 |
-| US008 | Notification Management | As a caregiver<br>I want to manage notifications received<br>To review and follow up on emergency alerts received.                             | --- Scenario: View notification history<br>Given the caregiver is in the notification section,<br>When you check the history,<br>Then you should see a list of all the emergency notifications received with their details.<br> br><br>--- Scenario: Filter notifications<br>Given the caregiver is in the notifications section,<br>When you filter the notifications by date or type,<br>Then the system displays the notifications that match the selected filters.                                                                                                     | EP002 |
-| US009 | Emergency Setting Alerts | As a user of the bracelet<br>I want to configure emergency alerts<br>To adjust the parameters according to my needs and preferences.                          | --- Scenario: Set up emergency notifications<br>Given the user is in the emergency settings section,<br>When he sets his notification preferences,<br>Then the system saves these preferences and applies them to future emergencies. <br><br>--- Scenario: Adjust notification parameters<br>Given the user has configured the alerts,<br>When you want to modify the parameters,<br>Then the system allows you to adjust the parameters and save the changes.                                                                                           | EP002 |
-| US010 | Access to User Data | As an administrator<br>I want to access user data<br>To generate reports and track bracelet usage.                       | --- Scenario: Access to temperature data<br>Given the administrator is in the user data section,<br>When he selects the temperature option,<br>Then he should see the user's historical temperature data.< br><br>--- Scenario: Access to heart rate data<br>Given the administrator is in the user data section,<br>When he selects the heart rate option,<br>Then he should see the data user's heart rate history.                                                                                      | EP003                   |
-| US011 | Management of Rented Bracelets | As an administrator<br>I want to manage rented bracelets<br>To update information, track and issue invoices.                                | --- Scenario: Update rental status<br>Given the administrator is in the bracelet management section,<br>When he updates the status of a bracelet,<br>Then the system should reflect the change in inventory and in billing.<br><br>--- Scenario: Generate invoice<br>Given the manager has updated the rental status,<br>When you request an invoice,<br>Then the system should generate an invoice with the details of rent and cost.                                                                                                                                           | EP003 |
-| US012 | Viewing Available Bracelets | As an administrator<br>I want to see a list of available bracelets<br>To know which ones are for rent and which ones are available for new users.             | --- Scenario: View Bracelet List<br>Given the administrator is in the bracelets section,<br>When he selects the available bracelets option,<br>Then the system displays a list of available bracelets with their current status. <br><br>--- Scenario: Update availability<br>Given the administrator is in the bracelets section,<br>When he updates the availability of a bracelet,<br>Then the system reflects the changes in the list of bracelets available.                                                                                              | EP003 |
-| US013 | Generate Usage Reports | As an administrator<br>I want to generate reports on the use of the bracelets<br>To analyze their use and performance.                                              | --- Scenario: Generate usage report<br>Given the administrator is in the reports section,<br>When he selects to generate a usage report,<br>Then the system displays a detailed report with the usage information of the bracelets, including the time in use, the number of users and the status of the devices.<br><br>--- Scenario: Export report<br>Given the administrator has generated a usage report,<br>When you select export the report,<br>Then the system allows you to export the report in PDF or Excel format.                                           | EP003 |
-| US014 | Bracelet Sensor Monitoring | As an administrator<br>I want to monitor the status of the bracelets' sensors<br>To make sure they are working correctly at all times.           | --- Scenario: Monitor sensors<br>Given the administrator is in the bracelet monitoring section,<br>When you select a bracelet,<br>Then the system shows the status of its sensors, including battery, connectivity and accuracy data.<br><br>--- Scenario: Receive sensor failure alerts<br>Given a bracelet sensor is failing,<br>When the system detects the failure,<br>Then the administrator receives a alert notifying the problem with the sensor.                                                                                               | EP003 |
-| US015 | Assign Bracelet to a User | As an administrator<br>I want to assign a bracelet to a new user<br>So that they can start using the health monitoring system immediately.                 | --- Scenario: Assign bracelet to user<br>Given the administrator is in the bracelet assignment section,<br>When he selects a new user and an available bracelet,<br>Then the system assigns the bracelet to the user and updates the status of the device in the inventory.<br><br>--- Scenario: Verify assignment<br>Given the administrator has assigned a bracelet to a user,<br>When checking the status of the bracelets,<br>Then the system correctly reflects the new allocation in inventory and user data.                                      | EP003 |
-| US016 | Generate Financial Reports | As an administrator<br>I want to generate financial reports<br>To analyze the income generated by the rental of bracelets.                   | --- Scenario: Generate financial report<br>Given the administrator is in the financial reports section,<br>When he requests a report,<br>Then the system generates a detailed report with rental income and payments received.<br <br>--- Scenario: Filter report by dates<br>Given the administrator is in the financial reports section,<br>When he applies date filters,<br>Then the system displays the financial data filtered by range of dates selected. | EP003 |
-| US017 | Setting up Automated Payments | As an administrator<br>I want to set up automated payments<br>To facilitate the management of bracelet rental charges.          | --- Scenario: Set up automatic payments<br>Given the administrator is in the configuration section,<br>When you set up automatic payments,<br>Then the system should process the payments automatically according to the configured interval.<br><br >--- Scenario: Update automatic payments<br>Given the administrator has an automatic payment configured,<br>When you modify the settings,<br>Then the system should save the changes and adjust future payments. | EP003 |
-| US018 | Cancel Bracelet Rental | As an administrator<br>I want to cancel the rental of a bracelet<br>To release the bracelet and update the status in the inventory.             | --- Scenario: Cancel rental<br>Given the manager is in the bracelet management section,<br>When you select cancel a rental,<br>Then the system should release the bracelet in the inventory and update the rental status .<br><br>--- Scenario: Generate Cancellation Report<br>Given the manager has canceled a rental,<br>When you request a cancellation report,<br>Then the system should generate a detailed report with the Canceled rental details. | EP003 |
-| US019 | Update Rental Rates | As an administrator<br>I want to update the rental rates for wristbands<br>To reflect changes in current rental costs. | --- Scenario: Edit Rental Rates<br>Given the manager is in the rates section,<br>When he updates a rate,<br>Then the system should apply the new rate to future rentals.<br><br >--- Scenario: Apply rates retroactively<br>Given the administrator has updated a rate,<br>When you want to apply the rate retroactively,<br>Then the system should apply the new rate to ongoing contracts if allowed the configuration. | EP003               |
-| US020 | Quick Access to Bracelet Data | As a user<br>I want to quickly access the current bracelet data from the main screen<br>To view health information without browsing multiple pages. | --- Scenario: Quick access from home screen<br>Given the user is in the app,<br>When they open the home screen,<br>Then they can see the current temperature and heart rate without searching between different menus .<br><br>--- Scenario: Updated information<br>Given the bracelet is connected,<br>When the health data is updated,<br>Then the main screen should reflect the changes in real time. | EP004 |
-| US021 | Intuitive Navigation | As a user<br>I want intuitive navigation in the application<br>To easily access the different functionalities without confusion.                             | --- Scenario: Clear Navigation<br>Given the user is in the application,<br>When they want to switch from one section to another,<br>Then they should be able to do so without complications through a navigation bar or accessible buttons. <br><br>--- Scenario: Consistent navigation elements<br>Given the user is browsing,<br>When accessing different parts of the application,<br>Then the navigation elements should be consistent throughout the application application. | EP004 |
-| US022 | Clear Alert Display | As a user<br>I want important alerts to stand out visually<br>So that I can quickly identify critical notifications.                      | --- Scenario: Featured Alerts<br>Given the user receives a critical alert,<br>When they are browsing the application,<br>Then the alert should be highlighted visually, using colors and text size that make it stand out. <br><br>--- Scenario: Differentiation of Alerts<br>Given there are different types of alerts,<br>When the system sends a critical alert,<br>Then this must be clearly differentiated from the less important alerts. | EP004 |
-| US023 | Interface Customization | As a user<br>I want to be able to customize some aspects of the interface<br>To adapt it to my viewing preferences.                                        | --- Scenario: Basic Customization<br>Given the user is in the settings,<br>When he selects the customization options,<br>Then he can change the color scheme and text size according to his preferences.<br> <br>--- Scenario: Saving Preferences<br>Given the user has customized the interface,<br>When they return to the application in the future,<br>Then the application should remember the saved preferences. | EP004 |
-| US024 | Real Time Notifications | As a user<br>I want to receive real-time notifications about changes in health<br>So I can react quickly in case of emergencies.                    | --- Scenario: Real-time notification<br>Given the user is monitoring the senior's health,<br>When there is a significant change,<br>Then they receive an instant notification on their mobile device or web application.<br <br>--- Scenario: Accurate information<br>Given the system has sent a notification,<br>When the user receives it,<br>Then the information must be accurate and clear for quick interpretation. | EP004 |
-| US025 | Daily Health Summary | As a user<br>I want to receive a daily summary of the senior's health<br>To be informed about general well-being without constantly reviewing the data.  | --- Scenario: Automated Daily Summary<br>Given the system is recording health data,<br>When the day ends,<br>Then the system generates and sends a daily summary with key health data to the user. <br><br>--- Scenario: Clear and simple summary<br>Given the user receives the daily summary,<br>When they review it,<br>Then it should be structured in a clear and easy to understand way, highlighting any anomaly. | EP005 |
-| US026 | Generation of Health Reports | As an administrator<br>I want to generate detailed reports on users' health<br>To analyze patterns and trends over time.                  | --- Scenario: Report Generation<br>Given the administrator needs a report,<br>When he selects a time period,<br>Then the system generates a report with graphs and analysis of the collected health data.<br ><br>--- Scenario: Exporting reports<br>Given the administrator reviews a report,<br>When he decides to share it,<br>Then he can export it in PDF or Excel formats. | EP005 |
-| US027 | Advanced Filters in Reports | As an administrator<br>I want to be able to apply advanced filters when generating reports<br>To obtain the most relevant information quickly and effectively.            | --- Scenario: Apply filters<br>Given the administrator is generating a report,<br>When he selects the filters (date, alert type, etc.),<br>Then the system must adjust the report to show only the filtered relevant data.<br><br>--- Scenario: Combining filters<br>Given the administrator is applying multiple filters,<br>When you select the advanced options,<br>Then the system must correctly combine the selected filters to generate the appropriate report. | EP005 |
-| US028 | Health Trend Analysis | As an administrator<br>I want to see a trend analysis based on the data collected<br>To identify possible long-term health problems.            | --- Scenario: Analyze trends<br>Given the administrator has access to the health reports,<br>When he requests a trend analysis,<br>Then the system generates graphs that show patterns and possible health risks.<br <br>--- Scenario: Automatic anomaly detection<br>Given the health data is consistent,<br>When the system detects a significant deviation,<br>Then the system alerts about possible future health problems. | EP005 |
-| US029 | Comparison of Data between Users | As an administrator<br>I want to compare the health data of multiple users<br>To identify common patterns or important differences in their health conditions. | --- Scenario: Compare health data<br>Given the administrator has multiple users in the system,<br>When he selects the users,<br>Then he can generate a report that compares their health data in an easy-to-interpret format .<br><br>--- Scenario: Differentiation by user type<br>Given the users have different characteristics,<br>When the administrator compares them,<br>Then the system should highlight the most relevant differences based on the selected parameters. | EP005 |
-| US030 | Data Export for External Analysis | As an administrator<br>I want to export all health data in raw format<br>For further analysis with external tools.                  | --- Scenario: Export data in raw format<br>Given the administrator needs to perform external analysis,<br>When you select the export option,<br>Then you can download all the health data in CSV or JSON formats.< br><br>--- Scenario: Export Confirmation<br>Given the data has been exported,<br>When the administrator reviews the files,<br>Then they should be able to confirm that all the data has been exported successfully. | EP005 |
-| TS031 | API implementation for integration with external systems | As a developer<br>I want to implement an API to integrate the bracelet data with other monitoring systems<br>To ensure that the data is accessible from other platforms. | --- Scenario: Develop API<br>Given the developer is creating the API,<br>When other systems request data from the bracelet,<br>Then the API should return the temperature and heart rate data in real time.<br> br><br>--- Scenario: Document API<br>Given the API is implemented,<br>When the developer consults the documentation,<br>Then the documentation should be clear and show examples of use of the endpoints. | EP006 |
-| TS032 | Creating notification endpoints | As a developer<br>I want to create endpoints to manage notifications in the API<br>So that health alerts are configured and sent correctly. | --- Scenario: Create notification endpoints<br>Given the developer is implementing the functionality,<br>When an alert is configured,<br>Then the endpoints must allow creating, editing and deleting notifications.<br><br> --- Scenario: Notification management<br>Given the notifications are active,<br>When the system detects an anomaly,<br>Then a notification should be sent to the caregiver application. | EP006 |
-| TS033 | API Security | As a developer<br>I want to ensure that the API has proper authentication and authorization<br>To protect the sensitive data of the bracelet users. | --- Scenario: Implement OAuth authentication<br>Given the developer is integrating security into the API,<br>When a user tries to access the data,<br>Then the API should require a valid authentication token.<br> <br>--- Scenario: Data Protection<br>Given the API has sensitive data,<br>When an unauthorized user tries to access it,<br>Then the API must block the unauthorized access. | EP006 |
-| TS034 | API Documentation | As a developer<br>I want the API to be documented clearly and completely<br>So that other developers can integrate easily. | --- Scenario: Document all endpoints<br>Given that the API is ready,<br>When a developer needs information,<br>Then the documentation should include examples of all the functionalities and parameters.<br><br> --- Scenario: Access to documentation<br>Given that other developers need to use the API,<br>When they consult the documentation,<br>Then they should find it accessible and well structured. | EP006 |
-| TS035 | API performance optimization | As a developer<br>I want to optimize the API so that responses are fast and efficient<br>To improve the end-user experience. | --- Scenario: Measure response times<br>Given that the API is in production,<br>When queries are made,<br>Then response times should be less than 200ms.<br><br>-- - Scenario: Implement caching<br>Given that the data is queried frequently,<br>When the system receives the same request multiple times,<br>Then the API should use caching techniques to improve performance. | EP006 |
+
 ## 3.3. Impact Mapping
+Este Impact Mapping se desarrolló para el bussiness goal de alcanzar 600 usuarios suscritos al plan premium en los próximos 8 meses. Se identificaron dos actores clave: Ana Martínez (Caregiver) y Gabriel López (Nursing Home Owner)
 
-![Impact Mapping](./assets/impactmapping.jpg)
+![Impact Mapping](./assets/ImpactMapping1.png)
+
+Este Impact Mapping se desarrolló para el bussiness goal de mejorar la retención de usuarios suscritos en un 20% en 12 meses.. Se identificaron dos actores clave: Ana Martínez (Caregiver) y Gabriel López (Nursing Home Owner)
+
+![Impact Mapping](./assets/ImpactMapping2.png)
 
 ## 3.4. Product Backlog
 
 | **Orden** | **User Story Id** | **Título**                                    | **Descripción**                                                                                                                                                                                                                             | **Story Points(1 / 2 / 3 / 5 / 8)** |
 |-----------|-------------------|-----------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| 1 | US020 | Quick Access to Bracelet Data | As a user, I want to quickly access the current bracelet data from the main screen, to view health information without browsing multiple pages.                                                                    | 3 |
-| 2 | US021 | Intuitive Navigation | As a user, I want intuitive navigation in the app, to easily access the different functionalities without confusion.                                                                                                      | 3 |
-| 3 | US022 | Clear Alert Display | As a user, I want important alerts to stand out visually, so I can quickly identify critical notifications.                                                                                              | 2                                  |
-| 4 | US023 | Interface Customization | As a user, I want to be able to customize some aspects of the interface, to adapt it to my viewing preferences.                                                                                                                | 3 |
-| 5 | US024 | Real Time Notifications | As a user, I want to receive real-time notifications about changes in health, so I can react quickly in case of emergencies.                                                                                              | 5 |
-| 6 | US025 | Daily Health Summary | As a user, I want to receive a daily summary of the senior's health, to be informed about general well-being without constantly reviewing the data.                                                                           | 3                                  |
-| 7 | US026 | Generation of Health Reports | As an administrator, I want to generate detailed reports on users' health, to analyze patterns and trends over time.                                                                                           | 5 |
-| 8 | US027 | Advanced Filters in Reports | As an administrator, I want to be able to apply advanced filters when generating reports, to obtain the most relevant information quickly and effectively.                                                                                       | 5 |
-| 9 | US028 | Health Trend Analysis | As an administrator, I want to see a trend analysis based on the data collected, to identify potential long-term health problems.                                                                                      | 5 |
-| 10 | US029 | Comparison of Data between Users | As an administrator, I want to compare the health data of multiple users, to identify common patterns or important differences in their health conditions.                                                                          | 5 |
-| 11 | US030 | Data Export for External Analysis | As an administrator, I want to export all health data in raw format, for further analysis with external tools.                                                                                           | 3 |
-| 12 | US015 | Automatic Emergency Notifications | As a user, I want the system to send automatic emergency notifications to registered contacts when a fall or critical condition is detected, so they can act quickly.                                        | 5                                  |
-| 13 | US016 | Personalized Emergency Alerts | As a user, I want to customize emergency alerts, so that push notifications reach the right people in case of critical situations.                                                                       | 3 |
-| 14 | US017 | Schedule Medication Reminders | As a user, I want to schedule medication reminders in the app, to make sure the senior takes their medications on time.                                                                                            | 5 |
-| 15 | US018 | Confirmation of Medication Taking | As a user, I want to receive confirmation when the older adult has taken their medication, so I can rest assured that they are continuing their treatment.                                                                                            | 3                                  |
-| 16 | US019 | Send Automatic Reports to Family Members | As a user, I want to send automatic health reports to authorized family members, so that they are informed of the senior's status without having to constantly request it.                                                           | 3 |
-| 17 | US006 | Critical Alert Notifications | As an administrator, I want to receive immediate notifications when anomalies are detected in the senior's health, so I can react quickly.                                                                                   | 5 |
-| 18 | US004 | Login | As a user, I want to log in with my registered account, to access my data and personalized functionalities.                                                                                                                     | 3                                  |
-| 19 | US003 | New User Registration | As a user, I want to register in the application with my personal data, to be able to use all the features.                                                                                                                      | 3 |
-| 20 | US005 | Reset Password | As a user, I want to reset my password if I forget it, so I can regain access to my account.                                                                                                                            | 3 |
-| 21 | US007 | Update Profile | As a user, I want to update my personal data in my profile, to keep my information up to date.                                                                                                                                    | 2                                  |
-| 22 | US009 | Confirm Identity with SMS Code | As a user, I want to confirm my identity with a code sent by SMS when registering or changing important data, to protect my account.                                                                                            | 5 |
-| 23        | US010 | Connect Bracelet with the Application | As a user, I want to connect the bracelet to the system through the mobile application, to start monitoring my health.                                                                                                                    | 5 |
-| 24 | US011 | View Historical Data in Charts | As a user, I want to see historical health data presented in graphs, to analyze trends in my fitness over time.                                                                                      | 3                                  |
-| 25 | US008 | Logout | As a user, I want to log out easily, to protect my account after using the app.                                                                                                                                       | 1 |
-| 26 | US012 | Send Health Reports to the Doctor | As a user, I want to send the complete health report for a period of time to my doctor, to receive a professional opinion based on the data recorded by the bracelet.                                                           | 5 |
-| 27 | US002 | See General Information Pages | As a user, I want to be able to access general information pages about the app and its benefits, to understand how to use it correctly.                                                                                           | 2                                  |
-| 28 | US001 | See Home Page | As a visitor, I want to see a home page with relevant information about the service the application offers, to learn how it can help me.                                                                                      | 2 |
-| 29 | US013 | Low Battery Notifications | As a user, I want to receive notifications when the bracelet's battery is low, to avoid interruptions in health monitoring.                                                                                              | 2 |
-| 30 | US014 | Lost Connection Notifications | As a user, I want to receive notifications when the connection between the bracelet and the app is lost, to ensure that health data is always being monitored.                                                          | 3                                 |
-| 31 | TS031 | API implementation for integration | Implementation of API for integration with external systems, allowing efficient communication between applications.                                                                                                                 | 5 |
-| 32 | TS032 | Creation of Notification Endpoints | Creation of the necessary endpoints to handle notifications in the API, ensuring proper delivery of alerts and messages.                                                                                                 | 3 |
-| 33 | TS033 | API Security | Implementation of security measures in the API, ensuring that only authorized users can access sensitive data.                                                                                                           | 8                                  |
-| 34 | TS034 | API Documentation | Create API documentation, ensuring that developers can understand and use integration functionalities with ease.                                                                                            | 2 |
-| 35 | TS035 | API Performance Optimization | Improve API performance to ensure a fast and efficient response, optimizing queries and resource usage.                                                                                                                   | 5                                  |
+| 1         | US001             | Beneficios del Producto                       | Como Visitante, quiero leer información sobre los beneficios del producto para evaluar cómo satisface mis necesidades.                                                                                                                     | 2                                  |
+| 2         | US002             | Modelo de Negocio                             | Como Visitante, quiero leer información sobre el modelo de negocio para evaluar si el producto beneficia mis objetivos y necesidades.                                                                                                       | 2                                  |
+| 3         | US003             | Reseñas de Clientes                           | Como Visitante, quiero leer reseñas de clientes para tomar una decisión informada sobre si comprar o usar un producto o servicio.                                                                                                          | 2                                  |
+| 4         | US004             | Contactar a Miembros de la Compañía           | Como Visitante, quiero contactar a los miembros de la compañía para solicitar más información o recibir soporte antes de completar una compra.                                                                                             | 3                                  |
+| 5         | US005             | Información de Miembros de la Compañía        | Como Visitante, quiero leer información sobre los miembros de la compañía para entender su experiencia y antecedentes.                                                                                                                      | 3                                  |
+| 6         | US006             | Monitoreo de Temperatura en Tiempo Real       | Como Caregiver, quiero que el sistema monitoree la temperatura en tiempo real para recibir alertas si la temperatura está fuera del rango saludable.                                                                                         | 5                                  |
+| 7         | US007             | Monitoreo del Ritmo Cardíaco en Tiempo Real   | Como Caregiver, quiero que el sistema monitoree el ritmo cardíaco en tiempo real para recibir alertas si está fuera del rango saludable.                                                                                                    | 5                                  |
+| 8         | US008             | Alertas de Salud                              | Como Caregiver, quiero recibir alertas en caso de valores anormales de temperatura o ritmo cardíaco para tomar acciones rápidamente.                                                                                                        | 5                                  |
+| 9         | US009             | Historial de Datos de Salud                   | Como Caregiver, quiero ver el historial de datos de salud para tener un registro completo de la temperatura y ritmo cardíaco a lo largo del tiempo.                                                                                         | 5                                  |
+| 10        | US010             | Configuración de Alertas Personalizadas       | Como Caregiver, quiero configurar alertas personalizadas para temperatura y ritmo cardíaco para adaptar las notificaciones a necesidades específicas.                                                                                       | 5                                  |
+| 11        | US011             | Envío de Notificación de Emergencia           | Como Caregiver, quiero que se envíe una notificación cuando se presione el botón de emergencia para recibir ayuda rápidamente en caso de necesidad.                                                                                          | 3                                  |
+| 12        | US012             | Recepción de Notificaciones de Ayuda          | Como Caregiver, quiero recibir notificaciones en mi dispositivo móvil cuando se presione el botón de emergencia para actuar rápidamente.                                                                                                    | 3                                  |
+| 13        | US013             | Gestión de Notificaciones                     | Como Caregiver, quiero gestionar las notificaciones recibidas para revisar y dar seguimiento a las alertas de emergencia.                                                                                                                  | 5                                  |
+| 14        | US014             | Configuración de Alertas de Emergencia        | Como Caregiver, quiero configurar alertas de emergencia para ajustar los parámetros según necesidades y preferencias.                                                                                                                      | 5                                  |
+| 15        | US025             | Acceso Rápido a Datos de la Pulsera           | Como Caregiver, quiero acceder rápidamente a los datos actuales de la pulsera desde la pantalla principal para ver información de salud sin navegar por múltiples páginas.                                                                  | 3                                  |
+| 16        | US026             | Navegación Intuitiva                          | Como Caregiver, quiero una navegación intuitiva en la aplicación para acceder fácilmente a las diferentes funcionalidades sin confusión.                                                                                                    | 3                                  |
+| 17        | US027             | Visualización Clara de Alertas                | Como Caregiver, quiero que las alertas importantes se destaquen visualmente para identificar rápidamente las notificaciones críticas.                                                                                                       | 3                                  |
+| 18        | US028             | Personalización de la Interfaz                | Como Caregiver, quiero personalizar algunos aspectos de la interfaz para adaptarla a mis preferencias de visualización.                                                                                                                     | 3                                  |
+| 19        | US029             | Notificaciones en Tiempo Real                 | Como Caregiver, quiero recibir notificaciones en tiempo real sobre cambios en la salud para reaccionar rápidamente en caso de emergencias.                                                                                                   | 5                                  |
+| 20        | US030             | Resumen Diario de Salud                       | Como Caregiver, quiero recibir un resumen diario del estado de salud para estar informado sobre el bienestar general sin revisar constantemente los datos.                                                                                   | 5                                  |
+| 21        | US015             | Acceso a Datos de Usuario                     | Como Nursing Home Owner, quiero acceder a los datos de usuario para generar informes y realizar un seguimiento del uso de las pulseras.                                                                                                     | 5                                  |
+| 22        | US016             | Gestión de Pulseras Alquiladas                | Como Nursing Home Owner, quiero gestionar las pulseras alquiladas para actualizar información, rastrear su uso y emitir facturas.                                                                                                           | 5                                  |
+| 23        | US017             | Visualización de Pulseras Disponibles         | Como Nursing Home Owner, quiero ver una lista de pulseras disponibles para saber cuáles están en alquiler y cuáles están disponibles para nuevos usuarios.                                                                                   | 3                                  |
+| 24        | US018             | Generación de Informes de Uso                 | Como Nursing Home Owner, quiero generar informes sobre el uso de las pulseras para analizar su utilización y rendimiento.                                                                                                                   | 5                                  |
+| 25        | US019             | Monitoreo de Sensores de Pulseras             | Como Nursing Home Owner, quiero monitorear el estado de los sensores de las pulseras para asegurarme de que funcionen correctamente en todo momento.                                                                                        | 5                                  |
+| 26        | US020             | Asignación de Pulsera a un Usuario            | Como Nursing Home Owner, quiero asignar una pulsera a un nuevo usuario para que pueda comenzar a utilizar el sistema de monitoreo de salud de inmediato.                                                                                      | 5                                  |
+| 27        | US021             | Generación de Informes Financieros            | Como Nursing Home Owner, quiero generar informes financieros para analizar los ingresos generados por el alquiler de pulseras.                                                                                                             | 5                                  |
+| 28        | US022             | Configuración de Pagos Automatizados          | Como Nursing Home Owner, quiero configurar pagos automatizados para facilitar la gestión de los cobros por el alquiler de pulseras.                                                                                                         | 5                                  |
+| 29        | US023             | Cancelación de Alquiler de Pulseras           | Como Nursing Home Owner, quiero cancelar el alquiler de una pulsera para liberar la pulsera y actualizar el estado en el inventario.                                                                                                         | 5                                  |
+| 30        | US024             | Actualización de Tarifas de Alquiler          | Como Nursing Home Owner, quiero actualizar las tarifas de alquiler de pulseras para reflejar cambios en los costos actuales de alquiler.                                                                                                     | 3                                  |
+| 31        | US031             | Generación de Informes de Salud               | Como Nursing Home Owner, quiero generar informes detallados sobre la salud de los usuarios para analizar patrones y tendencias a lo largo del tiempo.                                                                                        | 5                                  |
+| 32        | US032             | Filtros Avanzados en Informes                 | Como Nursing Home Owner, quiero aplicar filtros avanzados al generar informes para obtener la información más relevante de manera rápida y efectiva.                                                                                          | 3                                  |
+| 33        | US033             | Análisis de Tendencias de Salud               | Como Nursing Home Owner, quiero ver un análisis de tendencias basado en los datos recopilados para identificar posibles problemas de salud a largo plazo.                                                                                    | 5                                  |
+| 34        | US034             | Comparación de Datos entre Usuarios           | Como Nursing Home Owner, quiero comparar los datos de salud de múltiples usuarios para identificar patrones comunes o diferencias importantes en sus condiciones de salud.                                                                    | 5                                  |
+| 35        | US035             | Exportación de Datos para Análisis Externo    | Como Nursing Home Owner, quiero exportar todos los datos de salud en formato bruto para un análisis más detallado con herramientas externas.                                                                                                 | 3                                  |
+| 36        | TS036             | Implementación de API para Integración        | Como desarrollador, quiero implementar una API para integrar los datos de la pulsera con otros sistemas de monitoreo para asegurar que los datos sean accesibles desde otras plataformas.                                                    | 5                                  |
+| 37        | TS037             | Creación de Endpoints de Notificación         | Como desarrollador, quiero crear endpoints para gestionar notificaciones en la API para que las alertas de salud se configuren y envíen correctamente.                                                                                       | 5                                  |
+| 38        | TS038             | Seguridad de la API                           | Como desarrollador, quiero asegurarme de que la API tenga la autenticación y autorización adecuadas para proteger los datos sensibles de los usuarios de la pulsera.                                                                        | 8                                  |
+| 39        | TS039             | Documentación de la API                       | Como desarrollador, quiero que la API esté documentada de manera clara y completa para que otros desarrolladores puedan integrarse fácilmente.                                                                                               | 3                                  |
+| 40        | TS040             | Optimización del Rendimiento de la API        | Como desarrollador, quiero optimizar la API para que las respuestas sean rápidas y eficientes, mejorando la experiencia del usuario final.                                                                                                    | 5                                  |
+
 
 # Capítulo IV: Strategic-Level Software Design
 
@@ -1277,49 +1314,131 @@ En el primer paso del EventStorming, se inicia con una sesión de lluvia de idea
 
 En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
 
-![ES-Step2](./assets/EV-Step2.png)
+![ES-Step2-1](./assets/event1.jpg)
+
+![ES-Step2-2](./assets/event2.jpg)
+
+![ES-Step2-3](./assets/event3.jpg)
+
+![ES-Step2-4](./assets/event4.jpg)
+
+![ES-Step2-5](./assets/event5.jpg)
+
 
 **Step 3: Paint Points**
 
 Después de organizar los eventos en una línea de tiempo, aprovechamos esta vista general para identificar puntos de interés a lo largo del proceso. Estos puntos de interés pueden incluir cuellos de botella, pasos manuales que podrían ser automatizados, falta de documentación o carencias de conocimiento del dominio.
 
-![ES-Step3](./assets/EV-Step3.png)
+![ES-Step3-1](./assets/event6.jpg)
+
+![ES-Step3-2](./assets/event7.jpg)
+
+![ES-Step3-3](./assets/event8.jpg)
+
+![ES-Step3-4](./assets/event9.jpg)
+
+![ES-Step3-5](./assets/event10.jpg)
+
+![ES-Step3-6](./assets/event11.jpg)
 
 **Step 4: Pivotal Points**
 
 Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain points, buscamos eventos comerciales clave que marquen un cambio en el contexto o en la fase del proceso. Estos se denominan eventos principales y los señalamos con una barra vertical que separa los eventos anteriores de los posteriores a dicho evento.
 
-![ES-Step4](./assets/EV-Step4.png)
+![ES-Step4-1](./assets/event12.jpg)
+
+![ES-Step4-2](./assets/event13.jpg)
+
+![ES-Step4-3](./assets/event14.jpg)
+
+![ES-Step4-4](./assets/event15.jpg)
+
+![ES-Step4-5](./assets/event16.jpg)
+
+![ES-Step4-6](./assets/event17.jpg)
 
 **Step 5: Commands**
 
 En este paso también introducimos los comandos, los cuales describen la causa de un evento o el flujo de eventos. A diferencia de los eventos de dominio, los comandos son expresados en modo imperativo, describiendo las operaciones que deben ejecutarse en el sistema.
 
-![ES-Step5](./assets/EV-Step5.png)
+![ES-Step5-1](./assets/event18.jpg)
+
+![ES-Step5-2](./assets/event19.jpg)
+
+![ES-Step5-3](./assets/event20.jpg)
+
+![ES-Step5-4](./assets/event21.jpg)
+
+![ES-Step5-5](./assets/event22.jpg)
+
+![ES-Step5-6](./assets/event23.jpg)
 
 **Step 6: Policies**
 
 En este punto, buscamos automation policies (políticas de automatización) que puedan ejecutar estos comandos. Esto significa que un evento específico del dominio desencadena automáticamente la ejecución de un comando. En otras palabras, cuando ocurre un evento determinado, el comando correspondiente se ejecuta de manera automática.
 
-![ES-Step6](./assets/EV-Step6.png)
+![ES-Step6-1](./assets/event24.jpg)
+
+![ES-Step6-2](./assets/event25.jpg)
+
+![ES-Step6-3](./assets/event26.jpg)
+
+![ES-Step6-4](./assets/event27.jpg)
+
+![ES-Step6-5](./assets/event28.jpg)
+
+![ES-Step6-6](./assets/event29.jpg)
+
+![ES-Step6-7](./assets/event30.jpg)
+
 
 **Step 7: Read Models**
 
 En este paso, introducimos el modelo de lectura, que es la representación de datos del dominio que un agente utiliza para decidir si debe ejecutar o no un comando. Por esta razón, definimos una vista de datos para cada comando, como monitores del sistema, informes, notificaciones, entre otros.
 
-![ES-Step7](./assets/EV-Step7.png)
+![ES-Step7-1](./assets/event31.jpg)
+
+![ES-Step7-2](./assets/event32.jpg)
+
+![ES-Step7-3](./assets/event33.jpg)
+
+![ES-Step7-4](./assets/event34.jpg)
+
+![ES-Step7-5](./assets/event35.jpg)
+
+![ES-Step7-6](./assets/event36.jpg)
 
 **Step 8: External Systems**
 
 A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
 
-![ES-Step8](./assets/EV-Step8.png)
+![ES-Step8](./assets/event37.jpg)
+
+![ES-Step8](./assets/event38.jpg)
+
+![ES-Step8](./assets/event39.jpg)
+
+![ES-Step8](./assets/event40.jpg)
+
+![ES-Step8](./assets/event41.jpg)
+
+![ES-Step8](./assets/event42.jpg)
 
 **Step 9: Aggregates**
 
 Luego de presentar todos los eventos y comandos, comenzamos a agrupar los conceptos relacionados en agregados, que son las unidades que reciben comandos y generan eventos.
 
-![ES-Step9](./assets/EV-Step9.png)
+![ES-Step9](./assets/event43.jpg)
+
+![ES-Step9](./assets/event44.jpg)
+
+![ES-Step9](./assets/event45.jpg)
+
+![ES-Step9](./assets/event46.jpg)
+
+![ES-Step9](./assets/event47.jpg)
+
+![ES-Step9](./assets/event48.jpg)
 
 **Step 10: Bounded Contexts**
 
@@ -1374,7 +1493,101 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 
 ### 4.1.2. Context Mapping
 
-![ContextMapping](./assets/ContextMapping.jpg)
+#### Proceso para Crear el Context Mapping y Análisis de Alternativas
+
+##### 1. Pasos para Crear el Context Mapping
+
+###### 1.1. Identificación de los Bounded Contexts
+- **Configuration**
+- **Notification**
+- **Account**
+- **Metrics**
+- **Payment**
+- **Edge**
+- **Device**
+
+###### 1.2. Identificación de Relaciones Iniciales
+1. **Account** ⟷ **Configuration**: Relación de **Customer/Supplier**.
+   - *Account* provee la configuración inicial de usuarios, mientras *Configuration* consume y ajusta las preferencias.
+2. **Notification** ⟷ **Device**: Relación de **Conformist**.
+   - *Notification* se adapta a las características del *Device* para enviar alertas específicas.
+3. **Metrics** ⟷ **Device**: Relación de **Shared Kernel**.
+   - Comparten datos comunes sobre el estado y rendimiento del dispositivo.
+4. **Payment** ⟷ **Account**: Relación de **Customer/Supplier**.
+   - *Account* proporciona la información de facturación y el estado de la suscripción, mientras que *Payment* gestiona los pagos.
+5. **Edge** ⟷ **Device**: Relación de **Published Language**.
+   - *Edge* se comunica con *Device* utilizando un lenguaje de mensajes estandarizado para gestionar la integración.
+
+##### 2. Análisis de Alternativas y Preguntas Clave
+
+###### 2.1. ¿Qué pasaría si movemos este capability a otro bounded context?
+- **Caso Considerado:** Mover la capacidad de gestión de notificaciones desde *Notification* hacia *Account*.
+- **Impacto:**
+  - *Account* tendría la responsabilidad completa de administrar las preferencias y notificaciones de usuario.
+  - Incrementaría el acoplamiento y la complejidad de *Account*.
+- **Discusión:**
+  - Se recomienda mantener la separación, ya que *Notification* debe ser independiente y responder a eventos de otros contextos.
+
+###### 2.2. ¿Qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?
+- **Caso Considerado:** Descomponer *Notification* en sub-capabilities como *EmailNotification* y *PushNotification* y mover *EmailNotification* a *Account*.
+- **Impacto:**
+  - Permitirá a *Account* gestionar las notificaciones relacionadas con el usuario de manera más específica.
+  - *PushNotification* seguirá dependiendo de eventos generados por dispositivos.
+- **Discusión:**
+  - La descomposición permitiría un enfoque más específico en la entrega de notificaciones, pero incrementaría la complejidad de *Account*. Podría ser una buena opción dividirlo en dos bounded contexts independientes, pero no moverlo completamente a *Account*.
+
+###### 2.3. ¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?
+- **Caso Considerado:** Partir *Configuration* en *UserPreferences* y *SystemSettings*.
+- **Impacto:**
+  - Separar las configuraciones específicas del usuario de las configuraciones del sistema permitiría una gestión más eficiente y clara de las configuraciones, evitando la sobrecarga de un solo contexto.
+- **Discusión:**
+  - Se recomienda realizar esta separación para reducir la complejidad y mejorar la escalabilidad, evitando mezclar configuraciones que puedan tener diferentes ciclos de vida y dependencias.
+
+###### 2.4. ¿Qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?
+- **Caso Considerado:** Crear un nuevo contexto llamado *SubscriptionManagement* que combine capacidades de *Account*, *Payment* y *Notification* relacionadas con la gestión de suscripciones y pagos.
+- **Impacto:**
+  - Centralizaría la lógica de gestión de suscripciones, pagos y notificaciones relacionadas.
+  - Reduciría la duplicación y simplificaría la integración de capacidades.
+- **Discusión:**
+  - La creación de un nuevo contexto es viable y podría simplificar la arquitectura. Se debe evaluar si la complejidad de integración se reduce suficientemente para justificar la creación de este nuevo contexto.
+
+###### 2.5. ¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?
+- **Caso Considerado:** Duplicar la funcionalidad de gestión de dispositivos en *Edge* y *Device* para reducir la dependencia mutua.
+- **Impacto:**
+  - Rompería la dependencia, pero aumentaría la duplicación de lógica y datos, lo que puede generar inconsistencias.
+- **Discusión:**
+  - No se recomienda la duplicación, ya que aumentaría la complejidad de mantenimiento. Mejor optar por la utilización de un servicio compartido o una capa anticorrupción.
+
+###### 2.6. ¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?
+- **Caso Considerado:** Crear un servicio compartido de notificaciones para *Notification* y *Account*.
+- **Impacto:**
+  - Reduciría la duplicación en la lógica de envío y manejo de notificaciones, centralizando esta capacidad en un único servicio reutilizable.
+- **Discusión:**
+  - Se recomienda implementar un servicio compartido de notificaciones que permita reducir la duplicación de lógica y simplifique la integración con otros contextos.
+
+###### 2.7. ¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?
+- **Caso Considerado:** Aislar las capacidades core de monitoreo de salud en *Device* y mover capacidades de gestión de dispositivos a un contexto aparte llamado *DeviceManagement*.
+- **Impacto:**
+  - Se reduciría la sobrecarga en el contexto de *Device*, permitiendo una mayor flexibilidad y escalabilidad en el manejo de dispositivos.
+- **Discusión:**
+  - Aislar capacidades core puede mejorar la escalabilidad y el mantenimiento del sistema. Se recomienda implementar esta alternativa para simplificar el contexto *Device*.
+
+##### 3. Alternativa Recomendada de Context Mapping
+
+1. **Crear un contexto independiente de *SubscriptionManagement*** que maneje suscripciones, pagos y notificaciones relacionadas con suscripciones. Esto simplificaría las dependencias entre *Account*, *Payment* y *Notification*.
+2. **Separar *Configuration* en *UserPreferences* y *SystemSettings*** para reducir la complejidad al separar configuraciones de usuario y de sistema.
+3. **Implementar un servicio compartido de notificaciones** para centralizar la lógica de envío de notificaciones.
+4. **Aislar las capacidades core de monitoreo de salud en *Device* y mover la gestión de dispositivos a *DeviceManagement*** para mejorar la escalabilidad y la gestión de dispositivos.
+
+##### 4. Patrones de Relaciones Sugeridos
+
+- **Anti-corruption Layer (ACL):** Para proteger el contexto *Device* de cambios en *DeviceManagement*.
+- **Conformist:** Para que *Notification* se adapte a los datos que recibe de *SubscriptionManagement*.
+- **Shared Kernel:** Entre *Device* y *Metrics* para compartir información de monitoreo.
+- **Customer/Supplier:** Relación entre *Account* y *SubscriptionManagement*.
+
+![ContextMapping](./assets/ContextMapping.png)
+
 
 ### 4.1.3. Software Architecture
 
@@ -1833,7 +2046,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Device` se relaciona con `Patient` a través de `Patient_id`.
   - `Patient` puede tener varias métricas y dispositivos asociados.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/DB_MIAM_FINAL.png)
 ---
 
 ## 4.2.3. Bounded Context: Notification Context
@@ -3016,7 +3229,7 @@ Las aplicaciones web y móvil emplean una paleta cuidadosamente seleccionada que
 
 Se utiliza un espaciado amplio y consistente entre los diferentes elementos de la interfaz, de al menos 10px entre cada elemento. Esto facilita la lectura y la navegación, y evita que la interfaz se vea sobrecargada. 
 
-![Spacing](assets/spacing.png)
+![Spacing](assets/spacing.PNG)
 
 En cuanto a la aplicación móvil, los botones y áreas interactivas son lo suficientemente grandes como para ser utilizados fácilmente en pantallas táctiles.
 
@@ -3047,7 +3260,6 @@ En cuanto a la aplicación móvil, los botones y áreas interactivas son lo sufi
 
 ![Sidebar](assets/sidebar.png)
 
-
 ### 5.1.2.2. Mobile Style Guidelines
 
 <b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
@@ -3072,7 +3284,755 @@ En cuanto a la aplicación móvil, los botones y áreas interactivas son lo sufi
 
 ![Navbar Mobile](assets/mobile-navbar.png)
 
+## 5.2. Information Architecture
+
+### 5.2.1. Organization Systems.
+Se utilizaron los tres sistemas de organización visual: jerárquica, secuencial y matricial. Cada uno de estos enfoques se aplica según la naturaleza de la información o tarea a realizar, asegurando que la navegación y la experiencia del usuario sean claras, eficientes y optimizadas para diferentes contextos.
+
+- <b> Visual Hierarchy:</b> La organización jerárquica se utiliza principalmente en el dashboard y las pantallas de visualización de información clave, como el monitoreo de signos vitales y las alertas. La finalidad de usar una jerarquía visual en estas áreas es priorizar la información importante para los cuidadores. 
+
+![Dashboard](assets/mockups_dashboard.png)
+
+- <b>Step-by-Step to Accomplish:</b> La organización secuencial se aplica en las funciones que requieren la ejecución de tareas que siguen un proceso definido y donde cada etapa depende de la anterior, como es el caso de la sección Billing & Plans. 
+
+![Billing](assets/mockups_billing.png)
+
+- <b>Matricial:</b> Se utilizó este tipo de organización para la vista de tablas en la sección de Alerts y Billing History. Esta proporciona una vista global de los datos que ayuda a manejar la información de manera simultánea.
+
+![Alerts](assets/mockups_alerts.png)
+
+### 5.2.2. Labeling Systems.
+
+### 5.2.3. SEO Tags and Meta Tags
+
+### 5.2.4. Searching Systems.
+
+### 5.2.5. Navigation Systems.
+
+## 5.3. Landing Page UI Design
+
+Se diseñó el Landing Page con un enfoque centrado en la experiencia del usuario, donde las decisiones de diseño y la arquitectura de la información se han basado en principios clave como la simplicidad, la accesibilidad y la claridad de comunicación. 
+
+Cada componente de la interfaz responde a la necesidad de brindar confianza y facilitar la comprensión del servicio ofrecido, tanto en versiones de escritorio como en dispositivos móviles.
+
+### 5.3.1. Landing Page Wireframe
+
+El wireframe para el navegador de escritorio presenta una estructura organizada en bloques que prioriza el flujo de información y facilita la exploración de contenido de manera natural. En la parte superior, se encuentra un encabezado con el menú de navegación, manteniendo visibles las secciones más relevantes.
+
+El diseño sigue los principios de la jerarquía visual al posicionar la información más importante en el área superior de la pantalla, lo que mejora la usabilidad. También se aplican principios de diseño inclusivo, con un enfoque en la legibilidad de los textos y la facilidad para navegar por el contenido.
+
+![Wireframe Hero section](assets/wireframe-hero-section.PNG)
+![Wireframe How it works section](assets/wireframe-how-it-works-section.PNG)
+![Wireframe Why choose us section](assets/wireframe-why-choose-us-section.PNG)
+![Wireframe Plans section](assets/wireframe-plans-section.PNG)
+![Wireframe Testimonials section](assets/wireframe-testimonials-section.PNG)
+![Wireframe Team section](assets/wireframe-team-section.PNG)
+![Wireframe Contact and footer section](assets/wireframe-contact-footer-section.PNG)
+
+###  5.3.2. Landing Page Mock-up 
+
+El mock-up para la versión de escritorio del Landing Page refleja la aplicación concreta de los principios de diseño establecidos, como la consistencia visual, con el uso de una paleta de colores neutros y azulados que generan una atmósfera de confianza y tranquilidad. Se han empleado tipografías legibles y contrastes adecuados para mejorar la accesibilidad, siguiendo las pautas de diseño inclusivo.
+
+Además, el Hero Section incluye el Call to action "How it Works", que invita a los usuarios a conocer más el sistema.
+
+![Hero section](assets/hero-section.PNG)
+![How it works section](assets/how-it-works-section.PNG)
+![Why choose us section](assets/why-choose-us-section.PNG)
+![Plans section](assets/plans-section.PNG)
+![Testimonials section](assets/testimonials-section.PNG)
+![Team section](assets/team-section.PNG)
+![Contact and footer section](assets/contact-footer-section.PNG)
+
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications Wireframes
+
+#### 5.4.1.1. Web Application Wireframes
+
+Los wireframes sirven como una representación inicial del diseño. En ellos se ha aplicado cuidadosamente la arquitectura de información, asegurando que los elementos clave se ubiquen de manera lógica y accesible para los usuarios. 
+
+Los principios de jerarquía visual y alineación sirven para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una fácil navegación entre las diferentes secciones.
+
+A continuación, se muestran los wireframes de las secciones más importantes de la aplicación: 
+
+- Log in
+
+![Wireframe Login](assets/wireframes_login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
+
+
+#### 5.4.1.2. Mobile Application Wireframes
+
+Los wireframes móviles representan una versión preliminar del diseño de la aplicación, mostrando cómo se organizará la información en una pantalla más pequeña. Se ha aplicado de manera cuidadosa la arquitectura de información para garantizar que los elementos clave estén ubicados de forma lógica y accesible para los usuarios en sus dispositivos móviles.
+
+Se han utilizado principios de jerarquía visual y alineación para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una navegación fluida entre las diferentes secciones de la aplicación. El diseño responsivo asegura que la experiencia del usuario sea consistente, fácil de usar y sin comprometer la funcionalidad en dispositivos móviles.
+
+A continuación, se presentan los wireframes de las secciones más importantes de la aplicación móvil, mostrando la disposición de los menús, botones de acción y secciones de contenido en un formato optimizado para pantallas de smartphones:
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframe-mobile-dashboard.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframe-mobile-configuration.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframe-mobile-alert.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframe-mobile-patients.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframe-mobile-billing1.png)
+
+![Wireframe Billing 2](assets/wireframe-mobile-billing2.png)
+
+![Wireframe Billing 3](assets/wireframe-mobile-billing3.png)
+
+
+### 5.4.2. Applications Wireflow Diagrams
+
+#### 5.4.2.1. Web Application Wireflow Diagrams
+
+<b>Wireflow 1</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Crear una alerta de recordatorio de medicamento del paciente para ser notificada <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana cuando quiere crear una alerta de medicamento para ser notificada. El flujo inicia en la pantalla "Patients". Ana, quien es el cuidador, selecciona un paciente y hace clic en el botón "Add alert". Luego, visualiza un formulario y agrega la información de la alerta. El happy path ocurre la alerta es creada exitosamente y Ana recibe el recordatorio de administración del medicamento. 
+
+![Wireflow 1](assets/wireflow-1.png)
+
+<b>Wireflow 2</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Mejorar su plan actual para obtener los beneficios como dueña de una casa de reposo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana al mejorar su plan actual. Inicia cuando Ana ingresa a la pantalla "Billing & Payment", donde se muestra su historial de facturas y datos del plan actual. Cuando Ana hace clic en "Upgrade now", visualiza una sección con la información de los planes disponibles. Al mejorar su plan de Básico a Enterprise, tiene la opción de agregar más Health Bands, lo que se refleja en la pantalla de pago. El happy path ocurre cuando Ana realiza el pago y este es procesado exitosamente, redirigiéndola a una pantalla de confirmación.
+
+![Wireflow 2](assets/wireflow-2.png)
+
+<b>Wireflow 3</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Visualizar los datos vitales de un paciente para tener un monitoreo continuo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren visualizar un resumen de los datos vitales de un paciente. El flujo inicia cuando los usuarios se encuentran en el dashboard, visualizando el apartado de Vital Signs Monitoring. Al hacer clic en el menú desplegable, aparece una lista con todos los pacientes registrados. El happy path ocurre cuando se selecciona un paciente y la gráfica del dashboard se actualiza con los datos de sus funciones vitales.
+
+![Wireflow 3](assets/wireflow-3.png)
+
+<b>Wireflow 4</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una banda a un paciente creado <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren vincular una banda a un paciente para monitorearlo. El flujo inicia cuando el usuario se encuentra en la vista "Band Configuration" y selecciona una banda que no ha sido configurada. El siguiente paso es elegir un paciente previamente credo del menú desplegable de la sección "Patient". El happy path ocurre cuando, al hacer clic en "Save", la información del paciente se vincula a la banda y esta se sincroniza, empezando a monitorear los signos vitales.
+
+![Wireflow 4](assets/wireflow-4.png)
+
+
+<b>Wireflow 5</b> <br>
+<b>User Persona:</b> Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una paciente a un cuidador para que reciba las notificaciones <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Gabriel, como dueño de una casa de reposo, para vincular un paciente a un cuidador. El flujo inicia cuando se encuentra en la pantalla "Patients" y selecciona alguno de los pacientes de su lista. Luego, selecciona un cuidador del menú desplegable en la sección "Caregiver", el cual cambia de "No configurado" a mostrar el nombre del cuidador. El happy path ocurre cuando los cambios se guardan exitosamente, el cuidador es vinculado al paciente y puede recibir las alertas. 
+
+![Wireflow 5](assets/wireflow-5.png)
+
+
+#### 5.4.2.2. Mobile Application Wireflow Diagrams
+
+### 5.4.3. Applications Mock-ups
+
+#### 5.4.3.1. Web Application Mock-ups
+
+En esta sección se presentan los mock-ups de la aplicación móvil, mostrando una representación visual más detallada y cercana a la versión final para dispositivos móviles.
+
+Estos mock-ups integran todos los principios de diseño adaptados a la experiencia móvil, como la consistencia visual y la combinación equilibrada de colores, asegurando que la experiencia de usuario sea cohesiva y atractiva en pantallas pequeñas. Cada componente, como botones, tipografías y otros elementos, está diseñado siguiendo las pautas establecidas en el design system, garantizando que se mantenga una coherencia visual a lo largo de toda la aplicación móvil.
+
+A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación móvil, donde se destacan la disposición de los menús, los accesos rápidos y las interacciones táctiles optimizadas para ofrecer una navegación intuitiva y fluida en smartphones:
+
+- Log in
+
+![Mockup Login 1](assets/mockup-mobile-login.png)
+
+- Dashboard
+
+![Mockup Dashboard 1](assets/mockup-mobile-dashboard.png)
+
+- Band configuration
+
+![Mockup Band Configuration 1](assets/mockup-mobile-configuration.png)
+
+- Alerts 
+
+![Mockup Alerts 1](assets/mockup-mobile-alerts.png)
+
+- Patients
+
+![Mockup Patients 1](assets/mockup-mobile-patients.png)
+
+- Billing
+
+![Mockup Billing 1](assets/mockup-mobile-billing1.png)
+
+![Mockup Billing 2](assets/mockup-mobile-billing2.png)
+
+![Mockup Billing 3](assets/mockup-mobile-billing3.png)
+
+#### 5.4.3.2. Mobile Application Mock-ups
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
+
+### 5.4.4. Applications User Flow Diagrams
+
+#### 5.4.4.1. Web Application User Flow Diagrams
+
+<b>User Flow 1</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Crear una alerta de recordatorio de medicamento del paciente para ser notificada <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana cuando quiere crear una alerta de medicamento para ser notificada. El flujo inicia en la pantalla "Patients". Ana, quien es el cuidador, selecciona un paciente y hace clic en el botón "Add alert". Luego, visualiza un formulario y agrega la información de la alerta. El happy path ocurre la alerta es creada exitosamente y Ana recibe el recordatorio de administración del medicamento. 
+
+![User Flow 1](assets/user-flow-1.png)
+
+<b>User Flow 2</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Mejorar su plan actual para obtener los beneficios como dueña de una casa de reposo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana al mejorar su plan actual. Inicia cuando Ana ingresa a la pantalla "Billing & Payment", donde se muestra su historial de facturas y datos del plan actual. Cuando Ana hace clic en "Upgrade now", visualiza una sección con la información de los planes disponibles. Al mejorar su plan de Básico a Enterprise, tiene la opción de agregar más Health Bands, lo que se refleja en la pantalla de pago. El happy path ocurre cuando Ana realiza el pago y este es procesado exitosamente, redirigiéndola a una pantalla de confirmación.
+
+![User Flow 2](assets/user-flow-2.png)
+
+<b>User Flow 3</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Visualizar los datos vitales de un paciente para tener un monitoreo continuo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren visualizar un resumen de los datos vitales de un paciente. El flujo inicia cuando los usuarios se encuentran en el dashboard, visualizando el apartado de Vital Signs Monitoring. Al hacer clic en el menú desplegable, aparece una lista con todos los pacientes registrados. El happy path ocurre cuando se selecciona un paciente y la gráfica del dashboard se actualiza con los datos de sus funciones vitales.
+
+![User Flow 3](assets/user-flow-3.png)
+
+<b>User Flow 4</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una banda a un paciente creado <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren vincular una banda a un paciente para monitorearlo. El flujo inicia cuando el usuario se encuentra en la vista "Band Configuration" y selecciona una banda que no ha sido configurada. El siguiente paso es elegir un paciente previamente credo del menú desplegable de la sección "Patient". El happy path ocurre cuando, al hacer clic en "Save", la información del paciente se vincula a la banda y esta se sincroniza, empezando a monitorear los signos vitales.
+
+![User Flow 4](assets/user-flow-4.png)
+
+
+<b>User Flow 5</b> <br>
+<b>User Persona:</b> Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una paciente a un cuidador para que reciba las notificaciones <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Gabriel, como dueño de una casa de reposo, para vincular un paciente a un cuidador. El flujo inicia cuando se encuentra en la pantalla "Patients" y selecciona alguno de los pacientes de su lista. Luego, selecciona un cuidador del menú desplegable en la sección "Caregiver", el cual cambia de "No configurado" a mostrar el nombre del cuidador. El happy path ocurre cuando los cambios se guardan exitosamente, el cuidador es vinculado al paciente y puede recibir las alertas. 
+
+![User Flow 5](assets/user-flow-5.png)
+
+#### 5.4.4.2. Mobile Application User Flow Diagrams
+
+
+## 5.5 Applications Prototyping
+
+![Web Application Prototype](assets/prototype.PNG)
+
+Enlace del prototipo:
+<a href="https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1">https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1</a>
+
 ---
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+<table border="1">
+
+  <tr>
+    <td>Project Management</td>
+    <td>Microsoft 365<br>Alojamiento de los videos de entrevistas, explicación de prototipos y otros relacionados al proyecto</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Discord<br>Plataforma de mensajería instantánea donde se realizaron las reuniones, repartición de tarea y desarrollo del proyecto colaborativo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Whatsapp<br>Aplicación de mensajería instantánea donde se realizaron recordatorios de las reuniones.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Trello<br>Software de administración Y gestión de proyectos que se utilizó para establecer y designar las tareas</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td>Structurizr<br>Structurizr es una herramienta de modelado y documentación que permitió el desarrollo de los diagramas C4</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>MySQL Workbench<br>Herramienta de diseño para el modelado de diagrama de bases de datos.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>LucidChart<br>Herramienta de diseño para el modelado de diagramas UML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Miro<br>Herramienta de diseño para la creación de los As-Is y To-Be Scenario Mapping</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td>Figma<br>Herramienta que se utilizó para la creación de wireframes, mockups y prototipos.</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Git<br>Es un software de control de versiones para los trabajos en equipos y confiabilidad del desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node.js<br>Node.js es un entorno de ejecución de JavaScript del lado del servidor, que permite desarrollar aplicaciones web escalables y de alto rendimiento fuera del navegador.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GitHub<br>Sistema de control de versiones Git.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HTML5<br>Lenguaje de etiquetas, utilizado para la estructuración y la presentación de contenido.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CSS<br>CSS es un lenguaje utilizado para estilizar y dar formato a documentos HTML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JavaScript<br>JavaScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>VScode<br>Es un editor de código fuente con extensiones que ayudan al desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Angular Framework<br>Framework para el desarrollo de frontend</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td>Github Pages<br>Plataforma que nos facilitó realizar el despliegue de nuestro landing page de manera rápida y práctica.</td>
+  </tr>
+</table>
+
+### 6.1.2. Source Code Management
+
+Utilizamos la metodología de git flow con finalidad es tener un control mayor sobre la gestión del proyecto, avanzar el proyecto de forma simultanea tanto como en la implementación del la aplicación y creación del reporte.
+
+Esto nos permitio separar el proyecto en la rama principal (main) en la que se encuentra la versión presentable del proyecto, que a la vez no cuenta con errores. También tenemos la rama secundario (develop) que sirve para unificar los cambios de las demás ramas. También contamos con más branches una para determinadas fuincionalidades amplias de la aplicación y una para cada chapter del reporte.
+
+<td><img src="" alt="Imagen del gitflow" width="1500"></td>
+
+
+URL del repositorio del Report en GitHub:
+
+URL del repositorio del Landing Page en GitHub: 
+
+URL del repositorio del Frontend en Github:
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+HTML: Lenguaje utilizado para diseñar páginas web. Este lenguaje utiliza etiquetas para marcar y definir el contenido de la página web; Como un texto, imagenes, videos, etc.
+
+Convenciones:
+
+- Se tiene que declarar el tipo de documento en la primera línea de la siguiente manera:
+- Las etiquetas siempre tienen que esta en minúscula, ya que es más claro a la vista y es de facil escritura para los desarrolladores.
+- Usar las comillas para darle un valor a los atributos para una mejor legibilidad.
+
+CSS: Lenguaje que permite dar formatos o estilos a los elementos html. Con este lenguaje se pueden crear diseños web agradables e intuitivos para el usuario.
+
+Convenciones:
+
+- Unir los nombres de las clases compuestas con guiones: box-container{}
+- Usar la unidad de medida rem para mantener un diseño responsive: 1rem
+
+### 6.1.4. Software Deployment Configuration
+
+Para despliegar el landing page, usamos las siguientes herraminetas.
+
+- Git: Para realizar el manejo de las versiones del proyecto.
+- GitHub: Dentro de la plataforma tenemos un repositorio, lo usamos para almacenar todo el proyecto con sus respectivas versiones.
+- GitFlow: Esto permite visualizar y controlar el flujo de trabajo hecho por el equipo de desarrollo.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            05/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes de    
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Achamizo Huamani, Jean Carlos <br/>
+            - Aliaga Trevejo, Lucía Guadalupe <br/>
+            - Raymundo Guevara, Rodrigo Alejandro <br/>
+            - Siancas Reategui, Luis Alberto <br/>    
+            - Trujillo Lopez, Luis Alberto <br/> 
+            - Sagastegui Rodriguez, Luis Jesus <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de funcionamiento de la plataforma TasteTour.
+            </br></br>
+            La Landing Page se implementó exitosamente.  
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró mantener una comunicación entre los integrantes del equipo gracias al uso de plataformas como Discord, lo que conllevó a entregar el trabajo correctamente. Sin embargo, se debe mejorar el aspecto de la organización, para terminar las próximas tareas sin estar al límite del deathline.
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table> 
+
+#### 6.2.1.2. Sprint Backlog 1
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="7">US01</td>
+       <td rowspan="7">Visualizar la descripción de la aplicación</td>
+       <td>T01</td>
+       <td>Estructura de las secciones</td>
+       <td>Programar la estructua HTML de las secciones </td>
+       <td>0.1</td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T02</td>
+       <td>Agregar CSS general</td>
+       <td>Asignar styles generales para la página</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T03</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T04</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T05</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T06</td>
+       <td>Agregar "" section</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+    </tr>
+   <tr>
+       <td rowspan="2">US03</td>
+       <td rowspan="2">Landing Page intuitiva</td>
+       <td>T07</td>
+       <td>Estructura Navbar</td>
+       <td>Crear HTML del navbar con direccionamiento a secciones</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T08</td>
+       <td>Estilos Navbar</td>
+       <td>Asignar stilos al navbar</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US04</td>
+       <td rowspan="2">Landing Page responsiva</td>
+       <td>T09</td>
+       <td>Main responsive</td>
+       <td>Agregar CSS media queries a las diferentes secciones del main</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T10</td>
+       <td>Navbar responsive</td>
+       <td>Agregar CSS media queries al navbar</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+</table>
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de la Landing Page. A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Author</th>
+        <th>Message</th>
+        <th>Time ago</th>
+    </tr>
+    <tr>
+        <td rowspan=19>Landing Page</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+</table>
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+**Link de la landing page desployada:**
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el desarrollo de la Landing page, se utilizaron las siguientes texnologías:
+
+- HTML: Lenguaje de marcado para crear la estructura de una página web. Define la organización del contenido (encabezados, párrafos, imágenes, etc.).
+- CSS: Lenguaje de estilo para darle forma y diseño a las páginas web. Controla la apariencia del contenido (colores, tipografías, fondos, etc.).
+- Git: Sistema de control de versiones para gestionar el desarrollo de software. Permite realizar un seguimiento de los cambios en el código y colaborar con otros. Sistema de control de versiones que nos ayudó a trabajar en equipo durante el desarrollo del landing page
+- GitHub: Plataforma online para alojar repositorios Git. Permite compartir código, colaborar en proyectos y acceder a una gran comunidad de desarrolladores. Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones de nuestro proyecto.
+
+Igualmente, para el correcto control de versiones y el adecuado desarrollo de la página, se empleó la metodología de trabajo GitFlow Workflow. Es un método para gestionar el desarrollo de software con Git. Define roles y ramas específicas para cada etapa del proceso, como desarrollo, pruebas y lanzamiento. Esto ayuda a organizar el código, facilita la colaboración y reduce el riesgo de errores.
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+La StartUp ha realizado el presente sprint usando Git y Github como herramientas principales para el control de versiones y GitFlow como metodología de trabajo.
+
+En primer lugar, se creó una organización en Github con el nombre de la StartUp. Luego, se creó un repositorio para la Landing page. En dicho repositorio, el equipo ha creado diferentes ramas (branchs) para diferenciar el tipo de trabajo que se realiza. Por ejemplo, la rama `main` se empleó únicamente para el despliegue final de la aplicación; `develop`, para hacer _merge_ con demás ramas incluída la `main`; `feature`, para implementar alguna funcionalidad. De esta manera se protege el código funcional y se diferencia de features en desarrollo por los miembros. Después de la creación de cada rama, uno o más usuario pueden acceder a esta y realizar cambios y guardarlos como commits.
+
+#### 6.3 Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+#### 6.3.2. Registro de Entrevistas.
+#### 6.3.3. Evaluaciones según heurísticas.
+#### 6.4. Video About-the-Product.
 
 # Conclusiones
 
@@ -3098,7 +4058,8 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 
 | Enlace                                             | Fecha        | Entregable                       |
 |----------------------------------------------------|--------------|----------------------------------|
-| [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
+| https://goo.su/sorVJws   | 07/09/2024   | TB1         |
+| https://goo.su/8Zz305      | 26/09/2024   | TP        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
