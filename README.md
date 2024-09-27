@@ -21,6 +21,7 @@
 Achamizo Huamani, Jean Carlos <br>
 Aliaga Trevejo, Lucía Guadalupe <br>
 Raymundo Guevara, Rodrigo Alejandro <br>
+Sagastegui Rodriguez, Luis Jesús <br>
 Siancas Reategui, Luis Alberto <br>
 Trujillo Lopez, Luis Alberto <br>
 
@@ -37,8 +38,10 @@ Trujillo Lopez, Luis Alberto <br>
 |   1.0     |   06/09/2024   |  Achamizo Huamani Jean Carlos,  Aliaga Trevejo Lucía Guadalupe, Raymundo Guevara Rodrigo Alejandro, Siancas Reategui Luis Alberto, Trujillo Lopez Luis Alberto  |   Se añadieron los elementos correspondientes al entregable de la TB1 (capítulos 1 al 4)|
 |   1.1   |   25/09/2024   |  Aliaga Trevejo Lucía Guadalupe |   Se añadieron y corrigieron los elementos correspondientes en el capítulo de Needfinding |
 |   1.2     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
-
-
+|   1.3     |   26/09/2024   |  Achamizo Huamani Jean Carlos|   Se corrigieron los elementos correspondientes del Lean UX Process, los apartados de Lean UX Assumptions y Lean UX Hypothesis Statements |
+| 1.3     | 27/09/2024  | Raymundo Guevara Rodrigo Alejandro                                                                               | Se añadieron los mockups y wireframes en la sección de diseño de interfaz.                                                     |
+| 1.4     | 27/09/2024  | Sagasti Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
+| 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
 ---
 
 # Project Report Collaboration Insights
@@ -56,8 +59,17 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
 
 ![Network TB1](./assets/network-tb1.PNG)
 
----
+**TP1**
 
+Para la segunda entrega, el equipo logró un total de 78 commits en todas las ramas.
+
+![Insights TP1](./assets/insights-tp1.PNG)
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
+![Network TP1](./assets/network-tp1.PNG)
+
+---
 
 # Contenido
 
@@ -259,7 +271,42 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
     - [4.2.7.7. Bounded Context Software Architecture Code Level Diagrams](#4277-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.7.7.1. Bounded Context Domain Layer Class Diagrams](#42771-bounded-context-domain-layer-class-diagrams)
       - [4.2.7.7.2. Bounded Context Database Design Diagram](#42772-bounded-context-database-design-diagram)
-  - [](#-3)
+- [Capítulo V: Solution UI/UX Design](#capítulo-v-solution-uiux-design)
+  - [5.1 Style Guidelines](#51-style-guidelines)
+    - [5.1.1 General Style Guidelines](#511-general-style-guidelines)
+    - [5.1.2 Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2 Information Architecture](#52-information-architecture)
+    - [5.2.1 Organization Systems](#521-organization-systems)
+    - [5.2.2 Labeling Systems](#522-labeling-systems)
+    - [5.2.3 SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4 Searching Systems](#524-searching-systems)
+    - [5.2.5 Navigation Systems](#525-navigation-systems)
+  - [5.3 Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1 Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2 Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4 Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1 Applications Wireframes](#541-applications-wireframes)
+    - [5.4.2 Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+    - [5.4.3 Applications Mock-ups](#543-applications-mock-ups)
+    - [5.4.4 Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+  - [5.5 Applications Prototyping](#55-applications-prototyping)
+
+- [Capítulo VI: Product Implementation, Validation & Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1 Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1 Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2 Source Code Management](#612-source-code-management)
+    - [6.1.3 Source Code Style Guide & Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4 Software Deployment Configuration](#614-software-deployment-configuration)
+  - [6.2 Landing Page, Services & Applications Implementation](#62-landing-page-services--applications-implementation)
+    - [6.2.1 Sprint 1](#62x-sprint-1)
+      - [6.2.1.1 Sprint Planning n](#62x1-sprint-planning-1)
+      - [6.2.1.2 Sprint Backlog n](#62x2-sprint-backlog-1)
+      - [6.2.1.3 Development Evidence for Sprint Review](#62x3-development-evidence-for-sprint-review)
+      - [6.2.1.4 Testing Suite Evidence for Sprint Review](#62x4-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5 Execution Evidence for Sprint Review](#62x5-execution-evidence-for-sprint-review)
+      - [6.2.1.6 Services Documentation Evidence for Sprint Review](#62x6-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7 Software Deployment Evidence for Sprint Review](#62x7-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8 Team Collaboration Insights during Sprint](#62x8-team-collaboration-insights-during-sprint)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -267,16 +314,15 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
   - [Diagrama C4 MIAM](#diagrama-c4-miam)
 
 
-  
+
+
 ---
 
 # Student Outcome
-
-| Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
-|------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Participó activamente en la planificación y ejecución de las actividades del equipo. Coordinó las reuniones para discutir el progreso del proyecto y tomó la iniciativa en la resolución de conflictos. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Facilitó las discusiones del equipo, asegurando que todos los miembros pudieran expresar sus opiniones. Tomó la responsabilidad de consolidar la información y presentar el avance del proyecto a los stakeholders. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Contribuyó al liderazgo del equipo al proporcionar soporte técnico y orientación durante la implementación de las tareas. Coordinó con otros miembros del equipo para asegurar la alineación de los objetivos del proyecto. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Asumió un rol activo en la definición de metas y en la planificación de tareas, manteniendo a todos los miembros del equipo enfocados en los objetivos comunes. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Lideró la revisión de las tareas y ayudó a motivar al equipo a cumplir con los plazos establecidos. Estableció un entorno de trabajo colaborativo que facilitó la cooperación entre todos los miembros del equipo. <br><br>|  *TB1* <br> El trabajo en equipo fue efectivo en proporcionar un liderazgo colaborativo, facilitando una comunicación abierta y un enfoque compartido hacia la consecución de objetivos. Cada miembro del equipo contribuyó significativamente a la planificación y ejecución del proyecto, mejorando la dinámica y eficiencia del grupo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Facilitó la creación de un entorno inclusivo al asegurar que todas las voces fueran escuchadas durante las discusiones del equipo. Colaboró en la definición de metas claras y en la planificación de tareas para alcanzar los objetivos del proyecto. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Promovió la inclusión en el equipo al garantizar que las tareas y objetivos fueran distribuidos equitativamente. Ayudó a planificar y asignar tareas de manera que se maximizara el potencial de cada miembro del equipo. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Colaboró en la creación de un ambiente de trabajo abierto y respetuoso, donde cada miembro del equipo pudo contribuir con sus ideas. Participó activamente en la planificación y en el establecimiento de objetivos alcanzables. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Se encargó de supervisar el progreso del equipo en relación con las metas establecidas, asegurando que todos los miembros estuvieran alineados con los objetivos del proyecto. Facilitó la planificación de tareas y la resolución de problemas para mantener el proyecto en camino. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Implementó prácticas para fomentar un entorno colaborativo y inclusivo, realizando sesiones de planificación y seguimiento para asegurar el cumplimiento de los objetivos. Supervisó el progreso y la realización de tareas, ayudando al equipo a mantenerse enfocado. <br><br>|   *TB1* <br> Se logró establecer un entorno de trabajo colaborativo e inclusivo, con una planificación efectiva y cumplimiento de metas. La distribución equitativa de tareas y la supervisión continua ayudaron a mantener al equipo alineado y motivado para alcanzar los objetivos del proyecto. |
-
+| Criterio específico                                              | Acciones realizadas                                                                                                                   | Conclusión                                                                                                                       |
+|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta  | **Jean Carlos Achamizo Huamani** <br> TB1: <br> Implementé inicialmente los apartados de assumptions e hipótesis, estructurando las bases del proyecto y facilitando la comprensión común de los objetivos. Esta acción ayudó a definir un enfoque claro y unificado para el equipo, asegurando que todos los miembros estuvieran alineados desde el principio. <br> TP1: <br> Corregí los assumptions originales, añadiendo cinco nuevos y elaboré hipótesis detalladas utilizando la plantilla proporcionada. Esto permitió al equipo validar los objetivos del proyecto y adaptar las actividades según los requerimientos específicos, lo que mejoró la toma de decisiones conjunta y la planificación estratégica. <br><br> **Luis Alberto Trujillo Lopez** <br> TB1: <br> Añadí las páginas web de los competidores y sus logos, proporcionando una base inicial para el análisis competitivo. Esto facilitó la comprensión del panorama del mercado y permitió al equipo definir estrategias de manera más informada. <br> TP1: <br> Expandí esta información agregando descripciones detalladas de cada competidor y reorganizando las imágenes del Event Storming en secciones claras con descripciones para cada fase. Al hacer esto, ayudé a clarificar los roles y responsabilidades dentro del equipo, promoviendo un liderazgo compartido y un trabajo en equipo más cohesivo. <br><br> **Lucía Guadalupe Aliaga Trevejo** <br> TB1: <br> Realicé los primeros resúmenes de entrevistas y la descripción inicial de los User Personas. Facilitando las discusiones del equipo, me aseguré de que todas las opiniones fueran consideradas, promoviendo un entorno de trabajo colaborativo. <br> TP1: <br> Mejoré los enlaces y resúmenes de entrevistas, incluyendo detalles sobre marcas y personalidad del entrevistado. Corregí la descripción de los User Personas basándome en el análisis de entrevistas. Esto ayudó a alinear la visión del equipo con las necesidades reales de los usuarios, fortaleciendo el liderazgo conjunto en la toma de decisiones. <br><br> **Luis Alberto Siancas Reategui** <br> TB1: <br> Comencé el análisis inicial de entrevistas, incluyendo detalles generales sobre los entrevistados y tecnologías utilizadas. Esto proporcionó al equipo una comprensión básica del perfil de usuario. <br> TP1: <br> Añadí detalles específicos sobre las tecnologías utilizadas por los entrevistados, sus marcas preferidas y las influencias que afectan su toma de decisiones. Esta información fue clave para que el equipo pudiera tomar decisiones informadas y desarrollar estrategias que respondieran efectivamente a las necesidades identificadas. <br><br> **Rodrigo Alejandro Raymundo Guevara** <br> TB1: <br> Definí las primeras User Stories y Epics, estableciendo la base del backlog del proyecto. Esto permitió al equipo organizar el trabajo en tareas claras y priorizadas, promoviendo una coordinación efectiva. <br> TP1: <br> Unifiqué el cuadro de User Stories y Epics, mejoré la redacción de las User Stories y sus escenarios en español, e incluí las User Stories de la landing page. Esto ayudó a estructurar mejor el trabajo del equipo, asegurando que todos estuvieran alineados con las prioridades del proyecto y facilitando un liderazgo compartido. <br><br> **Luis Jesús Sagastegui Rodríguez** <br> TB1: <br> Empecé la definición de las reglas de negocio básicas para los aggregates y el diseño inicial de la base de datos. Esto proporcionó una base técnica para la planificación del proyecto. <br> TP1: <br> Añadí reglas de negocio detalladas para los aggregates, elaboré diagramas de clases y de base de datos. Estas acciones facilitaron una mejor comprensión técnica del proyecto, permitiendo al equipo tomar decisiones técnicas de manera más colaborativa y eficiente. <br><br> | **Conclusión TB1:** El equipo estableció una base sólida para el proyecto al definir claramente las responsabilidades y objetivos iniciales, promoviendo un liderazgo conjunto y una toma de decisiones participativa. Se crearon los apartados iniciales y se definieron roles, lo que facilitó el trabajo en equipo. <br><br> **Conclusión TP1:** El equipo mejoró la planificación y ejecución del proyecto al revisar y corregir los elementos iniciales. Cada miembro contribuyó a profundizar y perfeccionar sus responsabilidades, permitiendo una mayor coordinación y efectividad en la consecución de los objetivos. Todos los roles estuvieron alineados, lo que reforzó el liderazgo conjunto y la cohesión del equipo.                                                                                                           |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Jean Carlos Achamizo Huamani** <br> TB1: <br> Facilitó la creación de un entorno inclusivo al asegurar que todas las voces fueran escuchadas durante las discusiones del equipo. Definí metas claras y organicé la planificación de tareas iniciales. Esto ayudó a establecer una base sólida para que el equipo trabajara de manera coordinada hacia objetivos comunes. <br> TP1: <br> Corregí y expandí los assumptions, añadiendo cinco nuevos y elaborando hipótesis más específicas para guiar el trabajo del equipo. Estas acciones permitieron establecer objetivos más precisos y alineados con la visión del proyecto, facilitando un entorno colaborativo donde todos entendieron claramente su rol. <br><br> **Luis Alberto Trujillo Lopez** <br> TB1: <br> Promoví la inclusión en el equipo al proporcionar la base del análisis competitivo con las páginas web y logos de competidores, facilitando la planificación inicial del análisis. Esto ayudó al equipo a comprender mejor el entorno competitivo y a definir metas realistas. <br> TP1: <br> Añadí descripciones detalladas de los competidores, mejorando la calidad del análisis y facilitando la colaboración del equipo en la definición de metas estratégicas. Al clarificar las diferencias y similitudes con la competencia, ayudé a que el equipo pudiera enfocar sus esfuerzos en áreas de oportunidad específicas. <br><br> **Lucía Guadalupe Aliaga Trevejo** <br> TB1: <br> Garantizé que las tareas y objetivos fueran distribuidos equitativamente. Realicé los resúmenes iniciales de entrevistas y la descripción de User Personas, maximizando el potencial de cada miembro del equipo. Esto permitió al equipo tener un punto de partida claro para entender las necesidades de los usuarios. <br> TP1: <br> Mejoré los resúmenes de entrevistas, incluyendo detalles importantes, y consolidé la User Task Matrix en un solo cuadro, describiendo tareas comunes y corrigiendo el User Journey Mapping. Estas acciones permitieron al equipo tener una visión más clara de las tareas y su importancia, facilitando la planificación y el cumplimiento de objetivos. <br><br> **Luis Alberto Siancas Reategui** <br> TB1: <br> Supervisé el progreso del equipo en relación con las metas establecidas y facilité la planificación de tareas iniciales basadas en el análisis preliminar de entrevistas. Esto aseguró que el equipo estuviera alineado y enfocado en las actividades prioritarias. <br> TP1: <br> Completé el análisis de entrevistas, detallando las tecnologías utilizadas, marcas preferidas e influencias de los entrevistados. Esta información fue crucial para ajustar las metas y estrategias del equipo, asegurando que las tareas planificadas respondieran a las expectativas de los usuarios y cumplieran con los objetivos del proyecto. <br><br> **Rodrigo Alejandro Raymundo Guevara** <br> TB1: <br> Colaboré en la creación de un ambiente de trabajo respetuoso y colaborativo, donde cada miembro pudo contribuir con sus ideas en la planificación de tareas iniciales y la redacción de User Stories. Esto permitió al equipo organizar el trabajo de manera efectiva desde el inicio. <br> TP1: <br> Mejoré la redacción de las User Stories y sus criterios de aceptación, prioricé las User Stories de la landing page y unifiqué las Epics y User Stories. Estas acciones ayudaron al equipo a tener una dirección clara y a organizar las tareas de manera que todos entendieran qué se esperaba de cada uno, facilitando el cumplimiento de objetivos. <br><br> **Luis Jesús Sagastegui Rodríguez** <br> TB1: <br> Implementé prácticas colaborativas e inclusivas, asegurando que todos los miembros estuvieran enfocados en las tareas iniciales establecidas y facilitando la planificación de objetivos. Esto permitió una mejor organización y claridad en el trabajo del equipo. <br> TP1: <br> Añadí reglas detalladas de los aggregates, diagramas de clases y estructura de la base de datos, organizando mejor la planificación de tareas y el cumplimiento de objetivos técnicos del proyecto. Estas acciones proporcionaron un marco técnico sólido para el equipo, permitiendo una colaboración más efectiva en el desarrollo de la solución. <br><br> | **Conclusión TB1:** El equipo trabajó de manera efectiva en la planificación inicial del proyecto, estableciendo metas claras y asegurando la participación equitativa de todos los miembros. Cada miembro contribuyó a la creación de un entorno colaborativo e inclusivo, estableciendo las bases para un trabajo coordinado y enfocado en objetivos comunes. <br><br> **Conclusión TP1:** Se consolidó la colaboración y la inclusión, revisando y mejorando los elementos iniciales y planificando de manera detallada las tareas. Cada miembro del equipo ajustó sus responsabilidades y contribuciones en función de los datos y análisis obtenidos, lo que permitió una mejor planificación y ejecución de los objetivos establecidos.                                                                                                               |
 
 ---
 
@@ -375,64 +421,36 @@ Sabremos que tenemos éxito cuando veamos una reducción en los incidentes de ca
 
 
 #### 1.2.2.2. Lean UX Assumptions
-#### Assumptions worksheet
+En esta sección se formulan las hipótesis basadas en las suposiciones previas, estableciendo relaciones claras entre las características del producto, los comportamientos esperados de los usuarios y los resultados de negocio deseados. Con puntos 
 
-**¿Quién es el usuario?**
-El usuario principal son los dueños de casas de reposo y cuidadores de adultos mayores que buscan mejorar la seguridad y bienestar de los residentes.
-
-**¿Qué problemas tiene nuestro producto? ¿Resolver?**
-MIAM resuelve la necesidad de un monitoreo constante y efectivo de los adultos mayores, ayudando a prevenir caídas, detectar cambios en signos vitales y garantizar que los residentes estén en áreas seguras y obtengan un mejor cuidado.
-
-**¿Qué características son importantes?**
-Monitoreo en tiempo real de movimientos y signos vitales.
-Alertas instantáneas en caso de caídas o presencia en zonas riesgosas.
-Interfaz fácil de usar en la plataforma web y aplicación móvil.
-Botón de alerta para solicitar asistencia
-
-**¿Dónde encaja nuestro producto en su trabajo o vida?**
-MIAM se integra en el trabajo diario de los administradores y cuidadores como una herramienta de software esencial para supervisar la salud y en los adultos se presentarán pulseras para su monitoreo de estado, minimizando riesgos y mejorando la calidad del cuidado.
-**¿Cuándo y cómo es nuestro producto? ¿Usado?**
-El producto es utilizado como una pulsera continuamente a lo largo del día para monitorear en tiempo real la ubicación y salud de los residentes. Los cuidadores y administradores lo  administran tanto desde dispositivos móviles como desde la plataforma web.
-**¿Cómo debe verse nuestro producto y cómo comportarse?**
-El producto software debe tener una interfaz intuitiva y accesible, con gráficos claros que muestren el estado de los residentes y notificaciones visibles para alertas urgentes. Debe ser confiable, fácil de usar y responder rápidamente a cualquier evento crítico y en los residentes la pulsera debe ser ligera y de un diseño simple que no incomode a los residentes.
-
-**Creo que mis clientes necesitan** un sistema fiable y fácil de usar para monitorear la seguridad y salud de los adultos mayores.
-**Estas necesidades se pueden resolver con** una combinación de tecnología de sensores, monitoreo de signos vitales y una plataforma accesible para la gestión de datos y alertas.
-**Mis clientes iniciales son (o serán)** dueños de casas de reposo y cuidadores de adultos mayores que valoran la seguridad y calidad de vida de sus residentes.
-**El valor #1**que un cliente quiere de mi servicio es la capacidad de prevenir accidentes y responder rápidamente a emergencias, garantizando la seguridad de los residentes.
-**El cliente también puede obtener estos beneficios adicionales** como la tranquilidad de los familiares, una mayor eficiencia en la gestión del cuidado y una reducción en los incidentes graves.
-**Voy a adquirir la mayoría de mis clientes a través de** estrategias de marketing directo a casas de reposo y promociones en eventos de la industria geriátrica.
-**Haré dinero a través de** la venta de los equipos  de pulsera y la suscripción al sistema de monitoreo.
-**Mi competencia principal en el mercado serán** otros proveedores de sistemas de monitoreo para adultos mayores, así como dispositivos de salud y seguridad específicos.
-Los venceremos debido a nuestra integración completa de sensores de movimiento, monitoreo de signos vitales y una plataforma fácil de usar que ofrece alertas en tiempo real.
-**Mi mayor riesgo de producto es** la posibilidad de que los sensores o la plataforma no funcionen correctamente en situaciones críticas.
-Resolveremos esto a través de pruebas exhaustivas, mantenimiento regular y la implementación de redundancias en el sistema para asegurar su fiabilidad.
-**¿Qué otras suposiciones tenemos? ¿Eso, si se prueba que es falso, causará que nuestro negocio/proyecto no funcione?**
-Asumimos que los clientes estarán dispuestos a pagar una suscripción mensual para mantener el servicio. Si no es así, podríamos enfrentar dificultades financieras.
+1. Business Assumptions:
+Asumimos que los dueños de casas de reposo y cuidadores profesionales requieren una solución integrada y confiable para monitorear la salud y seguridad de los adultos mayores, reduciendo el riesgo de incidentes y mejorando la eficiencia en el cuidado diario.
+2. Business Outcome Assumptions:
+ Asumimos que los dueños de casas de reposo y cuidadores medirán el éxito de nuestro servicio por su capacidad para reducir en un 30% los incidentes de caídas y mejorar la respuesta a emergencias en un 50% durante el primer año de implementación.
+3. User Assumptions:
+ Asumimos que los cuidadores profesionales y los administradores de casas de reposo estarán dispuestos a adoptar nuevas tecnologías si estas les permiten monitorear de manera proactiva la salud de los residentes y reducir la carga laboral asociada a la supervisión manual.
+4. User Outcome Assumptions:
+ Asumimos que los cuidadores y administradores de casas de reposo experimentarán una mejora en la satisfacción laboral, una disminución del 20% en las tareas repetitivas de supervisión y un aumento del 40% en la percepción de seguridad por parte de los familiares de los residentes durante el primer semestre de uso del sistema.
+5. Feature Assumptions:
+ Asumimos que la combinación de sensores de movimiento y signos vitales, junto con alertas en tiempo real personalizables según el estado de salud de cada residente, será la característica clave que diferenciará nuestra solución de la competencia y captará al menos el 25% del mercado objetivo en el primer año.
 
 #### 1.2.2.3. Lean UX Hypothesis Statements
-#### Features Hypothesis
+En esta sección se presentan las suposiciones clave que sustentan el diseño y desarrollo del producto. Estas suposiciones se basan en el entendimiento actual de las necesidades y comportamientos de los usuarios, así como en las condiciones del mercado. Identificar y documentar estas suposiciones permite al equipo alinearse en torno a expectativas comunes y establecer una base sólida para el proceso de validación a través de pruebas e iteraciones futuras.
 
-**Statement 1:**
-Creemos que la incorporación de un botón de alerta en la banda de monitoreo que los residentes puedan activar manualmente reducirá el tiempo de reacción en situaciones de emergencia.
-Sabremos que hemos tenido éxito cuando el 90% de las alertas manuales se respondan en menos de 2 minutos durante los primeros 6 meses de uso.
-**Statement 2:** 											Creemos que el incluir alertas instantáneas en la aplicación móvil para notificar a los cuidadores sobre caídas o cambios anómalos en signos vitales mejorará la respuesta a emergencias.
-Sabremos que hemos tenido éxito cuando veamos una reducción del 30% en el tiempo de respuesta ante emergencias registradas en los primeros 3 meses de uso.
-**Statement 3:**
-Creemos que la integración de un historial de salud y actividad en la plataforma web permitirá a los cuidadores tomar decisiones más informadas sobre el bienestar de los residentes.
-Sabremos que hemos tenido éxito cuando el 80% de los usuarios informen que revisan el historial de salud al menos una vez por semana para ajustar el plan de cuidado.
+**Hypothesis Statements 1:**
+Creemos que al implementar un sistema de monitoreo integrado, los dueños de casas de reposo y cuidadores verán una reducción del 30% en los incidentes de caídas y una mejora del 20% en la eficiencia operativa dentro de los primeros seis meses. Sabremos que esto es cierto cuando se observe una disminución documentada en los reportes de incidentes y una mejora en la satisfacción y eficiencia reportada por los usuarios.
 
-#### Business Hypothesis
+**Hypothesis Statements 2:**
+Creemos que al utilizar nuestro sistema, los dueños de casas de reposo y cuidadores notarán una disminución del 30% en los incidentes de caídas y un 50% de mejora en el tiempo de respuesta a emergencias dentro del primer año. Sabremos que hemos tenido éxito cuando se registren mejoras documentadas en los reportes de incidentes y tiempos de respuesta durante este período.
 
-**Statement 1:**
-Creemos que el alquiler de equipos junto con la suscripción al sistema de monitoreo MIAM será la mejor estrategia para obtener ingresos sostenibles.
-Sabremos que esto es cierto cuando el 70% de las casas de reposo que prueben el sistema opten por continuar con la suscripción después del periodo de prueba inicial.
-**Statement 2:**
-Creemos que ofrecer un periodo de prueba gratuito de 30 días aumentará la tasa de adopción inicial de nuestro sistema entre nuevas casas de reposo.
-Sabremos que esto es cierto cuando al menos el 60% de los usuarios que completen el periodo de prueba decidan suscribirse al servicio.
-**Statement 3:**
-Creemos que al asociarnos con organizaciones de cuidado geriátrico y hospitales locales podremos ampliar nuestro mercado objetivo y generar más leads calificados.
-Sabremos que esto es cierto cuando el 50% de las nuevas suscripciones provengan de referencias o asociaciones con estas instituciones dentro de los primeros 6 meses
+**Hypothesis Statements 3:**
+Creemos que al ofrecer una solución tecnológica que facilite la supervisión proactiva, al menos el 70% de los cuidadores profesionales y administradores adoptarán nuestro sistema en los primeros seis meses. Sabremos que esto es cierto cuando el 70% de los usuarios registrados utilicen activamente la solución y reporten una disminución significativa en la carga laboral.
+
+**Hypothesis Statements 4:**
+Creemos que al usar nuestro sistema de monitoreo, los cuidadores y administradores de casas de reposo reportarán una mejora del 30% en su satisfacción laboral y una disminución del 20% en las tareas de supervisión repetitivas dentro del primer semestre. Sabremos que hemos tenido éxito cuando los resultados de encuestas de satisfacción y reportes de tiempo de trabajo lo reflejen, y al menos el 40% de los familiares indiquen una mayor percepción de seguridad.
+
+**Hypothesis Statements 5:**
+Creemos que la integración de sensores de movimiento y signos vitales con alertas personalizables en tiempo real aumentará la adopción de nuestro sistema en un 25% del mercado objetivo durante el primer año. Sabremos que hemos tenido éxito cuando el 25% del mercado potencial (casas de reposo y cuidadores profesionales) hayan adquirido y utilicen activamente nuestra solución, reportando mejoras en la seguridad y satisfacción del cuidado.
 
 #### 1.2.2.4. Lean UX Canvas
 
@@ -1296,49 +1314,131 @@ En el primer paso del EventStorming, se inicia con una sesión de lluvia de idea
 
 En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
 
-![ES-Step2](./assets/EV-Step2.png)
+![ES-Step2-1](./assets/event1.jpg)
+
+![ES-Step2-2](./assets/event2.jpg)
+
+![ES-Step2-3](./assets/event3.jpg)
+
+![ES-Step2-4](./assets/event4.jpg)
+
+![ES-Step2-5](./assets/event5.jpg)
+
 
 **Step 3: Paint Points**
 
 Después de organizar los eventos en una línea de tiempo, aprovechamos esta vista general para identificar puntos de interés a lo largo del proceso. Estos puntos de interés pueden incluir cuellos de botella, pasos manuales que podrían ser automatizados, falta de documentación o carencias de conocimiento del dominio.
 
-![ES-Step3](./assets/EV-Step3.png)
+![ES-Step3-1](./assets/event6.jpg)
+
+![ES-Step3-2](./assets/event7.jpg)
+
+![ES-Step3-3](./assets/event8.jpg)
+
+![ES-Step3-4](./assets/event9.jpg)
+
+![ES-Step3-5](./assets/event10.jpg)
+
+![ES-Step3-6](./assets/event11.jpg)
 
 **Step 4: Pivotal Points**
 
 Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain points, buscamos eventos comerciales clave que marquen un cambio en el contexto o en la fase del proceso. Estos se denominan eventos principales y los señalamos con una barra vertical que separa los eventos anteriores de los posteriores a dicho evento.
 
-![ES-Step4](./assets/EV-Step4.png)
+![ES-Step4-1](./assets/event12.jpg)
+
+![ES-Step4-2](./assets/event13.jpg)
+
+![ES-Step4-3](./assets/event14.jpg)
+
+![ES-Step4-4](./assets/event15.jpg)
+
+![ES-Step4-5](./assets/event16.jpg)
+
+![ES-Step4-6](./assets/event17.jpg)
 
 **Step 5: Commands**
 
 En este paso también introducimos los comandos, los cuales describen la causa de un evento o el flujo de eventos. A diferencia de los eventos de dominio, los comandos son expresados en modo imperativo, describiendo las operaciones que deben ejecutarse en el sistema.
 
-![ES-Step5](./assets/EV-Step5.png)
+![ES-Step5-1](./assets/event18.jpg)
+
+![ES-Step5-2](./assets/event19.jpg)
+
+![ES-Step5-3](./assets/event20.jpg)
+
+![ES-Step5-4](./assets/event21.jpg)
+
+![ES-Step5-5](./assets/event22.jpg)
+
+![ES-Step5-6](./assets/event23.jpg)
 
 **Step 6: Policies**
 
 En este punto, buscamos automation policies (políticas de automatización) que puedan ejecutar estos comandos. Esto significa que un evento específico del dominio desencadena automáticamente la ejecución de un comando. En otras palabras, cuando ocurre un evento determinado, el comando correspondiente se ejecuta de manera automática.
 
-![ES-Step6](./assets/EV-Step6.png)
+![ES-Step6-1](./assets/event24.jpg)
+
+![ES-Step6-2](./assets/event25.jpg)
+
+![ES-Step6-3](./assets/event26.jpg)
+
+![ES-Step6-4](./assets/event27.jpg)
+
+![ES-Step6-5](./assets/event28.jpg)
+
+![ES-Step6-6](./assets/event29.jpg)
+
+![ES-Step6-7](./assets/event30.jpg)
+
 
 **Step 7: Read Models**
 
 En este paso, introducimos el modelo de lectura, que es la representación de datos del dominio que un agente utiliza para decidir si debe ejecutar o no un comando. Por esta razón, definimos una vista de datos para cada comando, como monitores del sistema, informes, notificaciones, entre otros.
 
-![ES-Step7](./assets/EV-Step7.png)
+![ES-Step7-1](./assets/event31.jpg)
+
+![ES-Step7-2](./assets/event32.jpg)
+
+![ES-Step7-3](./assets/event33.jpg)
+
+![ES-Step7-4](./assets/event34.jpg)
+
+![ES-Step7-5](./assets/event35.jpg)
+
+![ES-Step7-6](./assets/event36.jpg)
 
 **Step 8: External Systems**
 
 A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
 
-![ES-Step8](./assets/EV-Step8.png)
+![ES-Step8](./assets/event37.jpg)
+
+![ES-Step8](./assets/event38.jpg)
+
+![ES-Step8](./assets/event39.jpg)
+
+![ES-Step8](./assets/event40.jpg)
+
+![ES-Step8](./assets/event41.jpg)
+
+![ES-Step8](./assets/event42.jpg)
 
 **Step 9: Aggregates**
 
 Luego de presentar todos los eventos y comandos, comenzamos a agrupar los conceptos relacionados en agregados, que son las unidades que reciben comandos y generan eventos.
 
-![ES-Step9](./assets/EV-Step9.png)
+![ES-Step9](./assets/event43.jpg)
+
+![ES-Step9](./assets/event44.jpg)
+
+![ES-Step9](./assets/event45.jpg)
+
+![ES-Step9](./assets/event46.jpg)
+
+![ES-Step9](./assets/event47.jpg)
+
+![ES-Step9](./assets/event48.jpg)
 
 **Step 10: Bounded Contexts**
 
@@ -1946,7 +2046,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Device` se relaciona con `Patient` a través de `Patient_id`.
   - `Patient` puede tener varias métricas y dispositivos asociados.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/DB_MIAM_FINAL.png)
 ---
 
 ## 4.2.3. Bounded Context: Notification Context
@@ -3107,7 +3207,7 @@ Las aplicaciones web y móvil emplean una paleta cuidadosamente seleccionada que
 
 - <b>#5C9BD5:</b> Actúa como el color principal, utilizado en títulos y elementos como enlaces o botones de acción secundarios. Este tono de azul está asociado con la tecnología y la seguridad, lo que transmite confianza y estabilidad.
 - <b>#F2F7FC:</b> Se utiliza como color de fondo tanto en las pantallas de la versión web como móvil, creando un entorno limpio que facilita la lectura y mejora la experiencia de usuario.
-- <b>#1C2D3D:</b> Se emplea en la barra lateral, proporcionando un contraste oscuro que resalta los íconos y las opciones de navegación.
+- <b>#1C2D3D:</b> Se emplea para proporcionar un contraste oscuro que resalta los íconos y las opciones de navegación.
 
 <b>Colores neutros:</b>
 
@@ -3135,6 +3235,55 @@ En cuanto a la aplicación móvil, los botones y áreas interactivas son lo sufi
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines 
 
+### 5.1.2.1. Web Style Guidelines
+
+<b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
+
+- <b>#5C9BD5:</b> Usado para títulos, enlaces y botones de acción menos importantes.
+- <b>#1C2D3D:</b> Color del sidebar, proporcionando un contraste fuerte con el fondo.
+- <b>#F2F7FC:</b> Color de fondo que crea un ambiente ligero y limpio en la interfaz.
+
+<b>Tipografía:</b> Se eligió la fuente Inter. Los títulos se presentan en un tamaño mayor (24px) y un peso más fuerte, mientras que el texto del cuerpo se establece en 16px.
+
+<b>Espaciado y alineación:</b> El diseño mantiene un espaciado consistente entre elementos, con márgenes de al menos 16px para evitar la saturación visual y mejorar la experiencia del usuario.
+
+<b>Botones: </b> Los botones tienen un diseño rectángulo con bordes redondeados, proporcionando una sensación amigable.
+
+![Buttons](assets/buttons.png)
+
+<b>Gráficos y Visualización de Datos:</b> Los gráficos de signos vitales (temperatura y frecuencia cardíaca) se presentan con líneas claras y colores contrastantes para facilitar su interpretación.
+
+![Graphics](assets/graphics.png)
+
+
+<b>Navegación:</b> La navegación se organiza mediante un menú lateral, permitiendo un acceso fácil a todas las secciones de la aplicación. Las opciones de menú se destacan con iconos intuitivos y etiquetas que mejoran la usabilidad.
+
+![Sidebar](assets/sidebar.png)
+
+### 5.1.2.2. Mobile Style Guidelines
+
+<b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
+
+- <b>#5C9BD5:</b> Usado para títulos, enlaces y botones de acción menos importantes.
+- <b>#1C2D3D:</b> Color del sidebar, proporcionando un contraste fuerte con el fondo.
+- <b>#F2F7FC:</b> Color de fondo que crea un ambiente ligero y limpio en la interfaz.
+
+<b>Tipografía:</b> Las fuentes son consistentes con las de la versión web, asegurando que el texto sea claro y fácil de leer en pantallas más pequeñas. Los títulos se presentan en 20px y el texto de cuerpo en 14px.
+
+<b>Espaciado y alineación:</b> El diseño mantiene un espaciado adecuado entre elementos, con un margen mínimo de 12px, evitando la saturación en pantallas reducidas.
+
+<b>Botones: </b> Los botones son amplios y accesibles, con un tamaño mínimo de 44px de alto para facilitar la interacción táctil. Se implementan colores de estado claros que indican interacciones.
+
+![Buttons Mobile](assets/button-mobile.PNG)
+
+![Buttons Mobile](assets/button-mobile-2.PNG)
+
+<b>Gráficos y Visualización de Datos:</b> Los gráficos de signos vitales se adaptan a la pantalla, utilizando líneas y etiquetas legibles. Se asegura que la información sea fácilmente interpretable en dispositivos móviles.
+
+<b>Navegación:</b> La navegación se coloca en una barra inferior, ofreciendo accesibilidad a las funciones principales de la aplicación. Los iconos son grandes y fáciles de reconocer, permitiendo una navegación intuitiva.
+
+![Navbar Mobile](assets/mobile-navbar.png)
+
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems.
@@ -3147,7 +3296,6 @@ Se utilizaron los tres sistemas de organización visual: jerárquica, secuencial
 - <b>Step-by-Step to Accomplish:</b> La organización secuencial se aplica en las funciones que requieren la ejecución de tareas que siguen un proceso definido y donde cada etapa depende de la anterior, como es el caso de la sección Billing & Plans. 
 
 ![Billing](assets/mockups_billing.png)
-
 
 - <b>Matricial:</b> Se utilizó este tipo de organización para la vista de tablas en la sección de Alerts y Billing History. Esta proporciona una vista global de los datos que ayuda a manejar la información de manera simultánea.
 
@@ -3202,11 +3350,736 @@ Se utilizaron los tres sistemas de organización visual: jerárquica, secuencial
 
 	Barra de búsqueda visible en la parte superior de todas las páginas.
 
-	Resultados claros: Presentar los resultados con un resumen breve que contenga enlaces 	directos a las páginas correspondientes.
+	Resultados claros: Presentar los resultados con un resumen breve que contenga enlaces directos a las páginas correspondientes.
 
---- 
+### 5.2.3. SEO Tags and Meta Tags
+
+### 5.2.4. Searching Systems.
+
+### 5.2.5. Navigation Systems.
+
+## 5.3. Landing Page UI Design
+
+Se diseñó el Landing Page con un enfoque centrado en la experiencia del usuario, donde las decisiones de diseño y la arquitectura de la información se han basado en principios clave como la simplicidad, la accesibilidad y la claridad de comunicación. 
+
+Cada componente de la interfaz responde a la necesidad de brindar confianza y facilitar la comprensión del servicio ofrecido, tanto en versiones de escritorio como en dispositivos móviles.
+
+### 5.3.1. Landing Page Wireframe
+
+El wireframe para el navegador de escritorio presenta una estructura organizada en bloques que prioriza el flujo de información y facilita la exploración de contenido de manera natural. En la parte superior, se encuentra un encabezado con el menú de navegación, manteniendo visibles las secciones más relevantes.
+
+El diseño sigue los principios de la jerarquía visual al posicionar la información más importante en el área superior de la pantalla, lo que mejora la usabilidad. También se aplican principios de diseño inclusivo, con un enfoque en la legibilidad de los textos y la facilidad para navegar por el contenido.
+
+![Wireframe Hero section](assets/wireframe-hero-section.PNG)
+![Wireframe How it works section](assets/wireframe-how-it-works-section.PNG)
+![Wireframe Why choose us section](assets/wireframe-why-choose-us-section.PNG)
+![Wireframe Plans section](assets/wireframe-plans-section.PNG)
+![Wireframe Testimonials section](assets/wireframe-testimonials-section.PNG)
+![Wireframe Team section](assets/wireframe-team-section.PNG)
+![Wireframe Contact and footer section](assets/wireframe-contact-footer-section.PNG)
+
+###  5.3.2. Landing Page Mock-up 
+
+El mock-up para la versión de escritorio del Landing Page refleja la aplicación concreta de los principios de diseño establecidos, como la consistencia visual, con el uso de una paleta de colores neutros y azulados que generan una atmósfera de confianza y tranquilidad. Se han empleado tipografías legibles y contrastes adecuados para mejorar la accesibilidad, siguiendo las pautas de diseño inclusivo.
+
+Además, el Hero Section incluye el Call to action "How it Works", que invita a los usuarios a conocer más el sistema.
+
+![Hero section](assets/hero-section.PNG)
+![How it works section](assets/how-it-works-section.PNG)
+![Why choose us section](assets/why-choose-us-section.PNG)
+![Plans section](assets/plans-section.PNG)
+![Testimonials section](assets/testimonials-section.PNG)
+![Team section](assets/team-section.PNG)
+![Contact and footer section](assets/contact-footer-section.PNG)
+
+## 5.4. Applications UX/UI Design
+
+### 5.4.1. Applications Wireframes
+
+#### 5.4.1.1. Web Application Wireframes
+
+Los wireframes sirven como una representación inicial del diseño. En ellos se ha aplicado cuidadosamente la arquitectura de información, asegurando que los elementos clave se ubiquen de manera lógica y accesible para los usuarios. 
+
+Los principios de jerarquía visual y alineación sirven para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una fácil navegación entre las diferentes secciones.
+
+A continuación, se muestran los wireframes de las secciones más importantes de la aplicación: 
+
+- Log in
+
+![Wireframe Login](assets/wireframes_login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
 
 
+#### 5.4.1.2. Mobile Application Wireframes
+
+Los wireframes móviles representan una versión preliminar del diseño de la aplicación, mostrando cómo se organizará la información en una pantalla más pequeña. Se ha aplicado de manera cuidadosa la arquitectura de información para garantizar que los elementos clave estén ubicados de forma lógica y accesible para los usuarios en sus dispositivos móviles.
+
+Se han utilizado principios de jerarquía visual y alineación para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una navegación fluida entre las diferentes secciones de la aplicación. El diseño responsivo asegura que la experiencia del usuario sea consistente, fácil de usar y sin comprometer la funcionalidad en dispositivos móviles.
+
+A continuación, se presentan los wireframes de las secciones más importantes de la aplicación móvil, mostrando la disposición de los menús, botones de acción y secciones de contenido en un formato optimizado para pantallas de smartphones:
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframe-mobile-dashboard.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframe-mobile-configuration.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframe-mobile-alert.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframe-mobile-patients.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframe-mobile-billing1.png)
+
+![Wireframe Billing 2](assets/wireframe-mobile-billing2.png)
+
+![Wireframe Billing 3](assets/wireframe-mobile-billing3.png)
+
+
+### 5.4.2. Applications Wireflow Diagrams
+
+#### 5.4.2.1. Web Application Wireflow Diagrams
+
+<b>Wireflow 1</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Crear una alerta de recordatorio de medicamento del paciente para ser notificada <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana cuando quiere crear una alerta de medicamento para ser notificada. El flujo inicia en la pantalla "Patients". Ana, quien es el cuidador, selecciona un paciente y hace clic en el botón "Add alert". Luego, visualiza un formulario y agrega la información de la alerta. El happy path ocurre la alerta es creada exitosamente y Ana recibe el recordatorio de administración del medicamento. 
+
+![Wireflow 1](assets/wireflow-1.png)
+
+<b>Wireflow 2</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Mejorar su plan actual para obtener los beneficios como dueña de una casa de reposo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana al mejorar su plan actual. Inicia cuando Ana ingresa a la pantalla "Billing & Payment", donde se muestra su historial de facturas y datos del plan actual. Cuando Ana hace clic en "Upgrade now", visualiza una sección con la información de los planes disponibles. Al mejorar su plan de Básico a Enterprise, tiene la opción de agregar más Health Bands, lo que se refleja en la pantalla de pago. El happy path ocurre cuando Ana realiza el pago y este es procesado exitosamente, redirigiéndola a una pantalla de confirmación.
+
+![Wireflow 2](assets/wireflow-2.png)
+
+<b>Wireflow 3</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Visualizar los datos vitales de un paciente para tener un monitoreo continuo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren visualizar un resumen de los datos vitales de un paciente. El flujo inicia cuando los usuarios se encuentran en el dashboard, visualizando el apartado de Vital Signs Monitoring. Al hacer clic en el menú desplegable, aparece una lista con todos los pacientes registrados. El happy path ocurre cuando se selecciona un paciente y la gráfica del dashboard se actualiza con los datos de sus funciones vitales.
+
+![Wireflow 3](assets/wireflow-3.png)
+
+<b>Wireflow 4</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una banda a un paciente creado <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren vincular una banda a un paciente para monitorearlo. El flujo inicia cuando el usuario se encuentra en la vista "Band Configuration" y selecciona una banda que no ha sido configurada. El siguiente paso es elegir un paciente previamente credo del menú desplegable de la sección "Patient". El happy path ocurre cuando, al hacer clic en "Save", la información del paciente se vincula a la banda y esta se sincroniza, empezando a monitorear los signos vitales.
+
+![Wireflow 4](assets/wireflow-4.png)
+
+
+<b>Wireflow 5</b> <br>
+<b>User Persona:</b> Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una paciente a un cuidador para que reciba las notificaciones <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Gabriel, como dueño de una casa de reposo, para vincular un paciente a un cuidador. El flujo inicia cuando se encuentra en la pantalla "Patients" y selecciona alguno de los pacientes de su lista. Luego, selecciona un cuidador del menú desplegable en la sección "Caregiver", el cual cambia de "No configurado" a mostrar el nombre del cuidador. El happy path ocurre cuando los cambios se guardan exitosamente, el cuidador es vinculado al paciente y puede recibir las alertas. 
+
+![Wireflow 5](assets/wireflow-5.png)
+
+
+#### 5.4.2.2. Mobile Application Wireflow Diagrams
+
+### 5.4.3. Applications Mock-ups
+
+#### 5.4.3.1. Web Application Mock-ups
+
+En esta sección se presentan los mock-ups de la aplicación móvil, mostrando una representación visual más detallada y cercana a la versión final para dispositivos móviles.
+
+Estos mock-ups integran todos los principios de diseño adaptados a la experiencia móvil, como la consistencia visual y la combinación equilibrada de colores, asegurando que la experiencia de usuario sea cohesiva y atractiva en pantallas pequeñas. Cada componente, como botones, tipografías y otros elementos, está diseñado siguiendo las pautas establecidas en el design system, garantizando que se mantenga una coherencia visual a lo largo de toda la aplicación móvil.
+
+A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación móvil, donde se destacan la disposición de los menús, los accesos rápidos y las interacciones táctiles optimizadas para ofrecer una navegación intuitiva y fluida en smartphones:
+
+- Log in
+
+![Mockup Login 1](assets/mockup-mobile-login.png)
+
+- Dashboard
+
+![Mockup Dashboard 1](assets/mockup-mobile-dashboard.png)
+
+- Band configuration
+
+![Mockup Band Configuration 1](assets/mockup-mobile-configuration.png)
+
+- Alerts 
+
+![Mockup Alerts 1](assets/mockup-mobile-alerts.png)
+
+- Patients
+
+![Mockup Patients 1](assets/mockup-mobile-patients.png)
+
+- Billing
+
+![Mockup Billing 1](assets/mockup-mobile-billing1.png)
+
+![Mockup Billing 2](assets/mockup-mobile-billing2.png)
+
+![Mockup Billing 3](assets/mockup-mobile-billing3.png)
+
+#### 5.4.3.2. Mobile Application Mock-ups
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
+
+### 5.4.4. Applications User Flow Diagrams
+
+#### 5.4.4.1. Web Application User Flow Diagrams
+
+<b>User Flow 1</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Crear una alerta de recordatorio de medicamento del paciente para ser notificada <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana cuando quiere crear una alerta de medicamento para ser notificada. El flujo inicia en la pantalla "Patients". Ana, quien es el cuidador, selecciona un paciente y hace clic en el botón "Add alert". Luego, visualiza un formulario y agrega la información de la alerta. El happy path ocurre la alerta es creada exitosamente y Ana recibe el recordatorio de administración del medicamento. 
+
+![User Flow 1](assets/user-flow-1.png)
+
+<b>User Flow 2</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Mejorar su plan actual para obtener los beneficios como dueña de una casa de reposo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana al mejorar su plan actual. Inicia cuando Ana ingresa a la pantalla "Billing & Payment", donde se muestra su historial de facturas y datos del plan actual. Cuando Ana hace clic en "Upgrade now", visualiza una sección con la información de los planes disponibles. Al mejorar su plan de Básico a Enterprise, tiene la opción de agregar más Health Bands, lo que se refleja en la pantalla de pago. El happy path ocurre cuando Ana realiza el pago y este es procesado exitosamente, redirigiéndola a una pantalla de confirmación.
+
+![User Flow 2](assets/user-flow-2.png)
+
+<b>User Flow 3</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Visualizar los datos vitales de un paciente para tener un monitoreo continuo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren visualizar un resumen de los datos vitales de un paciente. El flujo inicia cuando los usuarios se encuentran en el dashboard, visualizando el apartado de Vital Signs Monitoring. Al hacer clic en el menú desplegable, aparece una lista con todos los pacientes registrados. El happy path ocurre cuando se selecciona un paciente y la gráfica del dashboard se actualiza con los datos de sus funciones vitales.
+
+![User Flow 3](assets/user-flow-3.png)
+
+<b>User Flow 4</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una banda a un paciente creado <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren vincular una banda a un paciente para monitorearlo. El flujo inicia cuando el usuario se encuentra en la vista "Band Configuration" y selecciona una banda que no ha sido configurada. El siguiente paso es elegir un paciente previamente credo del menú desplegable de la sección "Patient". El happy path ocurre cuando, al hacer clic en "Save", la información del paciente se vincula a la banda y esta se sincroniza, empezando a monitorear los signos vitales.
+
+![User Flow 4](assets/user-flow-4.png)
+
+
+<b>User Flow 5</b> <br>
+<b>User Persona:</b> Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una paciente a un cuidador para que reciba las notificaciones <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Gabriel, como dueño de una casa de reposo, para vincular un paciente a un cuidador. El flujo inicia cuando se encuentra en la pantalla "Patients" y selecciona alguno de los pacientes de su lista. Luego, selecciona un cuidador del menú desplegable en la sección "Caregiver", el cual cambia de "No configurado" a mostrar el nombre del cuidador. El happy path ocurre cuando los cambios se guardan exitosamente, el cuidador es vinculado al paciente y puede recibir las alertas. 
+
+![User Flow 5](assets/user-flow-5.png)
+
+#### 5.4.4.2. Mobile Application User Flow Diagrams
+
+
+## 5.5 Applications Prototyping
+
+![Web Application Prototype](assets/prototype.PNG)
+
+Enlace del prototipo:
+<a href="https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1">https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1</a>
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+<table border="1">
+
+  <tr>
+    <td>Project Management</td>
+    <td>Microsoft 365<br>Alojamiento de los videos de entrevistas, explicación de prototipos y otros relacionados al proyecto</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Discord<br>Plataforma de mensajería instantánea donde se realizaron las reuniones, repartición de tarea y desarrollo del proyecto colaborativo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Whatsapp<br>Aplicación de mensajería instantánea donde se realizaron recordatorios de las reuniones.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Trello<br>Software de administración Y gestión de proyectos que se utilizó para establecer y designar las tareas</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td>Structurizr<br>Structurizr es una herramienta de modelado y documentación que permitió el desarrollo de los diagramas C4</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>MySQL Workbench<br>Herramienta de diseño para el modelado de diagrama de bases de datos.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>LucidChart<br>Herramienta de diseño para el modelado de diagramas UML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Miro<br>Herramienta de diseño para la creación de los As-Is y To-Be Scenario Mapping</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td>Figma<br>Herramienta que se utilizó para la creación de wireframes, mockups y prototipos.</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Git<br>Es un software de control de versiones para los trabajos en equipos y confiabilidad del desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node.js<br>Node.js es un entorno de ejecución de JavaScript del lado del servidor, que permite desarrollar aplicaciones web escalables y de alto rendimiento fuera del navegador.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GitHub<br>Sistema de control de versiones Git.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HTML5<br>Lenguaje de etiquetas, utilizado para la estructuración y la presentación de contenido.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CSS<br>CSS es un lenguaje utilizado para estilizar y dar formato a documentos HTML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JavaScript<br>JavaScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>VScode<br>Es un editor de código fuente con extensiones que ayudan al desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Angular Framework<br>Framework para el desarrollo de frontend</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td>Github Pages<br>Plataforma que nos facilitó realizar el despliegue de nuestro landing page de manera rápida y práctica.</td>
+  </tr>
+</table>
+
+### 6.1.2. Source Code Management
+
+Utilizamos la metodología de git flow con finalidad es tener un control mayor sobre la gestión del proyecto, avanzar el proyecto de forma simultanea tanto como en la implementación del la aplicación y creación del reporte.
+
+Esto nos permitio separar el proyecto en la rama principal (main) en la que se encuentra la versión presentable del proyecto, que a la vez no cuenta con errores. También tenemos la rama secundario (develop) que sirve para unificar los cambios de las demás ramas. También contamos con más branches una para determinadas fuincionalidades amplias de la aplicación y una para cada chapter del reporte.
+
+<td><img src="" alt="Imagen del gitflow" width="1500"></td>
+
+
+URL del repositorio del Report en GitHub:
+
+URL del repositorio del Landing Page en GitHub: 
+
+URL del repositorio del Frontend en Github:
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+HTML: Lenguaje utilizado para diseñar páginas web. Este lenguaje utiliza etiquetas para marcar y definir el contenido de la página web; Como un texto, imagenes, videos, etc.
+
+Convenciones:
+
+- Se tiene que declarar el tipo de documento en la primera línea de la siguiente manera:
+- Las etiquetas siempre tienen que esta en minúscula, ya que es más claro a la vista y es de facil escritura para los desarrolladores.
+- Usar las comillas para darle un valor a los atributos para una mejor legibilidad.
+
+CSS: Lenguaje que permite dar formatos o estilos a los elementos html. Con este lenguaje se pueden crear diseños web agradables e intuitivos para el usuario.
+
+Convenciones:
+
+- Unir los nombres de las clases compuestas con guiones: box-container{}
+- Usar la unidad de medida rem para mantener un diseño responsive: 1rem
+
+### 6.1.4. Software Deployment Configuration
+
+Para despliegar el landing page, usamos las siguientes herraminetas.
+
+- Git: Para realizar el manejo de las versiones del proyecto.
+- GitHub: Dentro de la plataforma tenemos un repositorio, lo usamos para almacenar todo el proyecto con sus respectivas versiones.
+- GitFlow: Esto permite visualizar y controlar el flujo de trabajo hecho por el equipo de desarrollo.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            05/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Integrantes de    
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Achamizo Huamani, Jean Carlos <br/>
+            - Aliaga Trevejo, Lucía Guadalupe <br/>
+            - Raymundo Guevara, Rodrigo Alejandro <br/>
+            - Siancas Reategui, Luis Alberto <br/>    
+            - Trujillo Lopez, Luis Alberto <br/> 
+            - Sagastegui Rodriguez, Luis Jesus <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de funcionamiento de la plataforma MIAM.
+            </br></br>
+            La Landing Page se implementó exitosamente.  
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint n - 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+        Se logró mantener una comunicación entre los integrantes del equipo gracias al uso de plataformas como Discord, lo que conllevó a entregar el trabajo correctamente. Sin embargo, se debe mejorar el aspecto de la organización, para terminar las próximas tareas sin estar al límite del deathline.
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table> 
+
+#### 6.2.1.2. Sprint Backlog 1
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="7">US01</td>
+       <td rowspan="7">Visualizar la descripción de la aplicación</td>
+       <td>T01</td>
+       <td>Estructura de las secciones</td>
+       <td>Programar la estructua HTML de las secciones </td>
+       <td>0.1</td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T02</td>
+       <td>Agregar CSS general</td>
+       <td>Asignar styles generales para la página</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T03</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T04</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T05</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T06</td>
+       <td>Agregar "" section</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+    </tr>
+   <tr>
+       <td rowspan="2">US03</td>
+       <td rowspan="2">Landing Page intuitiva</td>
+       <td>T07</td>
+       <td>Estructura Navbar</td>
+       <td>Crear HTML del navbar con direccionamiento a secciones</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T08</td>
+       <td>Estilos Navbar</td>
+       <td>Asignar stilos al navbar</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US04</td>
+       <td rowspan="2">Landing Page responsiva</td>
+       <td>T09</td>
+       <td>Main responsive</td>
+       <td>Agregar CSS media queries a las diferentes secciones del main</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T10</td>
+       <td>Navbar responsive</td>
+       <td>Agregar CSS media queries al navbar</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+</table>
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de la Landing Page. A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Author</th>
+        <th>Message</th>
+        <th>Time ago</th>
+    </tr>
+    <tr>
+        <td rowspan=19>Landing Page</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    
+</table>
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+**Link de la landing page desployada:**
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el desarrollo de la Landing page, se utilizaron las siguientes texnologías:
+
+- HTML: Lenguaje de marcado para crear la estructura de una página web. Define la organización del contenido (encabezados, párrafos, imágenes, etc.).
+- CSS: Lenguaje de estilo para darle forma y diseño a las páginas web. Controla la apariencia del contenido (colores, tipografías, fondos, etc.).
+- Git: Sistema de control de versiones para gestionar el desarrollo de software. Permite realizar un seguimiento de los cambios en el código y colaborar con otros. Sistema de control de versiones que nos ayudó a trabajar en equipo durante el desarrollo del landing page
+- GitHub: Plataforma online para alojar repositorios Git. Permite compartir código, colaborar en proyectos y acceder a una gran comunidad de desarrolladores. Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones de nuestro proyecto.
+
+Igualmente, para el correcto control de versiones y el adecuado desarrollo de la página, se empleó la metodología de trabajo GitFlow Workflow. Es un método para gestionar el desarrollo de software con Git. Define roles y ramas específicas para cada etapa del proceso, como desarrollo, pruebas y lanzamiento. Esto ayuda a organizar el código, facilita la colaboración y reduce el riesgo de errores.
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+La StartUp ha realizado el presente sprint usando Git y Github como herramientas principales para el control de versiones y GitFlow como metodología de trabajo.
+
+En primer lugar, se creó una organización en Github con el nombre de la StartUp. Luego, se creó un repositorio para la Landing page. En dicho repositorio, el equipo ha creado diferentes ramas (branchs) para diferenciar el tipo de trabajo que se realiza. Por ejemplo, la rama `main` se empleó únicamente para el despliegue final de la aplicación; `develop`, para hacer _merge_ con demás ramas incluída la `main`; `feature`, para implementar alguna funcionalidad. De esta manera se protege el código funcional y se diferencia de features en desarrollo por los miembros. Después de la creación de cada rama, uno o más usuario pueden acceder a esta y realizar cambios y guardarlos como commits.
+
+#### 6.3 Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+#### 6.3.2. Registro de Entrevistas.
+#### 6.3.3. Evaluaciones según heurísticas.
+#### 6.4. Video About-the-Product.
 
 # Conclusiones
 
@@ -3232,7 +4105,8 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 
 | Enlace                                             | Fecha        | Entregable                       |
 |----------------------------------------------------|--------------|----------------------------------|
-| [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
+| https://goo.su/sorVJws   | 07/09/2024   | TB1         |
+| https://goo.su/8Zz305      | 26/09/2024   | TP        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
