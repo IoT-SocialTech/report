@@ -3774,7 +3774,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
     </tr>
 </table> 
 
-#### 5.2.1.2. Sprint Backlog 1
+#### 6.2.1.2. Sprint Backlog 1
 
 En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
 
@@ -3958,8 +3958,6 @@ En esta sección se presentan los commits realizados en el repositorio de GitHub
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
 Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
-
-## Home
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
