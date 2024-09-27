@@ -3153,7 +3153,60 @@ Se utilizaron los tres sistemas de organización visual: jerárquica, secuencial
 
 ![Alerts](assets/mockups_alerts.png)
 
----
+### 5.2.2. Labeling Systems.
+
+- <b> a. Etiquetas Simplificadas y Claras: <b>
+	El uso de etiquetas simples y claras será clave para facilitar la navegación y comprensión 	de los usuarios. Algunas etiquetas propuestas:
+
+	Home → "Inicio" 
+	Our Service → "Nuestros Servicios"
+	Plan → "Planes"
+	Log In → "Iniciar Sesión"
+	Contact → "Contáctanos"
+
+- <b> b. Asociaciones Clave: <b>
+	Relacionar términos de monitoreo como "seguridad", "alertas", "reporte en tiempo real" con 	los beneficios principales para que los usuarios los identifiquen rápidamente.
+	Usar un mínimo de palabras en las etiquetas, evitando tecnicismos innecesarios.
+
+### 5.2.3. SEO Tags and Meta Tags.
+
+- <b> a. SEO para el sitio web: <b>
+
+  Landing Page:
+
+	Title: Sistema de Monitoreo Avanzado para Pacientes - Seguridad y Tranquilidad
+	Meta Description: Nuestro sistema de monitoreo todo en uno mejora la seguridad y el 	bienestar de pacientes y seres queridos con monitoreo en tiempo real y alertas 	personalizadas.
+	Keywords: monitoreo de pacientes, sistema de seguridad, alertas personalizadas, cuidado 	remoto, monitoreo en tiempo real
+	Author: Nombre de la startup
+
+  Our Service Page:
+
+  Title: Nuestros Servicios de Monitoreo - Seguridad 24/7 para Pacientes
+	Meta Description: Descubre los servicios que ofrecemos para el monitoreo en tiempo real de 	pacientes y seres queridos, con alertas automáticas y reportes detallados.
+	Keywords: monitoreo de salud, servicios de cuidado remoto, alertas de seguridad, monitoreo 	de pacientes, bienestar de pacientes.
+
+### 5.2.4. Navigation Systems.  
+
+- <b>El sistema de navegación debe ser claro y directo. Algunas estrategias para guiar a los 	usuarios: <b>
+
+	Barra de navegación principal (Navbar en la parte superior) con las rutas clave:
+	Inicio, Nuestros Servicios, Planes, Contáctanos, Iniciar Sesión
+
+	Breadcrumbs (Migas de pan) para ayudar al usuario a saber dónde está en todo momento dentro 	del sitio.
+
+	Navegación de pie de página: Repetir las rutas clave como "Términos y condiciones", 	"Política de privacidad", "Soporte", y enlaces a redes sociales.
+
+### 5.2.5. Navigation Systems.
+
+- <b>La implementación de un sistema de búsqueda sólido ayudará a los usuarios a encontrar 	información específica sin perderse en la plataforma. Este sistema debe incluir: <b>
+
+	Barra de búsqueda visible en la parte superior de todas las páginas.
+
+	Resultados claros: Presentar los resultados con un resumen breve que contenga enlaces 	directos a las páginas correspondientes.
+
+--- 
+
+
 
 # Conclusiones
 
