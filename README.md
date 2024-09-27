@@ -3246,6 +3246,43 @@ A continuación, se muestran los wireframes de las secciones más importantes de
 
 #### 5.4.2.1. Web Application Wireflow Diagrams
 
+<b>Wireflow 1</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Crear una alerta de recordatorio de medicamento del paciente para ser notificada <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana cuando quiere crear una alerta de medicamento para ser notificada. El flujo inicia en la pantalla "Patients". Ana, quien es el cuidador, selecciona un paciente y hace clic en el botón "Add alert". Luego, visualiza un formulario y agrega la información de la alerta. El happy path ocurre la alerta es creada exitosamente y Ana recibe el recordatorio de administración del medicamento. 
+
+![Wireflow 1](assets/wireflow-1.png)
+
+<b>Wireflow 2</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Mejorar su plan actual para obtener los beneficios como dueña de una casa de reposo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana al mejorar su plan actual. Inicia cuando Ana ingresa a la pantalla "Billing & Payment", donde se muestra su historial de facturas y datos del plan actual. Cuando Ana hace clic en "Upgrade now", visualiza una sección con la información de los planes disponibles. Al mejorar su plan de Básico a Enterprise, tiene la opción de agregar más Health Bands, lo que se refleja en la pantalla de pago. El happy path ocurre cuando Ana realiza el pago y este es procesado exitosamente, redirigiéndola a una pantalla de confirmación.
+
+![Wireflow 2](assets/wireflow-2.png)
+
+<b>Wireflow 3</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Visualizar los datos vitales de un paciente para tener un monitoreo continuo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren visualizar un resumen de los datos vitales de un paciente. El flujo inicia cuando los usuarios se encuentran en el dashboard, visualizando el apartado de Vital Signs Monitoring. Al hacer clic en el menú desplegable, aparece una lista con todos los pacientes registrados. El happy path ocurre cuando se selecciona un paciente y la gráfica del dashboard se actualiza con los datos de sus funciones vitales.
+
+![Wireflow 3](assets/wireflow-3.png)
+
+<b>Wireflow 4</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una banda a un paciente creado <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren vincular una banda a un paciente para monitorearlo. El flujo inicia cuando el usuario se encuentra en la vista "Band Configuration" y selecciona una banda que no ha sido configurada. El siguiente paso es elegir un paciente previamente credo del menú desplegable de la sección "Patient". El happy path ocurre cuando, al hacer clic en "Save", la información del paciente se vincula a la banda y esta se sincroniza, empezando a monitorear los signos vitales.
+
+![Wireflow 4](assets/wireflow-4.png)
+
+
+<b>Wireflow 5</b> <br>
+<b>User Persona:</b> Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una paciente a un cuidador para que reciba las notificaciones <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Gabriel, como dueño de una casa de reposo, para vincular un paciente a un cuidador. El flujo inicia cuando se encuentra en la pantalla "Patients" y selecciona alguno de los pacientes de su lista. Luego, selecciona un cuidador del menú desplegable en la sección "Caregiver", el cual cambia de "No configurado" a mostrar el nombre del cuidador. El happy path ocurre cuando los cambios se guardan exitosamente, el cuidador es vinculado al paciente y puede recibir las alertas. 
+
+![Wireflow 5](assets/wireflow-5.png)
+
+
 #### 5.4.2.2. Mobile Application Wireflow Diagrams
 
 ### 5.4.3. Applications Mock-ups
@@ -3299,8 +3336,43 @@ A continuación, se muestran los mock-ups de las secciones más importantes de l
 
 #### 5.4.4.1. Web Application User Flow Diagrams
 
-#### 5.4.4.2. Mobile Application User Flow Diagrams
+<b>User Flow 1</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Crear una alerta de recordatorio de medicamento del paciente para ser notificada <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana cuando quiere crear una alerta de medicamento para ser notificada. El flujo inicia en la pantalla "Patients". Ana, quien es el cuidador, selecciona un paciente y hace clic en el botón "Add alert". Luego, visualiza un formulario y agrega la información de la alerta. El happy path ocurre la alerta es creada exitosamente y Ana recibe el recordatorio de administración del medicamento. 
 
+![User Flow 1](assets/user-flow-1.png)
+
+<b>User Flow 2</b> <br>
+<b>User Persona:</b> Ana Martinez <br>
+<b>User Goal:</b> Mejorar su plan actual para obtener los beneficios como dueña de una casa de reposo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Ana al mejorar su plan actual. Inicia cuando Ana ingresa a la pantalla "Billing & Payment", donde se muestra su historial de facturas y datos del plan actual. Cuando Ana hace clic en "Upgrade now", visualiza una sección con la información de los planes disponibles. Al mejorar su plan de Básico a Enterprise, tiene la opción de agregar más Health Bands, lo que se refleja en la pantalla de pago. El happy path ocurre cuando Ana realiza el pago y este es procesado exitosamente, redirigiéndola a una pantalla de confirmación.
+
+![User Flow 2](assets/user-flow-2.png)
+
+<b>User Flow 3</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Visualizar los datos vitales de un paciente para tener un monitoreo continuo <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren visualizar un resumen de los datos vitales de un paciente. El flujo inicia cuando los usuarios se encuentran en el dashboard, visualizando el apartado de Vital Signs Monitoring. Al hacer clic en el menú desplegable, aparece una lista con todos los pacientes registrados. El happy path ocurre cuando se selecciona un paciente y la gráfica del dashboard se actualiza con los datos de sus funciones vitales.
+
+![User Flow 3](assets/user-flow-3.png)
+
+<b>User Flow 4</b> <br>
+<b>User Persona:</b> Ana Martinez & Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una banda a un paciente creado <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir, tanto para Ana como para Gabriel, cuando quieren vincular una banda a un paciente para monitorearlo. El flujo inicia cuando el usuario se encuentra en la vista "Band Configuration" y selecciona una banda que no ha sido configurada. El siguiente paso es elegir un paciente previamente credo del menú desplegable de la sección "Patient". El happy path ocurre cuando, al hacer clic en "Save", la información del paciente se vincula a la banda y esta se sincroniza, empezando a monitorear los signos vitales.
+
+![User Flow 4](assets/user-flow-4.png)
+
+
+<b>User Flow 5</b> <br>
+<b>User Persona:</b> Gabriel Lopez <br>
+<b>User Goal:</b> Vincular una paciente a un cuidador para que reciba las notificaciones <br>
+<b>Descripción:</b> Este flujo ilustra la secuencia de pasos a seguir por Gabriel, como dueño de una casa de reposo, para vincular un paciente a un cuidador. El flujo inicia cuando se encuentra en la pantalla "Patients" y selecciona alguno de los pacientes de su lista. Luego, selecciona un cuidador del menú desplegable en la sección "Caregiver", el cual cambia de "No configurado" a mostrar el nombre del cuidador. El happy path ocurre cuando los cambios se guardan exitosamente, el cuidador es vinculado al paciente y puede recibir las alertas. 
+
+![User Flow 5](assets/user-flow-5.png)
+
+#### 5.4.4.2. Mobile Application User Flow Diagrams
 
 
 ---
