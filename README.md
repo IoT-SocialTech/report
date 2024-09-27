@@ -1437,6 +1437,8 @@ En este punto, buscamos automation policies (políticas de automatización) que 
 
 ![ES-Step6-7](./assets/event30.jpg)
 
+Definimos y organizamos las políticas de recolección y envío de datos, alertas, registro de usuarios y gestión de suscripciones. Se establecieron los eventos para la activación de sensores, detección de condiciones críticas, generación de alertas y notificaciones a cuidadores y familiares, así como el manejo de fallos de sensores. También se estructuraron los procesos para la creación, verificación y administración de cuentas, y la actualización de planes de suscripción, asegurando una correcta integración y flujo de información en la aplicación.
+
 
 **Step 7: Read Models**
 
@@ -1454,6 +1456,8 @@ En este paso, introducimos el modelo de lectura, que es la representación de da
 
 ![ES-Step7-6](./assets/event36.jpg)
 
+Identificamos las políticas de negocio y cómo interactúan con los eventos y comandos ya establecidos. Cada política fue colocada en relación con un evento o comando específico, con el objetivo de definir reglas y restricciones que deben cumplirse para la ejecución de ciertas acciones. Estas políticas incluyen aspectos como la recolección de datos, el envío de alertas y el registro de cuentas, garantizando que las operaciones del sistema se realicen bajo ciertos parámetros. Además, se introdujeron políticas para la gestión de registros, suscripciones y actualizaciones de planes, detallando cómo y cuándo deben aplicarse estas reglas en función del contexto y estado del sistema.
+
 **Step 8: External Systems**
 
 A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
@@ -1469,6 +1473,8 @@ A continuación, completamos el modelo incluyendo los sistemas externos. Un sist
 ![ES-Step8](./assets/event41.jpg)
 
 ![ES-Step8](./assets/event42.jpg)
+
+Incorporamos eventos relacionados con el encendido del equipo y el inicio de la recolección de datos, representados con etiquetas verdes. Además, se añadieron interacciones adicionales para diferentes sistemas de monitoreo, como sensores de movimiento, ritmo cardíaco y temperatura, destacando la política de colección de datos en color morado y la política de alertas en color lila. También se detallaron las acciones de inicio de sesión, enlace y desenlace de familiares y cuidadores, junto con la configuración del dispositivo IoT, resaltando la importancia del menú de navegación y los métodos de autenticación como el sistema de Google. En general, se completó la visualización de procesos desde la recolección de datos hasta la gestión de alertas y la actualización de información en la nube y plataformas web, estructurando el flujo de eventos para cada subsistema involucrado.
 
 **Step 9: Aggregates**
 
@@ -1486,11 +1492,15 @@ Luego de presentar todos los eventos y comandos, comenzamos a agrupar los concep
 
 ![ES-Step9](./assets/event48.jpg)
 
+Cada diagrama inicia con la activación del equipo y la recolección de datos correspondientes (frecuencia cardíaca, temperatura, movimiento), procediendo a la detección de eventos normales o anormales. Si se detecta una anomalía, se sigue una política de recolección de datos y de alerta, que conlleva la generación de alertas y notificaciones hacia cuidadores y familiares a través de distintas plataformas (web, aplicación móvil). Además, se introdujo el flujo de inicio de sesión y creación de cuentas para configurar el sistema y asociar cuidadores o familiares con los pacientes, facilitando la personalización de alertas y la administración de las notificaciones.
+
 **Step 10: Bounded Contexts**
 
 Finalmente, identificamos los agregados que están relacionados entre sí y que son relevantes por representar funciones estrechamente vinculadas o porque están conectados según ciertas políticas. Estos grupos de agregados sirven como candidatos naturales para definir los Bounded Contexts (contextos delimitados) dentro del sistema.
 
 ![ES-Step10](./assets/EV-Step10.png)
+
+Identificamos y agrupamos los eventos del sistema en diferentes Bounded Contexts para definir áreas funcionales específicas: Device gestiona la interacción con dispositivos y sensores; Edge procesa datos en tiempo real y genera alertas; Notifications envía notificaciones a cuidadores y familiares; Metrics recolecta y gestiona métricas del sistema; Payment maneja suscripciones y pagos; Account se encarga de la autenticación y gestión de usuarios; y Planning (antes Configuration) permite la planificación y configuración del sistema. Estos contextos delimitan claramente las responsabilidades y facilitan la modularidad del sistema.
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
