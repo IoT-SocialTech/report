@@ -3534,31 +3534,37 @@ A continuación, se muestran los mock-ups de las secciones más importantes de l
 
 - Log in
 
-![Mockup Login 1](assets/mockup-mobile-login.png)
+![Mockup Login 1](assets/mockups_login_1.png)
+![Mockup Login 1](assets/mockups_login_2.png)
 
 - Dashboard
 
-![Mockup Dashboard 1](assets/mockup-mobile-dashboard.png)
+![Mockup Dashboard 1](assets/mockups_dashboard.png)
+![Mockup Dashboard 1](assets/mockups_dashboard_1.png)
+![Mockup Dashboard 1](assets/mockups_dashboard_1.png)
 
 - Band configuration
 
-![Mockup Band Configuration 1](assets/mockup-mobile-configuration.png)
+![Mockup Band Configuration 1](assets/mockups_bandconfiguration_1.png)
+![Mockup Band Configuration 1](assets/mockups_bandconfiguration_2.png)
 
 - Alerts 
 
-![Mockup Alerts 1](assets/mockup-mobile-alerts.png)
+![Mockup Alerts 1](assets/mockups_alerts_1.png)
+![Mockup Alerts 1](assets/mockups_alerts_2.png)
 
 - Patients
 
-![Mockup Patients 1](assets/mockup-mobile-patients.png)
+![Mockup Patients 1](assets/mockups_patients_1.png)
+![Mockup Patients 1](assets/mockups_patients_2.png)
+![Mockup Patients 1](assets/mockups_patients_3.png)
+![Mockup Patients 1](assets/mockups_patients_4.png)
 
 - Billing
 
-![Mockup Billing 1](assets/mockup-mobile-billing1.png)
-
-![Mockup Billing 2](assets/mockup-mobile-billing2.png)
-
-![Mockup Billing 3](assets/mockup-mobile-billing3.png)
+![Mockup Billing 1](assets/mockups_billing_1.png)
+![Mockup Billing 2](assets/mockups_billing_2.png)
+![Mockup Billing 3](assets/mockups_billing_3.png)
 
 #### 5.4.3.2. Mobile Application Mock-ups
 
