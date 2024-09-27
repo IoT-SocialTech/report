@@ -59,8 +59,17 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
 
 ![Network TB1](./assets/network-tb1.PNG)
 
----
+**TP1**
 
+Para la segunda entrega, el equipo logró un total de 78 commits en todas las ramas.
+
+![Insights TP1](./assets/insights-tp1.PNG)
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
+![Network TP1](./assets/network-tp1.PNG)
+
+---
 
 # Contenido
 
@@ -3974,8 +3983,8 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 
 | Enlace                                             | Fecha        | Entregable                       |
 |----------------------------------------------------|--------------|----------------------------------|
-| [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
-| [TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EfmvDSVbl8dFvhLPFbvhgWsBQABB_YiN7W9nQ8I-91Dr2g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QsTfwJ)       | 26/09/2024   | TP        |
+| https://goo.su/sorVJws   | 07/09/2024   | TB1         |
+| https://goo.su/8Zz305      | 26/09/2024   | TP        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
