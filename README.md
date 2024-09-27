@@ -1370,7 +1370,7 @@ En este punto, buscamos automation policies (políticas de automatización) que 
 
 ![ES-Step6-1](./assets/event24.jpg)
 
-![ES-Step6-2](./asset/sevent25.jpg)
+![ES-Step6-2](./assets/event25.jpg)
 
 ![ES-Step6-3](./assets/event26.jpg)
 
@@ -1387,7 +1387,17 @@ En este punto, buscamos automation policies (políticas de automatización) que 
 
 En este paso, introducimos el modelo de lectura, que es la representación de datos del dominio que un agente utiliza para decidir si debe ejecutar o no un comando. Por esta razón, definimos una vista de datos para cada comando, como monitores del sistema, informes, notificaciones, entre otros.
 
-![ES-Step7](./assets/EV-Step7.png)
+![ES-Step7-1](./assets/event31.jpg)
+
+![ES-Step7-2](./assets/event32.jpg)
+
+![ES-Step7-3](./assets/event33.jpg)
+
+![ES-Step7-4](./assets/event34.jpg)
+
+![ES-Step7-5](./assets/event35.jpg)
+
+![ES-Step7-6](./assets/event36.jpg)
 
 **Step 8: External Systems**
 
