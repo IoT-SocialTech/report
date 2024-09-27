@@ -1917,7 +1917,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Device` se relaciona con `Patient` a través de `Patient_id`.
   - `Patient` puede tener varias métricas y dispositivos asociados.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/DB_MIAM_FINAL.png)
 ---
 
 ## 4.2.3. Bounded Context: Notification Context
