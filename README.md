@@ -4553,10 +4553,27 @@ Para llevar a cabo el despliegue en Netlify, se realizaron los siguientes pasos:
 **4. Ejecución del Despliegue Inicial:** Una vez configurados los detalles de compilación, Netlify ejecuta automáticamente el primer despliegue. En este paso, Netlify toma el código del repositorio, lo construye y publica la aplicación en un dominio temporal. Posteriormente se configuró el dominio.
 
 ![Web App Deployment on Netlify](assets/netlify-miam.PNG)
-
-**5. Automatización de Despliegues para Nuevos Cambios:** Gracias a la integración del repositorio con Netlify, el código se desspliega automáticamente cada vez que se realizan cambios adicionales.
-
 ![Web App Deployment on Netlify](assets/last-deploy-web.PNG)
+
+*Mobile Application*
+
+Durante este Sprint, se realizó el despliegue de la aplicación móvil utilizando Firebase App Distribution. Este proceso incluyó la configuración y publicación de la aplicación, asegurando que los usuarios de prueba y los equipos de desarrollo pudieran acceder a la versión más reciente en un entorno de pruebas controlado.
+
+Para llevar a cabo el despliegue en Firebase App Distribution, se siguieron los siguientes pasos:
+
+**1. Configuración de la Cuenta y Proyecto en Firebase:** Se accedió a una cuenta ya existente en Firebase y se configuró el proyecto para el despliegue de la aplicación móvil.
+![alt text](image-4.png)
+![alt text](image.png)
+
+**2. Integración del Repositorio de Código:** Se configuró la rama de desarrollo en el repositorio para generar automáticamente builds de la aplicación y enviarlas a Firebase.
+
+**3. Configuración de las Opciones de Build:** En el archivo de configuración, se especificaron los detalles de compilación para que la aplicación se genere correctamente antes de ser distribuida. Este proceso incluyó la configuración de los scripts necesarios para la integración continua.
+enlace: https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6
+
+
+**4. Ejecución del Despliegue a Firebase App Distribution:** Una vez que se completó la configuración, el proceso de CI/CD envió automáticamente el build a Firebase App Distribution. Desde allí, los usuarios de prueba y el equipo de desarrollo recibieron invitaciones por correo electrónico para descargar e instalar la aplicación en sus dispositivos.
+
+![alt text](image-1.png)
 
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint
