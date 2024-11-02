@@ -5139,6 +5139,12 @@ Para llevar a cabo el despliegue en Netlify, se realizaron los siguientes pasos:
 ![Web App Deployment on Netlify](assets/last-deploy-web.PNG)
 
 
+*Miam Edge API*
+
+![Miam cloud API on Render](assets/cloud.PNG)
+
+*Miam Cloud API*
+
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
 En este Sprint, el equipo trabajó de manera colaborativa en la implementación de los distintos componentes del proyecto, abarcando los Web Services y las Aplicaciones. La contribución de cada miembro quedó reflejada en la actividad de commits y los analíticos de colaboración en GitHub, los cuales se presentan en esta sección con capturas de pantalla.
