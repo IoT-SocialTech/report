@@ -4928,6 +4928,16 @@ En este Sprint, logramos implementar varias vistas clave en la aplicación web, 
 <br> Enlace al video: </br>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EZJY3UCOxHJJh2amSyocaoYBQjKLvHMUlhnFMNzpdL4I3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XIAQ8s"> https://goo.su/orFzn6 </a>
 
+*Mobile Application*
+
+Para la realización de la aplicación móvil se abarcaron varios User Stories, para este Sprint se realizó la pantalla de Login en donde el usuario podrá crearse una cuenta o entrar con su cuenta de Google. Al ingresar a la aplicación, podremos visualizar como primera instancia la creación del Dashboard, en donde se visualiza varios datos importantes de los pacientes como su medicación y el monitoreo de las señales vitales. También se pudo implementar de manera correcta las Alertas de los pacientes en caso suceda algo fuera de lo habitual. La pantalla que más consideramos importante es el Band Configuration. Donde se muestra una lista de Pacientes y en donde se puede gestionar las alertas en base a la temperatura o el pulso del paciente. Para el siguiente Sprint hemos avanzado en distintos User Stories que aún faltan corregir ya que siguen con problemas mínimos, pero consideramos que es un gran avance para este Sprint.
+
+![Mobile Evidence](assets/evidence.jpg)
+
+<br> Enlace al video: </br>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202014249_upc_edu_pe/ETL5B6zfuiNJv6oH_idvWjMBmnbkiGAgobXl4jsWpWPQSA?e=bB71qy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint, avanzamos en la documentación de los Endpoints desarrollados, asegurando claridad y facilidad de integración mediante OpenAPI. A continuación, se presenta una tabla con las acciones soportadas para cada Endpoint, incluyendo los métodos HTTP, parámetros, ejemplos de llamadas y respuestas.
