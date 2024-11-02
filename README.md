@@ -5141,9 +5141,11 @@ Para llevar a cabo el despliegue en Netlify, se realizaron los siguientes pasos:
 
 *Miam Edge API*
 
-![Miam cloud API on Render](assets/cloud.PNG)
+![Miam Edge API on Render](assets/edge.PNG)
 
 *Miam Cloud API*
+
+![Miam cloud API on Render](assets/cloud.PNG)
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
