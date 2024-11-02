@@ -334,9 +334,9 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-    - [6.2.2. Sprint 1](#622-sprint-2)
-      - [6.2.2.1. Sprint Planning 1](#6221-sprint-planning-2)
-      - [6.2.2.2. Sprint Backlog 1](#6222-sprint-backlog-2)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
       - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
       - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
       - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
@@ -4487,6 +4487,209 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     </tr>
     
 </table>
+
+<table align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
+        <td>/TS07-TSK01</td>
+        <td>8ef9c2a</td>
+        <td>feat: added get temperature functionality</td>
+        <td>feat: added functionality to return current patient temperature and included shared files</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>923d98f</td>
+        <td>feat: added JPA configuration and established connection with database</td>
+        <td>feat: added JPA configuration and established connection with database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>49996fa</td>
+        <td>Merge pull request #2 from IoT-SocialTech/jpa-conf</td>
+        <td>Added JPA configuration</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>695887f</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>d5a5e9e</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>2cf7dc7</td>
+        <td>Initial commit: added base files</td>
+        <td>Initial commit: added base files</td>
+        <td>30/09/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>4bd451d</td>
+        <td>feat: added get heart rate functionality</td>
+        <td>feat: added functionality to return current patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>1306aa3</td>
+        <td>feat: added get temperature functionality</td>
+        <td>feat: added functionality to return current patient temperature and included shared files</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>0f970fb</td>
+        <td>Merge pull request #4 from IoT-SocialTech/TS08-TSK01</td>
+        <td>feat: added get heart rate functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>5ab3960</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>684cdfe</td>
+        <td>Merge pull request #7 from IoT-SocialTech/TS19-TSK01</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>4dd6029</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>3797c40</td>
+        <td>fix: error</td>
+        <td>fix: error</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>59385b5</td>
+        <td>Merge remote-tracking branch 'origin/develop' into develop</td>
+        <td>Conflicts resolved in MetricsController.java</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>d7aeee0</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>b43eed1</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>5d79f14</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>5291ed4</td>
+        <td>Merge pull request #9 from IoT-SocialTech/TS20-TSK01</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>03dda9c</td>
+        <td>Merge pull request #10 from IoT-SocialTech/TS21-TSK01</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>03dda9c</td>
+        <td>Merge pull request #10 from IoT-SocialTech/TS21-TSK01</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>5d79f14</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>5291ed4</td>
+        <td>Merge pull request #9 from IoT-SocialTech/TS20-TSK01</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>3797c40</td>
+        <td>fix: error</td>
+        <td>fix: error</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>59385b5</td>
+        <td>Merge remote-tracking branch 'origin/develop' into develop</td>
+        <td>Conflicts resolved in MetricsController.java</td>
+        <td>20/10/2024</td>
+    </tr>
+</table>
+
+
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
 
