@@ -42,6 +42,7 @@ Trujillo Lopez, Luis Alberto <br>
 | 1.3     | 27/09/2024  | Raymundo Guevara Rodrigo Alejandro                                                                               | Se añadieron los mockups y wireframes en la sección de diseño de interfaz.                                                     |
 | 1.4     | 27/09/2024  | Sagastegui Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
 | 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
+| 2.0    | 31/10/2024  | Aliaga Trevejo Lucía Guadalupe                                                                   | Se agregó el capítulo correspondiente al Sprint 2            |
 
 # Project Report Collaboration Insights
 
@@ -333,6 +334,15 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 1](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 1](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 1](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
       - [6.3 Validation Interviews.](#63-validation-interviews)
       - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
       - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -4132,12 +4142,457 @@ La StartUp ha realizado el presente sprint usando Git y Github como herramientas
 
 En primer lugar, se creó una organización en Github con el nombre de la StartUp. Luego, se creó un repositorio para la Landing page. En dicho repositorio, el equipo ha creado diferentes ramas (branchs) para diferenciar el tipo de trabajo que se realiza. Por ejemplo, la rama `main` se empleó únicamente para el despliegue final de la aplicación; `develop`, para hacer _merge_ con demás ramas incluída la `main`; `feature`, para implementar alguna funcionalidad. De esta manera se protege el código funcional y se diferencia de features en desarrollo por los miembros. Después de la creación de cada rama, uno o más usuario pueden acceder a esta y realizar cambios y guardarlos como commits.
 
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 2</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            04/10/2024        
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            168:30         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+           Aliaga Trevejo, Lucía Guadalupe  
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Achamizo Huamani, Jean Carlos <br/>
+            - Aliaga Trevejo, Lucía Guadalupe <br/>
+            - Raymundo Guevara, Rodrigo Alejandro <br/>
+            - Siancas Reategui, Luis Alberto <br/>    
+            - Trujillo Lopez, Luis Alberto <br/> 
+            - Sagastegui Rodriguez, Luis Jesus <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            En el sprint anterior, se completó el desarrollo de las secciones de la landing page. Esto incluyó el diseño visual, la estructura de navegación y la implementación de los componentes necesarios para una experiencia de usuario funcional. 
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+          La organización de las tareas para el desarrollo de la landing page fue efectiva y permitió cumplir con el objetivo del sprint. Uno de los principales desafíos fue la gestión del tiempo. Se identificó la necesidad de priorizar y segmentar las tareas complejas para evitar sobrecargas y distribuir el trabajo de manera más equilibrada en el equipo
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+        </tr>
+    <tr align="left">
+      <td>
+        <b>Sprint 2 Goal</b>
+      </td>
+      <td>
+            Our focus is on establishing the foundational features for user onboarding, bracelet configuration, and initial data collection. We believe it delivers a seamless entry experience for caregivers and nursing home owners, enabling them to begin using the monitoring system effectively and gather essential health data from the start. This will be confirmed when users can successfully register, log in, configure their bracelets, and view initial health data collected from the bracelets in real time.
+      </td>
+    </tr>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            80
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            102
+        </td>
+    </tr>
+</table> 
+
+#### 6.2.2.2. Sprint Backlog 2
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint 2.
+
+El objetivo de este sprint es establecer las características fundamentales necesarias para la creación de usuarios y pacientes en el sistema de monitoreo. Este sprint se enfocará en el desarrollo de funcionalidades para el registro de cuidadores, la configuración de los brazaletes (health band) y la recolección inicial de datos de salud. Al implementar estas características, se busca proporcionar una experiencia de entrada fluida para los cuidadores y propietarios de las casas de reposo, facilitando así el uso efectivo del sistema desde su inicio.
+
+![Sprint Backlog 2](assets/sprint2_trello.PNG)
+
+<br> Enlace del tablero: </br>
+<a href="https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2"> https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2 </a>
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 2</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="7">US01</td>
+       <td rowspan="7">Visualizar la descripción de la aplicación</td>
+       <td>T01</td>
+       <td>Estructura de las secciones</td>
+       <td>Programar la estructua HTML de las secciones </td>
+       <td>0.1</td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T02</td>
+       <td>Agregar CSS general</td>
+       <td>Asignar styles generales para la página</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T03</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T04</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T05</td>
+       <td>Agregar "" section</td>
+       <td> </td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T06</td>
+       <td>Agregar "" section</td>
+       <td></td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+    </tr>
+   <tr>
+       <td rowspan="2">US03</td>
+       <td rowspan="2">Landing Page intuitiva</td>
+       <td>T07</td>
+       <td>Estructura Navbar</td>
+       <td>Crear HTML del navbar con direccionamiento a secciones</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T08</td>
+       <td>Estilos Navbar</td>
+       <td>Asignar stilos al navbar</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US04</td>
+       <td rowspan="2">Landing Page responsiva</td>
+       <td>T09</td>
+       <td>Main responsive</td>
+       <td>Agregar CSS media queries a las diferentes secciones del main</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>T10</td>
+       <td>Navbar responsive</td>
+       <td>Agregar CSS media queries al navbar</td>
+       <td></td>
+       <td></td>
+       <td>Done</td>
+    </tr>
+</table>
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de los productos: Web Application, Mobile Application, Edge API, Cloud API y Embedded Application. 
+
+A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>IoT-SocialTech/Front-MIAM</td>
+        <td>/main</td>
+        <td>1c57dd1</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>5906720</td>
+        <td>Feature: Account registration view completed</td>
+        <td>Feature: Account registration view completed</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>e69fbf5</td>
+        <td>Feature: Creating fake API for testing</td>
+        <td>Feature: Creating fake API for testing</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>0500cb3</td>
+        <td>Feature: Creating the dashboard</td>
+        <td>Feature: Creating the dashboard</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>7e85538</td>
+        <td>Feature: Authentication Settings</td>
+        <td>Feature: Authentication Settings</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>f2717f7</td>
+        <td>Feature: Password recovery form completed</td>
+        <td>Feature: Password recovery form completed</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/development</td>
+        <td>e79d4ca</td>
+        <td>Feature: SideNav Component</td>
+        <td>Feature: SideNav Component</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US010-AlertsConfiguration</td>
+        <td>6003c15</td>
+        <td>Feature: Added band configuration interface</td>
+        <td>Feature: Added band configuration interface</td>
+        <td>23/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-US07-Temperature-Pulse-Monitoring</td>
+        <td>122aeda</td>
+        <td>Feature: Vital signs chart added</td>
+        <td>Feature: Vital signs chart added</td>
+        <td>24/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US008-Alerts-History</td>
+        <td>59ea9d7</td>
+        <td>Feature: Updated table and alerts information</td>
+        <td>Feature: Updated table and alerts information</td>
+        <td>25/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US020-Assign-Band</td>
+        <td>24fcecc</td>
+        <td>Feature: Patient information interface added</td>
+        <td>Feature: Patient information interface added</td>
+        <td>24/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US020-Assign-Band</td>
+        <td>13ec953</td>
+        <td>feat: US020 Integration with fake api</td>
+        <td>feat: US020 Integration with fake api</td>
+        <td>25/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US020-Assign-Band</td>
+        <td>076aee9</td>
+        <td>fix: mockup api integration</td>
+        <td>fixed mockup api integration</td>
+        <td>02/11/2024</td>
+    </tr>
+    
+</table>
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.2.5. Execution Evidence for Sprint Review
+
+*Web Application*
+
+En este Sprint, logramos implementar varias vistas clave en la aplicación web, enfocándonos en mejorar la experiencia de configuración, gestión y monitoreo de los pacientes y sus datos de salud. A continuación, se detalla cada vista y su funcionalidad implementada:
+
+![Login](assets/login-view.PNG)
+
+- Band Configuration: Desarrollamos la vista para configurar la health band de cada paciente. Esta sección permite seleccionar y ajustar las alertas que recibirán el caregiver y el relative, personalizando así las notificaciones y el tipo de seguimiento que recibirán según las necesidades del paciente.
+
+![Band Configuration Web App](assets/band-configuration-view.PNG)
+
+- Patients: Implementamos la vista de creación y gestión de pacientes, donde se pueden registrar nuevos pacientes y vincularlos tanto a un caregiver como a un relative. Esta funcionalidad permite gestionar de forma centralizada la información relevante de cada paciente.
+
+![Patients Web App](assets/patients-view.PNG)
+
+- Alerts: En esta sección, añadimos un historial de alertas para cada paciente, donde se pueden visualizar las notificaciones pasadas y su información detallada, permitiendo un seguimiento preciso de los eventos críticos que han ocurrido en cada caso.
+
+![Alerts Web App](assets/alerts-view.PNG)
+
+![Alerts Info Web App](assets/alerts-info-view.PNG)
+
+- Dashboard: Avanzamos en el desarrollo del Dashboard, incluyendo gráficos de temperatura y pulso para facilitar el monitoreo de estos parámetros en tiempo real. También se añadió la visualización de los caregivers y sus pacientes.
+
+![Dashboard Web App](assets/dashboard-view.PNG)
+
+<br> Enlace al video: </br>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EZJY3UCOxHJJh2amSyocaoYBQjKLvHMUlhnFMNzpdL4I3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XIAQ8s"> https://goo.su/orFzn6 </a>
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, avanzamos en la documentación de los Endpoints desarrollados, asegurando claridad y facilidad de integración mediante OpenAPI. A continuación, se presenta una tabla con las acciones soportadas para cada Endpoint, incluyendo los métodos HTTP, parámetros, ejemplos de llamadas y respuestas.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+*Web Application*
+
+Durante este Sprint se realizó el despliegue de la aplicación web en Netlify. Este proceso incluyó la creación y configuración de los recursos necesarios en la plataforma, asegurando la disponibilidad y accesibilidad de la aplicación en un entorno de producción.
+
+Para llevar a cabo el despliegue en Netlify, se realizaron los siguientes pasos:
+
+**1. Configuración de la Cuenta y Proyecto en Netlify:** Se accedió a una cuenta ya existente y se configuró el repositorio con el código fuente de la aplicación web.
+
+**2. Conexión del Repositorio:** Se configuró la rama `development` para el despliegue.
+
+**3. Configuración de las Opciones de Build y Deployment:** Se configurarion  las opciones de build en Netlify, especificando el comando de compilación
+
+**4. Ejecución del Despliegue Inicial:** Una vez configurados los detalles de compilación, Netlify ejecuta automáticamente el primer despliegue. En este paso, Netlify toma el código del repositorio, lo construye y publica la aplicación en un dominio temporal. Posteriormente se configuró el dominio.
+
+![Web App Deployment on Netlify](assets/netlify-miam.PNG)
+
+**5. Automatización de Despliegues para Nuevos Cambios:** Gracias a la integración del repositorio con Netlify, el código se desspliega automáticamente cada vez que se realizan cambios adicionales.
+
+![Web App Deployment on Netlify](assets/last-deploy-web.PNG)
+
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+En este Sprint, el equipo trabajó de manera colaborativa en la implementación de los distintos componentes del proyecto, abarcando los Web Services y las Aplicaciones. La contribución de cada miembro quedó reflejada en la actividad de commits y los analíticos de colaboración en GitHub, los cuales se presentan en esta sección con capturas de pantalla.
+
+Para cada producto, se detalla la participación de los miembros del equipo, quienes han contribuido en la implementación de funcionalidades clave.
+
+*Web Application*
+
+![Web App Network Graph](assets/network-web.PNG)
+
+*Mobile Application*
+
+![Web App Pulse](assets/pulse-mobile.PNG)
+
+![Mobile App Network Graph](assets/network-mobile.PNG)
+
+*Embedded Application*
+
+![Embedded App Pulse](assets/pulse-embedded.PNG)
+
+![Embedded App Network Graph](assets/network-embedded.PNG)
+
+*Edge API*
+
+![Edge API Network Graph](assets/network-edgeapi.PNG)
+
+*Cloud API*
+
+![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+
+![Cloud API Network Graph](assets/network-cloudapi.PNG)
+
 #### 6.3 Validation Interviews.
 
 #### 6.3.1. Diseño de Entrevistas.
+
 #### 6.3.2. Registro de Entrevistas.
+
 #### 6.3.3. Evaluaciones según heurísticas.
+
 #### 6.4. Video About-the-Product.
+
+En esta sección se incluye un video promocional que ofrece un primer vistazo a nuestro producto. El video está diseñado para comunicar de manera atractiva y concisa el valor que ofrece nuestro producto, mencionando el público objetivo y beneficios.
+
+![About The Product](assets/about-the-product.PNG)
+<br> Enlace al video: </br>
+<a href="https://goo.su/KlSALD2"> https://goo.su/KlSALD2 </a>
 
 # Conclusiones
 
@@ -4165,6 +4620,7 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 |----------------------------------------------------|--------------|----------------------------------|
 | https://goo.su/sorVJws   | 07/09/2024   | TB1         |
 | https://goo.su/8Zz305      | 26/09/2024   | TP        |
+|       | 02/11/2024   | TB2        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
