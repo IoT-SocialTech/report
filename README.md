@@ -5018,6 +5018,32 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 
 #### 6.3.1. Diseño de Entrevistas.
 
+*Para Cuidadores de Adultos Mayores (Caregivers)*
+
+<br>¿Cuáles son los mayores desafíos que enfrentas al monitorear los signos vitales de los adultos mayores a tu cargo?</br>
+<br>¿Con qué frecuencia monitoreas la temperatura y el pulso de tus pacientes? ¿Cuál es tu método actual para registrar estos datos?</br>
+<br>¿Qué tan importante sería para ti tener acceso a estos datos en tiempo real?</br>
+<br>¿Qué valor le darías a una alerta inmediata si los signos vitales de un paciente están fuera de los rangos normales?</br>
+<br>¿Cómo prefieres acceder a los datos de los pacientes (móvil, tablet, computadora)?</br>
+<br>¿Qué problemas o preocupaciones te gustaría que esta aplicación te ayudara a resolver?</br>
+<br>¿Te resultaría útil una opción para revisar los historiales de signos vitales de los pacientes en la aplicación? ¿Cómo la usarías en tu rutina?</br>
+<br>¿Qué características crees que le faltarían a una herramienta que solo monitorea pulso y temperatura para que sea completa?</br>
+<br>¿Hay otras métricas o información sobre el paciente que te gustaría poder rastrear o visualizar desde la misma plataforma?</br>
+<br>¿Cuáles son tus expectativas en cuanto a la facilidad de uso de la aplicación? ¿Prefieres una interfaz más simple o más detallada?</br>
+
+<br>*Para Dueños de Casas de Reposo (Nursing Home Owners)*
+
+<br>¿Cuáles son los principales problemas que experimentan los cuidadores de tu institución al monitorear los signos vitales de los residentes?</br>
+<br>¿Qué métodos utilizan actualmente para llevar el control de los signos vitales y cómo se almacenan estos datos?</br>
+<br>¿Consideras importante tener acceso centralizado y en tiempo real a la información de salud de tus residentes?</br>
+<br>¿Qué impacto crees que tendría la capacidad de recibir alertas sobre signos vitales en el bienestar de los pacientes y en la eficiencia del personal?</br>
+<br>¿Cómo se integraría una aplicación de este tipo en la rutina diaria de tu casa de reposo?</br>
+<br>¿Cuáles son tus preocupaciones en cuanto a la privacidad y seguridad de los datos de los residentes?</br>
+<br>¿Consideras importante que esta información esté disponible en una plataforma web además de la móvil? ¿Por qué?</br>
+<br>¿Qué tipo de reportes o análisis te gustaría recibir sobre el estado de salud de tus residentes?</br>
+<br>¿Qué funcionalidades crees que serían esenciales en una herramienta de monitoreo de salud para una casa de reposo?</br>
+<br>¿Qué tan dispuestos estarían a adoptar esta tecnología si mejora la calidad de atención y facilita el trabajo de los cuidadores?</br>
+
 #### 6.3.2. Registro de Entrevistas.
 
 #### 6.3.3. Evaluaciones según heurísticas.
