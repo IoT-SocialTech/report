@@ -334,9 +334,9 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
       - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
       - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
-    - [6.2.2. Sprint 1](#622-sprint-2)
-      - [6.2.2.1. Sprint Planning 1](#6221-sprint-planning-2)
-      - [6.2.2.2. Sprint Backlog 1](#6222-sprint-backlog-2)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
       - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
       - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
       - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
@@ -4271,112 +4271,502 @@ El objetivo de este sprint es establecer las características fundamentales nece
 
 <table align="center" border="1" width="90%" style="text-align:center">
     <tr>
-       <td colspan="1"><b>Sprint #</b></td>
-       <td colspan="7"><b>Sprint 2</b></td>
-     </tr>
+        <td colspan="1"><b>Sprint #</b></td>
+        <td colspan="7"><b>Sprint 2</b></td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>User Story</b></td>
+        <td colspan="6"><b>Work-Item / Task</b></td>
+    </tr>
+    <tr>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Description</b></td>
+        <td><b>Estimation(Hours)</b></td>
+        <td><b>Assigned To</b></td>
+        <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+    </tr>
+    <tr>
+        <td rowspan="3">US006</td>
+        <td rowspan="3">Monitoreo de Temperatura en Tiempo Real</td>
+        <td>US06-TSK01</td>
+        <td>Toma de temperatura en embedded application</td>
+        <td>Implementar la lógica en el embedded application para tomar la temperatura</td>
+        <td>2 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US06-TSK02</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil para mostrar la temperatura</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil y lógica para mostrar la temperatura en tiempo real</td>
+        <td>3 horas</td>
+        <td>Jean Achamizo</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td>US06-TSK03</td>
+        <td>Implementar la interfaz de usuario de la aplicación web para mostrar la temperatura</td>
+        <td>Implementar la interfaz de usuario de la aplicación web y lógica para mostrar la temperatura en tiempo real</td>
+        <td>3 horas</td>
+        <td>Rodrigo Raymundo</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US007</td>
+        <td rowspan="3">Monitoreo del Ritmo Cardíaco en Tiempo Real</td>
+        <td>US07-TSK01</td>
+        <td>Toma de pulso en embedded application</td>
+        <td>Implementar la lógica en el embedded applicaton para tomar el pulso</td>
+        <td>2 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>T12</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil para mostrar el ritmo cardíaco</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil y lógica para mostrar el ritmo cardíaco en tiempo real</td>
+        <td>2 horas</td>
+        <td></td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td>T13</td>
+        <td>Implementar la interfaz de usuario de la aplicación web para mostrar el ritmo cardíaco</td>
+        <td>Implementar la interfaz de usuario de la aplicación web y lógica para mostrar el ritmo cardíaco en tiempo real</td>
+        <td>2 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US011</td>
+        <td rowspan="3">Envío de Notificación de Emergencia</td>
+        <td>US011-TSK01</td>
+        <td>Implementar el botón de emergencia en el embedded application</td>
+        <td>Implementar la lógica para el uso del botón de emergencia en el embedded application</td>
+        <td>Luis Trujillo</td>
+        <td> </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US011-TSK02</td>
+        <td>Implementar notificaciones en aplicación móvil</td>
+        <td>Implementar la lógica para recibir notificaciones en la aplicación móvil</td>
+        <td>2 horas</td>
+        <td>Luis Sagastegui</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US011-TSK03</td>
+        <td>Recibir notificaciones en la aplicación web</td>
+        <td>Implementar la lógica para recibir notificaciones en la aplicación web</td>
+        <td>2 horas</td>
+        <td>Rodrigo Raymundo</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US012</td>
+        <td rowspan="2">Recepción de Notificaciones de Ayuda</td>
+        <td>US012-TSK01</td>
+        <td>Implementar interfaz de notificaciones de ayuda en aplicación móvil</td>
+        <td>Implementar interfaz de notificaciones de ayuda en aplicación móvil</td>
+        <td>3 horas</td>
+        <td>Jen Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US012-TSK02</td>
+        <td>Interfaz de notificaciones en la aplicación web</td>
+        <td>Implementar la interfaz de notificaciones en la aplicación web</td>
+        <td>3 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US015</td>
+        <td rowspan="3">Acceso a datos de Usuario</td>
+        <td>US15-TSK01</td>
+        <td>Implementar formulario para agregar pacientes</td>
+        <td>Implementar el formulario para poder agregar la información de los pacientes con los datos necesarios</td>
+        <td> 1.5 horas</td>
+        <td>Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US15-TSK02</td>
+        <td>Implementar CRUD para pacientes</td>
+        <td>Implementar las opciones para poder agregar, editar y eliminar la información de los pacientes luego de haberlos agregado</td>
+        <td>4 horas</td>
+        <td>Rodrigo Raymundo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US15-TSK03</td>
+        <td>Implementar el apartado de los pacientes</td>
+        <td>Implementar el apartado de los pacientes en donde se guarde toda la información de los pacientes</td>
+        <td> 2 horas</td>
+        <td> Jesus Sagastegui</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US019</td>
+        <td rowspan="2">Recepción de Notificaciones de Ayuda</td>
+        <td>US19-TSK01</td>
+        <td>Interfaz móvi para visualizar el estado de los sensores</td>
+        <td>Implementar la interfaz móvil y lógica para visualizar el estado de los sensores</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US19-TSK02</td>
+        <td>Interfaz web para visualizar el estado de los sensores</td>
+        <td>Implementar la interfaz web y lógica para visualizar el estado de los sensores</td>
+        <td> 3 horas </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US020</td>
+        <td rowspan="2">Asignación de Pulsera a un Usuario</td>
+        <td>US20-TSK01</td>
+        <td>Creación de paciente en aplicación web</td>
+        <td>Implementar la lógica en la aplicación web para crear un paciente</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US20-TSK02</td>
+        <td>Mostrar la configuración de la banda</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil y lógica para mostrar la configuración de la banda</td>
+        <td> 2 horas </td>
+        <td> Jean Achamizo </td>
+        <td>Done</td>
+    </tr>
      <tr>
-       <td colspan="2"><b>User Story</b></td>
-       <td colspan="6"><b>Work-Item / Task</b></td>
-     </tr>
+        <td rowspan="2">US022</td>
+        <td rowspan="2">Configuración de Pagos Automatizados</td>
+        <td>US22-TSK01</td>
+        <td>Implementar interfaz móvil  para la configuración de pagos</td>
+        <td>Implementar la interfaz móvil y lógica para la configuración de pagos</td>
+        <td> 3 horas </td>
+        <td> Luis Sagastegui</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US22-TSK02</td>
+        <td>Implementar interfaz web para la configuración de pagos</td>
+        <td>Implementar la interfaz web y lógica para la configuración de pagos</td>
+        <td> 4 horas </td>
+        <td> Luis Siancas</td>
+        <td>In Process</td>
+    </tr>
      <tr>
-       <td><b>Id</b></td>
-       <td><b>Title</b></td>
-       <td><b>Id</b></td>
-       <td><b>Title</b></td>
-       <td><b>Description</b></td>
-       <td><b>Estimation(Hours)</b></td>
-       <td><b>Assigned To</b></td>
-       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
-     </tr>
+        <td rowspan="2">TS07</td>
+        <td rowspan="2">Endpoint para Monitoreo de Temperatura</td>
+        <td>TS07-TSK01</td>
+        <td>Obtener temperatura según healthbandId</td>
+        <td>Implementar la lógica para obtener la temperatura actual de la pulsera usando el healthbandId</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS07-TSK02</td>
+        <td>Pruebas unitarias para validar la obtención de  temperatura </td>
+        <td>Crear pruebas unitarias para validar la correcta obtención de la temperatura y manejo de errores</td>
+        <td> 3 horas</td>
+        <td> Rodrigo Raymundo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS08</td>
+        <td rowspan="2">Endpoint para Monitoreo de Ritmo Cardíaco</td>
+        <td>TS08-TSK01</td>
+        <td>Obtener ritmo cardíaco según healthbandId</td>
+        <td>Desarrollar el servicio para recuperar el ritmo cardíaco actual de la pulsera usando el healthbandId</td>
+        <td> 2 horas </td>
+        <td> Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS08-TSK02</td>
+        <td>Implementar manejo de errores </td>
+        <td>Implementar manejo de errores para situaciones como healthbandId inválido o falta de datos</td>
+        <td> 0.5 horas </td>
+        <td> Luis Trujillo</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS09</td>
+        <td rowspan="2">Endpoint para Alertas de Salud</td>
+        <td>TS09-TSK01</td>
+        <td>Enviar alertas de salud cuando se detecten valores anormales</td>
+        <td>Implementar la funcionalidad para enviar alertas de salud cuando se detecten valores anormales</td>
+        <td> 2 horas </td>
+        <td> Jean Achamizo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>TS09-TSK02</td>
+        <td>Integración del sistema de alertas </td>
+        <td>Integrar el sistema de notificaciones para enviar alertas en tiempo real a los usuarios</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS16</td>
+        <td rowspan="2">Endpoints para acceso a datos del usuario</td>
+        <td>TS16-TSK01</td>
+        <td>Creación de los Endpoints CRUD para roles</td>
+        <td>Creación de los Endpoints CRUD para la creacion, modificación y visualización de</td>
+        <td> 2 horas </td>
+        <td> Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS09-TSK02</td>
+        <td>Creación de los Endpoints CRUD para pacientes</td>
+        <td>Creación de los Endpoints CRUD para la creacion, modificación y visualización de pacientes</td>
+        <td> 2.5 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS19</td>
+        <td rowspan="1">Endpoint para Promedio de Pulso Cardiaco</td>
+        <td>TS19-TSK01</td>
+        <td>Implementar la lógica para calcular el promedio de las últimas mediciones de pulso cardiaco</td>
+        <td>Implementar la lógica para calcular el promedio de las últimas mediciones de pulso cardiaco</td>
+        <td> 1 hora </td>
+        <td> Rodrigo Raymundo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS20</td>
+        <td rowspan="1">Endpoint para Promedio de Temperatura</td>
+        <td>TS20-TSK01</td>
+        <td>Calcular el promedio de las últimas mediciones de temperatura</td>
+        <td>Implementar la lógica para calcular el promedio de las últimas mediciones de temperatura</td>
+        <td> 1 hora </td>
+        <td> Rodrigo Raymundo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS21</td>
+        <td rowspan="1">Lógica para leer y almacenar mensajes de la cola</td>
+        <td>TS21-TSK01</td>
+        <td>Lectura de la cola y almacenamiento en la base de datos</td>
+        <td>Implementar logica de lectura de la cola y almacenamiento en la base de datos</td>
+        <td> 3.5 horas </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+      <tr>
+        <td rowspan="4">TS22</td>
+        <td rowspan="4">Consultas de Cloud Api hacia Edge Api</td>
+        <td>TS22-TSK01</td>
+        <td>Creación de consultas para el endpoint del promedio del pulso cardiaco en Cloud</td>
+        <td>Creación de consultas para el endpoint del promedio del pulso cardiaco en Cloud</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS22-TSK02</td>
+        <td>Creación de consultas para el endpoint del promedio del temperatura en Cloud</td>
+        <td>ICreación de consultas para el endpoint del promedio del temperatura en Cloud</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS22-TSK03</td>
+        <td>Creación de consultas para el endpoint del pulso cardiaco actual en Cloud</td>
+        <td>Creación de consultas para el endpoint del pulso cardiaco actual en Cloud</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS22-TSK04</td>
+        <td>Creación de consultas para el endpoint de la temperatura actual en Cloud</td>
+        <td>Creación de consultas para el endpoint de la temperatura actual en Cloud</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
      <tr>
-       <td rowspan="7">US01</td>
-       <td rowspan="7">Visualizar la descripción de la aplicación</td>
-       <td>T01</td>
-       <td>Estructura de las secciones</td>
-       <td>Programar la estructua HTML de las secciones </td>
-       <td>0.1</td>
-       <td></td>
-       <td>Done</td>
+        <td rowspan="1">TS23</td>
+        <td rowspan="1">Despliegue de la aplicación web</td>
+        <td>TS23-TSK01</td>
+        <td>Despliegue de la aplicación web </td>
+        <td>Configuración y despliegue de la aplicación web en Netlify</td>
+        <td> 0.5 horas </td>
+        <td> Lucía Aliaga y Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+     <tr>
+        <td rowspan="1">TS24</td>
+        <td rowspan="1">Despliegue de la aplicación móvil </td>
+        <td>TS24-TSK01</td>
+        <td>Despliegue de la aplicación móvil </td>
+        <td>Configuración y despliegue de la aplicación móvil en Firebase App Distribution</td>
+        <td> 1 hora </td>
+        <td> Jean Achamizo y Luis Sagastegui </td>
+        <td>Done</td>
     </tr>
     <tr>
-       <td>T02</td>
-       <td>Agregar CSS general</td>
-       <td>Asignar styles generales para la página</td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td rowspan="2">TS25</td>
+        <td rowspan="2">Despliegue del edge API</td>
+        <td>TS25-TSK01</td>
+        <td>Despliegue del Edge API</td>
+        <td>Configuración y despliegue del Edge API en Render</td>
+        <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
     </tr>
     <tr>
-       <td>T03</td>
-       <td>Agregar "" section</td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td>TS25-TSK02</td>
+        <td>Despliegue de la base de datos del Edge API</td>
+        <td>Despliegue de la base de datos del Edge API</td>
+        <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td> Done </td>
     </tr>
     <tr>
-       <td>T04</td>
-       <td>Agregar "" section</td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td rowspan="2">TS26</td>
+        <td rowspan="2">Despliegue del cloud  API</td>
+        <td>TS26-TSK01</td>
+        <td>Despliegue del Edge API</td>
+        <td>Configuración y despliegue del cloud  API en Render</td>
+         <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
     </tr>
     <tr>
-       <td>T05</td>
-       <td>Agregar "" section</td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td>TS26-TSK02</td>
+        <td>Despliegue de la base de datos del cloud  API</td>
+        <td>Despliegue de la base de datos del cloud  API</td>
+         <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
     </tr>
     <tr>
-       <td>T06</td>
-       <td>Agregar "" section</td>
-       <td></td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td rowspan="1">TS27</td>
+        <td rowspan="1">Despliegue del embedded application</td>
+        <td>TS27-TSK01</td>
+        <td>Despliegue del embedded application</td>
+        <td>Despliegue del embedded application</td>
+        <td> 0.5 horas </td>
+        <td> Luis Trujillo </td>
+        <td>Done</td>
     </tr>
     <tr>
-    </tr>
-   <tr>
-       <td rowspan="2">US03</td>
-       <td rowspan="2">Landing Page intuitiva</td>
-       <td>T07</td>
-       <td>Estructura Navbar</td>
-       <td>Crear HTML del navbar con direccionamiento a secciones</td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td rowspan="2">TS28</td>
+        <td rowspan="2">Endpoints para obtener los planes y suscripciones</td>
+        <td>TS28-TSK01</td>
+        <td>Creación y obtención de planes</td>
+        <td>Implementacion de logica para la creación y la obtenciones de plane</td>
+        <td> 2 horas</td>
+        <td> Rodrigo Raymundo </td>
+        <td>In Process</td>
     </tr>
     <tr>
-       <td>T08</td>
-       <td>Estilos Navbar</td>
-       <td>Asignar stilos al navbar</td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td>TS28-TSK02</td>
+        <td>Creacion y obtencion de planes en los que esta suscrito el cliente</td>
+        <td>Implementacion de logica para la creacion y obtencion de los planes en los que esta suscrito el cliente</td>
+        <td> 2 horas</td>
+        <td> Rodrigo Raymundo </td>
+        <td>In Process</td>
     </tr>
     <tr>
-       <td rowspan="2">US04</td>
-       <td rowspan="2">Landing Page responsiva</td>
-       <td>T09</td>
-       <td>Main responsive</td>
-       <td>Agregar CSS media queries a las diferentes secciones del main</td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td rowspan="3">TS29</td>
+        <td rowspan="3">Generación de notificaciones</td>
+        <td>TS29-TSK01</td>
+        <td>Almacenar notificaciones generadas</td>
+        <td>Implementar logica par almacenar las notificaciones generadas</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
     </tr>
     <tr>
-       <td>T10</td>
-       <td>Navbar responsive</td>
-       <td>Agregar CSS media queries al navbar</td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
+        <td>TS29-TSK02</td>
+        <td>Enviar notificaciones a usuario</td>
+        <td>Crear funcionalidad para que las notificaciones sean enviadas hacia el usuario</td>
+        <td> 1 hora </td>
+        <td> Luis Siancas</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>TS29-TSK02</td>
+        <td>Modificacion del status de la notificacion</td>
+        <td>Crear ndpoints para la modificacion del status de la notificacion</td>
+         <td> 1 hora </td>
+        <td> Luis Siancas</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS30</td>
+        <td rowspan="2">Configuración del dispositivo</td>
+        <td>TS30-TSK01</td>
+        <td>Configuración de dispositivos del embedded application</td>
+        <td>Implementar lógica para la configuración de los dispositivos del embedded application</td>
+        <td> 2 horas </td>
+        <td> Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS30-TSK02</td>
+        <td>Implementar apartado de auditoria</td>
+        <td>Implementar apartado de auditoria para monitoreo constante</td>
+        <td> 2 horas </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="3">TS31</td>
+        <td rowspan="3">Generar alertas desde el device</td>
+        <td>TS31-TSK01</td>
+        <td>Proximidad con objetos peligrosos en embedded application</td>
+        <td>Implementar la logica en el embedded application para la proximidad con objetos peligrosos</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS31-TSK02</td>
+        <td>Implementar alerta frente algun accidente o parametro riesgoso</td>
+        <td>Implementar logica visual de la alerta frente algun accidente o parametro riesgoso</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS31-TSK02</td>
+        <td>Generar alerta en cloud con boton de panico</td>
+        <td>Implementar funcionalidad de boton de panico que genere una alerta en cloud</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS32</td>
+        <td rowspan="1">Envío de información del device al edge API</td>
+        <td>TS32-TSK01</td>
+        <td>Envio de informacion del embedded application al edge API</td>
+        <td>Envio de informacion de los datos recogidos por el embedded application  al edge AP</td>
+        <td> 1 hora </td>
+        <td> Rodrigo Raymundo</td>
+        <td>Done</td>
     </tr>
 </table>
+
+
 
 #### 6.2.2.3. Development Evidence for Sprint Review
 
@@ -4620,7 +5010,7 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 |----------------------------------------------------|--------------|----------------------------------|
 | https://goo.su/sorVJws   | 07/09/2024   | TB1         |
 | https://goo.su/8Zz305      | 26/09/2024   | TP        |
-|       | 02/11/2024   | TB2        |
+| https://goo.su/tYkZtN      | 02/11/2024   | TB2        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
