@@ -44,6 +44,7 @@ Trujillo Lopez, Luis Alberto <br>
 | 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
 | 2.0    | 31/10/2024  | Aliaga Trevejo Lucía Guadalupe                                                                   | Se agregó el capítulo correspondiente al Sprint 2            |
 
+
 # Project Report Collaboration Insights
 
 URL del repositorio: 
@@ -68,6 +69,40 @@ Para la segunda entrega, el equipo logró un total de 78 commits en todas las ra
 Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
 
 ![Network TP1](./assets/network-tp1.PNG)
+
+**TB2**
+
+Para la tercera entrega se adicionan los commits en los repositorios de los productos: 
+
+*Web Application*
+
+![Web App Network Graph](assets/network-web.PNG)
+
+*Mobile Application*
+
+![Web App Pulse](assets/pulse-mobile.PNG)
+
+![Mobile App Network Graph](assets/network-mobile.PNG)
+
+*Embedded Application*
+
+![Embedded App Pulse](assets/pulse-embedded.PNG)
+
+![Embedded App Network Graph](assets/network-embedded.PNG)
+
+*Edge API*
+
+![Edge API Network Graph](assets/network-edgeapi.PNG)
+
+*Cloud API*
+
+![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+
+![Cloud API Network Graph](assets/network-cloudapi.PNG)
+
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
 
 ---
 
@@ -3881,7 +3916,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Prepared By</b>
         </td>
         <td>
-            Integrantes de    
+            Aliaga Trevejo, Lucía Guadalupe 
         </td>
     </tr>
     </tr>
@@ -3898,27 +3933,6 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             - Sagastegui Rodriguez, Luis Jesus <br/> 
         </td>
     </tr>
-      </tr>
-       <tr align="left">
-        <td>
-            <b>Sprint n - 1</b>
-            <b>Review Summary</b>
-        </td>
-        <td>
-            Se definieron las bases del proyecto con historias de usuario centradas en el desarrollo del Landing Page y la lógica de funcionamiento de la plataforma MIAM.
-            </br></br>
-            La Landing Page se implementó exitosamente.  
-        </td>
-    </tr>
-    <tr align="left">
-        <td>
-            <b>Sprint n - 1</b>
-            <b>Retrospective Summary</b>
-        </td>
-        <td>
-        Se logró mantener una comunicación entre los integrantes del equipo gracias al uso de plataformas como Discord, lo que conllevó a entregar el trabajo correctamente. Sin embargo, se debe mejorar el aspecto de la organización, para terminar las próximas tareas sin estar al límite del deathline.
-        </td>
-    </tr>
      <tr align="left">
         <td colspan="2">
             <b>Sprint Goal & User Stories</b>
@@ -3929,7 +3943,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Sprint 1 Velocity</b>
         </td>
         <td>
-            -
+            12
         </td>
     </tr>
        <tr align="left">
@@ -3937,7 +3951,7 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Sum of Story Points</b>
         </td>
         <td>
-            -
+            12
         </td>
     </tr>
 </table> 
@@ -3966,91 +3980,93 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
        <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
      </tr>
      <tr>
-       <td rowspan="7">US01</td>
-       <td rowspan="7">Visualizar la descripción de la aplicación</td>
-       <td>T01</td>
-       <td>Estructura de las secciones</td>
-       <td>Programar la estructua HTML de las secciones </td>
-       <td>0.1</td>
-       <td></td>
+       <td rowspan="2">US01</td>
+       <td rowspan="2">Beneficios del Producto</td>
+       <td>US001-TSK01</td>
+       <td>Implementar la sección de beneficios</td>
+       <td>Programar la estructura HTML de la sección de beneficios del producto </td>
+       <td>1 hora</td>
+       <td>Jean Achamizo</td>
        <td>Done</td>
     </tr>
     <tr>
-       <td>T02</td>
-       <td>Agregar CSS general</td>
-       <td>Asignar styles generales para la página</td>
-       <td></td>
-       <td></td>
+       <td>US001-TSK02</td>
+       <td>Agregar estilos de la sección de beneficios Why choose us</td>
+       <td>Programar estilos de la sección beneficios</td>
+       <td>0.5 horas</td>
+       <td>Luis Trujillo</td>
        <td>Done</td>
-    </tr>
-    <tr>
-       <td>T03</td>
-       <td>Agregar "" section</td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
-    </tr>
-    <tr>
-       <td>T04</td>
-       <td>Agregar "" section</td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
-    </tr>
-    <tr>
-       <td>T05</td>
-       <td>Agregar "" section</td>
-       <td> </td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
-    </tr>
-    <tr>
-       <td>T06</td>
-       <td>Agregar "" section</td>
-       <td></td>
-       <td></td>
-       <td></td>
-       <td>Done</td>
-    </tr>
-    <tr>
     </tr>
    <tr>
-       <td rowspan="2">US03</td>
-       <td rowspan="2">Landing Page intuitiva</td>
-       <td>T07</td>
-       <td>Estructura Navbar</td>
-       <td>Crear HTML del navbar con direccionamiento a secciones</td>
-       <td></td>
-       <td></td>
+       <td rowspan="2">US002</td>
+       <td rowspan="2">Modelo de Negocio</td>
+       <td>US002-TSK01</td>
+       <td>Implementar la sección Our Service</td>
+       <td>Programar la estructura HTML de la sección Our Service</td>
+       <td>1 hora</td>
+      <td>Luis Siancas</td>       
+      <td>Done</td>
+    </tr>
+    <tr>
+       <td>US002-TSK02</td>
+       <td>Agregar estilos de la sección Our Service</td>
+       <td>Programar estilos de la sección Our Service</td>
+       <td>0.5 horas</td>
+        <td>Luis Siancas</td>       
+        <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US003</td>
+       <td rowspan="2">Reseñas de Clientes</td>
+       <td>US003-TSK01</td>
+       <td>Implementar la sección de reseñas</td>
+       <td>Programar la estructura HTML de la sección de reseñas</td>
+       <td>1 hora</td>
+       <td>Jesus Sagastegui</td>
        <td>Done</td>
     </tr>
     <tr>
-       <td>T08</td>
-       <td>Estilos Navbar</td>
-       <td>Asignar stilos al navbar</td>
-       <td></td>
-       <td></td>
+       <td>US003-TSK02</td>
+       <td>Agregar estilos de la sección de reseñas</td>
+       <td>Programar estilos de la sección de reseñas</td>
+       <td>0.5 horas</td>
+       <td>Lucía Aliaga</td>
        <td>Done</td>
     </tr>
     <tr>
-       <td rowspan="2">US04</td>
-       <td rowspan="2">Landing Page responsiva</td>
-       <td>T09</td>
-       <td>Main responsive</td>
-       <td>Agregar CSS media queries a las diferentes secciones del main</td>
-       <td></td>
-       <td></td>
+       <td rowspan="2">US004</td>
+       <td rowspan="2">Contactar a Miembros de la Compañía</td>
+       <td>US004-TSK01</td>
+      <td>Implementar la sección Contact</td>
+       <td>Programar la estructura HTML de la sección Contact</td>
+       <td>1 hora</td>
+       <td>Rodrigo Raymundo</td>
        <td>Done</td>
     </tr>
     <tr>
-       <td>T10</td>
-       <td>Navbar responsive</td>
-       <td>Agregar CSS media queries al navbar</td>
-       <td></td>
-       <td></td>
+       <td>US004-TSK-02</td>
+        <td>Agregar estilos de la sección Contact</td>
+       <td>Programar estilos de la sección Contact</td>
+       <td>1 hora</td>
+       <td>Rodrigo Raymundo</td>
+       <td>Done</td>
+    </tr>
+     <tr>
+       <td rowspan="2">US005</td>
+       <td rowspan="2">Información de Miembros de la Compañía</td>
+       <td>US005-TSK01</td>
+       <td>Implementar la sección Meet the team</td>
+       <td>Programar la estructura HTML de la sección Meet the team</td>
+       <td>1.5 horas</td>
+       <td>Luis Trujillo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>US005-TSK02</td>
+       <td>Agregar estilos de la sección Meet the team</td>
+       <td>Programar estilos de la sección Meet the team</td>
+       <td>1 hora</td>
+       <td>Lucía Aliaga</td>
        <td>Done</td>
     </tr>
 </table>
@@ -4064,61 +4080,74 @@ En esta sección se presentan los commits realizados en el repositorio de GitHub
         <th>Repository</th>
         <th>Branch</th>
         <th>Commit ID</th>
-        <th>Author</th>
-        <th>Message</th>
-        <th>Time ago</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed on (Date)</th>
     </tr>
     <tr>
-        <td rowspan=19>Landing Page</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td rowspan=19>IoT-SocialTech/miam-landing-page</td>
+        <td>/development</td>
+        <td>9cc795b</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>25/09/2024</td>
+    </tr>
+     <tr>
+        <td>/development</td>
+        <td>41a2388</td>
+        <td>Feature: NavBar and product information</td>
+        <td>Feature: NavBar and product information</td>
+        <td>27/09/2024</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/US01-Product-Information</td>
+        <td>6aecf7a</td>
+        <td>Feature: Product benefits and footer</td>
+        <td>Feature: Product benefits and footer</td>
+        <td>27/09/2024</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/US02-Business-Model</td>
+        <td>90281dc</td>
+        <td>Feature: Information about our Business Model</td>
+        <td>Feature: Information about our Business Model</td>
+        <td>27/09/2024</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/US03-CustomerReviews</td>
+        <td>c2dc9a2</td>
+        <td>Feature: User Reviews Section</td>
+        <td>Feature: User Reviews Section</td>
+        <td>27/09/2024</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/US04-Contact</td>
+        <td>d407ea8</td>
+        <td>Feature: Contact Company Members</td>
+        <td>Feature: Contact Company Members</td>
+        <td>27/09/2024</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/US05-Company-Member-Information</td>
+        <td>a8e6e9e</td>
+        <td>Feature: Company Member Information Section</td>
+        <td>Feature: Company Member Information Section</td>
+        <td>27/09/2024</td>
     </tr>
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>/development</td>
+        <td>b2015d6</td>
+        <td>Fix: responsive</td>
+        <td>Fix: responsive</td>
+        <td>27/09/2024</td>
     </tr>
-    
+     <tr>
+        <td>/development</td>
+        <td>b160848</td>
+        <td>fix: responsiveness issues</td>
+        <td>fix: responsiveness issues</td>
+        <td>05/10/2024</td>
+    </tr>
 </table>
 
 #### 6.2.1.4. Testing Suite Evidence for Sprint Review
@@ -4126,10 +4155,14 @@ En esta sección se presentan los commits realizados en el repositorio de GitHub
 #### 6.2.1.5. Execution Evidence for Sprint Review
 
 Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
+<a href="https://iot-socialtech.github.io/miam-landing-page/">https://iot-socialtech.github.io/miam-landing-page/</a>
+
+![MIAM Landing Page](assets/miam-landingpage.PNG)
 
 #### 6.2.1.6. Services Documentation Evidence for Sprint Review
 
-**Link de la landing page desployada:**
+**Link de la landing page:**
+<a href="https://iot-socialtech.github.io/miam-landing-page/">https://iot-socialtech.github.io/miam-landing-page/</a>
 
 #### 6.2.1.7. Software Deployment Evidence for Sprint Review
 
@@ -4147,6 +4180,8 @@ Igualmente, para el correcto control de versiones y el adecuado desarrollo de la
 La StartUp ha realizado el presente sprint usando Git y Github como herramientas principales para el control de versiones y GitFlow como metodología de trabajo.
 
 En primer lugar, se creó una organización en Github con el nombre de la StartUp. Luego, se creó un repositorio para la Landing page. En dicho repositorio, el equipo ha creado diferentes ramas (branchs) para diferenciar el tipo de trabajo que se realiza. Por ejemplo, la rama `main` se empleó únicamente para el despliegue final de la aplicación; `develop`, para hacer _merge_ con demás ramas incluída la `main`; `feature`, para implementar alguna funcionalidad. De esta manera se protege el código funcional y se diferencia de features en desarrollo por los miembros. Después de la creación de cada rama, uno o más usuario pueden acceder a esta y realizar cambios y guardarlos como commits.
+
+![Landing Page Network Graph](assets/network-cloudapi.PNG)
 
 ### 6.2.2. Sprint 2
 
@@ -4951,6 +4986,8 @@ Para llevar a cabo el despliegue en Netlify, se realizaron los siguientes pasos:
 ![Web App Deployment on Netlify](assets/netlify-miam.PNG)
 ![Web App Deployment on Netlify](assets/last-deploy-web.PNG)
 
+Enlace: <a href="https://miam-site.netlify.app/">https://miam-site.netlify.app/ </a>
+
 *Mobile Application*
 
 Durante este Sprint, se realizó el despliegue de la aplicación móvil utilizando Firebase App Distribution. Este proceso incluyó la configuración y publicación de la aplicación, asegurando que los usuarios de prueba y los equipos de desarrollo pudieran acceder a la versión más reciente en un entorno de pruebas controlado.
@@ -4964,7 +5001,8 @@ Para llevar a cabo el despliegue en Firebase App Distribution, se siguieron los 
 **2. Integración del Repositorio de Código:** Se configuró la rama de desarrollo en el repositorio para generar automáticamente builds de la aplicación y enviarlas a Firebase.
 
 **3. Configuración de las Opciones de Build:** En el archivo de configuración, se especificaron los detalles de compilación para que la aplicación se genere correctamente antes de ser distribuida. Este proceso incluyó la configuración de los scripts necesarios para la integración continua.
-enlace: https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6
+
+Enlace: <a href="https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6">https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6</a>
 
 
 **4. Ejecución del Despliegue a Firebase App Distribution:** Una vez que se completó la configuración, el proceso de CI/CD envió automáticamente el build a Firebase App Distribution. Desde allí, los usuarios de prueba y el equipo de desarrollo recibieron invitaciones por correo electrónico para descargar e instalar la aplicación en sus dispositivos.
