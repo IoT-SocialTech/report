@@ -4884,9 +4884,211 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     
 </table>
 
+<table align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
+        <td>/TS07-TSK01</td>
+        <td>8ef9c2a</td>
+        <td>feat: added get temperature functionality</td>
+        <td>feat: added functionality to return current patient temperature and included shared files</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>923d98f</td>
+        <td>feat: added JPA configuration and established connection with database</td>
+        <td>feat: added JPA configuration and established connection with database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>49996fa</td>
+        <td>Merge pull request #2 from IoT-SocialTech/jpa-conf</td>
+        <td>Added JPA configuration</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>695887f</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>d5a5e9e</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>2cf7dc7</td>
+        <td>Initial commit: added base files</td>
+        <td>Initial commit: added base files</td>
+        <td>30/09/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>4bd451d</td>
+        <td>feat: added get heart rate functionality</td>
+        <td>feat: added functionality to return current patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>1306aa3</td>
+        <td>feat: added get temperature functionality</td>
+        <td>feat: added functionality to return current patient temperature and included shared files</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>0f970fb</td>
+        <td>Merge pull request #4 from IoT-SocialTech/TS08-TSK01</td>
+        <td>feat: added get heart rate functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>5ab3960</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>684cdfe</td>
+        <td>Merge pull request #7 from IoT-SocialTech/TS19-TSK01</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>4dd6029</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>3797c40</td>
+        <td>fix: error</td>
+        <td>fix: error</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>59385b5</td>
+        <td>Merge remote-tracking branch 'origin/develop' into develop</td>
+        <td>Conflicts resolved in MetricsController.java</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>d7aeee0</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>b43eed1</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>5d79f14</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>5291ed4</td>
+        <td>Merge pull request #9 from IoT-SocialTech/TS20-TSK01</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>03dda9c</td>
+        <td>Merge pull request #10 from IoT-SocialTech/TS21-TSK01</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>03dda9c</td>
+        <td>Merge pull request #10 from IoT-SocialTech/TS21-TSK01</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>5d79f14</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>5291ed4</td>
+        <td>Merge pull request #9 from IoT-SocialTech/TS20-TSK01</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>3797c40</td>
+        <td>fix: error</td>
+        <td>fix: error</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>59385b5</td>
+        <td>Merge remote-tracking branch 'origin/develop' into develop</td>
+        <td>Conflicts resolved in MetricsController.java</td>
+        <td>20/10/2024</td>
+    </tr>
+</table>
+
 Implementación Movile IoT-SocialTech mobile-application-miam
 
 <table align="left" border="1" width="100%"> <tr> <th>Repository</th> <th>Branch</th> <th>Commit ID</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited On (Date)</th> </tr> <tr> <td rowspan=18>IoT-SocialTech/mobile-application-miam</td> <td>/ts24-mobile-app-implementation</td> <td>2af1951</td> <td>feat: seach dependence for change name</td> <td>Búsqueda de dependencias para cambiar el nombre</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>34a4200</td> <td>feat: change name for integrate firebase</td> <td>Cambio de nombre para integración con Firebase</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>469c2eb</td> <td>feat: add dependence for change name aplication:change_app_package_name</td> <td>Agregar dependencia para cambio de nombre de la aplicación: change_app_package_name</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3831621</td> <td>fix: routing in BottomNavigationBarItem</td> <td>Corregir la ruta en BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3013760</td> <td>feat: add BottomNavigationBarItem</td> <td>Añadir BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>97ceabe</td> <td>Merge pull request #2 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>25/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>5d678bd</td> <td>feat-tsk01: implementation of interfast notifications</td> <td>Implementación de notificaciones de interfaz</td> <td>25/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>6e213c8</td> <td>fix: fix login screen, configure main screen</td> <td>Corrección de la pantalla de inicio de sesión y configuración de la pantalla principal</td> <td>01/11/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>8b107f4</td> <td>fix: screen configuration, The cards are modified to display it differently</td> <td>Configuración de pantalla, las tarjetas se modifican para mostrarse de manera diferente</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>0eea0f7</td> <td>feat: screen configuration, add connection</td> <td>Configuración de pantalla, se añade conexión</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>10a8874</td> <td>feat: add configuration screen</td> <td>Añadir pantalla de configuración</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> </table>
+
 
 #### 6.2.2.4. Testing Suite Evidence for Sprint Review
 En esta sección se presenta la evidencia de la suite de pruebas utilizada para la revisión del sprint. Para asegurar la funcionalidad y el cumplimiento de los criterios de aceptación de cada historia de usuario (US) en esta entrega, se implementaron pruebas automáticas con el uso de Gherkin. Cada historia de usuario se describe en lenguaje Gherkin
@@ -4971,6 +5173,14 @@ enlace: https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6
 
 ![alt text](image-1.png)
 
+
+*Miam Edge API*
+
+![Miam Edge API on Render](assets/edge.PNG)
+
+*Miam Cloud API*
+
+![Miam cloud API on Render](assets/cloud.PNG)
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
