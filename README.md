@@ -21,6 +21,7 @@
 Achamizo Huamani, Jean Carlos <br>
 Aliaga Trevejo, Lucía Guadalupe <br>
 Raymundo Guevara, Rodrigo Alejandro <br>
+Sagastegui Rodriguez, Luis Jesús <br>
 Siancas Reategui, Luis Alberto <br>
 Trujillo Lopez, Luis Alberto <br>
 
@@ -38,7 +39,11 @@ Trujillo Lopez, Luis Alberto <br>
 |   1.1   |   25/09/2024   |  Aliaga Trevejo Lucía Guadalupe |   Se añadieron y corrigieron los elementos correspondientes en el capítulo de Needfinding |
 |   1.2     |   25/09/2024   |  Achamizo Huamani Jean Carlos, Siancas Reategui Luis Alberto |   Se añadieron y corrigieron los elementos correspondientes en el capítulo strategic level software design, como la descripcion y las imagenes de cada diagrama. |
 |   1.3     |   26/09/2024   |  Achamizo Huamani Jean Carlos|   Se corrigieron los elementos correspondientes del Lean UX Process, los apartados de Lean UX Assumptions y Lean UX Hypothesis Statements |
----
+| 1.3     | 27/09/2024  | Raymundo Guevara Rodrigo Alejandro                                                                               | Se añadieron los mockups y wireframes en la sección de diseño de interfaz.                                                     |
+| 1.4     | 27/09/2024  | Sagastegui Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
+| 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
+| 2.0    | 31/10/2024  | Aliaga Trevejo Lucía Guadalupe                                                                   | Se agregó el capítulo correspondiente al Sprint 2            |
+
 
 # Project Report Collaboration Insights
 
@@ -55,8 +60,51 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
 
 ![Network TB1](./assets/network-tb1.PNG)
 
----
+**TP1**
 
+Para la segunda entrega, el equipo logró un total de 78 commits en todas las ramas.
+
+![Insights TP1](./assets/insights-tp1.PNG)
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
+![Network TP1](./assets/network-tp1.PNG)
+
+**TB2**
+
+Para la tercera entrega se adicionan los commits en los repositorios de los productos: 
+
+*Web Application*
+
+![Web App Network Graph](assets/network-web.PNG)
+
+*Mobile Application*
+
+![Web App Pulse](assets/pulse-mobile.PNG)
+
+![Mobile App Network Graph](assets/network-mobile.PNG)
+
+*Embedded Application*
+
+![Embedded App Pulse](assets/pulse-embedded.PNG)
+
+![Embedded App Network Graph](assets/network-embedded.PNG)
+
+*Edge API*
+
+![Edge API Network Graph](assets/network-edgeapi.PNG)
+
+*Cloud API*
+
+![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+
+![Cloud API Network Graph](assets/network-cloudapi.PNG)
+
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
+
+---
 
 # Contenido
 
@@ -279,12 +327,17 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [5.1.1.4. Colors](#5114-colors)
       - [5.1.1.5. Spacing](#5115-spacing)
     - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+    - [5.1.2.1. Web Style Guidelines](#5121-web-style-guidelines)
+    - [5.1.2.2. Mobile Style Guidelines](#5122-mobile-style-guidelines)
   - [5.2. Information Architecture](#52-information-architecture)
     - [5.2.1. Organization Systems.](#521-organization-systems)
     - [5.2.2. Labeling Systems.](#522-labeling-systems)
-    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
-    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.3. SEO Tags and Meta Tags.](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Navigation Systems.](#524-navigation-systems)
     - [5.2.5. Navigation Systems.](#525-navigation-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags-1)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems-1)
   - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
     - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
     - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
@@ -301,6 +354,36 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
     - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
       - [5.4.4.1. Web Application User Flow Diagrams](#5441-web-application-user-flow-diagrams)
       - [5.4.4.2. Mobile Application User Flow Diagrams](#5442-mobile-application-user-flow-diagrams)
+  - [5.5 Applications Prototyping](#55-applications-prototyping)
+- [Capítulo VI: Product Implementation, Validation \& Deployment](#capítulo-vi-product-implementation-validation--deployment)
+  - [6.1. Software Configuration Management](#61-software-configuration-management)
+    - [6.1.1. Software Development Environment Configuration](#611-software-development-environment-configuration)
+    - [6.1.2. Source Code Management](#612-source-code-management)
+    - [6.1.3. Source Code Style Guide \& Conventions](#613-source-code-style-guide--conventions)
+    - [6.1.4. Software Deployment Configuration](#614-software-deployment-configuration)
+    - [6.2.1. Sprint 1](#621-sprint-1)
+      - [6.2.1.1. Sprint Planning 1](#6211-sprint-planning-1)
+      - [6.2.1.2. Sprint Backlog 1](#6212-sprint-backlog-1)
+      - [6.2.1.3. Development Evidence for Sprint Review](#6213-development-evidence-for-sprint-review)
+      - [6.2.1.4. Testing Suite Evidence for Sprint Review](#6214-testing-suite-evidence-for-sprint-review)
+      - [6.2.1.5. Execution Evidence for Sprint Review](#6215-execution-evidence-for-sprint-review)
+      - [6.2.1.6. Services Documentation Evidence for Sprint Review](#6216-services-documentation-evidence-for-sprint-review)
+      - [6.2.1.7. Software Deployment Evidence for Sprint Review](#6217-software-deployment-evidence-for-sprint-review)
+      - [6.2.1.8. Team Collaboration Insights during Sprint](#6218-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 2](#622-sprint-2)
+      - [6.2.2.1. Sprint Planning 2](#6221-sprint-planning-2)
+      - [6.2.2.2. Sprint Backlog 2](#6222-sprint-backlog-2)
+      - [6.2.2.3. Development Evidence for Sprint Review](#6223-development-evidence-for-sprint-review)
+      - [6.2.2.4. Testing Suite Evidence for Sprint Review](#6224-testing-suite-evidence-for-sprint-review)
+      - [6.2.2.5. Execution Evidence for Sprint Review](#6225-execution-evidence-for-sprint-review)
+      - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
+      - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
+      - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+      - [6.3 Validation Interviews.](#63-validation-interviews)
+      - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
+      - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
+      - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
+      - [6.4. Video About-the-Product.](#64-video-about-the-product)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -308,16 +391,15 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
   - [Diagrama C4 MIAM](#diagrama-c4-miam)
 
 
-  
+
+
 ---
 
 # Student Outcome
-
-| Criterio específico                                              | Acciones realizadas                                                                 | Conclusiones |
-|------------------------------------------------------------------|-------------------------------------------------------------------------------------|--------------|
-| Trabaja en equipo para proporcionar liderazgo en forma conjunta | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Participó activamente en la planificación y ejecución de las actividades del equipo. Coordinó las reuniones para discutir el progreso del proyecto y tomó la iniciativa en la resolución de conflictos. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Facilitó las discusiones del equipo, asegurando que todos los miembros pudieran expresar sus opiniones. Tomó la responsabilidad de consolidar la información y presentar el avance del proyecto a los stakeholders. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Contribuyó al liderazgo del equipo al proporcionar soporte técnico y orientación durante la implementación de las tareas. Coordinó con otros miembros del equipo para asegurar la alineación de los objetivos del proyecto. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Asumió un rol activo en la definición de metas y en la planificación de tareas, manteniendo a todos los miembros del equipo enfocados en los objetivos comunes. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Lideró la revisión de las tareas y ayudó a motivar al equipo a cumplir con los plazos establecidos. Estableció un entorno de trabajo colaborativo que facilitó la cooperación entre todos los miembros del equipo. <br><br>|  *TB1* <br> El trabajo en equipo fue efectivo en proporcionar un liderazgo colaborativo, facilitando una comunicación abierta y un enfoque compartido hacia la consecución de objetivos. Cada miembro del equipo contribuyó significativamente a la planificación y ejecución del proyecto, mejorando la dinámica y eficiencia del grupo. |
-| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | *Achamizo Huamani Jean Carlos* <br> TB1: <br> Facilitó la creación de un entorno inclusivo al asegurar que todas las voces fueran escuchadas durante las discusiones del equipo. Colaboró en la definición de metas claras y en la planificación de tareas para alcanzar los objetivos del proyecto. <br><br> *Aliaga Trevejo Lucía Guadalupe* <br> TB1: <br> Promovió la inclusión en el equipo al garantizar que las tareas y objetivos fueran distribuidos equitativamente. Ayudó a planificar y asignar tareas de manera que se maximizara el potencial de cada miembro del equipo. <br><br> *Raymundo Guevara Rodrigo Alejandro* <br> TB1: <br> Colaboró en la creación de un ambiente de trabajo abierto y respetuoso, donde cada miembro del equipo pudo contribuir con sus ideas. Participó activamente en la planificación y en el establecimiento de objetivos alcanzables. <br><br> *Siancas Reategui Luis Alberto* <br> TB1: <br> Se encargó de supervisar el progreso del equipo en relación con las metas establecidas, asegurando que todos los miembros estuvieran alineados con los objetivos del proyecto. Facilitó la planificación de tareas y la resolución de problemas para mantener el proyecto en camino. <br><br> *Trujillo Lopez Luis Alberto* <br> TB1: <br> Implementó prácticas para fomentar un entorno colaborativo y inclusivo, realizando sesiones de planificación y seguimiento para asegurar el cumplimiento de los objetivos. Supervisó el progreso y la realización de tareas, ayudando al equipo a mantenerse enfocado. <br><br>|   *TB1* <br> Se logró establecer un entorno de trabajo colaborativo e inclusivo, con una planificación efectiva y cumplimiento de metas. La distribución equitativa de tareas y la supervisión continua ayudaron a mantener al equipo alineado y motivado para alcanzar los objetivos del proyecto. |
-
+| Criterio específico                                              | Acciones realizadas                                                                                                                   | Conclusión                                                                                                                       |
+|------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| Trabaja en equipo para proporcionar liderazgo en forma conjunta  | **Jean Carlos Achamizo Huamani** <br> TB1: <br> Implementé inicialmente los apartados de assumptions e hipótesis, estructurando las bases del proyecto y facilitando la comprensión común de los objetivos. Esta acción ayudó a definir un enfoque claro y unificado para el equipo, asegurando que todos los miembros estuvieran alineados desde el principio. <br> TP1: <br> Corregí los assumptions originales, añadiendo cinco nuevos y elaboré hipótesis detalladas utilizando la plantilla proporcionada. Esto permitió al equipo validar los objetivos del proyecto y adaptar las actividades según los requerimientos específicos, lo que mejoró la toma de decisiones conjunta y la planificación estratégica. <br> TB2: <br> Colaboré en el desarrollo de funcionalidades del backend, optimizando las llamadas de API y estructurando la lógica de negocio. En el frontend, implementé componentes interactivos para mejorar la experiencia de usuario en la landing page, lo que reforzó el liderazgo conjunto y permitió una visión integral del proyecto. <br><br> **Luis Alberto Trujillo Lopez** <br> TB1: <br> Añadí las páginas web de los competidores y sus logos, proporcionando una base inicial para el análisis competitivo. Esto facilitó la comprensión del panorama del mercado y permitió al equipo definir estrategias de manera más informada. <br> TP1: <br> Expandí esta información agregando descripciones detalladas de cada competidor y reorganizando las imágenes del Event Storming en secciones claras con descripciones para cada fase. Al hacer esto, ayudé a clarificar los roles y responsabilidades dentro del equipo, promoviendo un liderazgo compartido y un trabajo en equipo más cohesivo. <br> TB2: <br> Participé en la implementación del diseño de la landing page y colaboré en el backend configurando los endpoints necesarios para la funcionalidad de los dispositivos, fortaleciendo el liderazgo compartido y garantizando un trabajo en equipo cohesivo. <br><br> **Lucía Guadalupe Aliaga Trevejo** <br> TB1: <br> Realicé los primeros resúmenes de entrevistas y la descripción inicial de los User Personas. Facilitando las discusiones del equipo, me aseguré de que todas las opiniones fueran consideradas, promoviendo un entorno de trabajo colaborativo. <br> TP1: <br> Mejoré los enlaces y resúmenes de entrevistas, incluyendo detalles sobre marcas y personalidad del entrevistado. Corregí la descripción de los User Personas basándome en el análisis de entrevistas. Esto ayudó a alinear la visión del equipo con las necesidades reales de los usuarios, fortaleciendo el liderazgo conjunto en la toma de decisiones. <br> TB2: <br> Apoyé en el frontend en la creación de formularios interactivos en la landing page y colaboré en el device, asegurando que la comunicación entre frontend y backend fuera eficiente, facilitando un entorno de liderazgo compartido. <br><br> **Luis Alberto Siancas Reategui** <br> TB1: <br> Comencé el análisis inicial de entrevistas, incluyendo detalles generales sobre los entrevistados y tecnologías utilizadas. Esto proporcionó al equipo una comprensión básica del perfil de usuario. <br> TP1: <br> Añadí detalles específicos sobre las tecnologías utilizadas por los entrevistados, sus marcas preferidas y las influencias que afectan su toma de decisiones. Esta información fue clave para que el equipo pudiera tomar decisiones informadas y desarrollar estrategias que respondieran efectivamente a las necesidades identificadas. <br> TB2: <br> Desarrollé configuraciones adicionales en el backend para mejorar la gestión de dispositivos y ayudé en el frontend para asegurar una estructura visual consistente en la landing page, promoviendo la colaboración y el liderazgo cohesivo. <br><br> **Rodrigo Alejandro Raymundo Guevara** <br> TB1: <br> Definí las primeras User Stories y Epics, estableciendo la base del backlog del proyecto. Esto permitió al equipo organizar el trabajo en tareas claras y priorizadas, promoviendo una coordinación efectiva. <br> TP1: <br> Unifiqué el cuadro de User Stories y Epics, mejoré la redacción de las User Stories y sus escenarios en español, e incluí las User Stories de la landing page. Esto ayudó a estructurar mejor el trabajo del equipo, asegurando que todos estuvieran alineados con las prioridades del proyecto y facilitando un liderazgo compartido. <br> TB2: <br> Realicé ajustes en las User Stories para incluir nuevos requisitos del device y aseguré que la lógica de backend fuera compatible con el frontend en la landing page, promoviendo la sinergia del equipo y el liderazgo compartido. <br><br> **Luis Jesús Sagastegui Rodríguez** <br> TB1: <br> Empecé la definición de las reglas de negocio básicas para los aggregates y el diseño inicial de la base de datos. Esto proporcionó una base técnica para la planificación del proyecto. <br> TP1: <br> Añadí reglas de negocio detalladas para los aggregates, elaboré diagramas de clases y de base de datos. Estas acciones facilitaron una mejor comprensión técnica del proyecto, permitiendo al equipo tomar decisiones técnicas de manera más colaborativa y eficiente. <br> TB2: <br> Aporté en la creación y ajuste de las reglas de negocio en el backend, permitiendo una comunicación fluida con el frontend para la funcionalidad del device y desarrollé el diseño de base de datos para la landing page, fortaleciendo la colaboración y el liderazgo técnico compartido. <br><br> | **Conclusión TB1:** El equipo estableció una base sólida para el proyecto al definir claramente las responsabilidades y objetivos iniciales, promoviendo un liderazgo conjunto y una toma de decisiones participativa. Se crearon los apartados iniciales y se definieron roles, lo que facilitó el trabajo en equipo. <br><br> **Conclusión TP1:** El equipo mejoró la planificación y ejecución del proyecto al revisar y corregir los elementos iniciales. Cada miembro contribuyó a profundizar y perfeccionar sus responsabilidades, permitiendo una mayor coordinación y efectividad en la consecución de los objetivos. Todos los roles estuvieron alineados, lo que reforzó el liderazgo conjunto y la cohesión del equipo. <br><br> **Conclusión TB2:** El equipo trabajó de manera integrada en diversas áreas del proyecto (frontend, backend, device y landing page), fortaleciendo el liderazgo compartido. Esta colaboración permitió que todos los miembros estuvieran alineados con los objetivos generales, facilitando una visión integral del desarrollo y una toma de decisiones en conjunto.  |
+| Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Jean Carlos Achamizo Huamani** <br> TB1: <br> Facilitó la creación de un entorno inclusivo al asegurar que todas las voces fueran escuchadas durante las discusiones del equipo. Definí metas claras y organicé la planificación de tareas iniciales. Esto ayudó a establecer una base sólida para que el equipo trabajara de manera coordinada hacia objetivos comunes. <br> TP1: <br> Corregí y expandí los assumptions, añadiendo cinco nuevos y elaborando hipótesis más específicas para guiar el trabajo del equipo. Estas acciones permitieron establecer objetivos más precisos y alineados con la visión del proyecto, facilitando un entorno colaborativo donde todos entendieron claramente su rol. <br> TB2: <br> Promoví un entorno inclusivo para asegurar que todos los miembros contribuyeran en el frontend y backend, colaborando en la planificación de tareas para garantizar que todos comprendieran sus responsabilidades y los objetivos comunes. <br><br> **Luis Alberto Trujillo Lopez** <br> TB1: <br> Promoví la inclusión en el equipo al proporcionar la base del análisis competitivo con las páginas web y logos de competidores, facilitando la planificación inicial del análisis. Esto ayudó al equipo a comprender mejor el entorno competitivo y a definir metas realistas. <br> TP1: <br> Añadí descripciones detalladas de los competidores, mejorando la calidad del análisis y facilitando la colaboración del equipo en la definición de metas estratégicas. Al clarificar las diferencias y similitudes con la competencia, ayudé a que el equipo pudiera enfocar sus esfuerzos en áreas de oportunidad específicas. <br> TB2: <br> Definí metas en conjunto con el equipo, dividiendo las tareas para frontend, backend y device, asegurando que se cumplieran los objetivos en tiempo, facilitando una planificación coordinada. <br><br> **Lucía Guadalupe Aliaga Trevejo** <br> TB1: <br> Garantizé que las tareas y objetivos fueran distribuidos equitativamente. Realicé los resúmenes iniciales de entrevistas y la descripción de User Personas, maximizando el potencial de cada miembro del equipo. Esto permitió al equipo tener un punto de partida claro para entender las necesidades de los usuarios. <br> TP1: <br> Mejoré los resúmenes de entrevistas, incluyendo detalles importantes, y consolidé la User Task Matrix en un solo cuadro, describiendo tareas comunes y corrigiendo el User Journey Mapping. Estas acciones permitieron al equipo tener una visión más clara de las tareas y su importancia, facilitando la planificación y el cumplimiento de objetivos. <br> TB2: <br> Apoyé en la organización y planificación de las tareas, asignando objetivos claros en cada área (device y frontend) para asegurar que el equipo mantuviera un enfoque inclusivo y colaborativo. <br><br> **Luis Alberto Siancas Reategui** <br> TB1: <br> Supervisé el progreso del equipo en relación con las metas establecidas y facilité la planificación de tareas iniciales basadas en el análisis preliminar de entrevistas. Esto aseguró que el equipo estuviera alineado y enfocado en las actividades prioritarias. <br> TP1: <br> Completé el análisis de entrevistas, detallando las tecnologías utilizadas, marcas preferidas e influencias de los entrevistados. Esta información fue crucial para ajustar las metas y estrategias del equipo, asegurando que las tareas planificadas respondieran a las expectativas de los usuarios y cumplieran con los objetivos del proyecto. <br> TB2: <br> Colaboré en la planificación de tareas para el backend y device, asegurando que los miembros del equipo entendieran sus roles y responsabilidades, fortaleciendo la colaboración y cumplimiento de objetivos. <br><br> **Rodrigo Alejandro Raymundo Guevara** <br> TB1: <br> Colaboré en la creación de un ambiente de trabajo respetuoso y colaborativo, donde cada miembro pudo contribuir con sus ideas en la planificación de tareas iniciales y la redacción de User Stories. Esto permitió al equipo organizar el trabajo de manera efectiva desde el inicio. <br> TP1: <br> Mejoré la redacción de las User Stories y sus criterios de aceptación, prioricé las User Stories de la landing page y unifiqué las Epics y User Stories. Estas acciones ayudaron al equipo a tener una dirección clara y a organizar las tareas de manera que todos entendieran qué se esperaba de cada uno, facilitando el cumplimiento de objetivos. <br> TB2: <br> Apoyé en la organización y división de tareas entre frontend y backend, estableciendo objetivos claros para la landing page y device, manteniendo al equipo alineado en un entorno inclusivo. <br><br> **Luis Jesús Sagastegui Rodríguez** <br> TB1: <br> Implementé prácticas colaborativas e inclusivas, asegurando que todos los miembros estuvieran enfocados en las tareas iniciales establecidas y facilitando la planificación de objetivos. Esto permitió una mejor organización y claridad en el trabajo del equipo. <br> TP1: <br> Añadí reglas detalladas de los aggregates, diagramas de clases y estructura de la base de datos, organizando mejor la planificación de tareas y el cumplimiento de objetivos técnicos del proyecto. Estas acciones proporcionaron un marco técnico sólido para el equipo, permitiendo una colaboración más efectiva en el desarrollo de la solución. <br> TB2: <br> Participé en la planificación de tareas del backend y colaboré en la integración de las reglas de negocio con el frontend, manteniendo un entorno colaborativo y alineado en las metas y objetivos de la landing page y device. <br><br> | **Conclusión TB1:** El equipo trabajó de manera efectiva en la planificación inicial del proyecto, estableciendo metas claras y asegurando la participación equitativa de todos los miembros. Cada miembro contribuyó a la creación de un entorno colaborativo e inclusivo, estableciendo las bases para un trabajo coordinado y enfocado en objetivos comunes. <br><br> **Conclusión TP1:** Se consolidó la colaboración y la inclusión, revisando y mejorando los elementos iniciales y planificando de manera detallada las tareas. Cada miembro del equipo ajustó sus responsabilidades y contribuciones en función de los datos y análisis obtenidos, lo que permitió una mejor planificación y ejecución de los objetivos establecidos. <br><br> **Conclusión TB2:** En esta fase, el equipo trabajó de manera colaborativa en frontend, backend, device y landing page, estableciendo metas y tareas claras para cada área. Se promovió un entorno inclusivo que facilitó el cumplimiento de los objetivos y permitió una planificación efectiva, asegurando que cada miembro contribuyera de manera significativa a la consecución de los objetivos del proyecto. |
 
 ---
 
@@ -1227,6 +1309,11 @@ Este mapa muestra el flujo de trabajo de Gabriel Lopez en la actualidad. Sus pri
 | TS038         | Seguridad de la API                     | Como desarrollador, quiero asegurarme de que la API tenga la autenticación y autorización adecuadas para proteger los datos sensibles de los usuarios de la pulsera.                                       | **Dado que** el usuario intenta acceder a los datos de la API,<br>**cuando** se realiza una solicitud,<br>**entonces** la API requiere un token de autenticación válido para acceder a los datos de salud. <br>**Dado que** un usuario intenta acceder sin autenticación,<br>**cuando** la API detecta el acceso no autorizado,<br>**entonces** bloquea la solicitud e informa la necesidad de autenticación.                       | EP007                   |
 | TS039         | Documentación de la API                 | Como desarrollador, quiero que la API esté documentada de manera clara y completa para que otros desarrolladores puedan integrarse fácilmente.                                                              | **Dado que** la API está lista para su uso,<br>**cuando** un desarrollador necesita información,<br>**entonces** la documentación incluye ejemplos de uso de todos los endpoints y parámetros disponibles. <br>**Dado que** no se encuentra la documentación completa,<br>**cuando** un desarrollador intenta acceder a un endpoint,<br>**entonces** se muestra un mensaje solicitando la actualización de la documentación.                         | EP007                   |
 | TS040         | Optimización del Rendimiento de la API  | Como desarrollador, quiero optimizar la API para que las respuestas sean rápidas y eficientes, mejorando la experiencia del usuario final.                                                                  | **Dado que** la API está en producción,<br>**cuando** se realizan consultas,<br>**entonces** la API tiene tiempos de respuesta inferiores a 200ms. <br>**Dado que** se realizan consultas repetitivas,<br>**cuando** la API detecta patrones de uso,<br>**entonces** utiliza técnicas de caché para mejorar el rendimiento.                                                                                                                | EP007                   |
+| EP006         | Autenticación de Usuario                 | Como Visitante, quiero poder iniciar sesión de manera segura en la aplicación para acceder a las funcionalidades personalizadas.                                    |                                                                                                                                                                                                                                                                                                                                                                          |                         |
+| US006         | Inicio de Sesión                         | Como Visitante, quiero iniciar sesión utilizando mi correo electrónico y contraseña para acceder a las funcionalidades personalizadas de la aplicación.             | **Dado que** el usuario está en la pantalla de login,<br>**cuando** ingresa su correo y contraseña correctos,<br>**entonces** se permite el acceso a su cuenta y se redirige a la página principal.<br>**Dado que** el usuario ingresa credenciales incorrectas,<br>**cuando** se realiza este error,<br>**entonces** se muestra un mensaje de error indicando la falla en el ingreso. | EP002                   |
+| US007         | Recuperación de Contraseña               | Como Visitante, quiero recuperar mi contraseña en caso de haberla olvidado para poder acceder nuevamente a mi cuenta.                                               | **Dado que** el usuario ha olvidado su contraseña,<br>**cuando** selecciona la opción de "Recuperar Contraseña" e ingresa su correo electrónico,<br>**entonces** el sistema envía un enlace de recuperación a su correo.<br>**Dado que** se intenta recuperar con un correo no registrado,<br>**cuando** se produce este error,<br>**entonces** se muestra un mensaje indicando la ausencia de cuenta asociada. | EP002                   |
+
+
 
 
 ## 3.3. Impact Mapping
@@ -1305,59 +1392,161 @@ En el primer paso del EventStorming, se inicia con una sesión de lluvia de idea
 
 ![ES-Step1](./assets/EV-Step1.png)
 
+Realizamos una lluvia de ideas para identificar todos los eventos, datos y acciones relevantes que el sistema IoT para el cuidado de adultos mayores debería manejar utilizando una pulsera inteligente y aplicaciones web. Se incluyeron eventos relacionados con la activación de sensores y monitoreo de signos vitales, como la detección de movimiento, ritmo cardíaco y temperatura, para garantizar el seguimiento de la salud del usuario. También se consideraron acciones del sistema, como envío de alertas, notificaciones a familiares y cuidadores, así como la gestión de cuentas y configuración del dispositivo. Se añadieron posibles fallos en la conexión o en los sensores para asegurar la robustez del sistema ante fallos técnicos. Además, se contemplaron aspectos de gestión de datos y sus actualizaciones en diferentes plataformas, así como la interacción con servicios adicionales como suscripciones y pagos. Estos pos-its reflejan un mapeo inicial de todas las posibles interacciones y eventos que el sistema debería manejar para brindar una solución integral y segura para el cuidado de adultos mayores.
+
 **Step 2: Timelines**
 
 En este segundo paso, se revisan los eventos de dominio generados y se organizan en el orden en que ocurren dentro del dominio. Primero, se debe construir un happy path, es decir, un escenario en el que todo funciona correctamente y el proceso comercial es exitoso. Una vez que se ha completado este camino ideal, se pueden agregar escenarios alternativos que contemplen variaciones, fallos, o situaciones excepcionales.
 
-![ES-Step2](./assets/EV-Step2.png)
+![ES-Step2-1](./assets/event1.jpg)
+
+![ES-Step2-2](./assets/event2.jpg)
+
+![ES-Step2-3](./assets/event3.jpg)
+
+![ES-Step2-4](./assets/event4.jpg)
+
+![ES-Step2-5](./assets/event5.jpg)
+
+Hemos organizado la información generada en la fase de exploración no estructurada mediante flujos de eventos específicos, identificando así cómo debería reaccionar el sistema ante distintas situaciones relacionadas con el monitoreo de salud y seguridad del adulto mayor. Cada flujo visualiza un conjunto de eventos y acciones correlacionadas, desde la activación de sensores y la medición de parámetros vitales hasta la generación de alertas y la notificación a familiares o cuidadores. Se detallan diferentes escenarios como la detección de movimientos inusuales, alteraciones en la frecuencia cardíaca o temperatura, así como la gestión de fallos en el sistema. Además, se incluye la actualización de datos en distintas plataformas (nube, aplicaciones móviles y web) y la generación de reportes de salud. Este paso permite visualizar las posibles trayectorias que seguiría el sistema en respuesta a cada evento, estableciendo la base para desarrollar un flujo de trabajo eficiente y cohesivo que garantice una respuesta rápida y adecuada a cada situación monitorizada.
+
 
 **Step 3: Paint Points**
 
 Después de organizar los eventos en una línea de tiempo, aprovechamos esta vista general para identificar puntos de interés a lo largo del proceso. Estos puntos de interés pueden incluir cuellos de botella, pasos manuales que podrían ser automatizados, falta de documentación o carencias de conocimiento del dominio.
 
-![ES-Step3](./assets/EV-Step3.png)
+![ES-Step3-1](./assets/event6.jpg)
+
+![ES-Step3-2](./assets/event7.jpg)
+
+![ES-Step3-3](./assets/event8.jpg)
+
+![ES-Step3-4](./assets/event9.jpg)
+
+![ES-Step3-5](./assets/event10.jpg)
+
+![ES-Step3-6](./assets/event11.jpg)
+
+Hemos identificado y documentado los puntos críticos y decisiones clave en cada flujo de eventos. Estos flujos se detallan con preguntas clave que deben ser respondidas para garantizar el correcto funcionamiento del sistema, como la forma de detectar un pulso estable, la verificación de un movimiento repentino o la identificación de una temperatura normal. Además, se analiza cómo se registran y actualizan los datos en la nube, y cómo se notifica al cuidador en caso de eventos anómalos. Se incluyen flujos adicionales para la gestión de la conexión de la banda IoT, la configuración y vinculación de cuentas, así como la verificación de usuarios y renovaciones de suscripción. Este paso permite una mayor claridad sobre los requerimientos específicos del sistema, asegurando que se cubran todos los posibles escenarios y puntos de fallo, y se establezcan procesos claros para la toma de decisiones en situaciones críticas, mejorando así la robustez y la confiabilidad de la solución IoT propuesta.
 
 **Step 4: Pivotal Points**
 
 Una vez que tenemos nuestra línea de eventos completa, incluyendo los pain points, buscamos eventos comerciales clave que marquen un cambio en el contexto o en la fase del proceso. Estos se denominan eventos principales y los señalamos con una barra vertical que separa los eventos anteriores de los posteriores a dicho evento.
 
-![ES-Step4](./assets/EV-Step4.png)
+![ES-Step4-1](./assets/event12.jpg)
+
+![ES-Step4-2](./assets/event13.jpg)
+
+![ES-Step4-3](./assets/event14.jpg)
+
+![ES-Step4-4](./assets/event15.jpg)
+
+![ES-Step4-5](./assets/event16.jpg)
+
+![ES-Step4-6](./assets/event17.jpg)
+
+Hemos identificado los puntos críticos (pivotal points) que son esenciales para la correcta operación y toma de decisiones del sistema IoT de cuidado de adultos mayores. Estos puntos son momentos donde se requiere validar decisiones importantes para garantizar que el sistema funcione de manera adecuada. Por ejemplo, se definieron puntos de verificación como la detección de ritmo cardíaco y temperatura estables, la actualización de datos en la nube y la generación de alertas a cuidadores y familiares. También se incluyeron decisiones sobre la configuración de la banda IoT, la verificación de usuarios y la gestión de suscripciones. Estos puntos críticos permiten asegurar que, ante cualquier eventualidad, el sistema tenga claras las acciones a seguir para brindar una respuesta eficiente y oportuna, minimizando el riesgo de fallos y mejorando la confiabilidad del sistema.
 
 **Step 5: Commands**
 
 En este paso también introducimos los comandos, los cuales describen la causa de un evento o el flujo de eventos. A diferencia de los eventos de dominio, los comandos son expresados en modo imperativo, describiendo las operaciones que deben ejecutarse en el sistema.
 
-![ES-Step5](./assets/EV-Step5.png)
+![ES-Step5-1](./assets/event18.jpg)
+
+![ES-Step5-2](./assets/event19.jpg)
+
+![ES-Step5-3](./assets/event20.jpg)
+
+![ES-Step5-4](./assets/event21.jpg)
+
+![ES-Step5-5](./assets/event22.jpg)
+
+![ES-Step5-6](./assets/event23.jpg)
+
+Estructuramos las funcionalidades y acciones clave del sistema IoT para el cuidado de adultos mayores, identificando los actores involucrados y sus interacciones con el sistema. Se definieron procesos específicos para la recolección de datos de los sensores, su visualización y almacenamiento en la base de datos, y la generación de alertas en caso de situaciones anómalas. Además, se detallaron los flujos de registro, vinculación y desvinculación de usuarios, cuidadores y familiares, así como la configuración de la banda IoT y su sincronización. Este paso permitió mapear con claridad cómo cada actor interactúa con el sistema y cómo se gestionan los datos críticos, asegurando que todas las funcionalidades necesarias estén integradas para ofrecer una solución completa y eficiente.
 
 **Step 6: Policies**
 
 En este punto, buscamos automation policies (políticas de automatización) que puedan ejecutar estos comandos. Esto significa que un evento específico del dominio desencadena automáticamente la ejecución de un comando. En otras palabras, cuando ocurre un evento determinado, el comando correspondiente se ejecuta de manera automática.
 
-![ES-Step6](./assets/EV-Step6.png)
+![ES-Step6-1](./assets/event24.jpg)
+
+![ES-Step6-2](./assets/event25.jpg)
+
+![ES-Step6-3](./assets/event26.jpg)
+
+![ES-Step6-4](./assets/event27.jpg)
+
+![ES-Step6-5](./assets/event28.jpg)
+
+![ES-Step6-6](./assets/event29.jpg)
+
+![ES-Step6-7](./assets/event30.jpg)
+
+Definimos y organizamos las políticas de recolección y envío de datos, alertas, registro de usuarios y gestión de suscripciones. Se establecieron los eventos para la activación de sensores, detección de condiciones críticas, generación de alertas y notificaciones a cuidadores y familiares, así como el manejo de fallos de sensores. También se estructuraron los procesos para la creación, verificación y administración de cuentas, y la actualización de planes de suscripción, asegurando una correcta integración y flujo de información en la aplicación.
+
 
 **Step 7: Read Models**
 
 En este paso, introducimos el modelo de lectura, que es la representación de datos del dominio que un agente utiliza para decidir si debe ejecutar o no un comando. Por esta razón, definimos una vista de datos para cada comando, como monitores del sistema, informes, notificaciones, entre otros.
 
-![ES-Step7](./assets/EV-Step7.png)
+![ES-Step7-1](./assets/event31.jpg)
+
+![ES-Step7-2](./assets/event32.jpg)
+
+![ES-Step7-3](./assets/event33.jpg)
+
+![ES-Step7-4](./assets/event34.jpg)
+
+![ES-Step7-5](./assets/event35.jpg)
+
+![ES-Step7-6](./assets/event36.jpg)
+
+Identificamos las políticas de negocio y cómo interactúan con los eventos y comandos ya establecidos. Cada política fue colocada en relación con un evento o comando específico, con el objetivo de definir reglas y restricciones que deben cumplirse para la ejecución de ciertas acciones. Estas políticas incluyen aspectos como la recolección de datos, el envío de alertas y el registro de cuentas, garantizando que las operaciones del sistema se realicen bajo ciertos parámetros. Además, se introdujeron políticas para la gestión de registros, suscripciones y actualizaciones de planes, detallando cómo y cuándo deben aplicarse estas reglas en función del contexto y estado del sistema.
 
 **Step 8: External Systems**
 
 A continuación, completamos el modelo incluyendo los sistemas externos. Un sistema externo es cualquier sistema que no pertenece al dominio en el que estamos trabajando. Estos sistemas pueden ejecutar comandos (entrada) o recibir notificaciones sobre eventos (salida).
 
-![ES-Step8](./assets/EV-Step8.png)
+![ES-Step8](./assets/event37.jpg)
+
+![ES-Step8](./assets/event38.jpg)
+
+![ES-Step8](./assets/event39.jpg)
+
+![ES-Step8](./assets/event40.jpg)
+
+![ES-Step8](./assets/event41.jpg)
+
+![ES-Step8](./assets/event42.jpg)
+
+Incorporamos eventos relacionados con el encendido del equipo y el inicio de la recolección de datos, representados con etiquetas verdes. Además, se añadieron interacciones adicionales para diferentes sistemas de monitoreo, como sensores de movimiento, ritmo cardíaco y temperatura, destacando la política de colección de datos en color morado y la política de alertas en color lila. También se detallaron las acciones de inicio de sesión, enlace y desenlace de familiares y cuidadores, junto con la configuración del dispositivo IoT, resaltando la importancia del menú de navegación y los métodos de autenticación como el sistema de Google. En general, se completó la visualización de procesos desde la recolección de datos hasta la gestión de alertas y la actualización de información en la nube y plataformas web, estructurando el flujo de eventos para cada subsistema involucrado.
 
 **Step 9: Aggregates**
 
 Luego de presentar todos los eventos y comandos, comenzamos a agrupar los conceptos relacionados en agregados, que son las unidades que reciben comandos y generan eventos.
 
-![ES-Step9](./assets/EV-Step9.png)
+![ES-Step9](./assets/event43.jpg)
+
+![ES-Step9](./assets/event44.jpg)
+
+![ES-Step9](./assets/event45.jpg)
+
+![ES-Step9](./assets/event46.jpg)
+
+![ES-Step9](./assets/event47.jpg)
+
+![ES-Step9](./assets/event48.jpg)
+
+Cada diagrama inicia con la activación del equipo y la recolección de datos correspondientes (frecuencia cardíaca, temperatura, movimiento), procediendo a la detección de eventos normales o anormales. Si se detecta una anomalía, se sigue una política de recolección de datos y de alerta, que conlleva la generación de alertas y notificaciones hacia cuidadores y familiares a través de distintas plataformas (web, aplicación móvil). Además, se introdujo el flujo de inicio de sesión y creación de cuentas para configurar el sistema y asociar cuidadores o familiares con los pacientes, facilitando la personalización de alertas y la administración de las notificaciones.
 
 **Step 10: Bounded Contexts**
 
 Finalmente, identificamos los agregados que están relacionados entre sí y que son relevantes por representar funciones estrechamente vinculadas o porque están conectados según ciertas políticas. Estos grupos de agregados sirven como candidatos naturales para definir los Bounded Contexts (contextos delimitados) dentro del sistema.
 
 ![ES-Step10](./assets/EV-Step10.png)
+
+Identificamos y agrupamos los eventos del sistema en diferentes Bounded Contexts para definir áreas funcionales específicas: Device gestiona la interacción con dispositivos y sensores; Edge procesa datos en tiempo real y genera alertas; Notifications envía notificaciones a cuidadores y familiares; Metrics recolecta y gestiona métricas del sistema; Payment maneja suscripciones y pagos; Account se encarga de la autenticación y gestión de usuarios; y Planning (antes Configuration) permite la planificación y configuración del sistema. Estos contextos delimitan claramente las responsabilidades y facilitan la modularidad del sistema.
 
 #### 4.1.1.2 Domain Message Flows Modeling
 
@@ -3120,7 +3309,7 @@ Las aplicaciones web y móvil emplean una paleta cuidadosamente seleccionada que
 
 - <b>#5C9BD5:</b> Actúa como el color principal, utilizado en títulos y elementos como enlaces o botones de acción secundarios. Este tono de azul está asociado con la tecnología y la seguridad, lo que transmite confianza y estabilidad.
 - <b>#F2F7FC:</b> Se utiliza como color de fondo tanto en las pantallas de la versión web como móvil, creando un entorno limpio que facilita la lectura y mejora la experiencia de usuario.
-- <b>#1C2D3D:</b> Se emplea en la barra lateral, proporcionando un contraste oscuro que resalta los íconos y las opciones de navegación.
+- <b>#1C2D3D:</b> Se emplea para proporcionar un contraste oscuro que resalta los íconos y las opciones de navegación.
 
 <b>Colores neutros:</b>
 
@@ -3148,6 +3337,55 @@ En cuanto a la aplicación móvil, los botones y áreas interactivas son lo sufi
 
 ### 5.1.2. Web, Mobile and IoT Style Guidelines 
 
+### 5.1.2.1. Web Style Guidelines
+
+<b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
+
+- <b>#5C9BD5:</b> Usado para títulos, enlaces y botones de acción menos importantes.
+- <b>#1C2D3D:</b> Color del sidebar, proporcionando un contraste fuerte con el fondo.
+- <b>#F2F7FC:</b> Color de fondo que crea un ambiente ligero y limpio en la interfaz.
+
+<b>Tipografía:</b> Se eligió la fuente Inter. Los títulos se presentan en un tamaño mayor (24px) y un peso más fuerte, mientras que el texto del cuerpo se establece en 16px.
+
+<b>Espaciado y alineación:</b> El diseño mantiene un espaciado consistente entre elementos, con márgenes de al menos 16px para evitar la saturación visual y mejorar la experiencia del usuario.
+
+<b>Botones: </b> Los botones tienen un diseño rectángulo con bordes redondeados, proporcionando una sensación amigable.
+
+![Buttons](assets/buttons.png)
+
+<b>Gráficos y Visualización de Datos:</b> Los gráficos de signos vitales (temperatura y frecuencia cardíaca) se presentan con líneas claras y colores contrastantes para facilitar su interpretación.
+
+![Graphics](assets/graphics.png)
+
+
+<b>Navegación:</b> La navegación se organiza mediante un menú lateral, permitiendo un acceso fácil a todas las secciones de la aplicación. Las opciones de menú se destacan con iconos intuitivos y etiquetas que mejoran la usabilidad.
+
+![Sidebar](assets/sidebar.png)
+
+### 5.1.2.2. Mobile Style Guidelines
+
+<b>Paleta de Colores:</b> Se utilizó la paleta de colores principal para los elementos de la aplicación web. Está compuesta de colores que facilitan la legibilidad y usabilidad.
+
+- <b>#5C9BD5:</b> Usado para títulos, enlaces y botones de acción menos importantes.
+- <b>#1C2D3D:</b> Color del sidebar, proporcionando un contraste fuerte con el fondo.
+- <b>#F2F7FC:</b> Color de fondo que crea un ambiente ligero y limpio en la interfaz.
+
+<b>Tipografía:</b> Las fuentes son consistentes con las de la versión web, asegurando que el texto sea claro y fácil de leer en pantallas más pequeñas. Los títulos se presentan en 20px y el texto de cuerpo en 14px.
+
+<b>Espaciado y alineación:</b> El diseño mantiene un espaciado adecuado entre elementos, con un margen mínimo de 12px, evitando la saturación en pantallas reducidas.
+
+<b>Botones: </b> Los botones son amplios y accesibles, con un tamaño mínimo de 44px de alto para facilitar la interacción táctil. Se implementan colores de estado claros que indican interacciones.
+
+![Buttons Mobile](assets/button-mobile.PNG)
+
+![Buttons Mobile](assets/button-mobile-2.PNG)
+
+<b>Gráficos y Visualización de Datos:</b> Los gráficos de signos vitales se adaptan a la pantalla, utilizando líneas y etiquetas legibles. Se asegura que la información sea fácilmente interpretable en dispositivos móviles.
+
+<b>Navegación:</b> La navegación se coloca en una barra inferior, ofreciendo accesibilidad a las funciones principales de la aplicación. Los iconos son grandes y fáciles de reconocer, permitiendo una navegación intuitiva.
+
+![Navbar Mobile](assets/mobile-navbar.png)
+
 ## 5.2. Information Architecture
 
 ### 5.2.1. Organization Systems.
@@ -3161,19 +3399,66 @@ Se utilizaron los tres sistemas de organización visual: jerárquica, secuencial
 
 ![Billing](assets/mockups_billing.png)
 
-
 - <b>Matricial:</b> Se utilizó este tipo de organización para la vista de tablas en la sección de Alerts y Billing History. Esta proporciona una vista global de los datos que ayuda a manejar la información de manera simultánea.
 
 ![Alerts](assets/mockups_alerts.png)
 
 ### 5.2.2. Labeling Systems.
 
+- <b> a. Etiquetas Simplificadas y Claras: <b>
+	El uso de etiquetas simples y claras será clave para facilitar la navegación y comprensión 	de los usuarios. Algunas etiquetas propuestas:
+
+	Home → "Inicio" 
+	Our Service → "Nuestros Servicios"
+	Plan → "Planes"
+	Log In → "Iniciar Sesión"
+	Contact → "Contáctanos"
+
+- <b> b. Asociaciones Clave: <b>
+	Relacionar términos de monitoreo como "seguridad", "alertas", "reporte en tiempo real" con 	los beneficios principales para que los usuarios los identifiquen rápidamente.
+	Usar un mínimo de palabras en las etiquetas, evitando tecnicismos innecesarios.
+
+### 5.2.3. SEO Tags and Meta Tags.
+
+- <b> a. SEO para el sitio web: <b>
+
+  Landing Page:
+
+	Title: Sistema de Monitoreo Avanzado para Pacientes - Seguridad y Tranquilidad
+	Meta Description: Nuestro sistema de monitoreo todo en uno mejora la seguridad y el 	bienestar de pacientes y seres queridos con monitoreo en tiempo real y alertas 	personalizadas.
+	Keywords: monitoreo de pacientes, sistema de seguridad, alertas personalizadas, cuidado 	remoto, monitoreo en tiempo real
+	Author: Nombre de la startup
+
+  Our Service Page:
+
+  Title: Nuestros Servicios de Monitoreo - Seguridad 24/7 para Pacientes
+	Meta Description: Descubre los servicios que ofrecemos para el monitoreo en tiempo real de 	pacientes y seres queridos, con alertas automáticas y reportes detallados.
+	Keywords: monitoreo de salud, servicios de cuidado remoto, alertas de seguridad, monitoreo 	de pacientes, bienestar de pacientes.
+
+### 5.2.4. Navigation Systems.  
+
+- <b>El sistema de navegación debe ser claro y directo. Algunas estrategias para guiar a los 	usuarios: <b>
+
+	Barra de navegación principal (Navbar en la parte superior) con las rutas clave:
+	Inicio, Nuestros Servicios, Planes, Contáctanos, Iniciar Sesión
+
+	Breadcrumbs (Migas de pan) para ayudar al usuario a saber dónde está en todo momento dentro 	del sitio.
+
+	Navegación de pie de página: Repetir las rutas clave como "Términos y condiciones", 	"Política de privacidad", "Soporte", y enlaces a redes sociales.
+
+### 5.2.5. Navigation Systems.
+
+- <b>La implementación de un sistema de búsqueda sólido ayudará a los usuarios a encontrar 	información específica sin perderse en la plataforma. Este sistema debe incluir: <b>
+
+	Barra de búsqueda visible en la parte superior de todas las páginas.
+
+	Resultados claros: Presentar los resultados con un resumen breve que contenga enlaces directos a las páginas correspondientes.
+
 ### 5.2.3. SEO Tags and Meta Tags
 
 ### 5.2.4. Searching Systems.
 
 ### 5.2.5. Navigation Systems.
-
 
 ## 5.3. Landing Page UI Design
 
@@ -3255,6 +3540,41 @@ A continuación, se muestran los wireframes de las secciones más importantes de
 
 #### 5.4.1.2. Mobile Application Wireframes
 
+Los wireframes móviles representan una versión preliminar del diseño de la aplicación, mostrando cómo se organizará la información en una pantalla más pequeña. Se ha aplicado de manera cuidadosa la arquitectura de información para garantizar que los elementos clave estén ubicados de forma lógica y accesible para los usuarios en sus dispositivos móviles.
+
+Se han utilizado principios de jerarquía visual y alineación para guiar al usuario a través de la interfaz de forma intuitiva, destacando las acciones más importantes y asegurando una navegación fluida entre las diferentes secciones de la aplicación. El diseño responsivo asegura que la experiencia del usuario sea consistente, fácil de usar y sin comprometer la funcionalidad en dispositivos móviles.
+
+A continuación, se presentan los wireframes de las secciones más importantes de la aplicación móvil, mostrando la disposición de los menús, botones de acción y secciones de contenido en un formato optimizado para pantallas de smartphones:
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframe-mobile-dashboard.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframe-mobile-configuration.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframe-mobile-alert.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframe-mobile-patients.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframe-mobile-billing1.png)
+
+![Wireframe Billing 2](assets/wireframe-mobile-billing2.png)
+
+![Wireframe Billing 3](assets/wireframe-mobile-billing3.png)
+
+
 ### 5.4.2. Applications Wireflow Diagrams
 
 #### 5.4.2.1. Web Application Wireflow Diagrams
@@ -3298,52 +3618,84 @@ A continuación, se muestran los wireframes de las secciones más importantes de
 
 #### 5.4.2.2. Mobile Application Wireflow Diagrams
 
+
+
 ### 5.4.3. Applications Mock-ups
 
 #### 5.4.3.1. Web Application Mock-ups
 
-En esta sección, se presentan los mock-ups de la aplicación web, mostrando una representación visual más detallada y cercana al producto final. 
+En esta sección se presentan los mock-ups de la aplicación móvil, mostrando una representación visual más detallada y cercana a la versión final para dispositivos móviles.
 
-Estos mock-ups integran todos los principios de diseño, como la consistencia visual y la combinación equilibrada de colores para garantizar una experiencia de usuario cohesiva y atractiva. Cada componente está diseñado siguiendo las pautas establecidas en el design system, asegurando que los botones, tipografías, y otros elementos mantengan coherencia a lo largo de toda la aplicación.
+Estos mock-ups integran todos los principios de diseño adaptados a la experiencia móvil, como la consistencia visual y la combinación equilibrada de colores, asegurando que la experiencia de usuario sea cohesiva y atractiva en pantallas pequeñas. Cada componente, como botones, tipografías y otros elementos, está diseñado siguiendo las pautas establecidas en el design system, garantizando que se mantenga una coherencia visual a lo largo de toda la aplicación móvil.
 
-A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación: 
+A continuación, se muestran los mock-ups de las secciones más importantes de la aplicación móvil, donde se destacan la disposición de los menús, los accesos rápidos y las interacciones táctiles optimizadas para ofrecer una navegación intuitiva y fluida en smartphones:
 
 - Log in
 
 ![Mockup Login 1](assets/mockups_login_1.png)
-![Mockup Login 2](assets/mockups_login_2.png)
+![Mockup Login 1](assets/mockups_login_2.png)
 
 - Dashboard
 
+![Mockup Dashboard 1](assets/mockups_dashboard.png)
 ![Mockup Dashboard 1](assets/mockups_dashboard_1.png)
-![Mockup Dashboard 2](assets/mockups_dashboard_2.png)
-![Mockup Dashboard 3](assets/mockups_dashboard_3.png)
+![Mockup Dashboard 1](assets/mockups_dashboard_1.png)
 
 - Band configuration
 
 ![Mockup Band Configuration 1](assets/mockups_bandconfiguration_1.png)
-![Mockup Band Configuration 2](assets/mockups_bandconfiguration_2.png)
+![Mockup Band Configuration 1](assets/mockups_bandconfiguration_2.png)
 
 - Alerts 
 
 ![Mockup Alerts 1](assets/mockups_alerts_1.png)
-![Mockup Alerts 2](assets/mockups_alerts_2.png)
+![Mockup Alerts 1](assets/mockups_alerts_2.png)
 
 - Patients
 
 ![Mockup Patients 1](assets/mockups_patients_1.png)
-![Mockup Patients 2](assets/mockups_patients_2.png)
-![Mockup Patients 3](assets/mockups_patients_3.png)
-![Mockup Patients 4](assets/mockups_patients_4.png)
+![Mockup Patients 1](assets/mockups_patients_2.png)
+![Mockup Patients 1](assets/mockups_patients_3.png)
+![Mockup Patients 1](assets/mockups_patients_4.png)
 
 - Billing
 
 ![Mockup Billing 1](assets/mockups_billing_1.png)
 ![Mockup Billing 2](assets/mockups_billing_2.png)
 ![Mockup Billing 3](assets/mockups_billing_3.png)
-![Mockup Billing 3](assets/mockups_billing_4.png)
 
 #### 5.4.3.2. Mobile Application Mock-ups
+
+- Log in
+
+![Wireframe Login](assets/wireframe-mobile-login.png)
+
+- Dashboard
+
+![Wireframe Dashboard 1](assets/wireframes_dashboard_1.png)
+![Wireframe Dashboard 2](assets/wireframes_dashboard_2.png)
+![Wireframe Dashboard 3](assets/wireframes_dashboard_3.png)
+
+- Band configuration
+
+![Wireframe Band Configuration 1](assets/wireframes_bandconfiguration_1.png)
+![Wireframe Band Configuration 2](assets/wireframes_bandconfiguration_2.png)
+
+- Alerts 
+
+![Wireframe Alerts 1](assets/wireframes_alerts_1.png)
+![Wireframe Alerts 2](assets/wireframes_alerts_2.png)
+
+- Patients
+
+![Wireframe Patients 1](assets/wireframes_patients_1.png)
+![Wireframe Patients 2](assets/wireframes_patients_2.png)
+
+- Billing
+
+![Wireframe Billing 1](assets/wireframes_billing_1.png)
+![Wireframe Billing 2](assets/wireframes_billing_2.png)
+![Wireframe Billing 3](assets/wireframes_billing_3.png)
 
 ### 5.4.4. Applications User Flow Diagrams
 
@@ -3388,7 +3740,1534 @@ A continuación, se muestran los mock-ups de las secciones más importantes de l
 #### 5.4.4.2. Mobile Application User Flow Diagrams
 
 
----
+## 5.5 Applications Prototyping
+
+![Web Application Prototype](assets/prototype.PNG)
+
+Enlace del prototipo:
+<a href="https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1">https://www.figma.com/proto/HWNBsScQ1yZIRQxCTpWjoF/Mockups?node-id=43-15&node-type=canvas&t=UWTR3uKyOwZLyNxc-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=43%3A15&show-proto-sidebar=1</a>
+
+# Capítulo VI: Product Implementation, Validation & Deployment
+
+## 6.1. Software Configuration Management
+
+### 6.1.1. Software Development Environment Configuration
+
+<table border="1">
+
+  <tr>
+    <td>Project Management</td>
+    <td>Microsoft 365<br>Alojamiento de los videos de entrevistas, explicación de prototipos y otros relacionados al proyecto</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Discord<br>Plataforma de mensajería instantánea donde se realizaron las reuniones, repartición de tarea y desarrollo del proyecto colaborativo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Whatsapp<br>Aplicación de mensajería instantánea donde se realizaron recordatorios de las reuniones.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Trello<br>Software de administración Y gestión de proyectos que se utilizó para establecer y designar las tareas</td>
+  </tr>
+  <tr>
+    <td>Requirements Management</td>
+    <td>Structurizr<br>Structurizr es una herramienta de modelado y documentación que permitió el desarrollo de los diagramas C4</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>MySQL Workbench<br>Herramienta de diseño para el modelado de diagrama de bases de datos.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>LucidChart<br>Herramienta de diseño para el modelado de diagramas UML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Miro<br>Herramienta de diseño para la creación de los As-Is y To-Be Scenario Mapping</td>
+  </tr>
+  <tr>
+    <td>Product UX/UI Design</td>
+    <td>Figma<br>Herramienta que se utilizó para la creación de wireframes, mockups y prototipos.</td>
+  </tr>
+  <tr>
+    <td>Software Development</td>
+    <td>Git<br>Es un software de control de versiones para los trabajos en equipos y confiabilidad del desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Node.js<br>Node.js es un entorno de ejecución de JavaScript del lado del servidor, que permite desarrollar aplicaciones web escalables y de alto rendimiento fuera del navegador.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>GitHub<br>Sistema de control de versiones Git.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>HTML5<br>Lenguaje de etiquetas, utilizado para la estructuración y la presentación de contenido.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>CSS<br>CSS es un lenguaje utilizado para estilizar y dar formato a documentos HTML.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JavaScript<br>JavaScript es un lenguaje de programación de alto nivel, interpretado y multi-paradigma, utilizado para crear interactividad en páginas web.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>VScode<br>Es un editor de código fuente con extensiones que ayudan al desarrollo.</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>Angular Framework<br>Framework para el desarrollo de frontend</td>
+  </tr>
+  <tr>
+    <td>Software Deployment</td>
+    <td>Github Pages<br>Plataforma que nos facilitó realizar el despliegue de nuestro landing page de manera rápida y práctica.</td>
+  </tr>
+</table>
+
+### 6.1.2. Source Code Management
+
+Utilizamos la metodología de git flow con finalidad es tener un control mayor sobre la gestión del proyecto, avanzar el proyecto de forma simultanea tanto como en la implementación del la aplicación y creación del reporte.
+
+Esto nos permitio separar el proyecto en la rama principal (main) en la que se encuentra la versión presentable del proyecto, que a la vez no cuenta con errores. También tenemos la rama secundario (develop) que sirve para unificar los cambios de las demás ramas. También contamos con más branches una para determinadas fuincionalidades amplias de la aplicación y una para cada chapter del reporte.
+
+<td><img src="" alt="Imagen del gitflow" width="1500"></td>
+
+
+URL del repositorio del Report en GitHub:
+
+URL del repositorio del Landing Page en GitHub: 
+
+URL del repositorio del Frontend en Github:
+
+### 6.1.3. Source Code Style Guide & Conventions
+
+HTML: Lenguaje utilizado para diseñar páginas web. Este lenguaje utiliza etiquetas para marcar y definir el contenido de la página web; Como un texto, imagenes, videos, etc.
+
+Convenciones:
+
+- Se tiene que declarar el tipo de documento en la primera línea de la siguiente manera:
+- Las etiquetas siempre tienen que esta en minúscula, ya que es más claro a la vista y es de facil escritura para los desarrolladores.
+- Usar las comillas para darle un valor a los atributos para una mejor legibilidad.
+
+CSS: Lenguaje que permite dar formatos o estilos a los elementos html. Con este lenguaje se pueden crear diseños web agradables e intuitivos para el usuario.
+
+Convenciones:
+
+- Unir los nombres de las clases compuestas con guiones: box-container{}
+- Usar la unidad de medida rem para mantener un diseño responsive: 1rem
+
+### 6.1.4. Software Deployment Configuration
+
+Para despliegar el landing page, usamos las siguientes herraminetas.
+
+- Git: Para realizar el manejo de las versiones del proyecto.
+- GitHub: Dentro de la plataforma tenemos un repositorio, lo usamos para almacenar todo el proyecto con sus respectivas versiones.
+- GitFlow: Esto permite visualizar y controlar el flujo de trabajo hecho por el equipo de desarrollo.
+
+### 6.2.1. Sprint 1
+
+#### 6.2.1.1. Sprint Planning 1
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 1</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            05/09/24         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            16:00         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+            Aliaga Trevejo, Lucía Guadalupe 
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Achamizo Huamani, Jean Carlos <br/>
+            - Aliaga Trevejo, Lucía Guadalupe <br/>
+            - Raymundo Guevara, Rodrigo Alejandro <br/>
+            - Siancas Reategui, Luis Alberto <br/>    
+            - Trujillo Lopez, Luis Alberto <br/> 
+            - Sagastegui Rodriguez, Luis Jesus <br/> 
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            12
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            12
+        </td>
+    </tr>
+</table> 
+
+#### 6.2.1.2. Sprint Backlog 1
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint.
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+       <td colspan="1"><b>Sprint #</b></td>
+       <td colspan="7"><b>Sprint 1</b></td>
+     </tr>
+     <tr>
+       <td colspan="2"><b>User Story</b></td>
+       <td colspan="6"><b>Work-Item / Task</b></td>
+     </tr>
+     <tr>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Id</b></td>
+       <td><b>Title</b></td>
+       <td><b>Description</b></td>
+       <td><b>Estimation(Hours)</b></td>
+       <td><b>Assigned To</b></td>
+       <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+     </tr>
+     <tr>
+       <td rowspan="2">US01</td>
+       <td rowspan="2">Beneficios del Producto</td>
+       <td>US001-TSK01</td>
+       <td>Implementar la sección de beneficios</td>
+       <td>Programar la estructura HTML de la sección de beneficios del producto </td>
+       <td>1 hora</td>
+       <td>Jean Achamizo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>US001-TSK02</td>
+       <td>Agregar estilos de la sección de beneficios Why choose us</td>
+       <td>Programar estilos de la sección beneficios</td>
+       <td>0.5 horas</td>
+       <td>Luis Trujillo</td>
+       <td>Done</td>
+    </tr>
+   <tr>
+       <td rowspan="2">US002</td>
+       <td rowspan="2">Modelo de Negocio</td>
+       <td>US002-TSK01</td>
+       <td>Implementar la sección Our Service</td>
+       <td>Programar la estructura HTML de la sección Our Service</td>
+       <td>1 hora</td>
+      <td>Luis Siancas</td>       
+      <td>Done</td>
+    </tr>
+    <tr>
+       <td>US002-TSK02</td>
+       <td>Agregar estilos de la sección Our Service</td>
+       <td>Programar estilos de la sección Our Service</td>
+       <td>0.5 horas</td>
+        <td>Luis Siancas</td>       
+        <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US003</td>
+       <td rowspan="2">Reseñas de Clientes</td>
+       <td>US003-TSK01</td>
+       <td>Implementar la sección de reseñas</td>
+       <td>Programar la estructura HTML de la sección de reseñas</td>
+       <td>1 hora</td>
+       <td>Jesus Sagastegui</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>US003-TSK02</td>
+       <td>Agregar estilos de la sección de reseñas</td>
+       <td>Programar estilos de la sección de reseñas</td>
+       <td>0.5 horas</td>
+       <td>Lucía Aliaga</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td rowspan="2">US004</td>
+       <td rowspan="2">Contactar a Miembros de la Compañía</td>
+       <td>US004-TSK01</td>
+      <td>Implementar la sección Contact</td>
+       <td>Programar la estructura HTML de la sección Contact</td>
+       <td>1 hora</td>
+       <td>Rodrigo Raymundo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>US004-TSK-02</td>
+        <td>Agregar estilos de la sección Contact</td>
+       <td>Programar estilos de la sección Contact</td>
+       <td>1 hora</td>
+       <td>Rodrigo Raymundo</td>
+       <td>Done</td>
+    </tr>
+     <tr>
+       <td rowspan="2">US005</td>
+       <td rowspan="2">Información de Miembros de la Compañía</td>
+       <td>US005-TSK01</td>
+       <td>Implementar la sección Meet the team</td>
+       <td>Programar la estructura HTML de la sección Meet the team</td>
+       <td>1.5 horas</td>
+       <td>Luis Trujillo</td>
+       <td>Done</td>
+    </tr>
+    <tr>
+       <td>US005-TSK02</td>
+       <td>Agregar estilos de la sección Meet the team</td>
+       <td>Programar estilos de la sección Meet the team</td>
+       <td>1 hora</td>
+       <td>Lucía Aliaga</td>
+       <td>Done</td>
+    </tr>
+</table>
+
+#### 6.2.1.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de la Landing Page. A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Committed on (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>IoT-SocialTech/miam-landing-page</td>
+        <td>/development</td>
+        <td>9cc795b</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>25/09/2024</td>
+    </tr>
+     <tr>
+        <td>/development</td>
+        <td>41a2388</td>
+        <td>Feature: NavBar and product information</td>
+        <td>Feature: NavBar and product information</td>
+        <td>27/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US01-Product-Information</td>
+        <td>6aecf7a</td>
+        <td>Feature: Product benefits and footer</td>
+        <td>Feature: Product benefits and footer</td>
+        <td>27/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US02-Business-Model</td>
+        <td>90281dc</td>
+        <td>Feature: Information about our Business Model</td>
+        <td>Feature: Information about our Business Model</td>
+        <td>27/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US03-CustomerReviews</td>
+        <td>c2dc9a2</td>
+        <td>Feature: User Reviews Section</td>
+        <td>Feature: User Reviews Section</td>
+        <td>27/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US04-Contact</td>
+        <td>d407ea8</td>
+        <td>Feature: Contact Company Members</td>
+        <td>Feature: Contact Company Members</td>
+        <td>27/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US05-Company-Member-Information</td>
+        <td>a8e6e9e</td>
+        <td>Feature: Company Member Information Section</td>
+        <td>Feature: Company Member Information Section</td>
+        <td>27/09/2024</td>
+    </tr>
+    <tr>
+        <td>/development</td>
+        <td>b2015d6</td>
+        <td>Fix: responsive</td>
+        <td>Fix: responsive</td>
+        <td>27/09/2024</td>
+    </tr>
+     <tr>
+        <td>/development</td>
+        <td>b160848</td>
+        <td>fix: responsiveness issues</td>
+        <td>fix: responsiveness issues</td>
+        <td>05/10/2024</td>
+    </tr>
+</table>
+
+#### 6.2.1.4. Testing Suite Evidence for Sprint Review
+
+#### 6.2.1.5. Execution Evidence for Sprint Review
+
+Como resultado del primer sprint, se presenta el despliegue de la Landing Page.
+<a href="https://iot-socialtech.github.io/miam-landing-page/">https://iot-socialtech.github.io/miam-landing-page/</a>
+
+![MIAM Landing Page](assets/miam-landingpage.PNG)
+
+#### 6.2.1.6. Services Documentation Evidence for Sprint Review
+
+**Link de la landing page:**
+<a href="https://iot-socialtech.github.io/miam-landing-page/">https://iot-socialtech.github.io/miam-landing-page/</a>
+
+#### 6.2.1.7. Software Deployment Evidence for Sprint Review
+
+Para el desarrollo de la Landing page, se utilizaron las siguientes texnologías:
+
+- HTML: Lenguaje de marcado para crear la estructura de una página web. Define la organización del contenido (encabezados, párrafos, imágenes, etc.).
+- CSS: Lenguaje de estilo para darle forma y diseño a las páginas web. Controla la apariencia del contenido (colores, tipografías, fondos, etc.).
+- Git: Sistema de control de versiones para gestionar el desarrollo de software. Permite realizar un seguimiento de los cambios en el código y colaborar con otros. Sistema de control de versiones que nos ayudó a trabajar en equipo durante el desarrollo del landing page
+- GitHub: Plataforma online para alojar repositorios Git. Permite compartir código, colaborar en proyectos y acceder a una gran comunidad de desarrolladores. Plataforma que nos ayudó al desarrollo colaborativo del equipo para almacenar las versiones de nuestro proyecto.
+
+Igualmente, para el correcto control de versiones y el adecuado desarrollo de la página, se empleó la metodología de trabajo GitFlow Workflow. Es un método para gestionar el desarrollo de software con Git. Define roles y ramas específicas para cada etapa del proceso, como desarrollo, pruebas y lanzamiento. Esto ayuda a organizar el código, facilita la colaboración y reduce el riesgo de errores.
+
+#### 6.2.1.8. Team Collaboration Insights during Sprint
+
+La StartUp ha realizado el presente sprint usando Git y Github como herramientas principales para el control de versiones y GitFlow como metodología de trabajo.
+
+En primer lugar, se creó una organización en Github con el nombre de la StartUp. Luego, se creó un repositorio para la Landing page. En dicho repositorio, el equipo ha creado diferentes ramas (branchs) para diferenciar el tipo de trabajo que se realiza. Por ejemplo, la rama `main` se empleó únicamente para el despliegue final de la aplicación; `develop`, para hacer _merge_ con demás ramas incluída la `main`; `feature`, para implementar alguna funcionalidad. De esta manera se protege el código funcional y se diferencia de features en desarrollo por los miembros. Después de la creación de cada rama, uno o más usuario pueden acceder a esta y realizar cambios y guardarlos como commits.
+
+![Landing Page Network Graph](assets/network-cloudapi.PNG)
+
+### 6.2.2. Sprint 2
+
+#### 6.2.2.1. Sprint Planning 2
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 2</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            04/10/2024        
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            168:30         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+           Aliaga Trevejo, Lucía Guadalupe  
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Achamizo Huamani, Jean Carlos <br/>
+            - Aliaga Trevejo, Lucía Guadalupe <br/>
+            - Raymundo Guevara, Rodrigo Alejandro <br/>
+            - Siancas Reategui, Luis Alberto <br/>    
+            - Trujillo Lopez, Luis Alberto <br/> 
+            - Sagastegui Rodriguez, Luis Jesus <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint 1</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            En el sprint anterior, se completó el desarrollo de las secciones de la landing page. Esto incluyó el diseño visual, la estructura de navegación y la implementación de los componentes necesarios para una experiencia de usuario funcional. 
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 1</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+          La organización de las tareas para el desarrollo de la landing page fue efectiva y permitió cumplir con el objetivo del sprint. Uno de los principales desafíos fue la gestión del tiempo. Se identificó la necesidad de priorizar y segmentar las tareas complejas para evitar sobrecargas y distribuir el trabajo de manera más equilibrada en el equipo
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+        </tr>
+    <tr align="left">
+      <td>
+        <b>Sprint 2 Goal</b>
+      </td>
+      <td>
+            Our focus is on establishing the foundational features for user onboarding, bracelet configuration, and initial data collection. We believe it delivers a seamless entry experience for caregivers and nursing home owners, enabling them to begin using the monitoring system effectively and gather essential health data from the start. This will be confirmed when users can successfully register, log in, configure their bracelets, and view initial health data collected from the bracelets in real time.
+      </td>
+    </tr>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            80
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            102
+        </td>
+    </tr>
+</table> 
+
+#### 6.2.2.2. Sprint Backlog 2
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint 2.
+
+El objetivo de este sprint es establecer las características fundamentales necesarias para la creación de usuarios y pacientes en el sistema de monitoreo. Este sprint se enfocará en el desarrollo de funcionalidades para el registro de cuidadores, la configuración de los brazaletes (health band) y la recolección inicial de datos de salud. Al implementar estas características, se busca proporcionar una experiencia de entrada fluida para los cuidadores y propietarios de las casas de reposo, facilitando así el uso efectivo del sistema desde su inicio.
+
+![Sprint Backlog 2](assets/sprint2_trello.PNG)
+
+<br> Enlace del tablero: </br>
+<a href="https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2"> https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2 </a>
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+        <td colspan="1"><b>Sprint #</b></td>
+        <td colspan="7"><b>Sprint 2</b></td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>User Story</b></td>
+        <td colspan="6"><b>Work-Item / Task</b></td>
+    </tr>
+    <tr>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Description</b></td>
+        <td><b>Estimation(Hours)</b></td>
+        <td><b>Assigned To</b></td>
+        <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+    </tr>
+    <tr>
+        <td rowspan="3">US006</td>
+        <td rowspan="3">Monitoreo de Temperatura en Tiempo Real</td>
+        <td>US06-TSK01</td>
+        <td>Toma de temperatura en embedded application</td>
+        <td>Implementar la lógica en el embedded application para tomar la temperatura</td>
+        <td>2 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US06-TSK02</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil para mostrar la temperatura</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil y lógica para mostrar la temperatura en tiempo real</td>
+        <td>3 horas</td>
+        <td>Jean Achamizo</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td>US06-TSK03</td>
+        <td>Implementar la interfaz de usuario de la aplicación web para mostrar la temperatura</td>
+        <td>Implementar la interfaz de usuario de la aplicación web y lógica para mostrar la temperatura en tiempo real</td>
+        <td>3 horas</td>
+        <td>Rodrigo Raymundo</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US007</td>
+        <td rowspan="3">Monitoreo del Ritmo Cardíaco en Tiempo Real</td>
+        <td>US07-TSK01</td>
+        <td>Toma de pulso en embedded application</td>
+        <td>Implementar la lógica en el embedded applicaton para tomar el pulso</td>
+        <td>2 horas</td>
+        <td>Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>T12</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil para mostrar el ritmo cardíaco</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil y lógica para mostrar el ritmo cardíaco en tiempo real</td>
+        <td>2 horas</td>
+        <td></td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td>T13</td>
+        <td>Implementar la interfaz de usuario de la aplicación web para mostrar el ritmo cardíaco</td>
+        <td>Implementar la interfaz de usuario de la aplicación web y lógica para mostrar el ritmo cardíaco en tiempo real</td>
+        <td>2 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US011</td>
+        <td rowspan="3">Envío de Notificación de Emergencia</td>
+        <td>US011-TSK01</td>
+        <td>Implementar el botón de emergencia en el embedded application</td>
+        <td>Implementar la lógica para el uso del botón de emergencia en el embedded application</td>
+        <td>Luis Trujillo</td>
+        <td> </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US011-TSK02</td>
+        <td>Implementar notificaciones en aplicación móvil</td>
+        <td>Implementar la lógica para recibir notificaciones en la aplicación móvil</td>
+        <td>2 horas</td>
+        <td>Luis Sagastegui</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US011-TSK03</td>
+        <td>Recibir notificaciones en la aplicación web</td>
+        <td>Implementar la lógica para recibir notificaciones en la aplicación web</td>
+        <td>2 horas</td>
+        <td>Rodrigo Raymundo</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US012</td>
+        <td rowspan="2">Recepción de Notificaciones de Ayuda</td>
+        <td>US012-TSK01</td>
+        <td>Implementar interfaz de notificaciones de ayuda en aplicación móvil</td>
+        <td>Implementar interfaz de notificaciones de ayuda en aplicación móvil</td>
+        <td>3 horas</td>
+        <td>Jen Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US012-TSK02</td>
+        <td>Interfaz de notificaciones en la aplicación web</td>
+        <td>Implementar la interfaz de notificaciones en la aplicación web</td>
+        <td>3 horas</td>
+        <td>Lucía Aliaga</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="3">US015</td>
+        <td rowspan="3">Acceso a datos de Usuario</td>
+        <td>US15-TSK01</td>
+        <td>Implementar formulario para agregar pacientes</td>
+        <td>Implementar el formulario para poder agregar la información de los pacientes con los datos necesarios</td>
+        <td> 1.5 horas</td>
+        <td>Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US15-TSK02</td>
+        <td>Implementar CRUD para pacientes</td>
+        <td>Implementar las opciones para poder agregar, editar y eliminar la información de los pacientes luego de haberlos agregado</td>
+        <td>4 horas</td>
+        <td>Rodrigo Raymundo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US15-TSK03</td>
+        <td>Implementar el apartado de los pacientes</td>
+        <td>Implementar el apartado de los pacientes en donde se guarde toda la información de los pacientes</td>
+        <td> 2 horas</td>
+        <td> Jesus Sagastegui</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US019</td>
+        <td rowspan="2">Recepción de Notificaciones de Ayuda</td>
+        <td>US19-TSK01</td>
+        <td>Interfaz móvi para visualizar el estado de los sensores</td>
+        <td>Implementar la interfaz móvil y lógica para visualizar el estado de los sensores</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US19-TSK02</td>
+        <td>Interfaz web para visualizar el estado de los sensores</td>
+        <td>Implementar la interfaz web y lógica para visualizar el estado de los sensores</td>
+        <td> 3 horas </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US020</td>
+        <td rowspan="2">Asignación de Pulsera a un Usuario</td>
+        <td>US20-TSK01</td>
+        <td>Creación de paciente en aplicación web</td>
+        <td>Implementar la lógica en la aplicación web para crear un paciente</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US20-TSK02</td>
+        <td>Mostrar la configuración de la banda</td>
+        <td>Implementar la interfaz de usuario de la aplicación móvil y lógica para mostrar la configuración de la banda</td>
+        <td> 2 horas </td>
+        <td> Jean Achamizo </td>
+        <td>Done</td>
+    </tr>
+     <tr>
+        <td rowspan="2">US022</td>
+        <td rowspan="2">Configuración de Pagos Automatizados</td>
+        <td>US22-TSK01</td>
+        <td>Implementar interfaz móvil  para la configuración de pagos</td>
+        <td>Implementar la interfaz móvil y lógica para la configuración de pagos</td>
+        <td> 3 horas </td>
+        <td> Luis Sagastegui</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US22-TSK02</td>
+        <td>Implementar interfaz web para la configuración de pagos</td>
+        <td>Implementar la interfaz web y lógica para la configuración de pagos</td>
+        <td> 4 horas </td>
+        <td> Luis Siancas</td>
+        <td>In Process</td>
+    </tr>
+     <tr>
+        <td rowspan="2">TS07</td>
+        <td rowspan="2">Endpoint para Monitoreo de Temperatura</td>
+        <td>TS07-TSK01</td>
+        <td>Obtener temperatura según healthbandId</td>
+        <td>Implementar la lógica para obtener la temperatura actual de la pulsera usando el healthbandId</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS07-TSK02</td>
+        <td>Pruebas unitarias para validar la obtención de  temperatura </td>
+        <td>Crear pruebas unitarias para validar la correcta obtención de la temperatura y manejo de errores</td>
+        <td> 3 horas</td>
+        <td> Rodrigo Raymundo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS08</td>
+        <td rowspan="2">Endpoint para Monitoreo de Ritmo Cardíaco</td>
+        <td>TS08-TSK01</td>
+        <td>Obtener ritmo cardíaco según healthbandId</td>
+        <td>Desarrollar el servicio para recuperar el ritmo cardíaco actual de la pulsera usando el healthbandId</td>
+        <td> 2 horas </td>
+        <td> Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS08-TSK02</td>
+        <td>Implementar manejo de errores </td>
+        <td>Implementar manejo de errores para situaciones como healthbandId inválido o falta de datos</td>
+        <td> 0.5 horas </td>
+        <td> Luis Trujillo</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS09</td>
+        <td rowspan="2">Endpoint para Alertas de Salud</td>
+        <td>TS09-TSK01</td>
+        <td>Enviar alertas de salud cuando se detecten valores anormales</td>
+        <td>Implementar la funcionalidad para enviar alertas de salud cuando se detecten valores anormales</td>
+        <td> 2 horas </td>
+        <td> Jean Achamizo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>TS09-TSK02</td>
+        <td>Integración del sistema de alertas </td>
+        <td>Integrar el sistema de notificaciones para enviar alertas en tiempo real a los usuarios</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS16</td>
+        <td rowspan="2">Endpoints para acceso a datos del usuario</td>
+        <td>TS16-TSK01</td>
+        <td>Creación de los Endpoints CRUD para roles</td>
+        <td>Creación de los Endpoints CRUD para la creacion, modificación y visualización de</td>
+        <td> 2 horas </td>
+        <td> Luis Trujillo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS09-TSK02</td>
+        <td>Creación de los Endpoints CRUD para pacientes</td>
+        <td>Creación de los Endpoints CRUD para la creacion, modificación y visualización de pacientes</td>
+        <td> 2.5 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS19</td>
+        <td rowspan="1">Endpoint para Promedio de Pulso Cardiaco</td>
+        <td>TS19-TSK01</td>
+        <td>Implementar la lógica para calcular el promedio de las últimas mediciones de pulso cardiaco</td>
+        <td>Implementar la lógica para calcular el promedio de las últimas mediciones de pulso cardiaco</td>
+        <td> 1 hora </td>
+        <td> Rodrigo Raymundo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS20</td>
+        <td rowspan="1">Endpoint para Promedio de Temperatura</td>
+        <td>TS20-TSK01</td>
+        <td>Calcular el promedio de las últimas mediciones de temperatura</td>
+        <td>Implementar la lógica para calcular el promedio de las últimas mediciones de temperatura</td>
+        <td> 1 hora </td>
+        <td> Rodrigo Raymundo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS21</td>
+        <td rowspan="1">Lógica para leer y almacenar mensajes de la cola</td>
+        <td>TS21-TSK01</td>
+        <td>Lectura de la cola y almacenamiento en la base de datos</td>
+        <td>Implementar logica de lectura de la cola y almacenamiento en la base de datos</td>
+        <td> 3.5 horas </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+      <tr>
+        <td rowspan="4">TS22</td>
+        <td rowspan="4">Consultas de Cloud Api hacia Edge Api</td>
+        <td>TS22-TSK01</td>
+        <td>Creación de consultas para el endpoint del promedio del pulso cardiaco en Cloud</td>
+        <td>Creación de consultas para el endpoint del promedio del pulso cardiaco en Cloud</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS22-TSK02</td>
+        <td>Creación de consultas para el endpoint del promedio del temperatura en Cloud</td>
+        <td>ICreación de consultas para el endpoint del promedio del temperatura en Cloud</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS22-TSK03</td>
+        <td>Creación de consultas para el endpoint del pulso cardiaco actual en Cloud</td>
+        <td>Creación de consultas para el endpoint del pulso cardiaco actual en Cloud</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS22-TSK04</td>
+        <td>Creación de consultas para el endpoint de la temperatura actual en Cloud</td>
+        <td>Creación de consultas para el endpoint de la temperatura actual en Cloud</td>
+        <td> 2 horas </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+     <tr>
+        <td rowspan="1">TS23</td>
+        <td rowspan="1">Despliegue de la aplicación web</td>
+        <td>TS23-TSK01</td>
+        <td>Despliegue de la aplicación web </td>
+        <td>Configuración y despliegue de la aplicación web en Netlify</td>
+        <td> 0.5 horas </td>
+        <td> Lucía Aliaga y Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+     <tr>
+        <td rowspan="1">TS24</td>
+        <td rowspan="1">Despliegue de la aplicación móvil </td>
+        <td>TS24-TSK01</td>
+        <td>Despliegue de la aplicación móvil </td>
+        <td>Configuración y despliegue de la aplicación móvil en Firebase App Distribution</td>
+        <td> 1 hora </td>
+        <td> Jean Achamizo y Luis Sagastegui </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS25</td>
+        <td rowspan="2">Despliegue del edge API</td>
+        <td>TS25-TSK01</td>
+        <td>Despliegue del Edge API</td>
+        <td>Configuración y despliegue del Edge API en Render</td>
+        <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS25-TSK02</td>
+        <td>Despliegue de la base de datos del Edge API</td>
+        <td>Despliegue de la base de datos del Edge API</td>
+        <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td> Done </td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS26</td>
+        <td rowspan="2">Despliegue del cloud  API</td>
+        <td>TS26-TSK01</td>
+        <td>Despliegue del Edge API</td>
+        <td>Configuración y despliegue del cloud  API en Render</td>
+         <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS26-TSK02</td>
+        <td>Despliegue de la base de datos del cloud  API</td>
+        <td>Despliegue de la base de datos del cloud  API</td>
+         <td> 1 hora </td>
+        <td> Luis Siancas </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS27</td>
+        <td rowspan="1">Despliegue del embedded application</td>
+        <td>TS27-TSK01</td>
+        <td>Despliegue del embedded application</td>
+        <td>Despliegue del embedded application</td>
+        <td> 0.5 horas </td>
+        <td> Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS28</td>
+        <td rowspan="2">Endpoints para obtener los planes y suscripciones</td>
+        <td>TS28-TSK01</td>
+        <td>Creación y obtención de planes</td>
+        <td>Implementacion de logica para la creación y la obtenciones de plane</td>
+        <td> 2 horas</td>
+        <td> Rodrigo Raymundo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>TS28-TSK02</td>
+        <td>Creacion y obtencion de planes en los que esta suscrito el cliente</td>
+        <td>Implementacion de logica para la creacion y obtencion de los planes en los que esta suscrito el cliente</td>
+        <td> 2 horas</td>
+        <td> Rodrigo Raymundo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="3">TS29</td>
+        <td rowspan="3">Generación de notificaciones</td>
+        <td>TS29-TSK01</td>
+        <td>Almacenar notificaciones generadas</td>
+        <td>Implementar logica par almacenar las notificaciones generadas</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>TS29-TSK02</td>
+        <td>Enviar notificaciones a usuario</td>
+        <td>Crear funcionalidad para que las notificaciones sean enviadas hacia el usuario</td>
+        <td> 1 hora </td>
+        <td> Luis Siancas</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>TS29-TSK02</td>
+        <td>Modificacion del status de la notificacion</td>
+        <td>Crear ndpoints para la modificacion del status de la notificacion</td>
+         <td> 1 hora </td>
+        <td> Luis Siancas</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">TS30</td>
+        <td rowspan="2">Configuración del dispositivo</td>
+        <td>TS30-TSK01</td>
+        <td>Configuración de dispositivos del embedded application</td>
+        <td>Implementar lógica para la configuración de los dispositivos del embedded application</td>
+        <td> 2 horas </td>
+        <td> Jean Achamizo</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS30-TSK02</td>
+        <td>Implementar apartado de auditoria</td>
+        <td>Implementar apartado de auditoria para monitoreo constante</td>
+        <td> 2 horas </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="3">TS31</td>
+        <td rowspan="3">Generar alertas desde el device</td>
+        <td>TS31-TSK01</td>
+        <td>Proximidad con objetos peligrosos en embedded application</td>
+        <td>Implementar la logica en el embedded application para la proximidad con objetos peligrosos</td>
+        <td> 2 horas </td>
+        <td> Lucía Aliaga </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS31-TSK02</td>
+        <td>Implementar alerta frente algun accidente o parametro riesgoso</td>
+        <td>Implementar logica visual de la alerta frente algun accidente o parametro riesgoso</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>TS31-TSK02</td>
+        <td>Generar alerta en cloud con boton de panico</td>
+        <td>Implementar funcionalidad de boton de panico que genere una alerta en cloud</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="1">TS32</td>
+        <td rowspan="1">Envío de información del device al edge API</td>
+        <td>TS32-TSK01</td>
+        <td>Envio de informacion del embedded application al edge API</td>
+        <td>Envio de informacion de los datos recogidos por el embedded application  al edge AP</td>
+        <td> 1 hora </td>
+        <td> Rodrigo Raymundo</td>
+        <td>Done</td>
+    </tr>
+</table>
+
+
+
+#### 6.2.2.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de los productos: Web Application, Mobile Application, Edge API, Cloud API y Embedded Application. 
+
+A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>IoT-SocialTech/Front-MIAM</td>
+        <td>/main</td>
+        <td>1c57dd1</td>
+        <td>Initial commit</td>
+        <td>Initial commit</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>5906720</td>
+        <td>Feature: Account registration view completed</td>
+        <td>Feature: Account registration view completed</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>e69fbf5</td>
+        <td>Feature: Creating fake API for testing</td>
+        <td>Feature: Creating fake API for testing</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>0500cb3</td>
+        <td>Feature: Creating the dashboard</td>
+        <td>Feature: Creating the dashboard</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>7e85538</td>
+        <td>Feature: Authentication Settings</td>
+        <td>Feature: Authentication Settings</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-Account</td>
+        <td>f2717f7</td>
+        <td>Feature: Password recovery form completed</td>
+        <td>Feature: Password recovery form completed</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/development</td>
+        <td>e79d4ca</td>
+        <td>Feature: SideNav Component</td>
+        <td>Feature: SideNav Component</td>
+        <td>26/09/2024</td>
+    </tr>
+    <tr>
+        <td>/US010-AlertsConfiguration</td>
+        <td>6003c15</td>
+        <td>Feature: Added band configuration interface</td>
+        <td>Feature: Added band configuration interface</td>
+        <td>23/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US06-US07-Temperature-Pulse-Monitoring</td>
+        <td>122aeda</td>
+        <td>Feature: Vital signs chart added</td>
+        <td>Feature: Vital signs chart added</td>
+        <td>24/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US008-Alerts-History</td>
+        <td>59ea9d7</td>
+        <td>Feature: Updated table and alerts information</td>
+        <td>Feature: Updated table and alerts information</td>
+        <td>25/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US020-Assign-Band</td>
+        <td>24fcecc</td>
+        <td>Feature: Patient information interface added</td>
+        <td>Feature: Patient information interface added</td>
+        <td>24/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US020-Assign-Band</td>
+        <td>13ec953</td>
+        <td>feat: US020 Integration with fake api</td>
+        <td>feat: US020 Integration with fake api</td>
+        <td>25/10/2024</td>
+    </tr>
+    <tr>
+        <td>/US020-Assign-Band</td>
+        <td>076aee9</td>
+        <td>fix: mockup api integration</td>
+        <td>fixed mockup api integration</td>
+        <td>02/11/2024</td>
+    </tr>
+    
+</table>
+
+<table align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
+        <td>/TS07-TSK01</td>
+        <td>8ef9c2a</td>
+        <td>feat: added get temperature functionality</td>
+        <td>feat: added functionality to return current patient temperature and included shared files</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>923d98f</td>
+        <td>feat: added JPA configuration and established connection with database</td>
+        <td>feat: added JPA configuration and established connection with database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>49996fa</td>
+        <td>Merge pull request #2 from IoT-SocialTech/jpa-conf</td>
+        <td>Added JPA configuration</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>695887f</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>d5a5e9e</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>feat: added JMS configuration and established connection with IBM MQ queues</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS07-TSK01</td>
+        <td>2cf7dc7</td>
+        <td>Initial commit: added base files</td>
+        <td>Initial commit: added base files</td>
+        <td>30/09/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>4bd451d</td>
+        <td>feat: added get heart rate functionality</td>
+        <td>feat: added functionality to return current patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>1306aa3</td>
+        <td>feat: added get temperature functionality</td>
+        <td>feat: added functionality to return current patient temperature and included shared files</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS08-TSK01</td>
+        <td>0f970fb</td>
+        <td>Merge pull request #4 from IoT-SocialTech/TS08-TSK01</td>
+        <td>feat: added get heart rate functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>5ab3960</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>684cdfe</td>
+        <td>Merge pull request #7 from IoT-SocialTech/TS19-TSK01</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS19-TSK01</td>
+        <td>4dd6029</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>3797c40</td>
+        <td>fix: error</td>
+        <td>fix: error</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>59385b5</td>
+        <td>Merge remote-tracking branch 'origin/develop' into develop</td>
+        <td>Conflicts resolved in MetricsController.java</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>d7aeee0</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS20-TSK01</td>
+        <td>b43eed1</td>
+        <td>feat: added get average heart rate functionality</td>
+        <td>feat: added functionality to return average patient heart rate</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>5d79f14</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>5291ed4</td>
+        <td>Merge pull request #9 from IoT-SocialTech/TS20-TSK01</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/TS21-TSK01</td>
+        <td>03dda9c</td>
+        <td>Merge pull request #10 from IoT-SocialTech/TS21-TSK01</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>03dda9c</td>
+        <td>Merge pull request #10 from IoT-SocialTech/TS21-TSK01</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>5d79f14</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>feat: added functionality to store device measurements in the database</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>5291ed4</td>
+        <td>Merge pull request #9 from IoT-SocialTech/TS20-TSK01</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>e1b80c7</td>
+        <td>feat: added get average temperature functionality</td>
+        <td>feat: added functionality to return average patient temperature</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>3797c40</td>
+        <td>fix: error</td>
+        <td>fix: error</td>
+        <td>20/10/2024</td>
+    </tr>
+    <tr>
+        <td>/develop</td>
+        <td>59385b5</td>
+        <td>Merge remote-tracking branch 'origin/develop' into develop</td>
+        <td>Conflicts resolved in MetricsController.java</td>
+        <td>20/10/2024</td>
+    </tr>
+</table>
+
+Implementación Movile IoT-SocialTech mobile-application-miam
+
+<table align="left" border="1" width="100%"> <tr> <th>Repository</th> <th>Branch</th> <th>Commit ID</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited On (Date)</th> </tr> <tr> <td rowspan=18>IoT-SocialTech/mobile-application-miam</td> <td>/ts24-mobile-app-implementation</td> <td>2af1951</td> <td>feat: seach dependence for change name</td> <td>Búsqueda de dependencias para cambiar el nombre</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>34a4200</td> <td>feat: change name for integrate firebase</td> <td>Cambio de nombre para integración con Firebase</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>469c2eb</td> <td>feat: add dependence for change name aplication:change_app_package_name</td> <td>Agregar dependencia para cambio de nombre de la aplicación: change_app_package_name</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3831621</td> <td>fix: routing in BottomNavigationBarItem</td> <td>Corregir la ruta en BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3013760</td> <td>feat: add BottomNavigationBarItem</td> <td>Añadir BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>97ceabe</td> <td>Merge pull request #2 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>25/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>5d678bd</td> <td>feat-tsk01: implementation of interfast notifications</td> <td>Implementación de notificaciones de interfaz</td> <td>25/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>6e213c8</td> <td>fix: fix login screen, configure main screen</td> <td>Corrección de la pantalla de inicio de sesión y configuración de la pantalla principal</td> <td>01/11/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>8b107f4</td> <td>fix: screen configuration, The cards are modified to display it differently</td> <td>Configuración de pantalla, las tarjetas se modifican para mostrarse de manera diferente</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>0eea0f7</td> <td>feat: screen configuration, add connection</td> <td>Configuración de pantalla, se añade conexión</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>10a8874</td> <td>feat: add configuration screen</td> <td>Añadir pantalla de configuración</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> </table>
+
+
+#### 6.2.2.4. Testing Suite Evidence for Sprint Review
+En esta sección se presenta la evidencia de la suite de pruebas utilizada para la revisión del sprint. Para asegurar la funcionalidad y el cumplimiento de los criterios de aceptación de cada historia de usuario (US) en esta entrega, se implementaron pruebas automáticas con el uso de Gherkin. Cada historia de usuario se describe en lenguaje Gherkin
+
+Repositorio: https://github.com/IoT-SocialTech/features
+
+TS21_LogicaLeerAlmacenarMensajesCola.feature
+![alt text](code.png)
+
+US007_MonitoreoRitmoCardiaco.feature
+![alt text](cap-2.png)
+
+#### 6.2.2.5. Execution Evidence for Sprint Review
+
+*Web Application*
+
+En este Sprint, logramos implementar varias vistas clave en la aplicación web, enfocándonos en mejorar la experiencia de configuración, gestión y monitoreo de los pacientes y sus datos de salud. A continuación, se detalla cada vista y su funcionalidad implementada:
+
+![Login](assets/login-view.PNG)
+
+- Band Configuration: Desarrollamos la vista para configurar la health band de cada paciente. Esta sección permite seleccionar y ajustar las alertas que recibirán el caregiver y el relative, personalizando así las notificaciones y el tipo de seguimiento que recibirán según las necesidades del paciente.
+
+![Band Configuration Web App](assets/band-configuration-view.PNG)
+
+- Patients: Implementamos la vista de creación y gestión de pacientes, donde se pueden registrar nuevos pacientes y vincularlos tanto a un caregiver como a un relative. Esta funcionalidad permite gestionar de forma centralizada la información relevante de cada paciente.
+
+![Patients Web App](assets/patients-view.PNG)
+
+- Alerts: En esta sección, añadimos un historial de alertas para cada paciente, donde se pueden visualizar las notificaciones pasadas y su información detallada, permitiendo un seguimiento preciso de los eventos críticos que han ocurrido en cada caso.
+
+![Alerts Web App](assets/alerts-view.PNG)
+
+![Alerts Info Web App](assets/alerts-info-view.PNG)
+
+- Dashboard: Avanzamos en el desarrollo del Dashboard, incluyendo gráficos de temperatura y pulso para facilitar el monitoreo de estos parámetros en tiempo real. También se añadió la visualización de los caregivers y sus pacientes.
+
+![Dashboard Web App](assets/dashboard-view.PNG)
+
+<br> Enlace al video: </br>
+<a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EZJY3UCOxHJJh2amSyocaoYBQjKLvHMUlhnFMNzpdL4I3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XIAQ8s"> https://goo.su/orFzn6 </a>
+
+#### 6.2.2.6. Services Documentation Evidence for Sprint Review
+
+En este Sprint, avanzamos en la documentación de los Endpoints desarrollados, asegurando claridad y facilidad de integración mediante OpenAPI. A continuación, se presenta una tabla con las acciones soportadas para cada Endpoint, incluyendo los métodos HTTP, parámetros, ejemplos de llamadas y respuestas.
+
+#### 6.2.2.7. Software Deployment Evidence for Sprint Review
+
+*Web Application*
+
+Durante este Sprint se realizó el despliegue de la aplicación web en Netlify. Este proceso incluyó la creación y configuración de los recursos necesarios en la plataforma, asegurando la disponibilidad y accesibilidad de la aplicación en un entorno de producción.
+
+Para llevar a cabo el despliegue en Netlify, se realizaron los siguientes pasos:
+
+**1. Configuración de la Cuenta y Proyecto en Netlify:** Se accedió a una cuenta ya existente y se configuró el repositorio con el código fuente de la aplicación web.
+
+**2. Conexión del Repositorio:** Se configuró la rama `development` para el despliegue.
+
+**3. Configuración de las Opciones de Build y Deployment:** Se configurarion  las opciones de build en Netlify, especificando el comando de compilación
+
+**4. Ejecución del Despliegue Inicial:** Una vez configurados los detalles de compilación, Netlify ejecuta automáticamente el primer despliegue. En este paso, Netlify toma el código del repositorio, lo construye y publica la aplicación en un dominio temporal. Posteriormente se configuró el dominio.
+
+![Web App Deployment on Netlify](assets/netlify-miam.PNG)
+![Web App Deployment on Netlify](assets/last-deploy-web.PNG)
+
+Enlace: <a href="https://miam-site.netlify.app/">https://miam-site.netlify.app/ </a>
+
+*Mobile Application*
+
+Durante este Sprint, se realizó el despliegue de la aplicación móvil utilizando Firebase App Distribution. Este proceso incluyó la configuración y publicación de la aplicación, asegurando que los usuarios de prueba y los equipos de desarrollo pudieran acceder a la versión más reciente en un entorno de pruebas controlado.
+
+Para llevar a cabo el despliegue en Firebase App Distribution, se siguieron los siguientes pasos:
+
+**1. Configuración de la Cuenta y Proyecto en Firebase:** Se accedió a una cuenta ya existente en Firebase y se configuró el proyecto para el despliegue de la aplicación móvil.
+![alt text](image-4.png)
+![alt text](image.png)
+
+**2. Integración del Repositorio de Código:** Se configuró la rama de desarrollo en el repositorio para generar automáticamente builds de la aplicación y enviarlas a Firebase.
+
+**3. Configuración de las Opciones de Build:** En el archivo de configuración, se especificaron los detalles de compilación para que la aplicación se genere correctamente antes de ser distribuida. Este proceso incluyó la configuración de los scripts necesarios para la integración continua.
+
+Enlace: <a href="https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6">https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6</a>
+
+
+**4. Ejecución del Despliegue a Firebase App Distribution:** Una vez que se completó la configuración, el proceso de CI/CD envió automáticamente el build a Firebase App Distribution. Desde allí, los usuarios de prueba y el equipo de desarrollo recibieron invitaciones por correo electrónico para descargar e instalar la aplicación en sus dispositivos.
+
+![alt text](image-1.png)
+
+
+*Miam Edge API*
+
+![Miam Edge API on Render](assets/edge.PNG)
+
+*Miam Cloud API*
+
+![Miam cloud API on Render](assets/cloud.PNG)
+
+#### 6.2.2.8. Team Collaboration Insights during Sprint
+
+En este Sprint, el equipo trabajó de manera colaborativa en la implementación de los distintos componentes del proyecto, abarcando los Web Services y las Aplicaciones. La contribución de cada miembro quedó reflejada en la actividad de commits y los analíticos de colaboración en GitHub, los cuales se presentan en esta sección con capturas de pantalla.
+
+Para cada producto, se detalla la participación de los miembros del equipo, quienes han contribuido en la implementación de funcionalidades clave.
+
+*Web Application*
+
+![Web App Network Graph](assets/network-web.PNG)
+
+*Mobile Application*
+
+![Web App Pulse](assets/pulse-mobile.PNG)
+
+![Mobile App Network Graph](assets/network-mobile.PNG)
+
+*Embedded Application*
+
+![Embedded App Pulse](assets/pulse-embedded.PNG)
+
+![Embedded App Network Graph](assets/network-embedded.PNG)
+
+*Edge API*
+
+![Edge API Network Graph](assets/network-edgeapi.PNG)
+
+*Cloud API*
+
+![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+
+![Cloud API Network Graph](assets/network-cloudapi.PNG)
+
+#### 6.3 Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+
+#### 6.3.2. Registro de Entrevistas.
+
+#### 6.3.3. Evaluaciones según heurísticas.
+
+#### 6.4. Video About-the-Product.
+
+En esta sección se incluye un video promocional que ofrece un primer vistazo a nuestro producto. El video está diseñado para comunicar de manera atractiva y concisa el valor que ofrece nuestro producto, mencionando el público objetivo y beneficios.
+
+![About The Product](assets/about-the-product.PNG)
+<br> Enlace al video: </br>
+<a href="https://goo.su/KlSALD2"> https://goo.su/KlSALD2 </a>
 
 # Conclusiones
 
@@ -3414,7 +5293,9 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 
 | Enlace                                             | Fecha        | Entregable                       |
 |----------------------------------------------------|--------------|----------------------------------|
-| [TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EXzPKFFOnR5Mq2strIjYv_ABHHmMLD8uwcRHKCLaIeRl8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7VLfOg)       | 07/09/2024   | TB1         |
+| https://goo.su/sorVJws   | 07/09/2024   | TB1         |
+| https://goo.su/8Zz305      | 26/09/2024   | TP        |
+| https://goo.su/tYkZtN      | 02/11/2024   | TB2        |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
