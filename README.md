@@ -63,6 +63,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
 ## Tabla de Contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [|   1.3     |   26/09/2024   |  Achamizo Huamani Jean Carlos|   Se corrigieron los elementos correspondientes del Lean UX Process, los apartados de Lean UX Assumptions y Lean UX Hypothesis Statements |](#---13--------26092024-----achamizo-huamani-jean-carlos---se-corrigieron-los-elementos-correspondientes-del-lean-ux-process-los-apartados-de-lean-ux-assumptions-y-lean-ux-hypothesis-statements-)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
@@ -76,10 +77,7 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-      - [Assumptions worksheet](#assumptions-worksheet)
       - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-      - [Features Hypothesis](#features-hypothesis)
-      - [Business Hypothesis](#business-hypothesis)
       - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
 - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
@@ -109,6 +107,20 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
       - [4.1.1.2 Domain Message Flows Modeling](#4112-domain-message-flows-modeling)
       - [4.1.1.3 Bounded Context Canvases](#4113-bounded-context-canvases)
     - [4.1.2. Context Mapping](#412-context-mapping)
+      - [Proceso para Crear el Context Mapping y Análisis de Alternativas](#proceso-para-crear-el-context-mapping-y-análisis-de-alternativas)
+        - [1. Pasos para Crear el Context Mapping](#1-pasos-para-crear-el-context-mapping)
+          - [1.1. Identificación de los Bounded Contexts](#11-identificación-de-los-bounded-contexts)
+          - [1.2. Identificación de Relaciones Iniciales](#12-identificación-de-relaciones-iniciales)
+        - [2. Análisis de Alternativas y Preguntas Clave](#2-análisis-de-alternativas-y-preguntas-clave)
+          - [2.1. ¿Qué pasaría si movemos este capability a otro bounded context?](#21-qué-pasaría-si-movemos-este-capability-a-otro-bounded-context)
+          - [2.2. ¿Qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?](#22-qué-pasaría-si-descomponemos-este-capability-y-movemos-uno-de-los-sub-capabilities-a-otro-bounded-context)
+          - [2.3. ¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?](#23-qué-pasaría-si-partimos-el-bounded-context-en-múltiples-bounded-contexts)
+          - [2.4. ¿Qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?](#24-qué-pasaría-si-tomamos-este-capability-de-estos-3-contexts-y-lo-usamos-para-formar-un-nuevo-context)
+          - [2.5. ¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?](#25-qué-pasaría-si-duplicamos-una-funcionalidad-para-romper-la-dependencia)
+          - [2.6. ¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?](#26-qué-pasaría-si-creamos-un-shared-service-para-reducir-la-duplicación-entre-múltiples-bounded-contexts)
+          - [2.7. ¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?](#27-qué-pasaría-si-aislamos-los-core-capabilities-y-movemos-los-otros-a-un-context-aparte)
+        - [3. Alternativa Recomendada de Context Mapping](#3-alternativa-recomendada-de-context-mapping)
+        - [4. Patrones de Relaciones Sugeridos](#4-patrones-de-relaciones-sugeridos)
     - [4.1.3. Software Architecture](#413-software-architecture)
       - [4.1.3.1. Software Architecture System Landscape Diagram](#4131-software-architecture-system-landscape-diagram)
       - [4.1.3.2. Software Architecture Context Level Diagrams](#4132-software-architecture-context-level-diagrams)
@@ -258,7 +270,37 @@ El uso de ramas paralelas permitió a los miembros del equipo trabajar simultán
     - [4.2.7.7. Bounded Context Software Architecture Code Level Diagrams](#4277-bounded-context-software-architecture-code-level-diagrams)
       - [4.2.7.7.1. Bounded Context Domain Layer Class Diagrams](#42771-bounded-context-domain-layer-class-diagrams)
       - [4.2.7.7.2. Bounded Context Database Design Diagram](#42772-bounded-context-database-design-diagram)
-  - [](#-3)
+- [Capítulo V:Solution UI/UX Design](#capítulo-vsolution-uiux-design)
+  - [5.1. Strategic-Level Attribute-Driven Design](#51-strategic-level-attribute-driven-design)
+    - [5.1.1. General Style Guidelines](#511-general-style-guidelines)
+      - [5.1.1.1. Branding](#5111-branding)
+      - [5.1.1.2. Logotipo](#5112-logotipo)
+      - [5.1.1.3. Typography](#5113-typography)
+      - [5.1.1.4. Colors](#5114-colors)
+      - [5.1.1.5. Spacing](#5115-spacing)
+    - [5.1.2. Web, Mobile and IoT Style Guidelines](#512-web-mobile-and-iot-style-guidelines)
+  - [5.2. Information Architecture](#52-information-architecture)
+    - [5.2.1. Organization Systems.](#521-organization-systems)
+    - [5.2.2. Labeling Systems.](#522-labeling-systems)
+    - [5.2.3. SEO Tags and Meta Tags](#523-seo-tags-and-meta-tags)
+    - [5.2.4. Searching Systems.](#524-searching-systems)
+    - [5.2.5. Navigation Systems.](#525-navigation-systems)
+  - [5.3. Landing Page UI Design](#53-landing-page-ui-design)
+    - [5.3.1. Landing Page Wireframe](#531-landing-page-wireframe)
+    - [5.3.2. Landing Page Mock-up](#532-landing-page-mock-up)
+  - [5.4. Applications UX/UI Design](#54-applications-uxui-design)
+    - [5.4.1. Applications Wireframes](#541-applications-wireframes)
+      - [5.4.1.1. Web Application Wireframes](#5411-web-application-wireframes)
+      - [5.4.1.2. Mobile Application Wireframes](#5412-mobile-application-wireframes)
+    - [5.4.2. Applications Wireflow Diagrams](#542-applications-wireflow-diagrams)
+      - [5.4.2.1. Web Application Wireflow Diagrams](#5421-web-application-wireflow-diagrams)
+      - [5.4.2.2. Mobile Application Wireflow Diagrams](#5422-mobile-application-wireflow-diagrams)
+    - [5.4.3. Applications Mock-ups](#543-applications-mock-ups)
+      - [5.4.3.1. Web Application Mock-ups](#5431-web-application-mock-ups)
+      - [5.4.3.2. Mobile Application Mock-ups](#5432-mobile-application-mock-ups)
+    - [5.4.4. Applications User Flow Diagrams](#544-applications-user-flow-diagrams)
+      - [5.4.4.1. Web Application User Flow Diagrams](#5441-web-application-user-flow-diagrams)
+      - [5.4.4.2. Mobile Application User Flow Diagrams](#5442-mobile-application-user-flow-diagrams)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -1709,7 +1751,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
     - Columnas: `id`, `configName`, `value`, `Device_id`.
     - Llave Foránea: `Device_id`.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/device_context.png)
 
 - **Relaciones:**
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
@@ -1917,7 +1959,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Device` se relaciona con `Patient` a través de `Patient_id`.
   - `Patient` puede tener varias métricas y dispositivos asociados.
 
-![alt text](assets/DB_MIAM_FINAL.png)
+![alt text](assets/edge_context.png)
 ---
 
 ## 4.2.3. Bounded Context: Notification Context
@@ -2087,7 +2129,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Notification` se relaciona con `Caregiver` a través de `Caregiver_id`.
   - `Caregiver` puede recibir varias notificaciones.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/notification_context.png)
 ---
 
 ## 4.2.4. Bounded Context: Metrics Context
@@ -2266,7 +2308,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
 `Columnas`: id, name, age, address, emergencyContact.
 `Relaciones`: Metrics se relaciona con Patient a través de Patient_id.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/metrics_context.png)
 
 ## 4.2.5. Bounded Context: Payment Context
 
@@ -2577,7 +2619,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Subscription` se relaciona con `Account` y `Plan` a través de `Account_id` y `Plan_id`.
   - `CreditCard` se relaciona con `Account` a través de `Account_id`.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/payment_context.jpg)
 ---
 
 ## 4.2.6. Bounded Context: Configuration Context
@@ -2752,7 +2794,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
   - `Device` puede tener varias configuraciones asociadas.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/configuration_context.png)
 
 ## 4.2.7. Bounded Context: Account Context
 
@@ -3024,7 +3066,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Caregiver` se relaciona con `Account` a través de `Account_id`.
   - `Account` puede tener múltiples pacientes y cuidadores asociados.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/account_context.png)
 
 # Capítulo V:Solution UI/UX Design
 
