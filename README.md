@@ -111,6 +111,7 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 ## Tabla de Contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
+  - [|   1.3     |   26/09/2024   |  Achamizo Huamani Jean Carlos|   Se corrigieron los elementos correspondientes del Lean UX Process, los apartados de Lean UX Assumptions y Lean UX Hypothesis Statements |](#---13--------26092024-----achamizo-huamani-jean-carlos---se-corrigieron-los-elementos-correspondientes-del-lean-ux-process-los-apartados-de-lean-ux-assumptions-y-lean-ux-hypothesis-statements-)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
@@ -1939,7 +1940,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
     - Columnas: `id`, `configName`, `value`, `Device_id`.
     - Llave Foránea: `Device_id`.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/device_context.png)
 
 - **Relaciones:**
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
@@ -2147,7 +2148,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Device` se relaciona con `Patient` a través de `Patient_id`.
   - `Patient` puede tener varias métricas y dispositivos asociados.
 
-![alt text](assets/DB_MIAM_FINAL.png)
+![alt text](assets/edge_context.png)
 ---
 
 ## 4.2.3. Bounded Context: Notification Context
@@ -2317,7 +2318,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `Notification` se relaciona con `Caregiver` a través de `Caregiver_id`.
   - `Caregiver` puede recibir varias notificaciones.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/notification_context.png)
 ---
 
 ## 4.2.4. Bounded Context: Metrics Context
@@ -2496,7 +2497,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
 `Columnas`: id, name, age, address, emergencyContact.
 `Relaciones`: Metrics se relaciona con Patient a través de Patient_id.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/metrics_context.png)
 
 ## 4.2.5. Bounded Context: Payment Context
 
@@ -2807,7 +2808,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Subscription` se relaciona con `Account` y `Plan` a través de `Account_id` y `Plan_id`.
   - `CreditCard` se relaciona con `Account` a través de `Account_id`.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/payment_context.jpg)
 ---
 
 ## 4.2.6. Bounded Context: Configuration Context
@@ -2982,7 +2983,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Configuration` se relaciona con `Device` a través de `Device_id`.
   - `Device` puede tener varias configuraciones asociadas.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/configuration_context.png)
 
 ## 4.2.7. Bounded Context: Account Context
 
@@ -3254,7 +3255,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `Caregiver` se relaciona con `Account` a través de `Account_id`.
   - `Account` puede tener múltiples pacientes y cuidadores asociados.
 
-![alt text](assets/diagram-db.png)
+![alt text](assets/account_context.png)
 
 # Capítulo V:Solution UI/UX Design
 
