@@ -5299,3 +5299,119 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
+
+### 6.2.2. Sprint 3
+
+#### 6.2.2.1. Sprint Planning 3
+
+<table align="center"  border="1" width="90%" style="text-align:center;">
+    <tr align="left">
+        <td>
+            <b>Sprint #</b>
+        </td>
+        <td>
+            <b>Sprint 3</b>           
+        </td>
+    </tr>
+    <tr align="left">
+        <td colspan="2">
+            <b>Sprint Planning Background</b>
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Date</b>
+        </td>
+        <td>
+            14/10/2024        
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Time</b>
+        </td>
+        <td>
+            20:30         
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Location</b>
+        </td>
+        <td>
+            Modalidad remota por Discord      
+        </td>
+    </tr>
+     </tr>
+       <tr align="left">
+        <td>
+            <b>Prepared By</b>
+        </td>
+        <td>
+           Aliaga Trevejo, Lucía Guadalupe  
+        </td>
+    </tr>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Attendess (to planning meeting)</b>
+        </td>
+        <td>
+            - Achamizo Huamani, Jean Carlos <br/>
+            - Aliaga Trevejo, Lucía Guadalupe <br/>
+            - Raymundo Guevara, Rodrigo Alejandro <br/>
+            - Siancas Reategui, Luis Alberto <br/>    
+            - Trujillo Lopez, Luis Alberto <br/> 
+            - Sagastegui Rodriguez, Luis Jesus <br/> 
+        </td>
+    </tr>
+      </tr>
+       <tr align="left">
+        <td>
+            <b>Sprint 2</b>
+            <b>Review Summary</b>
+        </td>
+        <td>
+            En el sprint anterior, se completó la mayoria de las caracteristicas fundamentales para la creacion de usuarios y pacientes en el sistema de monitoreo. 
+        </td>
+    </tr>
+    <tr align="left">
+        <td>
+            <b>Sprint 2</b>
+            <b>Retrospective Summary</b>
+        </td>
+        <td>
+          -
+        </td>
+    </tr>
+     <tr align="left">
+        <td colspan="2">
+            <b>Sprint Goal & User Stories</b>
+        </td>
+        </tr>
+    <tr align="left">
+      <td>
+        <b>Sprint 2 Goal</b>
+      </td>
+      <td>
+            -
+      </td>
+    </tr>
+    </tr>
+      <tr align="left">
+        <td>
+            <b>Sprint 1 Velocity</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+       <tr align="left">
+        <td>
+            <b>Sum of Story Points</b>
+        </td>
+        <td>
+            -
+        </td>
+    </tr>
+</table> 
