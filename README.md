@@ -5421,7 +5421,7 @@ https://structurizr.com/share/95614/diagrams#SystemContext
 En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint 2.
 
 
-![Sprint Backlog 2](assets/sprint3_trello.PNG)
+![Sprint Backlog 3](assets/sprint3_trello.png)
 
 <br> Enlace del tablero: </br>
 <a href="https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2"> https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2 </a>
