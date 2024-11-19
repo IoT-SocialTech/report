@@ -5415,3 +5415,417 @@ https://structurizr.com/share/95614/diagrams#SystemContext
         </td>
     </tr>
 </table> 
+
+#### 6.2.2.2. Sprint Backlog 3
+
+En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint 2.
+
+
+![Sprint Backlog 2](assets/sprint3_trello.PNG)
+
+<br> Enlace del tablero: </br>
+<a href="https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2"> https://trello.com/invite/b/67127f4727ed7ccde1bbbc90/ATTI96acb467f4e57fe2509686befd5449c2E7848092/sprint-backlog-2 </a>
+
+<table align="center" border="1" width="90%" style="text-align:center">
+    <tr>
+        <td colspan="1"><b>Sprint #</b></td>
+        <td colspan="7"><b>Sprint 3</b></td>
+    </tr>
+    <tr>
+        <td colspan="2"><b>User Story</b></td>
+        <td colspan="6"><b>Work-Item / Task</b></td>
+    </tr>
+    <tr>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Id</b></td>
+        <td><b>Title</b></td>
+        <td><b>Description</b></td>
+        <td><b>Estimation(Hours)</b></td>
+        <td><b>Assigned To</b></td>
+        <td><b>Status(To-do/ In-Process/ To-Review/ Done)</b></td>
+    </tr>
+    <tr>
+        <td rowspan="4">US008</td>
+        <td rowspan="4">Alertas de Salud</td>
+        <td>US08-TSK01</td>
+        <td>Implementar la interfaz en la aplicacion web para alertas</td>
+        <td>Implementar la interfaz en la aplicacion web para visualizar las alertas recibidas</td>
+        <td>- horas</td>
+        <td>abc</td>
+        <td>To Fix </td>
+    </tr>
+    <tr>
+        <td>US08-TSK02</td>
+        <td>Implementar los mensajes de error en la aplicacion web</td>
+        <td>Implementar los mensajes de error en la aplicacion web cuando el dispositivo no esta vinculado</td>
+        <td>- horas</td>
+        <td>abc</td>
+        <td>To fix</td>
+    </tr>
+    <tr>
+        <td>US08-TSK03</td>
+        <td>Implementar la interfaz en la aplicacion movil para alertas</td>
+        <td>Implementar la interfaz en la aplicacion movil para visualizar las alertas recibidas</td>
+        <td>- horas</td>
+        <td>abc</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US08-TSK04</td>
+        <td>Implementar los mensajes de error en la aplicacion movil</td>
+        <td>Implementar los mensajes de error en la aplicacion movil cuando el dispositivo no esta vinculado</td>
+        <td>- horas</td>
+        <td>abc</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US009</td>
+        <td rowspan="2">Historial de Datos de Salud</td>
+        <td>US09-TSK01</td>
+        <td>Implementar filtro de datos por fecha en la aplicacion web</td>
+        <td>Implementar el filtrado de datos de temperatura y ritmo cardiaco por fecha en la aplicacion web</td>
+        <td>-</td>
+        <td>-</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US09-TSK02</td>
+        <td>Implementar filtro de datos por fecha en la aplicacion movil</td>
+        <td>Implementar el filtrado de datos de temperatura y ritmo cardiaco por fecha en la aplicacion movil</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="4">US010</td>
+        <td rowspan="4">Configuración de Alertas Personalizadas</td>
+        <td>US010-TSK01</td>
+        <td>Implementar la interfaz web para configurar el umbral de temperatura</td>
+        <td>Implementar la interfaz en la aplicacion web para configurar el umbral de temperatura</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US010-TSK02</td>
+        <td>Implementar la interfaz movil para configurar el umbral de temperatura</td>
+        <td>Implementar la interfaz en la aplicacion movil para configurar el umbral de temperatura</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US010-TSK03</td>
+        <td>Implementar la interfaz web para configurar el umbral de ritmo cardiaco</td>
+        <td>Implementar la interfaz en la aplicacion web para configurar el umbral de ritmo cardiaco</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US010-TSK04</td>
+        <td>Implementar la interfaz movil para configurar el umbral de ritmo cardiaco</td>
+        <td>Implementar la interfaz en la aplicacion movil para configurar el umbral de ritmo cardiaco</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US013</td>
+        <td rowspan="2">Gestión de Notificaciones</td>
+        <td>US013-TSK01</td>
+        <td>Implementar la interfaz en la aplicacion web para la visualizacion de alertas</td>
+        <td>Implementar la interfaz en la aplicacion web para la visualizacion de alertas e informacion adicional</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US013-TSK02</td>
+        <td>Implementar la interfaz en la aplicacion movil para la visualizacion de alertas</td>
+        <td>Implementar la interfaz en la aplicacion movil para la visualizacion de alertas e informacion adicional</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US014</td>
+        <td rowspan="2">Configuración de Alertas de Emergencia</td>
+        <td>US14-TSK01</td>
+        <td>Implementar la interfaz movil para configurar las alertas</td>
+        <td>Implementar la interfaz en la aplicacion movil para configurar las notificaciones de alertas de emergencia</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US14-TSK02</td>
+        <td>Implementar la interfaz web para configurar las alertas</td>
+        <td>Implementar la interfaz en la aplicacion web para configurar las notificaciones de alertas de emergencia</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US016</td>
+        <td rowspan="2">Gestión de Pulseras Alquiladas</td>
+        <td>US16-TSK01</td>
+        <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
+        <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
+        <td> - horas </td>
+        <td> - </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US16-TSK02</td>
+        <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
+        <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
+        <td> - horas </td>
+        <td> -</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US017</td>
+        <td rowspan="2">Visualización de Pulseras Disponibles</td>
+        <td>US17-TSK01</td>
+        <td>Implementar la interfaz web para listar las pulseras disponibles</td>
+        <td>Implementar la interfaz y logica en la aplicacion web para listar las pulseras disponibles</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US17-TSK02</td>
+        <td>Implementar la interfaz movil para listar las pulseras disponibles</td>
+        <td>Implementar la interfaz y logica en la aplicacion movil para listar las pulseras disponibles</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+     <tr>
+        <td rowspan="4">US018</td>
+        <td rowspan="4">Generación de Informes de Uso</td>
+        <td>US18-TSK01</td>
+        <td>Implementar la logica en la aplicacion web para generar un informe de uso</td>
+        <td>Implementar la logica en la aplicacion web para generar un informe de uso</td>
+        <td>- horas</td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US18-TSK02</td>
+        <td>Implementar la interfaz en la aplicacion web para mostrar un informe de uso</td>
+        <td>Implementar la interfaz en la aplicacion web para mostrar un informe de uso</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US18-TSK03</td>
+        <td>Implementar la logica en la aplicacion movil para generar un informe de uso</td>
+        <td>Implementar la logica en la aplicacion movil para generar un informe de uso</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US18-TSK04</td>
+        <td>Implementar la interfaz en la aplicacion movil para mostrar un informe de uso</td>
+        <td>Implementar la interfaz en la aplicacion movil para mostrar un informe de uso</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US021</td>
+        <td rowspan="2">Generación de Informes Financieros</td>
+        <td>US021-TSK01</td>
+        <td>Implementar la interfaz web y logica para generar un informe financiero</td>
+        <td>Implementar la interfaz en la aplicacion web y logica para generar un informe financiero</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US021-TSK02</td>
+        <td>Implementar la interfaz movil y logica para generar un informe financiero</td>
+        <td>Implementar la interfaz en la aplicacion movil y logica para generar un informe financiero</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="4">US025</td>
+        <td rowspan="4">Acceso Rápido a Datos de la Pulsera</td>
+        <td>US025-TSK01</td>
+        <td>Implementar la logica en la aplicacion web para mostrar la temperatura</td>
+        <td>Implementar la logica en la interfaz de la aplicacion web para mostrar el ultimo registro de temperatura del paciente</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Fix</td>
+    </tr>
+    <tr>
+        <td>US025-TSK02</td>
+        <td>Implementar la logica en la aplicacion web para mostrar el ritmo cardiaco</td>
+        <td>Implementar la logica en la interfaz de la aplicacion web para mostrar el ultimo registro del ritmo cardiaco del paciente</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>To Fix</td>
+    </tr>
+    <tr>
+        <td>US025-TSK03</td>
+        <td>Implementar mensaje de error en la aplicacion web</td>
+        <td>Implementar mensaje de error en la aplicacion web cuando se pierde la conexion con la banda</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>To Fix</td>
+    </tr>
+    <tr>
+        <td>US025-TSK04</td>
+        <td>Implementar mensaje de error en la aplicacion movil</td>
+        <td>Implementar mensaje de error en la aplicacion movil cuando se pierde la conexion con la banda</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>To Fix</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US026</td>
+        <td rowspan="2">Navegación Intuitiva</td>
+        <td>US026-TSK01</td>
+        <td>Implementar barra de navegacion en la aplicacion web</td>
+        <td>Implementar la barra de navegacion y redireccion de rutas en la aplicacion web</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td>US026-TSK02</td>
+        <td>Implementar barra de navegacion en la aplicacion movil</td>
+        <td>Implementar la barra de navegacion y redireccion de rutas en la aplicacion movil</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>Done</td>
+    </tr>
+    <tr>
+        <td rowspan="4">US027</td>
+        <td rowspan="4">Visualización Clara de Alertas</td>
+        <td>US027-TSK01</td>
+        <td>Implementar la interfaz web para mostrar de manera clara las alertas criticas</td>
+        <td>Implementar la interfaz web para mostrar de manera clara las alertas criticas</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US027-TSK02</td>
+        <td>Implementar el mensaje de error de las alertas criticas en la aplicacion web</td>
+        <td>Implementar el mensaje de error de las alertas criticas en la aplicacion web</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US027-TSK03</td>
+        <td>Implementar la interfaz móvil para mostrar de manera clara las alertas criticas</td>
+        <td>Implementar la interfaz móvil para mostrar de manera clara las alertas criticas</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>To Review</td>
+    </tr>
+    <tr>
+        <td>US027-TSK04</td>
+        <td>Implementar el mensaje de error de las alertas criticas en la aplicacion movil</td>
+        <td>Implementar el mensaje de error de las alertas criticas en la aplicacion movil</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="2">US028</td>
+        <td rowspan="2">Personalización de la Interfaz</td>
+        <td>US028-TSK01</td>
+        <td>Implementar la interfaz web para implementar las adaptaciones de visualizacion</td>
+        <td>Implementar la interfaz web para implementar las adaptaciones de visualizacion</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td>US028-TSK02</td>
+        <td>Implementar la interfaz movil para implementar las adaptaciones de visualizacion</td>
+        <td>Implementar la interfaz movil para implementar las adaptaciones de visualizacion</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>To Do</td>
+    </tr>
+    <tr>
+        <td rowspan="4">US029</td>
+        <td rowspan="4">Notificaciones en Tiempo Real</td>
+        <td>US029-TSK01</td>
+        <td>Implementar las notificaciones instantaneas en la aplicacion web</td>
+        <td>Implementar las notificaciones instantaneas en la aplicacion web</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US029-TSK02</td>
+        <td>Implementar el registro y reenvío de la notificación instantanea en caso de fallos de la aplicación web</td>
+        <td>Implementar el registro y reenvío de la notificación instantanea en caso de fallos de la aplicación web</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US029-TSK03</td>
+        <td>Implementar las notificaciones instantaneas en la aplicacion movil</td>
+        <td>Implementar las notificaciones instantaneas en la aplicacion movil</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US029-TSK04</td>
+        <td>Implementar el registro y reenvío de la notificación instantánea en caso de fallos de la aplicación movil</td>
+        <td>Implementar el registro y reenvío de la notificación instantánea en caso de fallos de la aplicación movil</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td rowspan="4">US030</td>
+        <td rowspan="4">Resumen Diario de Salud</td>
+        <td>US030-TSK01</td>
+        <td>Implementar la interfaz de la aplicacion web que muestre el resumen del dia</td>
+        <td>Implementar la interfaz de la aplicacion web que muestre el resumen del dia</td>
+        <td>- horas </td>
+        <td>-</td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US030-TSK02</td>
+        <td>Implementar el mensaje de error del resumen del dia en la aplicacion web</td>
+        <td>Implementar el mensaje de error del resumen del dia en la aplicacion web</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US030-TSK03</td>
+        <td>Implementar la interfaz de la aplicacion movil que muestre el resumen del dia</td>
+        <td>Implementar la interfaz de la aplicacion movil que muestre el resumen del dia</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+    <tr>
+        <td>US030-TSK04</td>
+        <td>Implementar el mensaje de error del resumen del dia en la aplicacion movil</td>
+        <td>Implementar el mensaje de error del resumen del dia en la aplicacion movil</td>
+        <td>- horas</td>
+        <td>- </td>
+        <td>In Process</td>
+    </tr>
+
+</table>
