@@ -43,7 +43,10 @@ Trujillo Lopez, Luis Alberto <br>
 | 1.4     | 27/09/2024  | Sagastegui Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
 | 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
 | 2.0    | 31/10/2024  | Aliaga Trevejo Lucía Guadalupe                                                                   | Se agregó el capítulo correspondiente al Sprint 2            |
-| 2.1    | 18/11/2024  | Siancas Reategui Luis Alberto Guadalupe                                                                   | Se corrigieron las imágenes y descripciones en la sección de entrevistas          |
+| 2.1    | 09/11/2024  | Siancas Reategui Luis Alberto                                                                    | Se corrigieron las imágenes y descripciones en la sección de entrevistas          |
+| 2.2    | 10/11/2024  | Trujillo Lopez Luis Alberto                                                                   | Se agregaron textos a las imágenes sin descripción del Domain Message Flows Modeling        |
+| 2.3    | 11/11/2024  | Achamizo Huamani Jean Carlos                                                                   | Actualización de Commits en las evidencias del Sprint 2      |
+| 2.4    | 14/11/2024  | Sagastegui Rodriguez Luis Jesus, Trujillo Lopez Luis Alberto, Siancas Reategui Luis Alberto                                                                    | Creación y actualización a cerca de la tabla de documentación de endpoints       |
 
 
 # Project Report Collaboration Insights
@@ -5269,9 +5272,9 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 *Cloud API*
 - Las imágenes siguientes ilustran el uso de las ramas en nuestro repositorio de GitHub, lo que asegura un entorno colaborativo eficiente y facilita el trabajo continuo y asincrónico del equipo en el proyecto. Ademas, se puede apreciar los commites realizados en el repositorio.
 
-![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+![Cloud API Pulse](assets/pulse-cloudapi.png)
 
-![Cloud API Network Graph](assets/network-cloudapi.PNG)
+![Cloud API Network Graph](assets/network-cloudapi.png)
 
 ### 6.2.2. Sprint 3
 
@@ -5809,6 +5812,7 @@ En esta sección se presentan los commits realizados en el repositorio de GitHub
 
 A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
 
+
 <table  align="left" border="1" width="100%">
     <tr>
         <th>Repository</th>
@@ -5821,96 +5825,46 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     <tr>
         <td rowspan=19>IoT-SocialTech/Front-MIAM</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>076aee9</td>
+        <td>fix: mockup api integration</td>
+        <td>fix: mockup api integration</td>
+        <td>02/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>738bd02</td>
+        <td>Add: Graphics and alerts in dashboard</td>
+        <td>Add: Graphics and alerts in dashboard</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>504c943</td>
+        <td>Update: services to retrieve patient and caregiver data</td>
+        <td>Updated services to retrieve patient and caregiver data</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>1a1c8e2</td>
+        <td>Add: Services to create and update patient information</td>
+        <td>Added Services to create and update patient information</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>c59580d</td>
+        <td>Add: Interface to configure temperature and heart rate limits</td>
+        <td>Added Interface to configure temperature and heart rate limits</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    
+        <td>955d2c0</td>
+        <td>Add: Interface to view alerts and details</td>
+        <td>Added interface to view alerts and details</td>
+        <td>20/11/2024</td>
+    </tr>    
 </table>
 
 <table  align="left" border="1" width="100%">
@@ -5923,186 +5877,195 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
         <th>Commited On (Date)</th>
     </tr>
     <tr>
-        <td rowspan=19>IoT-SocialTech/cloud-api</td>
-        <td>TS16</td>
-        <td>7b8353a9a4ba7346838e83201b31361c30fa2d86</td>
-        <td>Feat: Add Dockerfile and update deployment-related files</td>
-        <td>Feat: Add Dockerfile and update deployment-related files</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS28</td>
-        <td>19cd02d3f78a05ce9b2f5b75479240300aa6c525</td>
-        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
-        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS29</td>
-        <td>7b8353a9a4ba7346838e83201b31361c30fa2d86</td>
-        <td>Feat: Add Dockerfile and update deployment-related files</td>
-        <td>Feat: Add Dockerfile and update deployment-related files</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS29</td>
-        <td>19cd02d3f78a05ce9b2f5b75479240300aa6c525</td>
-        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
-        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS29</td>
-        <td>d8ce874109290e2b2ebd1f4daf4637c90d18bf85</td>
-        <td>Merge pull request #5 from IoT-SocialTech/TS16</td>
-        <td>Merge pull request #5 from IoT-SocialTech/TS16</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS29</td>
-        <td>41bcba21f82885a79037003b2abcba85cabe3567</td>
-        <td>Merge pull request #6 from IoT-SocialTech/TS28</td>
-        <td>Merge pull request #6 from IoT-SocialTech/TS28</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS29</td>
-        <td>6b04d4fe2727ceee15d85769092686f65318c8d1</td>
-        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
-        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS30</td>
-        <td>7b8353a9a4ba7346838e83201b31361c30fa2d86</td>
-        <td>Feat: Add Dockerfile and update deployment-related files</td>
-        <td>Feat: Add Dockerfile and update deployment-related files</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS30</td>
-        <td>19cd02d3f78a05ce9b2f5b75479240300aa6c525</td>
-        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
-        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS30</td>
-        <td>6b04d4fe2727ceee15d85769092686f65318c8d1</td>
-        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
-        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS30</td>
-        <td>ef2a9bf0260108503cf9c164d6abc67c3404410a</td>
-        <td>feat: Add MedicationSchedule module (entity, controller, service, repository, and DTOs)
-</td>
-        <td>feat: Add MedicationSchedule module (entity, controller, service, repository, and DTOs)
-</td>
-        <td>13/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS31</td>
-        <td>172390a82b66fef9fc317aa8338f800802522a9f</td>
-        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
-        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
-        <td>16/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS31</td>
-        <td>9060660d95f3bbe3c4becce66abe01a717ff6798</td>
-        <td>Fix: fixes some points in communication with the edge api</td>
-        <td>Fix: fixes some points in communication with the edge api</td>
-        <td>16/11/2024</td>
-    </tr>
-    <tr>
-        <td>TS31</td>
-        <td>ed9cdae1d1466a894e82cecfbd55851ea3bac924</td>
-        <td>feat: Add security implementation to Cloud API</td>
-        <td>feat: Add security implementation to Cloud API</td>
-        <td>17/11/2024</td>
-    </tr>
-    <tr>
-        <td>develop</td>
-        <td>172390a82b66fef9fc317aa8338f800802522a9f</td>
-        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
-        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
-        <td>16/11/2024</td>
-    </tr>
-    <tr>
-        <td>develop</td>
-        <td>c5e03ae8cb73c8ce32895e98a05d12e59742bc9a</td>
-        <td>Merge pull request #11 from IoT-SocialTech/TS31</td>
-        <td>Merge pull request #11 from IoT-SocialTech/TS31</td>
-        <td>16/11/2024</td>
-    </tr>
-    <tr>
-        <td>develop</td>
-        <td>9060660d95f3bbe3c4becce66abe01a717ff6798</td>
-        <td>Fix: fixes some points in communication with the edge api</td>
-        <td>Fix: fixes some points in communication with the edge api</td>
-        <td>16/11/2024</td>
-    </tr>
-    <tr>
-        <td>develop</td>
-        <td>ed9cdae1d1466a894e82cecfbd55851ea3bac924</td>
-        <td>feat: Add security implementation to Cloud API</td>
-        <td>feat: Add security implementation to Cloud API</td>
-        <td>17/11/2024</td>
-    </tr>
-    <tr>
-        <td>develop</td>
-        <td>42f2dec5e5807a0d5bf2d2bf991f0f4a5413dd58</td>
-        <td>Merge pull request #12 from IoT-SocialTech/TS31</td>
-        <td>Merge pull request #12 from IoT-SocialTech/TS31</td>
-        <td>17/11/2024</td>
-    </tr>
-</table>
-
-<table align="left" border="1" width="100%">
-    <tr>
-        <th>Repository</th>
-        <th>Branch</th>
-        <th>Commit ID</th>
-        <th>Commit Message</th>
-        <th>Commit Message Body</th>
-        <th>Commited On (Date)</th>
-    </tr>
-    <tr>
         <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
-        <td>develop</td>
-        <td>85798a7e3102a832a28c0ad95827c5337f98b1be</td>
-        <td>Feat: add deployment files</td>
-        <td>Feat: add deployment files</td>
-        <td>15/11/2024</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>develop</td>
-        <td>f65288205c7a03c3cf04b5d252b33fe081577569</td>
-        <td>refactor: Rebuild API structure to align with new logic between edge and device</td>
-        <td>refactor: Rebuild API structure to align with new logic between edge and device</td>
-        <td>16/11/2024</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
     <tr>
-        <td>develop</td>
-        <td>c78f33701bfddcc74ad48b5bcb294cf04a3da9f2</td>
-        <td>feat: Add security implementation and configuration entity with full components
-</td>
-        <td>- Implement JWT-based security, including authentication and authorization mechanisms.
-- Add `TokenAuthenticationFilter` for request validation and integration with `SecurityContextHolder`.
-- Create `JwtTokenProvider` for token generation and validation.
-- Add `AuthService` with methods for user registration and login.
-- Implement `JwtTokenStorage` for managing authentication tokens across the application.
-- Add configuration entity:
-  - Create `Configuration` entity class.
-  - Add `ConfigurationRepository` for database operations.
-  - Implement `ConfigurationService` for business logic.
-  - Create `ConfigurationController` for API endpoints.
-  - Include necessary DTOs and mappers.</td>
-        <td>17/11/2024</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
     </tr>
-  
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
 </table>
 
 Implementación Movile IoT-SocialTech mobile-application-miam
@@ -6231,29 +6194,49 @@ Implementación Movile IoT-SocialTech mobile-application-miam
 
 *Para Cuidadores de Adultos Mayores (Caregivers)*
 
-<br>¿Cuáles son los mayores desafíos que enfrentas al monitorear los signos vitales de los adultos mayores a tu cargo?</br>
-<br>¿Con qué frecuencia monitoreas la temperatura y el pulso de tus pacientes? ¿Cuál es tu método actual para registrar estos datos?</br>
-<br>¿Qué tan importante sería para ti tener acceso a estos datos en tiempo real?</br>
-<br>¿Qué valor le darías a una alerta inmediata si los signos vitales de un paciente están fuera de los rangos normales?</br>
-<br>¿Cómo prefieres acceder a los datos de los pacientes (móvil, tablet, computadora)?</br>
-<br>¿Qué problemas o preocupaciones te gustaría que esta aplicación te ayudara a resolver?</br>
-<br>¿Te resultaría útil una opción para revisar los historiales de signos vitales de los pacientes en la aplicación? ¿Cómo la usarías en tu rutina?</br>
-<br>¿Qué características crees que le faltarían a una herramienta que solo monitorea pulso y temperatura para que sea completa?</br>
-<br>¿Hay otras métricas o información sobre el paciente que te gustaría poder rastrear o visualizar desde la misma plataforma?</br>
-<br>¿Cuáles son tus expectativas en cuanto a la facilidad de uso de la aplicación? ¿Prefieres una interfaz más simple o más detallada?</br>
+1. ¿Cuáles son los mayores desafíos que enfrentas al monitorear los signos vitales de los adultos mayores a tu cargo?
+
+2. ¿Con qué frecuencia monitoreas la temperatura y el pulso de tus pacientes? ¿Cuál es tu método actual para registrar estos datos?
+
+3. ¿Qué tan importante sería para ti tener acceso a estos datos en tiempo real?
+
+4. ¿Qué valor le darías a una alerta inmediata si los signos vitales de un paciente están fuera de los rangos normales?
+
+5. ¿Cómo prefieres acceder a los datos de los pacientes (móvil, tablet, computadora)?
+
+6. ¿Qué problemas o preocupaciones te gustaría que esta aplicación te ayudara a resolver?
+
+7. ¿Te resultaría útil una opción para revisar los historiales de signos vitales de los pacientes en la aplicación? ¿Cómo la usarías en tu rutina?
+
+8. ¿Qué características crees que le faltarían a una herramienta que solo monitorea pulso y temperatura para que sea completa?
+
+9. ¿Hay otras métricas o información sobre el paciente que te gustaría poder rastrear o visualizar desde la misma plataforma?
+
+10. ¿Cuáles son tus expectativas en cuanto a la facilidad de uso de la aplicación? ¿Prefieres una interfaz más simple o más detallada?
+
 
 <br>*Para Dueños de Casas de Reposo (Nursing Home Owners)*
 
-<br>¿Cuáles son los principales problemas que experimentan los cuidadores de tu institución al monitorear los signos vitales de los residentes?</br>
-<br>¿Qué métodos utilizan actualmente para llevar el control de los signos vitales y cómo se almacenan estos datos?</br>
-<br>¿Consideras importante tener acceso centralizado y en tiempo real a la información de salud de tus residentes?</br>
-<br>¿Qué impacto crees que tendría la capacidad de recibir alertas sobre signos vitales en el bienestar de los pacientes y en la eficiencia del personal?</br>
-<br>¿Cómo se integraría una aplicación de este tipo en la rutina diaria de tu casa de reposo?</br>
-<br>¿Cuáles son tus preocupaciones en cuanto a la privacidad y seguridad de los datos de los residentes?</br>
-<br>¿Consideras importante que esta información esté disponible en una plataforma web además de la móvil? ¿Por qué?</br>
-<br>¿Qué tipo de reportes o análisis te gustaría recibir sobre el estado de salud de tus residentes?</br>
-<br>¿Qué funcionalidades crees que serían esenciales en una herramienta de monitoreo de salud para una casa de reposo?</br>
-<br>¿Qué tan dispuestos estarían a adoptar esta tecnología si mejora la calidad de atención y facilita el trabajo de los cuidadores?</br>
+1. ¿Cuáles son los principales problemas que experimentan los cuidadores de tu institución al monitorear los signos vitales de los residentes?
+
+2. ¿Qué métodos utilizan actualmente para llevar el control de los signos vitales y cómo se almacenan estos datos?
+
+3. ¿Consideras importante tener acceso centralizado y en tiempo real a la información de salud de tus residentes?
+
+4. ¿Qué impacto crees que tendría la capacidad de recibir alertas sobre signos vitales en el bienestar de los pacientes y en la eficiencia del personal?
+
+5. ¿Cómo se integraría una aplicación de este tipo en la rutina diaria de tu casa de reposo?
+
+6. ¿Cuáles son tus preocupaciones en cuanto a la privacidad y seguridad de los datos de los residentes?
+
+7. ¿Consideras importante que esta información esté disponible en una plataforma web además de la móvil? ¿Por qué?
+
+8. ¿Qué tipo de reportes o análisis te gustaría recibir sobre el estado de salud de tus residentes?
+
+9. ¿Qué funcionalidades crees que serían esenciales en una herramienta de monitoreo de salud para una casa de reposo?
+
+10. ¿Qué tan dispuestos estarían a adoptar esta tecnología si mejora la calidad de atención y facilita el trabajo de los cuidadores?
+
 
 #### 6.3.2. Registro de Entrevistas.
 
