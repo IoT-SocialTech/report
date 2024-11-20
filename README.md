@@ -5227,11 +5227,11 @@ Enlace: <a href="https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6">https:
 
 *Miam Edge API*
 
-![Miam Edge API on Render](assets/edge.PNG)
+![Miam Edge API on Render](assets/edge.png)
 
 *Miam Cloud API*
 
-![Miam cloud API on Render](assets/cloud.PNG)
+![Miam cloud API on Render](assets/cloud.png)
 
 #### 6.2.2.8. Team Collaboration Insights during Sprint
 
@@ -5257,13 +5257,17 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 
 *Edge API*
 
+- En las siguientes imágenes se muestra cómo utilizamos las ramas en nuestro repositorio de GitHub. Este enfoque garantiza un entorno colaborativo que permite a los miembros del equipo trabajar de forma continua y asincrónica en el desarrollo del proyecto.
+
 ![Edge API Network Graph](assets/network-edgeapi.PNG)
+![Edge API Network Graph](assets/network-edgeapi2.PNG)
+
 
 *Cloud API*
 
-![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+![Cloud API Pulse](assets/pulse-cloudapi.png)
 
-![Cloud API Network Graph](assets/network-cloudapi.PNG)
+![Cloud API Network Graph](assets/network-cloudapi.png)
 
 #### 6.3 Validation Interviews.
 
