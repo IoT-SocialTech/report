@@ -5166,6 +5166,16 @@ En este Sprint, logramos implementar varias vistas clave en la aplicación web, 
 <br> Enlace al video: </br>
 <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211a452_upc_edu_pe/EZJY3UCOxHJJh2amSyocaoYBQjKLvHMUlhnFMNzpdL4I3Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XIAQ8s"> https://goo.su/orFzn6 </a>
 
+*Mobile Application*
+
+Para la realización de la aplicación móvil se abarcaron varios User Stories, para este Sprint se realizó la pantalla de Login en donde el usuario podrá crearse una cuenta o entrar con su cuenta de Google. Al ingresar a la aplicación, podremos visualizar como primera instancia la creación del Dashboard, en donde se visualiza varios datos importantes de los pacientes como su medicación y el monitoreo de las señales vitales. También se pudo implementar de manera correcta las Alertas de los pacientes en caso suceda algo fuera de lo habitual. La pantalla que más consideramos importante es el Band Configuration. Donde se muestra una lista de Pacientes y en donde se puede gestionar las alertas en base a la temperatura o el pulso del paciente. Para el siguiente Sprint hemos avanzado en distintos User Stories que aún faltan corregir ya que siguen con problemas mínimos, pero consideramos que es un gran avance para este Sprint.
+
+![Mobile Evidence](assets/evidence.jpg)
+
+<br> Enlace al video: </br>
+
+https://upcedupe-my.sharepoint.com/:v:/g/personal/u202014249_upc_edu_pe/ETL5B6zfuiNJv6oH_idvWjMBmnbkiGAgobXl4jsWpWPQSA?e=bB71qy&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 #### 6.2.2.6. Services Documentation Evidence for Sprint Review
 
 En este Sprint, avanzamos en la documentación de los Endpoints desarrollados, asegurando claridad y facilidad de integración mediante OpenAPI. A continuación, se presenta una tabla con las acciones soportadas para cada Endpoint, incluyendo los métodos HTTP, parámetros, ejemplos de llamadas y respuestas.
@@ -5256,6 +5266,32 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 #### 6.3 Validation Interviews.
 
 #### 6.3.1. Diseño de Entrevistas.
+
+*Para Cuidadores de Adultos Mayores (Caregivers)*
+
+<br>¿Cuáles son los mayores desafíos que enfrentas al monitorear los signos vitales de los adultos mayores a tu cargo?</br>
+<br>¿Con qué frecuencia monitoreas la temperatura y el pulso de tus pacientes? ¿Cuál es tu método actual para registrar estos datos?</br>
+<br>¿Qué tan importante sería para ti tener acceso a estos datos en tiempo real?</br>
+<br>¿Qué valor le darías a una alerta inmediata si los signos vitales de un paciente están fuera de los rangos normales?</br>
+<br>¿Cómo prefieres acceder a los datos de los pacientes (móvil, tablet, computadora)?</br>
+<br>¿Qué problemas o preocupaciones te gustaría que esta aplicación te ayudara a resolver?</br>
+<br>¿Te resultaría útil una opción para revisar los historiales de signos vitales de los pacientes en la aplicación? ¿Cómo la usarías en tu rutina?</br>
+<br>¿Qué características crees que le faltarían a una herramienta que solo monitorea pulso y temperatura para que sea completa?</br>
+<br>¿Hay otras métricas o información sobre el paciente que te gustaría poder rastrear o visualizar desde la misma plataforma?</br>
+<br>¿Cuáles son tus expectativas en cuanto a la facilidad de uso de la aplicación? ¿Prefieres una interfaz más simple o más detallada?</br>
+
+<br>*Para Dueños de Casas de Reposo (Nursing Home Owners)*
+
+<br>¿Cuáles son los principales problemas que experimentan los cuidadores de tu institución al monitorear los signos vitales de los residentes?</br>
+<br>¿Qué métodos utilizan actualmente para llevar el control de los signos vitales y cómo se almacenan estos datos?</br>
+<br>¿Consideras importante tener acceso centralizado y en tiempo real a la información de salud de tus residentes?</br>
+<br>¿Qué impacto crees que tendría la capacidad de recibir alertas sobre signos vitales en el bienestar de los pacientes y en la eficiencia del personal?</br>
+<br>¿Cómo se integraría una aplicación de este tipo en la rutina diaria de tu casa de reposo?</br>
+<br>¿Cuáles son tus preocupaciones en cuanto a la privacidad y seguridad de los datos de los residentes?</br>
+<br>¿Consideras importante que esta información esté disponible en una plataforma web además de la móvil? ¿Por qué?</br>
+<br>¿Qué tipo de reportes o análisis te gustaría recibir sobre el estado de salud de tus residentes?</br>
+<br>¿Qué funcionalidades crees que serían esenciales en una herramienta de monitoreo de salud para una casa de reposo?</br>
+<br>¿Qué tan dispuestos estarían a adoptar esta tecnología si mejora la calidad de atención y facilita el trabajo de los cuidadores?</br>
 
 #### 6.3.2. Registro de Entrevistas.
 
