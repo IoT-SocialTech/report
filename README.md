@@ -5267,9 +5267,9 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 *Cloud API*
 - Las imágenes siguientes ilustran el uso de las ramas en nuestro repositorio de GitHub, lo que asegura un entorno colaborativo eficiente y facilita el trabajo continuo y asincrónico del equipo en el proyecto. Ademas, se puede apreciar los commites realizados en el repositorio.
 
-![Cloud API Pulse](assets/pulse-cloudapi.png)
+![Cloud API Pulse](assets/pulse-cloudapi.PNG)
 
-![Cloud API Network Graph](assets/network-cloudapi.png)
+![Cloud API Network Graph](assets/network-cloudapi.PNG)
 
 ### 6.2.2. Sprint 3
 
