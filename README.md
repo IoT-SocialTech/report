@@ -85,7 +85,9 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 
 **TF1** 
 
+![Insights TB2](./assets/insights-TF.png)
 
+![Network TF](./assets/network_TF.png)
 
 ---
 
@@ -5911,6 +5913,153 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     
 </table>
 
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>IoT-SocialTech/cloud-api</td>
+        <td>TS16</td>
+        <td>7b8353a9a4ba7346838e83201b31361c30fa2d86</td>
+        <td>Feat: Add Dockerfile and update deployment-related files</td>
+        <td>Feat: Add Dockerfile and update deployment-related files</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS28</td>
+        <td>19cd02d3f78a05ce9b2f5b75479240300aa6c525</td>
+        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
+        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS29</td>
+        <td>7b8353a9a4ba7346838e83201b31361c30fa2d86</td>
+        <td>Feat: Add Dockerfile and update deployment-related files</td>
+        <td>Feat: Add Dockerfile and update deployment-related files</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS29</td>
+        <td>19cd02d3f78a05ce9b2f5b75479240300aa6c525</td>
+        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
+        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS29</td>
+        <td>d8ce874109290e2b2ebd1f4daf4637c90d18bf85</td>
+        <td>Merge pull request #5 from IoT-SocialTech/TS16</td>
+        <td>Merge pull request #5 from IoT-SocialTech/TS16</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS29</td>
+        <td>41bcba21f82885a79037003b2abcba85cabe3567</td>
+        <td>Merge pull request #6 from IoT-SocialTech/TS28</td>
+        <td>Merge pull request #6 from IoT-SocialTech/TS28</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS29</td>
+        <td>6b04d4fe2727ceee15d85769092686f65318c8d1</td>
+        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
+        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS30</td>
+        <td>7b8353a9a4ba7346838e83201b31361c30fa2d86</td>
+        <td>Feat: Add Dockerfile and update deployment-related files</td>
+        <td>Feat: Add Dockerfile and update deployment-related files</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS30</td>
+        <td>19cd02d3f78a05ce9b2f5b75479240300aa6c525</td>
+        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
+        <td>Refactor: Update request and response structures for plan and subscription endpoints</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS30</td>
+        <td>6b04d4fe2727ceee15d85769092686f65318c8d1</td>
+        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
+        <td>feat: Implement Notification module (entities, repositories, services, implementations, and controller)</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS30</td>
+        <td>ef2a9bf0260108503cf9c164d6abc67c3404410a</td>
+        <td>feat: Add MedicationSchedule module (entity, controller, service, repository, and DTOs)
+</td>
+        <td>feat: Add MedicationSchedule module (entity, controller, service, repository, and DTOs)
+</td>
+        <td>13/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS31</td>
+        <td>172390a82b66fef9fc317aa8338f800802522a9f</td>
+        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
+        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS31</td>
+        <td>9060660d95f3bbe3c4becce66abe01a717ff6798</td>
+        <td>Fix: fixes some points in communication with the edge api</td>
+        <td>Fix: fixes some points in communication with the edge api</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>TS31</td>
+        <td>ed9cdae1d1466a894e82cecfbd55851ea3bac924</td>
+        <td>feat: Add security implementation to Cloud API</td>
+        <td>feat: Add security implementation to Cloud API</td>
+        <td>17/11/2024</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>172390a82b66fef9fc317aa8338f800802522a9f</td>
+        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
+        <td>feat: Add endpoints to retrieve nursing home, relative, and patient by account ID</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>c5e03ae8cb73c8ce32895e98a05d12e59742bc9a</td>
+        <td>Merge pull request #11 from IoT-SocialTech/TS31</td>
+        <td>Merge pull request #11 from IoT-SocialTech/TS31</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>9060660d95f3bbe3c4becce66abe01a717ff6798</td>
+        <td>Fix: fixes some points in communication with the edge api</td>
+        <td>Fix: fixes some points in communication with the edge api</td>
+        <td>16/11/2024</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>ed9cdae1d1466a894e82cecfbd55851ea3bac924</td>
+        <td>feat: Add security implementation to Cloud API</td>
+        <td>feat: Add security implementation to Cloud API</td>
+        <td>17/11/2024</td>
+    </tr>
+    <tr>
+        <td>develop</td>
+        <td>42f2dec5e5807a0d5bf2d2bf991f0f4a5413dd58</td>
+        <td>Merge pull request #12 from IoT-SocialTech/TS31</td>
+        <td>Merge pull request #12 from IoT-SocialTech/TS31</td>
+        <td>17/11/2024</td>
+    </tr>
+</table>
+
 <table align="left" border="1" width="100%">
     <tr>
         <th>Repository</th>
@@ -5922,194 +6071,38 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     </tr>
     <tr>
         <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>develop</td>
+        <td>85798a7e3102a832a28c0ad95827c5337f98b1be</td>
+        <td>Feat: add deployment files</td>
+        <td>Feat: add deployment files</td>
+        <td>15/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>develop</td>
+        <td>f65288205c7a03c3cf04b5d252b33fe081577569</td>
+        <td>refactor: Rebuild API structure to align with new logic between edge and device</td>
+        <td>refactor: Rebuild API structure to align with new logic between edge and device</td>
+        <td>16/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>develop</td>
+        <td>c78f33701bfddcc74ad48b5bcb294cf04a3da9f2</td>
+        <td>feat: Add security implementation and configuration entity with full components
+</td>
+        <td>- Implement JWT-based security, including authentication and authorization mechanisms.
+- Add `TokenAuthenticationFilter` for request validation and integration with `SecurityContextHolder`.
+- Create `JwtTokenProvider` for token generation and validation.
+- Add `AuthService` with methods for user registration and login.
+- Implement `JwtTokenStorage` for managing authentication tokens across the application.
+- Add configuration entity:
+  - Create `Configuration` entity class.
+  - Add `ConfigurationRepository` for database operations.
+  - Implement `ConfigurationService` for business logic.
+  - Create `ConfigurationController` for API endpoints.
+  - Include necessary DTOs and mappers.</td>
+        <td>17/11/2024</td>
     </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
+  
 </table>
 
 Implementación Movile IoT-SocialTech mobile-application-miam
