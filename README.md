@@ -47,7 +47,7 @@ Trujillo Lopez, Luis Alberto <br>
 | 2.2    | 10/11/2024  | Trujillo Lopez Luis Alberto                                                                   | Se agregaron textos a las imágenes sin descripción del Domain Message Flows Modeling        |
 | 2.3    | 11/11/2024  | Achamizo Huamani Jean Carlos                                                                   | Actualización de Commits en las evidencias del Sprint 2      |
 | 2.4    | 14/11/2024  | Sagastegui Rodriguez Luis Jesus, Trujillo Lopez Luis Alberto, Siancas Reategui Luis Alberto                                                                    | Creación y actualización a cerca de la tabla de documentación de endpoints       |
-
+| 3.0    | 20/11/2024  | Aliaga Trevejo Lucía Guadalupe | Creación y actualización del Sprint 3 |   
 
 # Project Report Collaboration Insights
 
@@ -88,7 +88,11 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 
 **TF1** 
 
-![Insights TB2](./assets/insights-TF.png)
+En el último entregable, el equipo logró un total de 42commits en todas las ramas. El trabajo se enfocó en la corrección de elementos de entregas anteriores y la adición del Sprint 3.
+
+![Insights TB2](./assets/insights-TF.PNG)
+
+Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
 
 ![Network TF](./assets/network_TF.png)
 
@@ -375,6 +379,7 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
       - [6.3.3. Evaluaciones según heurísticas.](#633-evaluaciones-según-heurísticas)
       - [6.4. Video About-the-Product.](#64-video-about-the-product)
+      - [6.5. Video About-the-Team.](#65-video-about-the-team)
 - [Conclusiones](#conclusiones)
 - [Bibliografía](#bibliografía)
 - [Anexos](#anexos)
@@ -5268,7 +5273,7 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 - En las siguientes imágenes se muestra cómo utilizamos las ramas en nuestro repositorio de GitHub. Este enfoque garantiza un entorno colaborativo que permite a los miembros del equipo trabajar de forma continua y asincrónica en el desarrollo del proyecto.
 
 ![Edge API Network Graph](assets/network-edgeapi.PNG)
-![Edge API Network Graph](assets/network-edgeapi2.PNG)
+![Edge API Network Graph](assets/network-edgeapi2.png)
 
 
 *Cloud API*
@@ -5429,32 +5434,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US08-TSK01</td>
         <td>Implementar la interfaz en la aplicacion web para alertas</td>
         <td>Implementar la interfaz en la aplicacion web para visualizar las alertas recibidas</td>
-        <td>- horas</td>
-        <td>abc</td>
+        <td> 2 horas</td>
+        <td>Lucía Aliaga</td>
         <td>To Fix </td>
     </tr>
     <tr>
         <td>US08-TSK02</td>
         <td>Implementar los mensajes de error en la aplicacion web</td>
         <td>Implementar los mensajes de error en la aplicacion web cuando el dispositivo no esta vinculado</td>
-        <td>- horas</td>
-        <td>abc</td>
+        <td> 0.5 horas</td>
+        <td>Lucía Aliaga</td>
         <td>To fix</td>
     </tr>
     <tr>
         <td>US08-TSK03</td>
         <td>Implementar la interfaz en la aplicacion movil para alertas</td>
         <td>Implementar la interfaz en la aplicacion movil para visualizar las alertas recibidas</td>
-        <td>- horas</td>
-        <td>abc</td>
+        <td> 2 horas</td>
+        <td>Jean Achamizo</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US08-TSK04</td>
         <td>Implementar los mensajes de error en la aplicacion movil</td>
         <td>Implementar los mensajes de error en la aplicacion movil cuando el dispositivo no esta vinculado</td>
-        <td>- horas</td>
-        <td>abc</td>
+        <td>0.5 horas</td>
+        <td>Jean Achamizo</td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -5463,16 +5468,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US09-TSK01</td>
         <td>Implementar filtro de datos por fecha en la aplicacion web</td>
         <td>Implementar el filtrado de datos de temperatura y ritmo cardiaco por fecha en la aplicacion web</td>
-        <td>-</td>
-        <td>-</td>
+        <td> 1 hora</td>
+        <td> Luis Trujillo</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US09-TSK02</td>
         <td>Implementar filtro de datos por fecha en la aplicacion movil</td>
         <td>Implementar el filtrado de datos de temperatura y ritmo cardiaco por fecha en la aplicacion movil</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>1 hora</td>
+        <td>Jesus Sagastegui</td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -5481,32 +5486,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US010-TSK01</td>
         <td>Implementar la interfaz web para configurar el umbral de temperatura</td>
         <td>Implementar la interfaz en la aplicacion web para configurar el umbral de temperatura</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td> 2 horas</td>
+        <td> Lucía Aliaga</td>
         <td>Done</td>
     </tr>
     <tr>
         <td>US010-TSK02</td>
         <td>Implementar la interfaz movil para configurar el umbral de temperatura</td>
         <td>Implementar la interfaz en la aplicacion movil para configurar el umbral de temperatura</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td> 2.5 horas</td>
+        <td> Rodrigo Raymundo</td>
         <td>Done</td>
     </tr>
     <tr>
         <td>US010-TSK03</td>
         <td>Implementar la interfaz web para configurar el umbral de ritmo cardiaco</td>
         <td>Implementar la interfaz en la aplicacion web para configurar el umbral de ritmo cardiaco</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>1 horas</td>
+        <td> Lucía Aliaga</td>
         <td>Done</td>
     </tr>
     <tr>
         <td>US010-TSK04</td>
         <td>Implementar la interfaz movil para configurar el umbral de ritmo cardiaco</td>
         <td>Implementar la interfaz en la aplicacion movil para configurar el umbral de ritmo cardiaco</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>1 horas</td>
+        <td> Rodrigo Raymundo</td>
         <td>Done</td>
     </tr>
     <tr>
@@ -5515,16 +5520,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US013-TSK01</td>
         <td>Implementar la interfaz en la aplicacion web para la visualizacion de alertas</td>
         <td>Implementar la interfaz en la aplicacion web para la visualizacion de alertas e informacion adicional</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>2 horas</td>
+        <td> Jean Achamizo</td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US013-TSK02</td>
         <td>Implementar la interfaz en la aplicacion movil para la visualizacion de alertas</td>
         <td>Implementar la interfaz en la aplicacion movil para la visualizacion de alertas e informacion adicional</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>1 horas</td>
+        <td> Jean Achamizo</td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -5533,16 +5538,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US14-TSK01</td>
         <td>Implementar la interfaz movil para configurar las alertas</td>
         <td>Implementar la interfaz en la aplicacion movil para configurar las notificaciones de alertas de emergencia</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>1.5 horas</td>
+        <td> Luis Siancas</td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US14-TSK02</td>
         <td>Implementar la interfaz web para configurar las alertas</td>
         <td>Implementar la interfaz en la aplicacion web para configurar las notificaciones de alertas de emergencia</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>1.5 horas</td>
+        <td> Luis Siancas</td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -5551,16 +5556,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US16-TSK01</td>
         <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
         <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
-        <td> - horas </td>
-        <td> - </td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US16-TSK02</td>
-        <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
-        <td>Implementar la logica en la aplicacion web para cambiar el estado de una pulsera</td>
-        <td> - horas </td>
-        <td> -</td>
+        <td>Implementar la logica en la aplicacion móvil para cambiar el estado de una pulsera</td>
+        <td>Implementar la logica en la aplicacion móvil para cambiar el estado de una pulsera</td>
+        <td> 1 hora </td>
+        <td> Luis Trujillo </td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -5569,16 +5574,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US17-TSK01</td>
         <td>Implementar la interfaz web para listar las pulseras disponibles</td>
         <td>Implementar la interfaz y logica en la aplicacion web para listar las pulseras disponibles</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>2 horas </td>
+        <td> Rodrigo Raymundo</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US17-TSK02</td>
         <td>Implementar la interfaz movil para listar las pulseras disponibles</td>
         <td>Implementar la interfaz y logica en la aplicacion movil para listar las pulseras disponibles</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>2 horas </td>
+        <td> Rodrigo Raymundo</td>
         <td>To Review</td>
     </tr>
      <tr>
@@ -5587,32 +5592,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US18-TSK01</td>
         <td>Implementar la logica en la aplicacion web para generar un informe de uso</td>
         <td>Implementar la logica en la aplicacion web para generar un informe de uso</td>
-        <td>- horas</td>
-        <td>-</td>
+        <td>1.5 horas</td>
+        <td> Jean Achamizo</td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US18-TSK02</td>
         <td>Implementar la interfaz en la aplicacion web para mostrar un informe de uso</td>
         <td>Implementar la interfaz en la aplicacion web para mostrar un informe de uso</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>2 horas </td>
+        <td> Jean Achamizo</td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US18-TSK03</td>
         <td>Implementar la logica en la aplicacion movil para generar un informe de uso</td>
         <td>Implementar la logica en la aplicacion movil para generar un informe de uso</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>1.5 horas </td>
+        <td>Luis Sagastegui</td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US18-TSK04</td>
         <td>Implementar la interfaz en la aplicacion movil para mostrar un informe de uso</td>
         <td>Implementar la interfaz en la aplicacion movil para mostrar un informe de uso</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>2 horas </td>
+        <td>Luis Sagastegui</td>
         <td>To Review</td>
     </tr>
     <tr>
@@ -5621,16 +5626,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US021-TSK01</td>
         <td>Implementar la interfaz web y logica para generar un informe financiero</td>
         <td>Implementar la interfaz en la aplicacion web y logica para generar un informe financiero</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>3 horas </td>
+        <td> Luis Siancas</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US021-TSK02</td>
         <td>Implementar la interfaz movil y logica para generar un informe financiero</td>
         <td>Implementar la interfaz en la aplicacion movil y logica para generar un informe financiero</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>3 horas</td>
+        <td> Luis Siancas</td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -5639,32 +5644,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US025-TSK01</td>
         <td>Implementar la logica en la aplicacion web para mostrar la temperatura</td>
         <td>Implementar la logica en la interfaz de la aplicacion web para mostrar el ultimo registro de temperatura del paciente</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>1 hora </td>
+        <td> Lucía Aliaga </td>
         <td>To Fix</td>
     </tr>
     <tr>
         <td>US025-TSK02</td>
         <td>Implementar la logica en la aplicacion web para mostrar el ritmo cardiaco</td>
         <td>Implementar la logica en la interfaz de la aplicacion web para mostrar el ultimo registro del ritmo cardiaco del paciente</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>1 hora</td>
+        <td> Lucía Aliaga </td>
         <td>To Fix</td>
     </tr>
     <tr>
         <td>US025-TSK03</td>
         <td>Implementar mensaje de error en la aplicacion web</td>
         <td>Implementar mensaje de error en la aplicacion web cuando se pierde la conexion con la banda</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>0.5 horas</td>
+        <td> Lucía Aliaga </td>
         <td>To Fix</td>
     </tr>
     <tr>
         <td>US025-TSK04</td>
         <td>Implementar mensaje de error en la aplicacion movil</td>
         <td>Implementar mensaje de error en la aplicacion movil cuando se pierde la conexion con la banda</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>0.5 horas</td>
+        <td> Jean Achamizo </td>
         <td>To Fix</td>
     </tr>
     <tr>
@@ -5673,16 +5678,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US026-TSK01</td>
         <td>Implementar barra de navegacion en la aplicacion web</td>
         <td>Implementar la barra de navegacion y redireccion de rutas en la aplicacion web</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>1 hora </td>
+        <td> Luis Trujillo</td>
         <td>Done</td>
     </tr>
     <tr>
         <td>US026-TSK02</td>
         <td>Implementar barra de navegacion en la aplicacion movil</td>
         <td>Implementar la barra de navegacion y redireccion de rutas en la aplicacion movil</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>1 hora</td>
+        <td> Rodrigo Raymundo </td>
         <td>Done</td>
     </tr>
     <tr>
@@ -5691,32 +5696,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US027-TSK01</td>
         <td>Implementar la interfaz web para mostrar de manera clara las alertas criticas</td>
         <td>Implementar la interfaz web para mostrar de manera clara las alertas criticas</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>1 hora </td>
+        <td> Luis Siancas</td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US027-TSK02</td>
         <td>Implementar el mensaje de error de las alertas criticas en la aplicacion web</td>
         <td>Implementar el mensaje de error de las alertas criticas en la aplicacion web</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>0.5 horas</td>
+        <td> Luis Siancas</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US027-TSK03</td>
         <td>Implementar la interfaz móvil para mostrar de manera clara las alertas criticas</td>
         <td>Implementar la interfaz móvil para mostrar de manera clara las alertas criticas</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>1 hora</td>
+        <td> Luis Trujillo </td>
         <td>To Review</td>
     </tr>
     <tr>
         <td>US027-TSK04</td>
         <td>Implementar el mensaje de error de las alertas criticas en la aplicacion movil</td>
         <td>Implementar el mensaje de error de las alertas criticas en la aplicacion movil</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>0.5 horas</td>
+        <td> Luis Trujillo </td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -5725,16 +5730,16 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US028-TSK01</td>
         <td>Implementar la interfaz web para implementar las adaptaciones de visualizacion</td>
         <td>Implementar la interfaz web para implementar las adaptaciones de visualizacion</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>3 horas </td>
+        <td> Lucía Aliaga</td>
         <td>To Do</td>
     </tr>
     <tr>
         <td>US028-TSK02</td>
         <td>Implementar la interfaz movil para implementar las adaptaciones de visualizacion</td>
         <td>Implementar la interfaz movil para implementar las adaptaciones de visualizacion</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>3 horas</td>
+        <td> Lucía Aliaga</td>
         <td>To Do</td>
     </tr>
     <tr>
@@ -5743,32 +5748,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US029-TSK01</td>
         <td>Implementar las notificaciones instantaneas en la aplicacion web</td>
         <td>Implementar las notificaciones instantaneas en la aplicacion web</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>2 horas </td>
+        <td> Luis Siancas</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US029-TSK02</td>
         <td>Implementar el registro y reenvío de la notificación instantanea en caso de fallos de la aplicación web</td>
         <td>Implementar el registro y reenvío de la notificación instantanea en caso de fallos de la aplicación web</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>2 horas</td>
+        <td> Jean Achamizo </td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US029-TSK03</td>
         <td>Implementar las notificaciones instantaneas en la aplicacion movil</td>
         <td>Implementar las notificaciones instantaneas en la aplicacion movil</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>2 horas</td>
+        <td> Luis Sagastegui </td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US029-TSK04</td>
         <td>Implementar el registro y reenvío de la notificación instantánea en caso de fallos de la aplicación movil</td>
         <td>Implementar el registro y reenvío de la notificación instantánea en caso de fallos de la aplicación movil</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>2horas</td>
+        <td> Luis Sagastegui </td>
         <td>In Process</td>
     </tr>
     <tr>
@@ -5777,32 +5782,32 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>US030-TSK01</td>
         <td>Implementar la interfaz de la aplicacion web que muestre el resumen del dia</td>
         <td>Implementar la interfaz de la aplicacion web que muestre el resumen del dia</td>
-        <td>- horas </td>
-        <td>-</td>
+        <td>1 hora</td>
+        <td> Rodrigo Raymundo</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US030-TSK02</td>
         <td>Implementar el mensaje de error del resumen del dia en la aplicacion web</td>
         <td>Implementar el mensaje de error del resumen del dia en la aplicacion web</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>0.5 horas</td>
+        <td> Rodrigo Raymundo</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US030-TSK03</td>
         <td>Implementar la interfaz de la aplicacion movil que muestre el resumen del dia</td>
         <td>Implementar la interfaz de la aplicacion movil que muestre el resumen del dia</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>1 hora</td>
+        <td> Lucía Aliaga</td>
         <td>In Process</td>
     </tr>
     <tr>
         <td>US030-TSK04</td>
         <td>Implementar el mensaje de error del resumen del dia en la aplicacion movil</td>
         <td>Implementar el mensaje de error del resumen del dia en la aplicacion movil</td>
-        <td>- horas</td>
-        <td>- </td>
+        <td>0.5 horas</td>
+        <td> Lucía Aliaga</td>
         <td>In Process</td>
     </tr>
 
@@ -6243,7 +6248,9 @@ En este Sprint, el equipo trabajó de manera colaborativa en la implementación 
 
 *Edge API*
 
-![Edge API Network Graph](assets/network-edgeapi2.PNG)
+![Edge API Network Graph](assets/network-edgeapi.PNG)
+
+![Edge API Network Graph](assets/network-edgeapi2.png)
 
 *Cloud API*
 
@@ -6312,6 +6319,15 @@ En esta sección se incluye un video promocional que ofrece un primer vistazo a 
 ![About The Product](assets/about-the-product.PNG)
 <br> Enlace al video: </br>
 <a href="https://goo.su/KlSALD2"> https://goo.su/KlSALD2 </a>
+
+
+#### 6.5. Video About-the-Team.
+
+ Este video proporciona una retrospectiva sobre la experiencia de trabajo en equipo durante el desarrollo del proyecto. En él, destacamos los puntos fuertes de nuestra colaboración, así como reflexionamos sobre las áreas de mejora, identificando oportunidades para optimizar nuestra coordinación y gestión del tiempo en futuros proyectos.
+
+ ![About The Team](assets/about-the-team.PNG)
+<br> Enlace al video: </br>
+<a href="https://goo.su/f0VZ9If"> https://goo.su/f0VZ9If </a>
 
 # Conclusiones
 
