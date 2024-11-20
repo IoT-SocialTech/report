@@ -6224,6 +6224,8 @@ Implementación Movile IoT-SocialTech mobile-application-miam
 
 Durante este sprint, se realizó el avance de la documentación. Se documentaron endopoints utilizando Swagger OpenApi, lo que mejora la claridad y la accesibilidad de nuestra API para los desarrolladores. 
 
+## Cloud
+
 | Endpoint         | Acción      | Verbo HTTP | Sintaxis de Llamada        | Parámetros                       | Ejemplo de Response             | 
 |------------------|-------------|------------|----------------------------|----------------------------------|----------------------------------|
 | /api/v1/miam/cloudApi/nursingHomes/{id}  | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
@@ -6286,6 +6288,23 @@ Durante este sprint, se realizó el avance de la documentación. Se documentaron
 | /api/v1/miam/cloudApi/caregiversNursingHomes/nursingHome/{id}  | Obtener por Id      | GET       |  `/api/v1/miam/cloudApi`| `nursingHomeId`| `{ "id": 1, "message": "..."`| 
 | /api/v1/auth/register | Agregar  | POST       | `/api/v1/miam/cloudApi`| `email`,`password`,`phoneNumber`,`subscription`,`role`,`active` | `{ "message": "..." }`      | 
 | /api/v1/miam/login  | Agregar  | POST     | `/api/v1/miam/cloudApi`| `email`, `password`| `{ "message": "..." }`  | 
+
+## Edge
+
+| Endpoint         | Acción      | Verbo HTTP | Sintaxis de Llamada        | Parámetros                       | Ejemplo de Response             | 
+|------------------|-------------|------------|----------------------------|----------------------------------|----------------------------------|
+| /api/v1/miam-edge-api/configurations/{id}  | Obtener por Id      | GET      | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/configurations/device/{id} |  Obtener por Id      | GET   | `/api/v1/miam-edge-api`|`id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/device | Agregar  | POST     | `/api/v1/miam-edge-api`| `id`, `model`, `limitHeartRate`, `limitTemperature`, `limitDistance`, `status`, `patientId`| `{ "id": 1, "model": "..."`| 
+| /api/v1/miam-edge-api/device/{id}| Obtener por Id      | GET       | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "data": "..."`| 
+| /api/v1/miam-edge-api/device/{id} | Agregar  | POST | `/api/v1/miam-edge-api`| `id`, `limitHeartRate`, `limitTemperature`, `limitDistance`| `{ "id": 1, "limitHeartRate": "..."`| 
+| /api/v1/miam-edge-api/metrics |Agregar  | POST |`/api/v1/miam-edge-api`| `id`, `data`| `{ "id": 1, "data": "..."`| 
+| /api/v1/miam-edge-api/metrics/temperature/{patientId} | Obtener por Id      | GET   | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/metrics/heartRate/{patientId} | Obtener por Id      | GET   | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/metrics/averageTemperature/{patientId} | Obtener por Id   | GET   | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/metrics/averageHeartRate/{patientId} | MObtener por Id   | GET     | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/auth/register |  Agregar  | POST       | `/api/v1/miam-edge-api`| `id`, `model`, `limitHeartRate`, `limitTemperature`, `limitDistance`,`securityKey`, `status`, `patientId`| `{ "id": 1, "model": "..."`| 
+| /api/v1/auth/register|  Agregar  | POST   | `/api/v1/miam-edge-api`| `id`, `password`| `{ "message": "..."`| 
 
 #### 6.3 Validation Interviews.
 
