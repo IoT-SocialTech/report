@@ -6063,6 +6063,91 @@ Implementación Movile IoT-SocialTech mobile-application-miam
 
 <table align="left" border="1" width="100%"> <tr> <th>Repository</th> <th>Branch</th> <th>Commit ID</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited On (Date)</th> </tr> <tr> <td rowspan=18>IoT-SocialTech/mobile-application-miam</td> <td>/ts24-mobile-app-implementation</td> <td>2af1951</td> <td>feat: seach dependence for change name</td> <td>Búsqueda de dependencias para cambiar el nombre</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>34a4200</td> <td>feat: change name for integrate firebase</td> <td>Cambio de nombre para integración con Firebase</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>469c2eb</td> <td>feat: add dependence for change name aplication:change_app_package_name</td> <td>Agregar dependencia para cambio de nombre de la aplicación: change_app_package_name</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3831621</td> <td>fix: routing in BottomNavigationBarItem</td> <td>Corregir la ruta en BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3013760</td> <td>feat: add BottomNavigationBarItem</td> <td>Añadir BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>97ceabe</td> <td>Merge pull request #2 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>25/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>5d678bd</td> <td>feat-tsk01: implementation of interfast notifications</td> <td>Implementación de notificaciones de interfaz</td> <td>25/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>6e213c8</td> <td>fix: fix login screen, configure main screen</td> <td>Corrección de la pantalla de inicio de sesión y configuración de la pantalla principal</td> <td>01/11/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>8b107f4</td> <td>fix: screen configuration, The cards are modified to display it differently</td> <td>Configuración de pantalla, las tarjetas se modifican para mostrarse de manera diferente</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>0eea0f7</td> <td>feat: screen configuration, add connection</td> <td>Configuración de pantalla, se añade conexión</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>10a8874</td> <td>feat: add configuration screen</td> <td>Añadir pantalla de configuración</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> </table>
 
+#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+
+Durante este sprint, se realizó el avance de la documentación. Se documentaron endopoints utilizando Swagger OpenApi, lo que mejora la claridad y la accesibilidad de nuestra API para los desarrolladores. 
+
+## Cloud
+
+| Endpoint         | Acción      | Verbo HTTP | Sintaxis de Llamada        | Parámetros                       | Ejemplo de Response             | 
+|------------------|-------------|------------|----------------------------|----------------------------------|----------------------------------|
+| /api/v1/miam/cloudApi/nursingHomes/{id}  | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/nursingHomes/{id}  | Modificar      | PUT        | `/api/v1/miam/cloudApi/{id}`| `name`, `location`, `ruc`, `account`,`caregiverIds`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/nursingHomes/{id}  | Eliminar     | DELETE        | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }` | 
+| /api/v1/miam/cloudApi/nursingHomes  | Agregar  | POST        | `/api/v1/miam/cloudApi`| `name`, `location`, `ruc`, `account`,`caregiverIds`| `{ "name": "...", "location": "..."`| 
+| /api/v1/miam/cloudApi/nursingHomes/account/{id}   | Obtener    | GET     |  `/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "message": "..."`|
+| /api/v1/miam/cloudApi/patientCaregivers/{patientId}/{caregiverId}| Obtener por Id      | GET      | `/api/v1/miam/cloudApi`| `patientId`, `caregiverId`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/patientCaregivers/patient/{patientId}    | Obtener por Id      | GET       | `/api/v1/miam/cloudApi`| `patientId`| `{ "id": 1, "firstName": "..."`| 
+| /api/v1/miam/cloudApi/patientCaregivers/caregiver/{caregiverId}    | Obtener por Id      | GET       | `/api/v1/miam/cloudApi`| `caregiverId` | `{ "id": 1, "message": "..."`    | 
+| /api/v1/miam/cloudApi/caregivers/{id}  | Obtener por Id      | GET       |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/caregivers/{id}  | Modificar      | PUT      |`/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "name": "..."`|
+| /api/v1/miam/cloudApi/caregivers/{id}   | Eliminar     | DELETE       | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/caregivers  | Agregar  | POST        | `/api/v1/miam/cloudApi`| - | `{ "name": "..." }`      | 
+| /api/v1/miam/cloudApi/caregivers/account/{id}  |  Obtener por Id      | GET        | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "message": "..."`| 
+| /api/v1/miam-cloud-api/plans/{id} | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-cloud-api/plans/{id} | Modificar por Id    | PUT     | `/api/v1/miam/cloudApi/{id}`|`name`, `description`, `price`|`{ "id": 1, "message": "..."`|    
+| /api/v1/miam-cloud-api/plans/{id} | Eliminar opr Id    | DELETE         | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-cloud-api/plans | Obtener    | GET     | `/api/v1/miam/cloudApi`|-|`{ "id": 1, "message": "..."`|
+| /api/v1/miam-cloud-api/plans | Agregar  | POST      | `/api/v1/miam/cloudApi`| `name`, `description`, `price`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/reportHistories/{id}  |  Obtener por Id      | GET        | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/reportHistories/{id}  | Modificar por Id    | PUT         | `/api/v1/miam/cloudApi/{id}`| `id`,`status`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/reportHistories/{id}  | Eliminar opr Id    | DELETE        | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/reportHistories  | Agregar  | POST        | `/api/v1/miam/cloudApi`| `reportType`, `status`, `patientId`, `caregiverId`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/reportHistories/patient/{patientId}  | Obtener    | GET       | `/api/v1/miam/cloudApi`| `patientId` | `id` | `{ "status": "..." }`   | 
+| /api/v1/miam/cloudApi/reportHistories/caregiver/{caregiverId}  | Obtener  | GET       | `/api/v1/miam/cloudApi`| `caregiverId`| `id` | `{ "status": "..." }`  | 
+| /api/v1/miam/cloudApi/notifications/{id}  | Obtener por Id      | GET       | `/api/v1/miam/cloudApi/{id}`| `id` |  `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/notifications/{id}  | Modificar por Id    | PUT        |`/api/v1/miam/cloudApi/{id}`| `id`,`status`|  `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/notifications/{id}  | Eliminar opr Id    | DELETE        |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/notifications  | Agregar  | POST        | `/api/v1/miam/cloudApi`| `title`, `message`, `caregiver`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/notifications/caregiver/{caregiverId}  |  Obtener por Id      | GET      | `/api/v1/miam/cloudApi`|`"status": "..."`   | 
+| /api/v1/miam/cloudApi/relatives/{id}  | Obtener por Id      | GET        |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/relatives/{id}   | Modificar por Id    | PUT       |`/api/v1/miam/cloudApi/{id}`| `name`, `lastName`, `relationship`, `account`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/relatives/{id}   |  Eliminar opr Id    | DELETE        |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/relatives  | Agregar  | POST        |`/api/v1/miam/cloudApi`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/relatives/account/{id}   |  Obtener por Id      | GET        | `/api/v1/miam/cloudApi`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam-cloud-api/roles/{id} | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam-cloud-api/roles/{id} | Modificar por Id    | PUT     | `/api/v1/miam/cloudApi/{id}`|`id`, `type`, `description`|`{ "id": 1, "type": "..."`|    
+| /api/v1/miam-cloud-api/roles/{id} | Eliminar opr Id    | DELETE     | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-cloud-api/roles | Agregar  | POST     | `/api/v1/miam/cloudApi`|`id`, `type`, `description`|`{ "id": 1, "type": "..."`|
+| /api/v1/miam/cloudApi/patients/{id}  | Obtener por Id      | GET         |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/patients/{id}    | Modificar por Id    | PUT         | `/api/v1/miam/cloudApi/{id}`| `id`, `name`, `lastName`, `age`,`address`, `birthdate`, `account`, `relative`, `caregiverIds`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/patients/{id}   | Eliminar opr Id    | DELETE        |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/patients | Agregar  | POST        |  `/api/v1/miam/cloudApi`| `id`, `name`, `lastName`, `age`,`address`, `birthdate`, `account`, `relative`, `caregiverIds`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam-cloud-api/device/{id} | Agregar por Id  | POST        | `/api/v1/miam/cloudApi/{id}`| `limitHeartRate`, `limitTemperature`, `limitDistance`| `{ "id": 1, "model": "..."`| 
+| /api/v1/miam-cloud-api/metrics/temperature/{id} | Obtener por Id      | GET     | `/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "temperature": "..."`|    
+| /api/v1/miam-cloud-api/metrics/heartRate/{id} | Obtener por Id      | GET         |`/api/v1/miam/cloudApi/{id}`| `id`|`{ "id": 1, "heartRate": "..."`|    
+| /api/v1/miam-cloud-api/metrics/averageTemperature/{id}| Obtener por Id      | GET      |`/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "averageTemperature": "..."`|    
+| /api/v1/miam-cloud-api/metrics/averageHeartRate/{id}| Obtener por Id      | GET     |`/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "averageHeartRate": "..."`|    
+| /api/v1/miam-cloud-api/subscriptions/{id} | Obtener por Id      | GET        | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam-cloud-api/subscriptions/{id} |  Modificar por Id    |`/api/v1/miam/cloudApi/{id}`|`id`, `type`, `planId`, `isActive`|`{ "id": 1, "startDate": "..."`|    
+| /api/v1/miam-cloud-api/subscriptions/{id} | Eliminar opr Id    | DELETE       | `/api/v1/miam/cloudApi/{id}`|  `id` | `{ "message": "..." }`| 
+| /api/v1/miam-cloud-api/subscriptions| Agregar  | POST     | `/api/v1/miam/cloudApi`|`id`, `type`, `planId`, `isActive`|`{ "id": 1, "startDate": "..."`|  
+| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Obtener por Id      | GET         |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Modificar por Id    | PUT          |  `/api/v1/miam/cloudApi/{id}`| `id`, `taken`| `{ "id": 1, "medicationName": "..."`| 
+| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Eliminar opr Id    | DELETE         |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/medicationSchedules | Agregar  | POST       | `/api/v1/miam/cloudApi`| `id`, `medicationName`, `dose`, `hour`, `taken`, `patientId`, `caregiverId`| `{ "id": 1, "medicationName": "..."`| 
+| /api/v1/miam/cloudApi/medicationSchedules/patient/{patientId} | Obtener  | GET       |  `/api/v1/miam/cloudApi`| `patientId`| `{ "id": 1, "medicationName": "..."`| 
+| /api/v1/miam/cloudApi/caregiversNursingHomes/{caregiversId}/{nursingHomeId} | Obtener por Id      | GET      | `/api/v1/miam/cloudApi`| `caregiverId` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/caregiversNursingHomes/nursingHome/{id}  | Obtener por Id      | GET       |  `/api/v1/miam/cloudApi`| `nursingHomeId`| `{ "id": 1, "message": "..."`| 
+| /api/v1/auth/register | Agregar  | POST       | `/api/v1/miam/cloudApi`| `email`,`password`,`phoneNumber`,`subscription`,`role`,`active` | `{ "message": "..." }`      | 
+| /api/v1/miam/login  | Agregar  | POST     | `/api/v1/miam/cloudApi`| `email`, `password`| `{ "message": "..." }`  | 
+
+## Edge
+
+| Endpoint         | Acción      | Verbo HTTP | Sintaxis de Llamada        | Parámetros                       | Ejemplo de Response             | 
+|------------------|-------------|------------|----------------------------|----------------------------------|----------------------------------|
+| /api/v1/miam-edge-api/configurations/{id}  | Obtener por Id      | GET      | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/configurations/device/{id} |  Obtener por Id      | GET   | `/api/v1/miam-edge-api`|`id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/device | Agregar  | POST     | `/api/v1/miam-edge-api`| `id`, `model`, `limitHeartRate`, `limitTemperature`, `limitDistance`, `status`, `patientId`| `{ "id": 1, "model": "..."`| 
+| /api/v1/miam-edge-api/device/{id}| Obtener por Id      | GET       | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "data": "..."`| 
+| /api/v1/miam-edge-api/device/{id} | Agregar  | POST | `/api/v1/miam-edge-api`| `id`, `limitHeartRate`, `limitTemperature`, `limitDistance`| `{ "id": 1, "limitHeartRate": "..."`| 
+| /api/v1/miam-edge-api/metrics |Agregar  | POST |`/api/v1/miam-edge-api`| `id`, `data`| `{ "id": 1, "data": "..."`| 
+| /api/v1/miam-edge-api/metrics/temperature/{patientId} | Obtener por Id      | GET   | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/metrics/heartRate/{patientId} | Obtener por Id      | GET   | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/metrics/averageTemperature/{patientId} | Obtener por Id   | GET   | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-edge-api/metrics/averageHeartRate/{patientId} | MObtener por Id   | GET     | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/auth/register |  Agregar  | POST       | `/api/v1/miam-edge-api`| `id`, `model`, `limitHeartRate`, `limitTemperature`, `limitDistance`,`securityKey`, `status`, `patientId`| `{ "id": 1, "model": "..."`| 
+| /api/v1/auth/register|  Agregar  | POST   | `/api/v1/miam-edge-api`| `id`, `password`| `{ "message": "..."`| 
 
 #### 6.3 Validation Interviews.
 
