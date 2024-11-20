@@ -5250,7 +5250,7 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 - En las siguientes imágenes se muestra cómo utilizamos las ramas en nuestro repositorio de GitHub. Este enfoque garantiza un entorno colaborativo que permite a los miembros del equipo trabajar de forma continua y asincrónica en el desarrollo del proyecto.
 
 ![Edge API Network Graph](assets/network-edgeapi.PNG)
-![Edge API Network Graph](assets/network-edgeapi2.PNG)
+![Edge API Network Graph](assets/network-edgeapi2.png)
 
 
 *Cloud API*
