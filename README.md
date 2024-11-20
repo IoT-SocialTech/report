@@ -5266,19 +5266,19 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 - En las siguientes imágenes se muestra cómo utilizamos las ramas en nuestro repositorio de GitHub. Este enfoque garantiza un entorno colaborativo que permite a los miembros del equipo trabajar de forma continua y asincrónica en el desarrollo del proyecto.
 
 ![Edge API Network Graph](assets/network-edgeapi.PNG)
-![Edge API Network Graph](assets/network-edgeapi2.png)
+![Edge API Network Graph](assets/network-edgeapi2.PNG)
 
 
 *Cloud API*
 - Las imágenes siguientes ilustran el uso de las ramas en nuestro repositorio de GitHub, lo que asegura un entorno colaborativo eficiente y facilita el trabajo continuo y asincrónico del equipo en el proyecto. Ademas, se puede apreciar los commites realizados en el repositorio.
 
-![Cloud API Pulse](assets/pulse-cloudapi.png)
+![Cloud API Pulse](assets/pulse-cloudapi.PNG)
 
-![Cloud API Network Graph](assets/network-cloudapi.png)
+![Cloud API Network Graph](assets/network-cloudapi.PNG)
 
-### 6.2.2. Sprint 3
+### 6.2.3. Sprint 3
 
-#### 6.2.2.1. Sprint Planning 3
+#### 6.2.3.1. Sprint Planning 3
 
 <table align="center"  border="1" width="90%" style="text-align:center;">
     <tr align="left">
@@ -5379,7 +5379,7 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
             <b>Sprint 2 Velocity</b>
         </td>
         <td>
-            90
+            48
         </td>
     </tr>
        <tr align="left">
@@ -5392,7 +5392,7 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
     </tr>
 </table> 
 
-#### 6.2.2.2. Sprint Backlog 3
+#### 6.2.3.2. Sprint Backlog 3
 
 En esta sección se especifican los detalles del Sprint Backlog, que es una lista de tareas que se han realizado para completar el Sprint 2.
 
@@ -5824,42 +5824,42 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     </tr>
     <tr>
         <td rowspan=19>IoT-SocialTech/Front-MIAM</td>
-        <td>-</td>
+        <td>/US031-Health-Reports</td>
         <td>076aee9</td>
         <td>fix: mockup api integration</td>
         <td>fix: mockup api integration</td>
         <td>02/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
+        <td>/US031-Health-Reports</td>
         <td>738bd02</td>
         <td>Add: Graphics and alerts in dashboard</td>
         <td>Add: Graphics and alerts in dashboard</td>
         <td>20/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
+        <td>/US031-Health-Reports</td>
         <td>504c943</td>
         <td>Update: services to retrieve patient and caregiver data</td>
         <td>Updated services to retrieve patient and caregiver data</td>
         <td>20/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
+        <td>/US020-Assign-Band-2</td>
         <td>1a1c8e2</td>
         <td>Add: Services to create and update patient information</td>
         <td>Added Services to create and update patient information</td>
         <td>20/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
+        <td>/US010-Alerts-Configuration-2</td>
         <td>c59580d</td>
         <td>Add: Interface to configure temperature and heart rate limits</td>
         <td>Added Interface to configure temperature and heart rate limits</td>
         <td>20/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
+        <td>/US013-Notification-Management</td>
         <td>955d2c0</td>
         <td>Add: Interface to view alerts and details</td>
         <td>Added interface to view alerts and details</td>
@@ -6059,11 +6059,10 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
   
 </table>
 
-Implementación Movile IoT-SocialTech mobile-application-miam
 
 <table align="left" border="1" width="100%"> <tr> <th>Repository</th> <th>Branch</th> <th>Commit ID</th> <th>Commit Message</th> <th>Commit Message Body</th> <th>Commited On (Date)</th> </tr> <tr> <td rowspan=18>IoT-SocialTech/mobile-application-miam</td> <td>/ts24-mobile-app-implementation</td> <td>2af1951</td> <td>feat: seach dependence for change name</td> <td>Búsqueda de dependencias para cambiar el nombre</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>34a4200</td> <td>feat: change name for integrate firebase</td> <td>Cambio de nombre para integración con Firebase</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>469c2eb</td> <td>feat: add dependence for change name aplication:change_app_package_name</td> <td>Agregar dependencia para cambio de nombre de la aplicación: change_app_package_name</td> <td>01/11/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3831621</td> <td>fix: routing in BottomNavigationBarItem</td> <td>Corregir la ruta en BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>3013760</td> <td>feat: add BottomNavigationBarItem</td> <td>Añadir BottomNavigationBarItem</td> <td>27/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>97ceabe</td> <td>Merge pull request #2 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>25/10/2024</td> </tr> <tr> <td>/ts24-mobile-app-implementation</td> <td>5d678bd</td> <td>feat-tsk01: implementation of interfast notifications</td> <td>Implementación de notificaciones de interfaz</td> <td>25/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>6e213c8</td> <td>fix: fix login screen, configure main screen</td> <td>Corrección de la pantalla de inicio de sesión y configuración de la pantalla principal</td> <td>01/11/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>8b107f4</td> <td>fix: screen configuration, The cards are modified to display it differently</td> <td>Configuración de pantalla, las tarjetas se modifican para mostrarse de manera diferente</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>0eea0f7</td> <td>feat: screen configuration, add connection</td> <td>Configuración de pantalla, se añade conexión</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>10a8874</td> <td>feat: add configuration screen</td> <td>Añadir pantalla de configuración</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>3286872</td> <td>Merge pull request #3 from IoT-SocialTech/us012-reception-notifications</td> <td>Integración de notificaciones de recepción</td> <td>31/10/2024</td> </tr> <tr> <td>/us020-assignment-of-bracelets</td> <td>b5e7960</td> <td>feat: add API logic</td> <td>Añadir lógica de API</td> <td>31/10/2024</td> </tr> </table>
 
-#### 6.2.3.6. Services Documentation Evidence for Sprint Review
+#### 6.2.3.4. Services Documentation Evidence for Sprint Review
 
 Durante este sprint, se realizó el avance de la documentación. Se documentaron endopoints utilizando Swagger OpenApi, lo que mejora la claridad y la accesibilidad de nuestra API para los desarrolladores. 
 
@@ -6148,6 +6147,109 @@ Durante este sprint, se realizó el avance de la documentación. Se documentaron
 | /api/v1/miam-edge-api/metrics/averageHeartRate/{patientId} | MObtener por Id   | GET     | `/api/v1/miam-edge-api`| `id`| `{ "id": 1, "message": "..."`| 
 | /api/v1/auth/register |  Agregar  | POST       | `/api/v1/miam-edge-api`| `id`, `model`, `limitHeartRate`, `limitTemperature`, `limitDistance`,`securityKey`, `status`, `patientId`| `{ "id": 1, "model": "..."`| 
 | /api/v1/auth/register|  Agregar  | POST   | `/api/v1/miam-edge-api`| `id`, `password`| `{ "message": "..."`| 
+
+#### 6.2.3.5. Execution Evidence for Sprint Review
+
+*Web Application*
+
+En este Sprint, se terminaron de programar las vistas en la aplicación web, enfocándonos en la visualización de la información de los pacientes obtenida del backend. A continuación, se detalla cada vista y su funcionalidad implementada:
+
+![Login](assets/login-view.PNG)
+
+* Band Configuration: Desarrollamos la vista para configurar la health band de cada paciente. Esta sección permite seleccionar y ajustar las alertas que recibirán el caregiver y el relative, personalizando así las notificaciones y el tipo de seguimiento que recibirán según las necesidades del paciente.
+
+![Band Configuration Web App](assets/band-configuration-view.PNG)
+
+* Patients: Implementamos la vista de creación y gestión de pacientes, donde se pueden registrar nuevos pacientes y vincularlos tanto a un caregiver como a un relative. También se añadió la opción de agregar recordatorios de toma de medicamentos.
+
+![Patients Web App](assets/patients-view.PNG)
+
+![Create Medication Alert](assets/create-alert.PNG)
+
+* Alerts: En esta sección, añadimos un historial de alertas para cada paciente, donde se pueden visualizar las notificaciones pasadas y su información detallada, permitiendo un seguimiento preciso de los eventos críticos que han ocurrido en cada caso.
+
+![Alerts Web App](assets/alerts-view.PNG)
+
+![Alerts Info Web App](assets/alerts-info-view.PNG)
+
+*Dashboard: Se culminó el desarrollo del dashboard, mostrando las alertas generadas para cada paciente.
+
+![Dashboard](assets/dashboard-update.PNG)
+
+Enlace: <a href="https://miam-site.netlify.app/">https://miam-site.netlify.app/</a>
+
+<br> Enlace al video: </br>
+<a href="">  </a>
+
+
+*Mobile Application*
+
+En este sprint se realizó el despliegue de la aplicación móvil usando Firebase App Distribution, siguiendo el mismo procedimiento del Sprint 2. 
+
+Enlace: <a href="https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6">https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6</a>
+
+![alt text](image-1.png)
+
+
+*Miam Cloud API*
+
+El despliegue del Cloud API fue realizado en la plataforma Render. a continuación se muestran los endpoints actualizados, agregando Spring Security y JWT.
+
+![Miam cloud API on Render](assets/api-cloud.PNG)
+
+Enlace: <a href="https://miam-cloud-api.onrender.com/swagger-ui/index.html#">https://miam-cloud-api.onrender.com/swagger-ui/index.html#</a>
+
+
+*Miam Edge API*
+
+La siguiente imagen muestra el despliegue de nuestra Edge API, realizado en la plataforma Render. Se puede apreciar la seguridad de los mismo, en la cual se uso Spring Security y JWT.
+
+
+![Miam Edge API on Render](assets/edge.png)
+
+Enlace: <a href="https://miam-edge-api.onrender.com/swagger-ui/index.html#">https://miam-edge-api.onrender.com/swagger-ui/index.html#</a>
+
+#### 6.2.3.7. Software Deployment Evidence for Sprint Review
+
+*Web Application*
+
+El despliegue de la aplicación web se realizó en Netlify. Como previamente se había configurado, estos despliegues son ejecutados automáticamente al hacer un nuevo commit en la rama development.
+
+#### 6.2.3.8. Team Collaboration Insights during Sprint
+
+En este Sprint, el equipo trabajó de manera colaborativa en la implementación de los distintos componentes del proyecto, que incluyeron la actualización del Landing Page, Web Services, Mobile Application, Web Application y Embedded Application. 
+
+*Web Application*
+
+![Web App Pulse](assets/pulse-web-2.PNG)
+
+
+![Web App Network Graph](assets/network-web-2.PNG)
+
+
+*Mobile Application*
+
+![Mobile App Pulse](assets/pulse-mobile-2.PNG)
+
+![Mobile App Network Graph](assets/network-mobile-2.PNG)
+
+*Embedded Application*
+
+![Embedded App Pulse](assets/pulse-embedded-2.PNG)
+
+![Embedded App Network Graph](assets/network-embedded-2.PNG)
+
+*Edge API*
+
+![Edge API Network Graph](assets/network-edgeapi.PNG)
+
+![Edge API Network Graph](assets/network-edgeapi2.PNG)
+
+*Cloud API*
+
+![Cloud API Pulse](assets/pulse-cloudapi-2.PNG)
+
+![Cloud API Network Graph](assets/network-cloudapi-2.PNG)
 
 #### 6.3 Validation Interviews.
 
@@ -6238,6 +6340,7 @@ Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caída
 | https://goo.su/sorVJws   | 07/09/2024   | TB1         |
 | https://goo.su/8Zz305      | 26/09/2024   | TP        |
 | https://goo.su/tYkZtN      | 02/11/2024   | TB2        |
+| https://goo.su/WGt2PLh | 20/11/2024 | TF1 |
 
 ## Diagrama C4 MIAM
 https://structurizr.com/share/95614/diagrams#SystemContext
