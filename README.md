@@ -5400,10 +5400,10 @@ https://structurizr.com/share/95614/diagrams#SystemContext
     </tr>
       <tr align="left">
         <td>
-            <b>Sprint 1 Velocity</b>
+            <b>Sprint 2 Velocity</b>
         </td>
         <td>
-            -
+            90
         </td>
     </tr>
        <tr align="left">
@@ -5411,7 +5411,7 @@ https://structurizr.com/share/95614/diagrams#SystemContext
             <b>Sum of Story Points</b>
         </td>
         <td>
-            -
+            48
         </td>
     </tr>
 </table> 
