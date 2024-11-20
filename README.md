@@ -1692,10 +1692,12 @@ https://miro.com/app/board/uXjVKhkFAVo=/?share_link_id=337128963652
 ### 4.1.3. Software Architecture
 
 #### 4.1.3.1. Software Architecture System Landscape Diagram
+- La imagen ilustra el diagrama de arquitectura del sistema de Miam, destacando la interacción entre los usuarios principales (Caregiver y Nursing Home Owner), el sistema central (Miam), y los sistemas externos integrados (Google API para autenticación y PayPal para pagos). Este diagrama proporciona una vista de alto nivel del panorama arquitectónico, mostrando cómo se conectan los componentes para garantizar un funcionamiento eficiente.
 
 ![System Landscape Diagram](./assets/context-diagram.png)
 
 #### 4.1.3.2. Software Architecture Context Level Diagrams
+- La siguiente imagen muestra el diagrama de contexto de la aplicación Miam, destacando los usuarios que interactuarán con la aplicación y los sistemas externos integrados para garantizar su correcto funcionamiento.
 
 ![Context Diagram](./assets/context-diagram.png)
 
