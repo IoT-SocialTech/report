@@ -43,6 +43,7 @@ Trujillo Lopez, Luis Alberto <br>
 | 1.4     | 27/09/2024  | Sagastegui Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
 | 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
 | 2.0    | 31/10/2024  | Aliaga Trevejo Lucía Guadalupe                                                                   | Se agregó el capítulo correspondiente al Sprint 2            |
+| 2.1    | 18/11/2024  | Siancas Reategui Luis Alberto Guadalupe                                                                   | Se corrigieron las imágenes y descripciones en la sección de entrevistas          |
 
 
 # Project Report Collaboration Insights
@@ -72,36 +73,18 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 
 **TB2**
 
-Para la tercera entrega se adicionan los commits en los repositorios de los productos: 
+Para la tercera entrega se adicionan un total de 36 commits en todas las ramas.
 
-*Web Application*
+![Insights TB2](./assets/insights-tb2.JPG)
 
-![Web App Network Graph](assets/network-web.PNG)
-
-*Mobile Application*
-
-![Web App Pulse](assets/pulse-mobile.PNG)
-
-![Mobile App Network Graph](assets/network-mobile.PNG)
-
-*Embedded Application*
-
-![Embedded App Pulse](assets/pulse-embedded.PNG)
-
-![Embedded App Network Graph](assets/network-embedded.PNG)
-
-*Edge API*
-
-![Edge API Network Graph](assets/network-edgeapi.PNG)
-
-*Cloud API*
-
-![Cloud API Pulse](assets/pulse-cloudapi.PNG)
-
-![Cloud API Network Graph](assets/network-cloudapi.PNG)
-
+Se agregó el capítulo correspondiente al Sprint 2 y se mejoraron las secciones de entrevistas
 
 Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuevos elementos. Gracias a este enfoque se evitaron conflictos entre las nuevas versiones del reporte.
+
+![Network TB2](./assets/network-tb2.JPG)
+
+**TF1** 
+
 
 
 ---
@@ -3834,14 +3817,13 @@ Utilizamos la metodología de git flow con finalidad es tener un control mayor s
 
 Esto nos permitio separar el proyecto en la rama principal (main) en la que se encuentra la versión presentable del proyecto, que a la vez no cuenta con errores. También tenemos la rama secundario (develop) que sirve para unificar los cambios de las demás ramas. También contamos con más branches una para determinadas fuincionalidades amplias de la aplicación y una para cada chapter del reporte.
 
-<td><img src="" alt="Imagen del gitflow" width="1500"></td>
+![Network TB1](assets/network-tb1.PNG)
 
+URL del repositorio del Report en GitHub: <a href="https://github.com/IoT-SocialTech/iot-report">https://github.com/IoT-SocialTech/iot-report</a>
 
-URL del repositorio del Report en GitHub:
+URL del repositorio del Landing Page en GitHub: <a href="https://github.com/IoT-SocialTech/miam-landing-page">https://github.com/IoT-SocialTech/miam-landing-page</a>
 
-URL del repositorio del Landing Page en GitHub: 
-
-URL del repositorio del Frontend en Github:
+URL del repositorio del Frontend en Github: <a href="https://github.com/IoT-SocialTech/Front-MIAM">https://github.com/IoT-SocialTech/Front-MIAM</a>
 
 ### 6.1.3. Source Code Style Guide & Conventions
 
@@ -3938,7 +3920,15 @@ Para despliegar el landing page, usamos las siguientes herraminetas.
             <b>Sprint Goal & User Stories</b>
         </td>
     </tr>
-      <tr align="left">
+    <tr align="left">
+      <td>
+        <b>Sprint 1 Goal</b>
+      </td>
+      Our focus is on establish the initial sections of the system's landing page, focusing on visual design and basic navigation functionality. The goal is also to create a solid technical foundation for further system development. This will be confirmed when users can interact with the landing page's core features and navigate its primary sections effectively.
+      <td> 
+      </td>
+    </tr>
+    <tr align="left">
         <td>
             <b>Sprint 1 Velocity</b>
         </td>
@@ -4277,7 +4267,7 @@ En primer lugar, se creó una organización en Github con el nombre de la StartU
         <b>Sprint 2 Goal</b>
       </td>
       <td>
-            Our focus is on establishing the foundational features for user onboarding, bracelet configuration, and initial data collection. We believe it delivers a seamless entry experience for caregivers and nursing home owners, enabling them to begin using the monitoring system effectively and gather essential health data from the start. This will be confirmed when users can successfully register, log in, configure their bracelets, and view initial health data collected from the bracelets in real time.
+        Our focus is on establishing foundational features across the web app, mobile app, cloud API, edge API, and embedded app to support user onboarding, bracelet configuration, and initial data collection. On the web app and mobile app, we created interfaces for alerts, bracelet configuration, patient creation, and alert settings. The cloud API includes endpoints to manage these features, while the edge API implements data collection from the device. For the device, we delivered a first version with real-time bracelet functionality and Firebase integration for data synchronization. We believe this provides caregivers and nursing home owners with a seamless entry experience, enabling them to configure bracelets, create patient profiles, and access real-time health data effectively. This will be confirmed when users can successfully complete onboarding, configure bracelets, and view health data collected and displayed across the system.
       </td>
     </tr>
     </tr>
@@ -5136,6 +5126,7 @@ TS21_LogicaLeerAlmacenarMensajesCola.feature
 US007_MonitoreoRitmoCardiaco.feature
 ![alt text](cap-2.png)
 
+
 #### 6.2.2.5. Execution Evidence for Sprint Review
 
 *Web Application*
@@ -5269,79 +5260,6 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 
 ![Cloud API Network Graph](assets/network-cloudapi.png)
 
-#### 6.3 Validation Interviews.
-
-#### 6.3.1. Diseño de Entrevistas.
-
-*Para Cuidadores de Adultos Mayores (Caregivers)*
-
-<br>¿Cuáles son los mayores desafíos que enfrentas al monitorear los signos vitales de los adultos mayores a tu cargo?</br>
-<br>¿Con qué frecuencia monitoreas la temperatura y el pulso de tus pacientes? ¿Cuál es tu método actual para registrar estos datos?</br>
-<br>¿Qué tan importante sería para ti tener acceso a estos datos en tiempo real?</br>
-<br>¿Qué valor le darías a una alerta inmediata si los signos vitales de un paciente están fuera de los rangos normales?</br>
-<br>¿Cómo prefieres acceder a los datos de los pacientes (móvil, tablet, computadora)?</br>
-<br>¿Qué problemas o preocupaciones te gustaría que esta aplicación te ayudara a resolver?</br>
-<br>¿Te resultaría útil una opción para revisar los historiales de signos vitales de los pacientes en la aplicación? ¿Cómo la usarías en tu rutina?</br>
-<br>¿Qué características crees que le faltarían a una herramienta que solo monitorea pulso y temperatura para que sea completa?</br>
-<br>¿Hay otras métricas o información sobre el paciente que te gustaría poder rastrear o visualizar desde la misma plataforma?</br>
-<br>¿Cuáles son tus expectativas en cuanto a la facilidad de uso de la aplicación? ¿Prefieres una interfaz más simple o más detallada?</br>
-
-<br>*Para Dueños de Casas de Reposo (Nursing Home Owners)*
-
-<br>¿Cuáles son los principales problemas que experimentan los cuidadores de tu institución al monitorear los signos vitales de los residentes?</br>
-<br>¿Qué métodos utilizan actualmente para llevar el control de los signos vitales y cómo se almacenan estos datos?</br>
-<br>¿Consideras importante tener acceso centralizado y en tiempo real a la información de salud de tus residentes?</br>
-<br>¿Qué impacto crees que tendría la capacidad de recibir alertas sobre signos vitales en el bienestar de los pacientes y en la eficiencia del personal?</br>
-<br>¿Cómo se integraría una aplicación de este tipo en la rutina diaria de tu casa de reposo?</br>
-<br>¿Cuáles son tus preocupaciones en cuanto a la privacidad y seguridad de los datos de los residentes?</br>
-<br>¿Consideras importante que esta información esté disponible en una plataforma web además de la móvil? ¿Por qué?</br>
-<br>¿Qué tipo de reportes o análisis te gustaría recibir sobre el estado de salud de tus residentes?</br>
-<br>¿Qué funcionalidades crees que serían esenciales en una herramienta de monitoreo de salud para una casa de reposo?</br>
-<br>¿Qué tan dispuestos estarían a adoptar esta tecnología si mejora la calidad de atención y facilita el trabajo de los cuidadores?</br>
-
-#### 6.3.2. Registro de Entrevistas.
-
-#### 6.3.3. Evaluaciones según heurísticas.
-
-#### 6.4. Video About-the-Product.
-
-En esta sección se incluye un video promocional que ofrece un primer vistazo a nuestro producto. El video está diseñado para comunicar de manera atractiva y concisa el valor que ofrece nuestro producto, mencionando el público objetivo y beneficios.
-
-![About The Product](assets/about-the-product.PNG)
-<br> Enlace al video: </br>
-<a href="https://goo.su/KlSALD2"> https://goo.su/KlSALD2 </a>
-
-# Conclusiones
-
-El sistema de pulseras IoT contribuye significativamente a la mejora de la calidad de vida de las personas mayores al ofrecerles una solución de monitoreo constante de sus signos vitales. A través de la detección en tiempo real de anomalías en la temperatura o el ritmo cardíaco, los cuidadores pueden reaccionar rápidamente ante posibles emergencias, lo que proporciona una mayor sensación de seguridad tanto para los usuarios como para sus familiares.
-
-El proyecto tiene un impacto social positivo al ofrecer una solución tecnológica que permite a las personas mayores vivir de manera más independiente, mientras que los cuidadores y familiares pueden estar tranquilos al saber que las personas bajo su cuidado están siendo monitoreadas constantemente. Además, el sistema fomenta la prevención y rápida respuesta ante emergencias, reduciendo el riesgo de incidentes graves y mejorando la seguridad general de los usuarios.
-
-# Bibliografía
- 
- Dorri, S., Zabolinezhad, H., & Sattari, M. (2023). *The application of Internet of Things for the elderly health safety: A systematic review*. Advances in Biomedical Research, 12, 109. https://doi.org/10.4103/abr.abr_197_22 
-
-Giulianelli, D., De Luca, G., De Luca, S., García, G., Carnuccio, E., Valiente, W., & Volker, M. (2017). *Diseño de sistema IoT de monitoreo y alarma para personas mayores*. Repositorio institucional de la UNLP, Universidad Nacional de La Plata.  https://sedici.unlp.edu.ar/handle/10915/62406 
-
-Ministerio de Salud. (2018, 13 de diciembre). *Uno de cada tres adultos mayores de 65 años sufre una caída*. https://www.gob.pe/institucion/minsa/noticias/23629-uno-de-cada-tres-adultos-mayores-de-65-anos-sufre-una-caida
-
-Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caídas en el adulto mayor y factores de riesgo*. European Journal of Child Development, Education and Psychopathology, 8(1), 47–56. https://doi.org/10.30552/ejpad.v8i1.130 
-
---- 
-
-# Anexos
-
-## Videos de Exposición
-
-| Enlace                                             | Fecha        | Entregable                       |
-|----------------------------------------------------|--------------|----------------------------------|
-| https://goo.su/sorVJws   | 07/09/2024   | TB1         |
-| https://goo.su/8Zz305      | 26/09/2024   | TP        |
-| https://goo.su/tYkZtN      | 02/11/2024   | TB2        |
-
-## Diagrama C4 MIAM
-https://structurizr.com/share/95614/diagrams#SystemContext
-
 ### 6.2.2. Sprint 3
 
 #### 6.2.2.1. Sprint Planning 3
@@ -5442,10 +5360,10 @@ https://structurizr.com/share/95614/diagrams#SystemContext
     </tr>
       <tr align="left">
         <td>
-            <b>Sprint 1 Velocity</b>
+            <b>Sprint 2 Velocity</b>
         </td>
         <td>
-            -
+            90
         </td>
     </tr>
        <tr align="left">
@@ -5453,7 +5371,7 @@ https://structurizr.com/share/95614/diagrams#SystemContext
             <b>Sum of Story Points</b>
         </td>
         <td>
-            -
+            48
         </td>
     </tr>
 </table> 
@@ -6301,3 +6219,78 @@ Implementación Movile IoT-SocialTech mobile-application-miam
 		<td>-</td> 
 	</tr> 
 </table>
+
+
+#### 6.3 Validation Interviews.
+
+#### 6.3.1. Diseño de Entrevistas.
+
+*Para Cuidadores de Adultos Mayores (Caregivers)*
+
+<br>¿Cuáles son los mayores desafíos que enfrentas al monitorear los signos vitales de los adultos mayores a tu cargo?</br>
+<br>¿Con qué frecuencia monitoreas la temperatura y el pulso de tus pacientes? ¿Cuál es tu método actual para registrar estos datos?</br>
+<br>¿Qué tan importante sería para ti tener acceso a estos datos en tiempo real?</br>
+<br>¿Qué valor le darías a una alerta inmediata si los signos vitales de un paciente están fuera de los rangos normales?</br>
+<br>¿Cómo prefieres acceder a los datos de los pacientes (móvil, tablet, computadora)?</br>
+<br>¿Qué problemas o preocupaciones te gustaría que esta aplicación te ayudara a resolver?</br>
+<br>¿Te resultaría útil una opción para revisar los historiales de signos vitales de los pacientes en la aplicación? ¿Cómo la usarías en tu rutina?</br>
+<br>¿Qué características crees que le faltarían a una herramienta que solo monitorea pulso y temperatura para que sea completa?</br>
+<br>¿Hay otras métricas o información sobre el paciente que te gustaría poder rastrear o visualizar desde la misma plataforma?</br>
+<br>¿Cuáles son tus expectativas en cuanto a la facilidad de uso de la aplicación? ¿Prefieres una interfaz más simple o más detallada?</br>
+
+<br>*Para Dueños de Casas de Reposo (Nursing Home Owners)*
+
+<br>¿Cuáles son los principales problemas que experimentan los cuidadores de tu institución al monitorear los signos vitales de los residentes?</br>
+<br>¿Qué métodos utilizan actualmente para llevar el control de los signos vitales y cómo se almacenan estos datos?</br>
+<br>¿Consideras importante tener acceso centralizado y en tiempo real a la información de salud de tus residentes?</br>
+<br>¿Qué impacto crees que tendría la capacidad de recibir alertas sobre signos vitales en el bienestar de los pacientes y en la eficiencia del personal?</br>
+<br>¿Cómo se integraría una aplicación de este tipo en la rutina diaria de tu casa de reposo?</br>
+<br>¿Cuáles son tus preocupaciones en cuanto a la privacidad y seguridad de los datos de los residentes?</br>
+<br>¿Consideras importante que esta información esté disponible en una plataforma web además de la móvil? ¿Por qué?</br>
+<br>¿Qué tipo de reportes o análisis te gustaría recibir sobre el estado de salud de tus residentes?</br>
+<br>¿Qué funcionalidades crees que serían esenciales en una herramienta de monitoreo de salud para una casa de reposo?</br>
+<br>¿Qué tan dispuestos estarían a adoptar esta tecnología si mejora la calidad de atención y facilita el trabajo de los cuidadores?</br>
+
+#### 6.3.2. Registro de Entrevistas.
+
+#### 6.3.3. Evaluaciones según heurísticas.
+
+#### 6.4. Video About-the-Product.
+
+En esta sección se incluye un video promocional que ofrece un primer vistazo a nuestro producto. El video está diseñado para comunicar de manera atractiva y concisa el valor que ofrece nuestro producto, mencionando el público objetivo y beneficios.
+
+![About The Product](assets/about-the-product.PNG)
+<br> Enlace al video: </br>
+<a href="https://goo.su/KlSALD2"> https://goo.su/KlSALD2 </a>
+
+# Conclusiones
+
+El sistema de pulseras IoT contribuye significativamente a la mejora de la calidad de vida de las personas mayores al ofrecerles una solución de monitoreo constante de sus signos vitales. A través de la detección en tiempo real de anomalías en la temperatura o el ritmo cardíaco, los cuidadores pueden reaccionar rápidamente ante posibles emergencias, lo que proporciona una mayor sensación de seguridad tanto para los usuarios como para sus familiares.
+
+El proyecto tiene un impacto social positivo al ofrecer una solución tecnológica que permite a las personas mayores vivir de manera más independiente, mientras que los cuidadores y familiares pueden estar tranquilos al saber que las personas bajo su cuidado están siendo monitoreadas constantemente. Además, el sistema fomenta la prevención y rápida respuesta ante emergencias, reduciendo el riesgo de incidentes graves y mejorando la seguridad general de los usuarios.
+
+# Bibliografía
+ 
+ Dorri, S., Zabolinezhad, H., & Sattari, M. (2023). *The application of Internet of Things for the elderly health safety: A systematic review*. Advances in Biomedical Research, 12, 109. https://doi.org/10.4103/abr.abr_197_22 
+
+Giulianelli, D., De Luca, G., De Luca, S., García, G., Carnuccio, E., Valiente, W., & Volker, M. (2017). *Diseño de sistema IoT de monitoreo y alarma para personas mayores*. Repositorio institucional de la UNLP, Universidad Nacional de La Plata.  https://sedici.unlp.edu.ar/handle/10915/62406 
+
+Ministerio de Salud. (2018, 13 de diciembre). *Uno de cada tres adultos mayores de 65 años sufre una caída*. https://www.gob.pe/institucion/minsa/noticias/23629-uno-de-cada-tres-adultos-mayores-de-65-anos-sufre-una-caida
+
+Suárez, G., Velasco, V., Limones, M. , Reyes, H., & Delgado, V. (2020). *Caídas en el adulto mayor y factores de riesgo*. European Journal of Child Development, Education and Psychopathology, 8(1), 47–56. https://doi.org/10.30552/ejpad.v8i1.130 
+
+--- 
+
+# Anexos
+
+## Videos de Exposición
+
+| Enlace                                             | Fecha        | Entregable                       |
+|----------------------------------------------------|--------------|----------------------------------|
+| https://goo.su/sorVJws   | 07/09/2024   | TB1         |
+| https://goo.su/8Zz305      | 26/09/2024   | TP        |
+| https://goo.su/tYkZtN      | 02/11/2024   | TB2        |
+
+## Diagrama C4 MIAM
+https://structurizr.com/share/95614/diagrams#SystemContext
+
