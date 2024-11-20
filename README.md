@@ -5226,10 +5226,12 @@ Enlace: <a href="https://appdistribution.firebase.dev/i/bc9e72d1b2b27dd6">https:
 
 
 *Miam Edge API*
+- La siguiente imagen muestra el despliegue de nuestra Edge API, realizado en la plataforma Render. En ella se pueden observar los distintos endpoints creados para garantizar el correcto funcionamiento de Miam. Por otro lado, se puede apreciar la seguridad de los mismo, en la cual se uso Spring Security y JWT.
 
 ![Miam Edge API on Render](assets/edge.png)
 
 *Miam Cloud API*
+- La siguiente imagen presenta el despliegue de nuestra Cloud API, llevado a cabo en la plataforma Render. En ella se destacan los diferentes endpoints desarrollados para asegurar el óptimo funcionamiento de Miam. Por otro lado, se puede apreciar la seguridad de los mismo, en la cual se uso Spring Security y JWT.
 
 ![Miam cloud API on Render](assets/cloud.png)
 
@@ -5264,6 +5266,7 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 
 
 *Cloud API*
+- Las imágenes siguientes ilustran el uso de las ramas en nuestro repositorio de GitHub, lo que asegura un entorno colaborativo eficiente y facilita el trabajo continuo y asincrónico del equipo en el proyecto. Ademas, se puede apreciar los commites realizados en el repositorio.
 
 ![Cloud API Pulse](assets/pulse-cloudapi.png)
 
