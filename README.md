@@ -6226,66 +6226,66 @@ Durante este sprint, se realizó el avance de la documentación. Se documentaron
 
 | Endpoint         | Acción      | Verbo HTTP | Sintaxis de Llamada        | Parámetros                       | Ejemplo de Response             | 
 |------------------|-------------|------------|----------------------------|----------------------------------|----------------------------------|
-| /api/v1/miam/cloudApi/nursingHomes/{id}  | Obtener por Id      | GET      | `/api/v1/miam/cloudApi`| `message`, `status`, `data`| `{ "id": 1, "message": "..."`| 
-| /api/v1/miam/cloudApi/nursingHomes/{id}  | Modificar      | PUT        | `/api/v1/miam/cloudApi`| `name`, `location`, `ruc`, `account`,`caregiverIds`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/nursingHomes/{id}  | Eliminar     | DELETE        | `/api/v1/miam/cloudApi`| `id` | `{ "message": "..." }` | 
+| /api/v1/miam/cloudApi/nursingHomes/{id}  | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/nursingHomes/{id}  | Modificar      | PUT        | `/api/v1/miam/cloudApi/{id}`| `name`, `location`, `ruc`, `account`,`caregiverIds`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/nursingHomes/{id}  | Eliminar     | DELETE        | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }` | 
 | /api/v1/miam/cloudApi/nursingHomes  | Agregar  | POST        | `/api/v1/miam/cloudApi`| `name`, `location`, `ruc`, `account`,`caregiverIds`| `{ "name": "...", "location": "..."`| 
-| /api/v1/miam/cloudApi/nursingHomes/account/{id}   | Obtener    | GET     |  `/api/v1/miam/cloudApi`|`titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId`|`{ "id": 1, "titleTour": "..."`|
-| /api/v1/miam/cloudApi/patientCaregivers/{patientId}/{caregiverId}| Obtener por Id      | GET      | `/api/v1/users`| `firstName`, `lastName`, `password`, `location`,`birthdate`,`email`,`phone`| `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam/cloudApi/patientCaregivers/patient/{patientId}    | Obtener por Id      | GET       | `/api/v1/users`| `titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId` | `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam/cloudApi/patientCaregivers/caregiver/{caregiverId}    | Obtener por Id      | GET       | `/api/v1/users/{id}`| `id` | `{ "message": "User with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/caregivers/{id}  | Obtener por Id      | GET       | `/api/v1/users/{id}`| `titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId` | `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam/cloudApi/caregivers/{id}  | Modificar      | PUT      | `/api/v1/users/{id}`|`name`, `location`, `time`, `description`|`{ "id": 1, "name": "..."`|
-| /api/v1/miam/cloudApi/caregivers/{id}   | Eliminar     | DELETE       | `/api/v1/users`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/caregivers  | Agregar  | POST        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/caregivers/account/{id}  |  Obtener por Id      | GET        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam-cloud-api/plans/{id} | Obtener por Id      | GET      | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam-cloud-api/plans/{id} | Modificar por Id    | PUT     | `/api/v1/users/{id}`|`titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId`|`{ "id": 1, "name": "..."`|    
-| /api/v1/miam-cloud-api/plans/{id} | Eliminar opr Id    | DELETE         | `/api/v1/users/{id}`| `titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId` | `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam-cloud-api/plans | Obtener    | GET     | `/api/v1/users/{id}`|`name`, `location`, `time`, `description`|`{ "id": 1, "name": "..."`|
-| /api/v1/miam-cloud-api/plans | Agregar  | POST      | `/api/v1/users`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/reportHistories/{id}  |  Obtener por Id      | GET        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/reportHistories/{id}  | Modificar por Id    | PUT         | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/reportHistories/{id}  | Eliminar opr Id    | DELETE        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/reportHistories  | Agregar  | POST        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/reportHistories/patient/{patientId}  | Obtener    | GET       | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/reportHistories/caregiver/{caregiverId}  | Obtener  | GET       | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/notifications/{id}  | Obtener por Id      | GET       | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/notifications/{id}  | Modificar por Id    | PUT        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/notifications/{id}  | Eliminar opr Id    | DELETE        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/notifications  | Agregar  | POST        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/notifications/caregiver/{caregiverId}  |  Obtener por Id      | GET      | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/relatives/{id}  | Obtener por Id      | GET        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/relatives/{id}   | Modificar por Id    | PUT       | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/relatives/{id}   |  Eliminar opr Id    | DELETE        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/relatives  | Agregar  | POST        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/relatives/account/{id}   |  Obtener por Id      | GET        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam-cloud-api/roles/{id} | Obtener por Id      | GET      | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam-cloud-api/roles/{id} | Modificar por Id    | PUT     | `/api/v1/users/{id}`|`titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId`|`{ "id": 1, "name": "..."`|    
-| /api/v1/miam-cloud-api/roles/{id} | Eliminar opr Id    | DELETE     | `/api/v1/users/{id}`| `titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId` | `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam-cloud-api/roles | Agregar  | POST     | `/api/v1/users/{id}`|`name`, `location`, `time`, `description`|`{ "id": 1, "name": "..."`|
-| /api/v1/miam/cloudApi/patients/{id}  | Obtener por Id      | GET         | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/patients/{id}    | Modificar por Id    | PUT         | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/patients/{id}   | Eliminar opr Id    | DELETE        | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/patients | Agregar  | POST        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam-cloud-api/device/{id} | Agregar por Id  | POST        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam-cloud-api/metrics/temperature/{id} | Obtener por Id      | GET     | `/api/v1/users/{id}`|`titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId`|`{ "id": 1, "name": "..."`|    
-| /api/v1/miam-cloud-api/metrics/heartRate/{id} | Obtener por Id      | GET         | `/api/v1/users/{id}`| `titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId` | `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam-cloud-api/metrics/averageTemperature/{id}| Obtener por Id      | GET      | `/api/v1/users/{id}`|`name`, `location`, `time`, `description`|`{ "id": 1, "name": "..."`|
-| /api/v1/miam-cloud-api/metrics/averageHeartRate/{id}| Obtener por Id      | GET     | `/api/v1/users/{id}`|`name`, `location`, `time`, `description`|`{ "id": 1, "name": "..."`|
-| /api/v1/miam-cloud-api/subscriptions/{id} | Obtener por Id      | GET        | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam-cloud-api/subscriptions/{id} |  Modificar por Id    | `/api/v1/users/{id}`|`titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId`|`{ "id": 1, "name": "..."`|    
-| /api/v1/miam-cloud-api/subscriptions/{id} | Eliminar opr Id    | DELETE       | `/api/v1/users/{id}`| `titleTour`, `description`, `instructor`, `rating`,`capacity`,`duration`,`date`,`price`,`restauranteId` | `{ "id": 1, "firstName": "..."`| 
-| /api/v1/miam-cloud-api/subscriptions| Agregar  | POST     | `/api/v1/users/{id}`|`name`, `location`, `time`, `description`|`{ "id": 1, "name": "..."`|
-| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Obtener por Id      | GET         | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Modificar por Id    | PUT          | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Eliminar opr Id    | DELETE         | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/medicationSchedules | Agregar  | POST       | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/medicationSchedules/patient/{patientId} | Obtener  | GET       | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/miam/cloudApi/caregiversNursingHomes/{caregiversId}/{nursingHomeId} | Obtener por Id      | GET      | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/cloudApi/caregiversNursingHomes/nursingHome/{id}  | Obtener por Id      | GET       | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
-| /api/v1/auth/register | Agregar  | POST       | `/api/v1/users/{id}`| `id` | `{ "message": "Restaurant with given id successfully deleted " }`      | 
-| /api/v1/miam/login  | Agregar  | POST     | `/api/v1/users/{id}`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/nursingHomes/account/{id}   | Obtener    | GET     |  `/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "message": "..."`|
+| /api/v1/miam/cloudApi/patientCaregivers/{patientId}/{caregiverId}| Obtener por Id      | GET      | `/api/v1/miam/cloudApi`| `patientId`, `caregiverId`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/patientCaregivers/patient/{patientId}    | Obtener por Id      | GET       | `/api/v1/miam/cloudApi`| `patientId`| `{ "id": 1, "firstName": "..."`| 
+| /api/v1/miam/cloudApi/patientCaregivers/caregiver/{caregiverId}    | Obtener por Id      | GET       | `/api/v1/miam/cloudApi`| `caregiverId` | `{ "id": 1, "message": "..."`    | 
+| /api/v1/miam/cloudApi/caregivers/{id}  | Obtener por Id      | GET       |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/caregivers/{id}  | Modificar      | PUT      |`/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "name": "..."`|
+| /api/v1/miam/cloudApi/caregivers/{id}   | Eliminar     | DELETE       | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/caregivers  | Agregar  | POST        | `/api/v1/miam/cloudApi`| - | `{ "name": "..." }`      | 
+| /api/v1/miam/cloudApi/caregivers/account/{id}  |  Obtener por Id      | GET        | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "message": "..."`| 
+| /api/v1/miam-cloud-api/plans/{id} | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-cloud-api/plans/{id} | Modificar por Id    | PUT     | `/api/v1/miam/cloudApi/{id}`|`name`, `description`, `price`|`{ "id": 1, "message": "..."`|    
+| /api/v1/miam-cloud-api/plans/{id} | Eliminar opr Id    | DELETE         | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-cloud-api/plans | Obtener    | GET     | `/api/v1/miam/cloudApi`|-|`{ "id": 1, "message": "..."`|
+| /api/v1/miam-cloud-api/plans | Agregar  | POST      | `/api/v1/miam/cloudApi`| `name`, `description`, `price`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam/cloudApi/reportHistories/{id}  |  Obtener por Id      | GET        | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/reportHistories/{id}  | Modificar por Id    | PUT         | `/api/v1/miam/cloudApi/{id}`| `id`,`status`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/reportHistories/{id}  | Eliminar opr Id    | DELETE        | `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/reportHistories  | Agregar  | POST        | `/api/v1/miam/cloudApi`| `reportType`, `status`, `patientId`, `caregiverId`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/reportHistories/patient/{patientId}  | Obtener    | GET       | `/api/v1/miam/cloudApi`| `patientId` | `id` | `{ "status": "..." }`   | 
+| /api/v1/miam/cloudApi/reportHistories/caregiver/{caregiverId}  | Obtener  | GET       | `/api/v1/miam/cloudApi`| `caregiverId`| `id` | `{ "status": "..." }`  | 
+| /api/v1/miam/cloudApi/notifications/{id}  | Obtener por Id      | GET       | `/api/v1/miam/cloudApi/{id}`| `id` |  `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/notifications/{id}  | Modificar por Id    | PUT        |`/api/v1/miam/cloudApi/{id}`| `id`,`status`|  `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/notifications/{id}  | Eliminar opr Id    | DELETE        |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/notifications  | Agregar  | POST        | `/api/v1/miam/cloudApi`| `title`, `message`, `caregiver`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam/cloudApi/notifications/caregiver/{caregiverId}  |  Obtener por Id      | GET      | `/api/v1/miam/cloudApi`|`"status": "..."`   | 
+| /api/v1/miam/cloudApi/relatives/{id}  | Obtener por Id      | GET        |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/relatives/{id}   | Modificar por Id    | PUT       |`/api/v1/miam/cloudApi/{id}`| `name`, `lastName`, `relationship`, `account`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/relatives/{id}   |  Eliminar opr Id    | DELETE        |`/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/relatives  | Agregar  | POST        |`/api/v1/miam/cloudApi`| `name`, `location`, `time`, `description`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/relatives/account/{id}   |  Obtener por Id      | GET        | `/api/v1/miam/cloudApi`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam-cloud-api/roles/{id} | Obtener por Id      | GET      | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "status": "..."`| 
+| /api/v1/miam-cloud-api/roles/{id} | Modificar por Id    | PUT     | `/api/v1/miam/cloudApi/{id}`|`id`, `type`, `description`|`{ "id": 1, "type": "..."`|    
+| /api/v1/miam-cloud-api/roles/{id} | Eliminar opr Id    | DELETE     | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "message": "..."`| 
+| /api/v1/miam-cloud-api/roles | Agregar  | POST     | `/api/v1/miam/cloudApi`|`id`, `type`, `description`|`{ "id": 1, "type": "..."`|
+| /api/v1/miam/cloudApi/patients/{id}  | Obtener por Id      | GET         |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/patients/{id}    | Modificar por Id    | PUT         | `/api/v1/miam/cloudApi/{id}`| `id`, `name`, `lastName`, `age`,`address`, `birthdate`, `account`, `relative`, `caregiverIds`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam/cloudApi/patients/{id}   | Eliminar opr Id    | DELETE        |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/patients | Agregar  | POST        |  `/api/v1/miam/cloudApi`| `id`, `name`, `lastName`, `age`,`address`, `birthdate`, `account`, `relative`, `caregiverIds`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam-cloud-api/device/{id} | Agregar por Id  | POST        | `/api/v1/miam/cloudApi/{id}`| `limitHeartRate`, `limitTemperature`, `limitDistance`| `{ "id": 1, "model": "..."`| 
+| /api/v1/miam-cloud-api/metrics/temperature/{id} | Obtener por Id      | GET     | `/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "temperature": "..."`|    
+| /api/v1/miam-cloud-api/metrics/heartRate/{id} | Obtener por Id      | GET         |`/api/v1/miam/cloudApi/{id}`| `id`|`{ "id": 1, "heartRate": "..."`|    
+| /api/v1/miam-cloud-api/metrics/averageTemperature/{id}| Obtener por Id      | GET      |`/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "averageTemperature": "..."`|    
+| /api/v1/miam-cloud-api/metrics/averageHeartRate/{id}| Obtener por Id      | GET     |`/api/v1/miam/cloudApi/{id}`|`id`|`{ "id": 1, "averageHeartRate": "..."`|    
+| /api/v1/miam-cloud-api/subscriptions/{id} | Obtener por Id      | GET        | `/api/v1/miam/cloudApi/{id}`| `id`| `{ "id": 1, "name": "..."`| 
+| /api/v1/miam-cloud-api/subscriptions/{id} |  Modificar por Id    |`/api/v1/miam/cloudApi/{id}`|`id`, `type`, `planId`, `isActive`|`{ "id": 1, "startDate": "..."`|    
+| /api/v1/miam-cloud-api/subscriptions/{id} | Eliminar opr Id    | DELETE       | `/api/v1/miam/cloudApi/{id}`|  `id` | `{ "message": "..." }`| 
+| /api/v1/miam-cloud-api/subscriptions| Agregar  | POST     | `/api/v1/miam/cloudApi`|`id`, `type`, `planId`, `isActive`|`{ "id": 1, "startDate": "..."`|  
+| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Obtener por Id      | GET         |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Modificar por Id    | PUT          |  `/api/v1/miam/cloudApi/{id}`| `id`, `taken`| `{ "id": 1, "medicationName": "..."`| 
+| /api/v1/miam/cloudApi/medicationSchedules/{id}  | Eliminar opr Id    | DELETE         |  `/api/v1/miam/cloudApi/{id}`| `id` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/medicationSchedules | Agregar  | POST       | `/api/v1/miam/cloudApi`| `id`, `medicationName`, `dose`, `hour`, `taken`, `patientId`, `caregiverId`| `{ "id": 1, "medicationName": "..."`| 
+| /api/v1/miam/cloudApi/medicationSchedules/patient/{patientId} | Obtener  | GET       |  `/api/v1/miam/cloudApi`| `patientId`| `{ "id": 1, "medicationName": "..."`| 
+| /api/v1/miam/cloudApi/caregiversNursingHomes/{caregiversId}/{nursingHomeId} | Obtener por Id      | GET      | `/api/v1/miam/cloudApi`| `caregiverId` | `{ "message": "..." }`      | 
+| /api/v1/miam/cloudApi/caregiversNursingHomes/nursingHome/{id}  | Obtener por Id      | GET       |  `/api/v1/miam/cloudApi`| `nursingHomeId`| `{ "id": 1, "message": "..."`| 
+| /api/v1/auth/register | Agregar  | POST       | `/api/v1/miam/cloudApi`| `email`,`password`,`phoneNumber`,`subscription`,`role`,`active` | `{ "message": "..." }`      | 
+| /api/v1/miam/login  | Agregar  | POST     | `/api/v1/miam/cloudApi`| `email`, `password`| `{ "message": "..." }`  | 
 
 #### 6.3 Validation Interviews.
 
