@@ -5810,6 +5810,7 @@ En esta sección se presentan los commits realizados en el repositorio de GitHub
 
 A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
 
+
 <table  align="left" border="1" width="100%">
     <tr>
         <th>Repository</th>
@@ -5822,96 +5823,46 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
     <tr>
         <td rowspan=19>IoT-SocialTech/Front-MIAM</td>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>076aee9</td>
+        <td>fix: mockup api integration</td>
+        <td>fix: mockup api integration</td>
+        <td>02/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>738bd02</td>
+        <td>Add: Graphics and alerts in dashboard</td>
+        <td>Add: Graphics and alerts in dashboard</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>504c943</td>
+        <td>Update: services to retrieve patient and caregiver data</td>
+        <td>Updated services to retrieve patient and caregiver data</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>1a1c8e2</td>
+        <td>Add: Services to create and update patient information</td>
+        <td>Added Services to create and update patient information</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>c59580d</td>
+        <td>Add: Interface to configure temperature and heart rate limits</td>
+        <td>Added Interface to configure temperature and heart rate limits</td>
+        <td>20/11/2024</td>
     </tr>
     <tr>
         <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    
+        <td>955d2c0</td>
+        <td>Add: Interface to view alerts and details</td>
+        <td>Added interface to view alerts and details</td>
+        <td>20/11/2024</td>
+    </tr>    
 </table>
 
 <table align="left" border="1" width="100%">
@@ -5924,314 +5875,48 @@ A continuación, se detallan las contribuciones individuales en diversas ramas d
         <th>Commited On (Date)</th>
     </tr>
     <tr>
-        <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td rowspan=50>IoT-SocialTech/mobile-application-miam</td>
+        <td>ts24-mobile-app-implemetation</td>
+        <td>6e213c8</td>
+        <td>fix: fix login screen, configure main screen</td>
+        <td>fix: fix login screen, configure main screen</td>
+        <td>01/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ts24-mobile-app-implemetation</td>
+        <td>469c2eb</td>
+        <td>feat: add dependence for change name aplication:change_app_package_name</td>
+        <td>feat: add dependence for change name aplication:change_app_package_name</td>
+        <td>01/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ts24-mobile-app-implemetation</td>
+        <td>45ac205</td>
+        <td>feat: add confing for change name</td>
+        <td>feat: add confing for change name</td>
+        <td>01/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ts24-mobile-app-implemetation</td>
+        <td>34a4200</td>
+        <td>feat: change name for integrate firebase</td>
+        <td>feat: change name for integrate firebase</td>
+        <td>01/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ts24-mobile-app-implemetation</td>
+        <td>2af1951</td>
+        <td>feat: seach dependence for change name</td>
+        <td>feat: seach dependence for change name</td>
+        <td>01/11/2024</td>
     </tr>
     <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
+        <td>ts24-mobile-app-implemetation</td>
+        <td>398e4d</td>
+        <td>feat: implement create patients</td>
+        <td>feat: implement create patients</td>
+        <td>01/11/2024</td>
     </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-    <tr>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-        <td>-</td>
-    </tr>
-</table>
-
-Implementación Movile IoT-SocialTech mobile-application-miam
-
-<table align="left" border="1" width="100%"> 
-	<tr> 
-		<th>Repository</th> 
-		<th>Branch</th> 
-		<th>Commit ID</th> 
-		<th>Commit Message</th> 
-		<th>Commit Message Body</th> 
-		<th>Commited On (Date)</th> 
-	</tr> 
-	<tr> 
-		<td rowspan=18>IoT-SocialTech/mobile-application-miam</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
-	<tr> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-		<td>-</td> 
-	</tr> 
 </table>
 
 
