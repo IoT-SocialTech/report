@@ -5381,7 +5381,7 @@ https://structurizr.com/share/95614/diagrams#SystemContext
             <b>Retrospective Summary</b>
         </td>
         <td>
-          -
+          La organizacion de las tareas para el desarrollo de las caracteristicas fundamentales fue correctamente realizada, la realizacion de esta misma fue realizada en los tiempos adecuados. En este sprint consideramos que aun nos faltaba un intervalo de tiempo en donde todos nos podamos reunir como equipo. Se priorizaba las tareas mas complejas y la perfecta distribucion. 	
         </td>
     </tr>
      <tr align="left">
@@ -5391,10 +5391,10 @@ https://structurizr.com/share/95614/diagrams#SystemContext
         </tr>
     <tr align="left">
       <td>
-        <b>Sprint 2 Goal</b>
+        <b>Sprint 3 Goal</b>
       </td>
       <td>
-            -
+           Our focus is on enabling users to generate detailed health reports, view real-time notifications and alerts, and update their subscription plans. We believe this enhances the user experience by providing important insights into the health data, immediate awareness of system alerts, and flexibility in managing their subscription. This will be confirmed when users can successfully generate reports, view notifications and alerts in real time, and update their subscription plans using the implemented endpoints.
       </td>
     </tr>
     </tr>
