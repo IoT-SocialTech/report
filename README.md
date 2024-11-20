@@ -111,7 +111,6 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 ## Tabla de Contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [|   1.3     |   26/09/2024   |  Achamizo Huamani Jean Carlos|   Se corrigieron los elementos correspondientes del Lean UX Process, los apartados de Lean UX Assumptions y Lean UX Hypothesis Statements |](#---13--------26092024-----achamizo-huamani-jean-carlos---se-corrigieron-los-elementos-correspondientes-del-lean-ux-process-los-apartados-de-lean-ux-assumptions-y-lean-ux-hypothesis-statements-)
 - [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de Contenidos](#tabla-de-contenidos)
@@ -389,6 +388,9 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 - [Anexos](#anexos)
   - [Videos de Exposición](#videos-de-exposición)
   - [Diagrama C4 MIAM](#diagrama-c4-miam)
+    - [6.2.2. Sprint 3](#622-sprint-3)
+      - [6.2.2.1. Sprint Planning 3](#6221-sprint-planning-3)
+      - [6.2.2.2. Sprint Backlog 3](#6222-sprint-backlog-3)
 
 
 
@@ -1926,7 +1928,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `IoTBandRepository`
   - `ConfigurationRepository`
 
-  ![alt text](assets/device-class.png)
+  ![alt text](assets/device-context-class-diagram.png)
 
 #### 4.2.1.7.2. Bounded Context Database Design Diagram
 
@@ -2129,7 +2131,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `PatientRepository`
   - `DeviceRepository`
 
-   ![alt text](assets/edge-class.png)
+   ![alt text](assets/edge-class-diagram.png)
 
 #### 4.2.2.7.2. Bounded Context Database Design Diagram
 
@@ -2303,7 +2305,7 @@ La Edge API, desplegada localmente, se comunica con los dispositivos IoT y la Fl
   - `NotificationRepository`
   - `CaregiverRepository`
 
-   ![alt text](assets/notification-class.png)
+   ![alt text](assets/notification-class-diagram.png)
 
 #### 4.2.3.7.2. Bounded Context Database Design Diagram
 
@@ -2483,7 +2485,7 @@ En esta sección se detallan las clases del Domain Layer, sus atributos, método
 
 `MetricsRepository`, `PatientRepository`.
 
-![alt text](assets/metric-class.png)
+![alt text](assets/metrics-class-diagram.png)
 
 #### 4.2.4.7.2. Bounded Context Database Design Diagram
 En esta sección se define el diseño de la base de datos para persistir las entidades de este contexto.
@@ -2784,7 +2786,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `PlanRepository`
   - `CreditCardRepository`
 
-![alt text](assets/payment-class.png)
+![alt text](assets/payment-class-diagram.png)
 
 #### 4.2.5.7.2. Bounded Context Database Design Diagram
 
@@ -2968,7 +2970,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `ConfigurationRepository`
   - `DeviceRepository`
 
-![alt text](assets/configurations-class.png)
+![alt text](assets/configuration-class-diagram.png)
 
 #### 4.2.6.7.2. Bounded Context Database Design Diagram
 
@@ -3234,7 +3236,7 @@ En esta sección se define el diseño de la base de datos para persistir las ent
   - `PatientRepository`
   - `CaregiverRepository`
 
-![alt text](assets/account-class.png)
+![alt text](assets/account-diagram-class.png)
 
 #### 4.2.7.7.2. Bounded Context Database Design Diagram
 
