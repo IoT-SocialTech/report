@@ -43,7 +43,10 @@ Trujillo Lopez, Luis Alberto <br>
 | 1.4     | 27/09/2024  | Sagastegui Rodriguez Luis Jesus                                                                                      | Se añadieron los cuadros de planificación del sprint en la sección de metodología ágil.                                        |
 | 1.5     | 27/09/2024  | Trujillo Lopez Luis Alberto                                                                                      | Se completaron los cuadros de planificación del sprint con detalles adicionales y se validaron las fechas y tareas.            |
 | 2.0    | 31/10/2024  | Aliaga Trevejo Lucía Guadalupe                                                                   | Se agregó el capítulo correspondiente al Sprint 2            |
-| 2.1    | 18/11/2024  | Siancas Reategui Luis Alberto Guadalupe                                                                   | Se corrigieron las imágenes y descripciones en la sección de entrevistas          |
+| 2.1    | 09/11/2024  | Siancas Reategui Luis Alberto                                                                    | Se corrigieron las imágenes y descripciones en la sección de entrevistas          |
+| 2.2    | 10/11/2024  | Trujillo Lopez Luis Alberto                                                                   | Se agregaron textos a las imágenes sin descripción del Domain Message Flows Modeling        |
+| 2.3    | 11/11/2024  | Achamizo Huamani Jean Carlos                                                                   | Actualización de Commits en las evidencias del Sprint 2      |
+| 2.4    | 14/11/2024  | Sagastegui Rodriguez Luis Jesus, Trujillo Lopez Luis Alberto, Siancas Reategui Luis Alberto                                                                    | Creación y actualización a cerca de la tabla de documentación de endpoints       |
 
 
 # Project Report Collaboration Insights
@@ -5267,9 +5270,9 @@ Para cada producto, se detalla la participación de los miembros del equipo, qui
 *Cloud API*
 - Las imágenes siguientes ilustran el uso de las ramas en nuestro repositorio de GitHub, lo que asegura un entorno colaborativo eficiente y facilita el trabajo continuo y asincrónico del equipo en el proyecto. Ademas, se puede apreciar los commites realizados en el repositorio.
 
-![Cloud API Pulse](assets/pulse-cloudapi.PNG)
+![Cloud API Pulse](assets/pulse-cloudapi.png)
 
-![Cloud API Network Graph](assets/network-cloudapi.PNG)
+![Cloud API Network Graph](assets/network-cloudapi.png)
 
 ### 6.2.2. Sprint 3
 
