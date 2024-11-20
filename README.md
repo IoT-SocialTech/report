@@ -5417,7 +5417,7 @@ https://structurizr.com/share/95614/diagrams#SystemContext
             <b>Retrospective Summary</b>
         </td>
         <td>
-          -
+          La organizacion de las tareas para el desarrollo de las caracteristicas fundamentales fue correctamente realizada, la realizacion de esta misma fue realizada en los tiempos adecuados. En este sprint consideramos que aun nos faltaba un intervalo de tiempo en donde todos nos podamos reunir como equipo. Se priorizaba las tareas mas complejas y la perfecta distribucion. 	
         </td>
     </tr>
      <tr align="left">
@@ -5427,10 +5427,10 @@ https://structurizr.com/share/95614/diagrams#SystemContext
         </tr>
     <tr align="left">
       <td>
-        <b>Sprint 2 Goal</b>
+        <b>Sprint 3 Goal</b>
       </td>
       <td>
-            -
+           Our focus is on enabling users to generate detailed health reports, view real-time notifications and alerts, and update their subscription plans. We believe this enhances the user experience by providing important insights into the health data, immediate awareness of system alerts, and flexibility in managing their subscription. This will be confirmed when users can successfully generate reports, view notifications and alerts in real time, and update their subscription plans using the implemented endpoints.
       </td>
     </tr>
     </tr>
@@ -5864,4 +5864,434 @@ En esta sección se especifican los detalles del Sprint Backlog, que es una list
         <td>In Process</td>
     </tr>
 
+</table>
+
+#### 6.2.3.3. Development Evidence for Sprint Review
+
+En esta sección se presentan los commits realizados en el repositorio de GitHub, donde se puede observar el trabajo colaborativo de cada integrante del equipo en el desarrollo de los productos: Web Application, Mobile Application, Edge API, Cloud API y Embedded Application. 
+
+A continuación, se detallan las contribuciones individuales en diversas ramas del proyecto, incluyendo las implementaciones de las funcionalidades principales y las integraciones necesarias para el despliegue final del producto.
+
+<table  align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=19>IoT-SocialTech/Front-MIAM</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    
+</table>
+
+<table align="left" border="1" width="100%">
+    <tr>
+        <th>Repository</th>
+        <th>Branch</th>
+        <th>Commit ID</th>
+        <th>Commit Message</th>
+        <th>Commit Message Body</th>
+        <th>Commited On (Date)</th>
+    </tr>
+    <tr>
+        <td rowspan=50>IoT-SocialTech/miam-edge-api</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    <tr>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+</table>
+
+Implementación Movile IoT-SocialTech mobile-application-miam
+
+<table align="left" border="1" width="100%"> 
+	<tr> 
+		<th>Repository</th> 
+		<th>Branch</th> 
+		<th>Commit ID</th> 
+		<th>Commit Message</th> 
+		<th>Commit Message Body</th> 
+		<th>Commited On (Date)</th> 
+	</tr> 
+	<tr> 
+		<td rowspan=18>IoT-SocialTech/mobile-application-miam</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
+	<tr> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+		<td>-</td> 
+	</tr> 
 </table>
