@@ -361,6 +361,10 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
       - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
       - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
+    - [6.2.2. Sprint 3](#622-sprint-3)
+      - [6.2.2.1. Sprint Planning 3](#6221-sprint-planning-3)
+      - [6.2.2.2. Sprint Backlog 3](#6222-sprint-backlog-3)
+      - [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
       - [6.3 Validation Interviews.](#63-validation-interviews)
       - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
       - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -371,9 +375,6 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
 - [Anexos](#anexos)
   - [Videos de Exposición](#videos-de-exposición)
   - [Diagrama C4 MIAM](#diagrama-c4-miam)
-    - [6.2.2. Sprint 3](#622-sprint-3)
-      - [6.2.2.1. Sprint Planning 3](#6221-sprint-planning-3)
-      - [6.2.2.2. Sprint Backlog 3](#6222-sprint-backlog-3)
 
 
 
@@ -1534,21 +1535,31 @@ Identificamos y agrupamos los eventos del sistema en diferentes Bounded Contexts
 
 **Scenario: Detection of Heart Rhythm Abnormality**
 
+El siguiente escenario muestra cómo un sistema detecta anormalidades en el ritmo cardíaco de adultos mayores. Los datos se recopilan mediante un dispositivo, se procesan en un sistema Edge y, si se detecta una anomalía, se genera una alerta que se envía a través de una aplicación web al cuidador. Además, el sistema crea un informe detallado del estado de salud para su consulta. Esto asegura un monitoreo continuo y una notificación oportuna para la atención del paciente.
+
 ![DomianMessage-S1](./assets/DMFM-S1.png)
 
 **Scenario: Activating the Panic Button**
+
+Este escenario describe el proceso de activación de un botón de pánico por parte de un adulto mayor. Cuando el botón es presionado, el sistema Edge procesa la alerta y genera una notificación en una aplicación web. La alerta es enviada al cuidador y registrada en el sistema como un evento de emergencia. Esto permite una respuesta rápida ante situaciones críticas, asegurando que el cuidador sea notificado y que se lleve un registro del incidente para un seguimiento adecuado.
 
 ![DomianMessage-S2](./assets/DMFM-S2.png)
 
 **Scenario: Setting up an IoT Band**
 
+Este escenario describe el proceso de configuración de una banda IoT por parte de un cuidador para un adulto mayor. El cuidador inicia configurando la banda, la cual se sincroniza con una aplicación web. Luego, el sistema verifica y actualiza el firmware del dispositivo si es necesario. Una vez completado, se enlazan tanto el cuidador como los familiares a la banda a través de la aplicación, asegurando la correcta configuración y conexión para monitorear al usuario. Esto facilita el uso de la banda y el acceso a datos relevantes por parte de los involucrados.
+
 ![DomianMessage-S3](./assets/DMFM-S3.png)
 
 **Scenario: Daily Health Report Generation**
 
+El siguiente escenario detalla el proceso de generación diaria de informes de salud para un adulto mayor. Los datos del ritmo cardíaco son medidos y procesados por un sistema Edge, que genera un informe diario de salud. El informe se carga en una aplicación web, actualizando el tablero de métricas y enviando notificaciones al cuidador. Esto asegura un monitoreo constante de la salud del adulto mayor, brindando información actualizada y accesible tanto para el cuidador como para el sistema de seguimiento.
+
 ![DomianMessage-S4](./assets/DMFM-S4.png)
 
 **Scenario: Subscription and Payment Update**
+
+Este escenario describe el proceso de actualización de una suscripción y su pago. El cuidador solicita la actualización de la suscripción a través de una aplicación web, que procesa el pago y valida la transacción. Una vez completado, el estado de la suscripción se actualiza en el sistema, y se notifica al cuidador sobre la confirmación de la actualización. Este flujo asegura que las modificaciones en el servicio se realicen de manera fluida y transparente, brindando confirmación inmediata al usuario.
 
 ![DomianMessage-S5](./assets/DMFM-S5.png)
 
