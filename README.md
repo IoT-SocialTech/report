@@ -370,10 +370,16 @@ Se continuó el trabajo en ramas paralelas para integrar las correcciones y nuev
       - [6.2.2.6. Services Documentation Evidence for Sprint Review](#6226-services-documentation-evidence-for-sprint-review)
       - [6.2.2.7. Software Deployment Evidence for Sprint Review](#6227-software-deployment-evidence-for-sprint-review)
       - [6.2.2.8. Team Collaboration Insights during Sprint](#6228-team-collaboration-insights-during-sprint)
-    - [6.2.2. Sprint 3](#622-sprint-3)
-      - [6.2.2.1. Sprint Planning 3](#6221-sprint-planning-3)
-      - [6.2.2.2. Sprint Backlog 3](#6222-sprint-backlog-3)
+    - [6.2.3. Sprint 3](#623-sprint-3)
+      - [6.2.3.1. Sprint Planning 3](#6231-sprint-planning-3)
+      - [6.2.3.2. Sprint Backlog 3](#6232-sprint-backlog-3)
       - [6.2.3.3. Development Evidence for Sprint Review](#6233-development-evidence-for-sprint-review)
+      - [6.2.3.4. Services Documentation Evidence for Sprint Review](#6234-services-documentation-evidence-for-sprint-review)
+  - [Cloud](#cloud)
+  - [Edge](#edge)
+      - [6.2.3.5. Execution Evidence for Sprint Review](#6235-execution-evidence-for-sprint-review)
+      - [6.2.3.7. Software Deployment Evidence for Sprint Review](#6237-software-deployment-evidence-for-sprint-review)
+      - [6.2.3.8. Team Collaboration Insights during Sprint](#6238-team-collaboration-insights-during-sprint)
       - [6.3 Validation Interviews.](#63-validation-interviews)
       - [6.3.1. Diseño de Entrevistas.](#631-diseño-de-entrevistas)
       - [6.3.2. Registro de Entrevistas.](#632-registro-de-entrevistas)
@@ -6309,6 +6315,28 @@ En este Sprint, el equipo trabajó de manera colaborativa en la implementación 
 
 
 #### 6.3.2. Registro de Entrevistas.
+
+<table border=1>
+  <tr>
+    <td>
+      <b>Nombres y apellidos:</b> William Ramos <br>
+      <b>Edad: </b> 22 años <br>
+      <b>Distrito:</b> Jesus Maria <br>
+      <b>Timing:</b> 0:00 - 10:16 minutos
+      <b>Duración:</b> 10:16 minutos
+    </td>
+    <td align=center>
+      <img src="./assets/EntrevistaValidacion1.PNG" alt="img"  width="80%"/>
+    </td>
+  </tr>
+  <tr>
+    <td colspan=2>
+      <b>Enlace:</b> <a href="https://upcedupe-my.sharepoint.com/:v:/g/personal/u20211c667_upc_edu_pe/EbKzrhYBqWFDhm79hodga9oBkg36B5O701wqefMHTNwFzw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Z8UrbI">https://goo.su/Ao2Px</a>
+      <br>
+      <b>Resumen:</b> William es un cuidador de adulto mayor el cual tuvo acceso al landing, web y mobile application, y se encargo de responder las preguntas resaltando que destacó que uno de los mayores desafíos al monitorear signos vitales es la falta de acceso en tiempo real y la necesidad de registrar manualmente datos como pulso y temperatura, lo que puede ser impreciso. Monitorea estos signos varias veces al día, pero considera crucial recibir alertas inmediatas si los valores están fuera de rango. Valora una herramienta accesible desde dispositivos móviles con una interfaz simple que también permita revisar historiales. Sugiere incluir métricas como presión arterial y oxigenación para hacer la solución más completa y útil.
+    </td>
+  </tr>
+</table>
 
 #### 6.3.3. Evaluaciones según heurísticas.
 
